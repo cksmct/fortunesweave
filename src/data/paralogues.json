@@ -1,0 +1,104 @@
+{
+  "_comment": "Paralogue database. Wiki route codenames: Fox = Cai, Lion = Dietrich, Wolf = Theodora, Eagle = Leda. The 9 named paralogues come from the wiki; per-route availability is derived from the route locks and agrees exactly with the route-level counts reported by video coverage (Cai 4 / Dietrich 8 / Theodora 7 / Leda 4).",
+  "paralogues": [
+    {
+      "id": "diversionary-tactics", "slug": "diversionary-tactics", "name": "Diversionary Tactics",
+      "ownerCharacter": "Leda", "routeLocks": ["Dietrich", "Theodora"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "missing-brave-warrior-statue", "slug": "missing-brave-warrior-statue", "name": "Missing Brave-Warrior Statue",
+      "ownerCharacter": "Theodora", "routeLocks": ["Dietrich"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "secret-of-the-vanished-carriage", "slug": "secret-of-the-vanished-carriage", "name": "Secret of the Vanished Carriage",
+      "ownerCharacter": "Talimun", "routeLocks": ["Cai", "Dietrich", "Theodora"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "golden-secret", "slug": "golden-secret", "name": "Golden Secret",
+      "ownerCharacter": "Anna", "routeLocks": ["Cai", "Dietrich", "Theodora"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "queen-of-the-erased", "slug": "queen-of-the-erased", "name": "Queen of the Erased",
+      "ownerCharacter": "Anatolia", "routeLocks": ["Dietrich", "Leda"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "great-escape", "slug": "great-escape", "name": "Great Escape",
+      "ownerCharacter": "Cai", "routeLocks": ["Dietrich", "Theodora", "Leda"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "sealed-off-past", "slug": "sealed-off-past", "name": "Sealed-Off Past",
+      "ownerCharacter": "Dietrich", "routeLocks": ["Theodora", "Leda"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "orchels-regret", "slug": "orchels-regret", "name": "Orchel's Regret",
+      "ownerCharacter": "Orchel", "routeLocks": ["Cai", "Dietrich", "Theodora", "Leda"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    },
+    {
+      "id": "friendly-match-with-brigids-king", "slug": "friendly-match-with-brigids-king", "name": "Friendly Match with Brigid's King",
+      "ownerCharacter": "Bertrand", "routeLocks": ["Cai", "Dietrich", "Theodora"], "missable": true,
+      "unlock": { "chapterWindow": "Part I, months 9-10" },
+      "rewards": ["Renown", "Gold", "Resources"],
+      "sources": [
+        { "label": "Fire Emblem Wiki - Chapters", "url": "https://fireemblem.fandom.com/wiki/Chapters_(Fire_Emblem:_Fortune%27s_Weave)", "date": "2026-09-28" },
+        { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28"
+    }
+  ]
+}

@@ -27,12 +27,13 @@ interface PageHeaderProps {
 
 // Literal class strings so Tailwind's purge keeps them.
 const ACCENT_FROM: Record<Accent, string> = {
-  orange: 'from-orange-50',
-  purple: 'from-purple-50',
-  emerald: 'from-emerald-50',
-  pink: 'from-pink-50',
-  yellow: 'from-yellow-50',
-  red: 'from-red-50',
+  orange: 'from-orange-50 dark:from-orange-950/20',
+  purple: 'from-purple-50 dark:from-purple-950/20',
+  emerald: 'from-emerald-50 dark:from-emerald-950/20',
+  pink: 'from-pink-50 dark:from-pink-950/20',
+  yellow: 'from-yellow-50 dark:from-yellow-950/20',
+  red: 'from-red-50 dark:from-red-950/20',
+  gold: 'from-amber-50 dark:from-[#d3b475]/10',
 };
 
 /**
@@ -63,32 +64,30 @@ export default function PageHeader({
   breadcrumb,
   eyebrow,
 }: PageHeaderProps) {
-  const sectionClass = `border-b border-zinc-200 bg-gradient-to-b ${
-    ACCENT_FROM[accent]
-  } to-white dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-950`;
+  const sectionClass = `border-b border-white/[0.08] bg-gradient-to-b from-[#1b2130] via-[#121824] to-[#000000] text-[#f5f1eb]`;
 
   if (heroMedia) {
     return (
       <section data-hero="true" data-ad-ignore="true" className={`${sectionClass} page-header`}>
         <div className="container-site py-10 sm:py-14 lg:py-16">
           {breadcrumb}
-          <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-12">
+          <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
             {/* Left Content Column */}
-            <div className="flex flex-col items-start lg:col-span-7">
+            <div className="flex flex-col items-start lg:col-span-6">
               {eyebrow && <div className="mb-4">{eyebrow}</div>}
               <div className="flex flex-wrap items-center gap-3">
-                <h1 className="text-3xl font-extrabold tracking-tight text-zinc-900 sm:text-4xl lg:text-5xl dark:text-zinc-50">
+                <h1 className="text-3xl font-extrabold tracking-tight text-[#f5f1eb] sm:text-4xl lg:text-5xl">
                   {title}
                 </h1>
                 {badge}
               </div>
               {subtitle && (
-                <p className="mt-2 text-sm font-medium text-zinc-500 sm:text-base dark:text-zinc-400">
+                <p className="mt-2 text-sm font-medium text-[#d3b475] sm:text-base">
                   {subtitle}
                 </p>
               )}
               {description && (
-                <p className="mt-4 text-sm leading-relaxed text-zinc-600 sm:text-base dark:text-zinc-400">
+                <p className="mt-4 text-sm leading-relaxed text-[#bbc1cf] sm:text-base">
                   {description}
                 </p>
               )}
@@ -102,7 +101,7 @@ export default function PageHeader({
             </div>
 
             {/* Right Media Column: Top-aligned and balanced against left column */}
-            <div className="flex w-full flex-col justify-start lg:col-span-5">
+            <div className="flex w-full flex-col justify-start lg:col-span-6">
               {heroMedia}
             </div>
           </div>
@@ -120,13 +119,13 @@ export default function PageHeader({
             {media}
             <div>
               <div className="flex items-center gap-3">
-                <h1 className="text-3xl font-extrabold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-50">
+                <h1 className="text-3xl font-extrabold tracking-tight text-[#f5f1eb] sm:text-4xl">
                   {title}
                 </h1>
                 {badge}
               </div>
               {subtitle && (
-                <p className="mt-1 text-sm font-medium text-zinc-500 dark:text-zinc-400">
+                <p className="mt-1 text-sm font-medium text-[#d3b475]">
                   {subtitle}
                 </p>
               )}
@@ -143,11 +142,11 @@ export default function PageHeader({
       <div className="container-site py-12 sm:py-16">
         {breadcrumb}
         {eyebrow && <div className="mb-4 flex justify-center">{eyebrow}</div>}
-        <h1 className="text-center text-3xl font-extrabold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-50">
+        <h1 className="text-center text-3xl font-extrabold tracking-tight text-[#f5f1eb] sm:text-4xl">
           {title}
         </h1>
         {description && (
-          <p className="mx-auto mt-3 max-w-2xl text-center text-sm leading-relaxed text-zinc-600 sm:text-base dark:text-zinc-400">
+          <p className="mx-auto mt-3 max-w-2xl text-center text-sm leading-relaxed text-[#bbc1cf] sm:text-base">
             {description}
           </p>
         )}
@@ -161,4 +160,4 @@ export default function PageHeader({
   );
 }
 
-type Accent = 'orange' | 'purple' | 'emerald' | 'pink' | 'yellow' | 'red';
+type Accent = 'orange' | 'purple' | 'emerald' | 'pink' | 'yellow' | 'red' | 'gold';

@@ -1,0 +1,2743 @@
+{
+  "_comment": "Weapon and spell table for Fortune's Weave: 101 entries from the Fire Emblem Wiki list, grouped into 9 weapon types ({\"Sword\":21,\"Spear\":23,\"Axe\":19,\"Bow\":12,\"Gauntlets\":7,\"Black magic\":7,\"Dark magic\":2,\"White magic\":5,\"?\":5}) and 1 list sections ({\"Unclassified\":101}).",
+  "_columns": {
+    "level": "The weapon level a unit needs to equip it, using the same letter grades as the class system.",
+    "might": "Base attack power.",
+    "weight": "Contributes to whether a unit can follow up; heavier weapons slow the wielder down.",
+    "hit": "Base accuracy.",
+    "critical": "Base critical rate.",
+    "curse": "A stat specific to this game, filled in by cursed weapons rather than ordinary ones.",
+    "range": "Attack range, so 1 is melee and 2 is a thrown or ranged weapon.",
+    "uses": "Durability, meaning how many times it can be used before it breaks.",
+    "worth": "Gold value."
+  },
+  "weapons": [
+    {
+      "id": "wooden-sword",
+      "slug": "wooden-sword",
+      "name": "Wooden Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "2",
+      "weight": "2",
+      "hit": "90",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "10",
+      "worth": "300",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bronze-sword",
+      "slug": "bronze-sword",
+      "name": "Bronze Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "4",
+      "weight": "3",
+      "hit": "90",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "15",
+      "worth": "500",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "iron-sword",
+      "slug": "iron-sword",
+      "name": "Iron Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "D",
+      "might": "9",
+      "weight": "4",
+      "hit": "90",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "1500",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "da-mina-sword",
+      "slug": "da-mina-sword",
+      "name": "Da Mina Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "C",
+      "might": "12",
+      "weight": "4",
+      "hit": "90",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "25",
+      "worth": "?",
+      "effects": "Grants +10 hit when using a combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "silver-sword",
+      "slug": "silver-sword",
+      "name": "Silver Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "B",
+      "might": "18",
+      "weight": "4",
+      "hit": "95",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "10000",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "venin-edge",
+      "slug": "venin-edge",
+      "name": "Venin Edge",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "D",
+      "might": "3",
+      "weight": "3",
+      "hit": "90",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "zanbato",
+      "slug": "zanbato",
+      "name": "Zanbato",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "D",
+      "might": "14",
+      "weight": "7",
+      "hit": "80",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "killing-edge",
+      "slug": "killing-edge",
+      "name": "Killing Edge",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "C",
+      "might": "11",
+      "weight": "6",
+      "hit": "90",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "40",
+      "worth": "?",
+      "effects": "Grants access to the Deadly Blade combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "flyssa",
+      "slug": "flyssa",
+      "name": "Flyssa",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against armored units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "levin-sword",
+      "slug": "levin-sword",
+      "name": "Levin Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1-2",
+      "uses": "?",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "greatsword",
+      "slug": "greatsword",
+      "name": "Greatsword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against armored units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cleansing-blade",
+      "slug": "cleansing-blade",
+      "name": "Cleansing Blade",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Ignores the effect of enemy Underworld Boon.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "angela",
+      "slug": "angela",
+      "name": "Angela",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "A",
+      "might": "14",
+      "weight": "8",
+      "hit": "80",
+      "critical": "0",
+      "curse": "2",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Grants access to the Poison Burial combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "whirlwind-blade",
+      "slug": "whirlwind-blade",
+      "name": "Whirlwind Blade",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "veroquine",
+      "slug": "veroquine",
+      "name": "Veroquine",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "?C (Axe) -->",
+      "might": "13",
+      "weight": "12",
+      "hit": "60",
+      "critical": "0",
+      "curse": "2",
+      "range": "1",
+      "uses": "30",
+      "worth": "?",
+      "effects": "Grants access to the Prune combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "lakshashi-s-iron-fan",
+      "slug": "lakshashi-s-iron-fan",
+      "name": "Lakshashi's Iron Fan",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "1",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Grants access to the Toxic Wind combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "long-night-katara",
+      "slug": "long-night-katara",
+      "name": "Long-Night Katara",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "1",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Grants access to the Siphon Luck combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "answerer",
+      "slug": "answerer",
+      "name": "Answerer",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Grants access to the Bloodletting combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "twin-blades",
+      "slug": "twin-blades",
+      "name": "Twin Blades",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "chosen-sword",
+      "slug": "chosen-sword",
+      "name": "Chosen Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "30",
+      "worth": "?",
+      "effects": "Grants Shld+1 to adjacent allies.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "royal-sword",
+      "slug": "royal-sword",
+      "name": "Royal Sword",
+      "category": "Unclassified",
+      "weaponType": "Sword",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Grants access to the Ennea Fire EX combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "wooden-spear",
+      "slug": "wooden-spear",
+      "name": "Wooden Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "10",
+      "worth": "300",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bronze-spear",
+      "slug": "bronze-spear",
+      "name": "Bronze Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "15",
+      "worth": "500",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "iron-spear",
+      "slug": "iron-spear",
+      "name": "Iron Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "D",
+      "might": "10",
+      "weight": "7",
+      "hit": "100",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "1500",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "da-mine-spear",
+      "slug": "da-mine-spear",
+      "name": "Da Mine Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "C",
+      "might": "13",
+      "weight": "7",
+      "hit": "80",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "25",
+      "worth": "?",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "silver-spear",
+      "slug": "silver-spear",
+      "name": "Silver Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "B",
+      "might": "20",
+      "weight": "6",
+      "hit": "85",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "javelin",
+      "slug": "javelin",
+      "name": "Javelin",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "D",
+      "might": "3",
+      "weight": "8",
+      "hit": "80",
+      "critical": "0",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "20",
+      "worth": "1500",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "short-spear",
+      "slug": "short-spear",
+      "name": "Short Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "C",
+      "might": "5",
+      "weight": "10",
+      "hit": "75",
+      "critical": "0",
+      "curse": "",
+      "range": "1-2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "pilum",
+      "slug": "pilum",
+      "name": "Pilum",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "B",
+      "might": "11",
+      "weight": "12",
+      "hit": "80",
+      "critical": "0",
+      "curse": "",
+      "range": "1-2",
+      "uses": "25",
+      "worth": "?",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "halberd",
+      "slug": "halberd",
+      "name": "Halberd",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "Effective against cavalry units and armored units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ji",
+      "slug": "ji",
+      "name": "Ji",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "?",
+      "might": "11",
+      "weight": "7",
+      "hit": "80",
+      "critical": "0",
+      "curse": "?",
+      "range": "1",
+      "uses": "25",
+      "worth": "?",
+      "effects": "Effective against cavalry units and armored units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "glaive",
+      "slug": "glaive",
+      "name": "Glaive",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "?",
+      "might": "6",
+      "weight": "6",
+      "hit": "90",
+      "critical": "5",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "guandao",
+      "slug": "guandao",
+      "name": "Guandao",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "?",
+      "might": "11",
+      "weight": "9",
+      "hit": "90",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.Avo+10.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ridersbane",
+      "slug": "ridersbane",
+      "name": "Ridersbane",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "C",
+      "might": "12",
+      "weight": "10",
+      "hit": "70",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective+ against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "star-spear",
+      "slug": "star-spear",
+      "name": "Star Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "25",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "the-nameless",
+      "slug": "the-nameless",
+      "name": "The Nameless",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "sinza-s-trident",
+      "slug": "sinza-s-trident",
+      "name": "Sinza's Trident",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "30",
+      "worth": "?",
+      "effects": "Effective against cavalry units.Grants access to the Brute Throw combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mahadu-s-spear",
+      "slug": "mahadu-s-spear",
+      "name": "Mahadu's Spear",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.Grants access to the Full Moon combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "muen",
+      "slug": "muen",
+      "name": "Muen",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "A",
+      "might": "22",
+      "weight": "20",
+      "hit": "45",
+      "critical": "0",
+      "curse": "2",
+      "range": "1",
+      "uses": "30",
+      "worth": "?",
+      "effects": "Effective against cavalry units.Grants access to the Black Roar combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "onoa",
+      "slug": "onoa",
+      "name": "Onoa",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "A",
+      "might": "12",
+      "weight": "7",
+      "hit": "80",
+      "critical": "0",
+      "curse": "1",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.Grants access to the Cavalry Ruin combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "grasitha",
+      "slug": "grasitha",
+      "name": "Grasitha",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "B",
+      "might": "14",
+      "weight": "14",
+      "hit": "75",
+      "critical": "0",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "30",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "assal",
+      "slug": "assal",
+      "name": "Assal",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "D",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "vendetta",
+      "slug": "vendetta",
+      "name": "Vendetta",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "A",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective against cavalry units.Grants access to the Supreme Serpent combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "chosen-lance",
+      "slug": "chosen-lance",
+      "name": "Chosen Lance",
+      "category": "Unclassified",
+      "weaponType": "Spear",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "30",
+      "worth": "?",
+      "effects": "Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "wooden-axe",
+      "slug": "wooden-axe",
+      "name": "Wooden Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "15",
+      "worth": "300",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bronze-axe",
+      "slug": "bronze-axe",
+      "name": "Bronze Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "20",
+      "worth": "500",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "iron-axe",
+      "slug": "iron-axe",
+      "name": "Iron Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "D",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "25",
+      "worth": "1500",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "da-mina-axe",
+      "slug": "da-mina-axe",
+      "name": "Da Mina Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "30",
+      "worth": "?",
+      "effects": "Grants +10 hit when using a combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "silver-axe",
+      "slug": "silver-axe",
+      "name": "Silver Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "hand-axe",
+      "slug": "hand-axe",
+      "name": "Hand Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "D",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "25",
+      "worth": "1500",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "short-axe",
+      "slug": "short-axe",
+      "name": "Short Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "25",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "sagaris",
+      "slug": "sagaris",
+      "name": "Sagaris",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "B",
+      "might": "15",
+      "weight": "14",
+      "hit": "55",
+      "critical": "0",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "30",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "smashing-axe",
+      "slug": "smashing-axe",
+      "name": "Smashing Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "C",
+      "might": "14",
+      "weight": "10",
+      "hit": "65",
+      "critical": "0",
+      "curse": "?",
+      "range": "1",
+      "uses": "25",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "shielding-axe",
+      "slug": "shielding-axe",
+      "name": "Shielding Axe",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "25",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mace",
+      "slug": "mace",
+      "name": "Mace",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Grants access to the ?? combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "you-sou-fu",
+      "slug": "you-sou-fu",
+      "name": "You Sou Fu",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bardiche",
+      "slug": "bardiche",
+      "name": "Bardiche",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "?",
+      "might": "13",
+      "weight": "9",
+      "hit": "65",
+      "critical": "0",
+      "curse": "?",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "hammer",
+      "slug": "hammer",
+      "name": "Hammer",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "D",
+      "might": "14",
+      "weight": "20",
+      "hit": "60",
+      "critical": "0",
+      "curse": "",
+      "range": "1",
+      "uses": "30",
+      "worth": "?",
+      "effects": "Effective+ against armored units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "velheit",
+      "slug": "velheit",
+      "name": "Velheit",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "A",
+      "might": "13",
+      "weight": "5",
+      "hit": "95",
+      "critical": "0",
+      "curse": "1",
+      "range": "1",
+      "uses": "25",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "gundogya",
+      "slug": "gundogya",
+      "name": "Gundogya",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "A",
+      "might": "16",
+      "weight": "12",
+      "hit": "75",
+      "critical": "0",
+      "curse": "1",
+      "range": "1",
+      "uses": "25",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "zalmoxis",
+      "slug": "zalmoxis",
+      "name": "Zalmoxis",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dagda-s-club",
+      "slug": "dagda-s-club",
+      "name": "Dagda’s Club",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "A",
+      "might": "36",
+      "weight": "25",
+      "hit": "5",
+      "critical": "0",
+      "curse": "?",
+      "range": "1",
+      "uses": "35",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "credna-s-mallet",
+      "slug": "credna-s-mallet",
+      "name": "Credna’s Mallet",
+      "category": "Unclassified",
+      "weaponType": "Axe",
+      "level": "A",
+      "might": "25",
+      "weight": "14",
+      "hit": "70",
+      "critical": "0",
+      "curse": "?",
+      "range": "1",
+      "uses": "30",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "wooden-bow",
+      "slug": "wooden-bow",
+      "name": "Wooden Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "E",
+      "might": "2",
+      "weight": "2",
+      "hit": "75",
+      "critical": "0",
+      "curse": "",
+      "range": "2",
+      "uses": "10",
+      "worth": "300",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bronze-bow",
+      "slug": "bronze-bow",
+      "name": "Bronze Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "2",
+      "uses": "15",
+      "worth": "500",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "iron-bow",
+      "slug": "iron-bow",
+      "name": "Iron Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "D",
+      "might": "9",
+      "weight": "6",
+      "hit": "75",
+      "critical": "0",
+      "curse": "",
+      "range": "2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "hunter-s-bow",
+      "slug": "hunter-s-bow",
+      "name": "Hunter's Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "D",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective+ against flying unitsEffective against beast units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "horsekiller-bow",
+      "slug": "horsekiller-bow",
+      "name": "Horsekiller Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "2",
+      "uses": "?",
+      "worth": "?",
+      "effects": "Effective+ against flying units.Effective against cavalry units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "longbow",
+      "slug": "longbow",
+      "name": "Longbow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective+ against flying units.Grants access to the Deadeye combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mini-bow",
+      "slug": "mini-bow",
+      "name": "Mini Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "war-bow",
+      "slug": "war-bow",
+      "name": "War Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "venin-bow",
+      "slug": "venin-bow",
+      "name": "Venin Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "D",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "tempest-bow",
+      "slug": "tempest-bow",
+      "name": "Tempest Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "C",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "2",
+      "uses": "20",
+      "worth": "?",
+      "effects": "Effective+ against flying units.+3 avoid when initiating combat.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "kalla-s-bow",
+      "slug": "kalla-s-bow",
+      "name": "Kalla's Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "hedagg-s-bow",
+      "slug": "hedagg-s-bow",
+      "name": "Hedagg's Bow",
+      "category": "Unclassified",
+      "weaponType": "Bow",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "Effective+ against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "wooden-gauntlets",
+      "slug": "wooden-gauntlets",
+      "name": "Wooden Gauntlets",
+      "category": "Unclassified",
+      "weaponType": "Gauntlets",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "10",
+      "worth": "300",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bronze-gauntlets",
+      "slug": "bronze-gauntlets",
+      "name": "Bronze Gauntlets",
+      "category": "Unclassified",
+      "weaponType": "Gauntlets",
+      "level": "E",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "15",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "iron-gauntlets",
+      "slug": "iron-gauntlets",
+      "name": "Iron Gauntlets",
+      "category": "Unclassified",
+      "weaponType": "Gauntlets",
+      "level": "D",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "20",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "silver-gauntlets",
+      "slug": "silver-gauntlets",
+      "name": "Silver Gauntlets",
+      "category": "Unclassified",
+      "weaponType": "Gauntlets",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "?",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dodge-gauntlets",
+      "slug": "dodge-gauntlets",
+      "name": "Dodge Gauntlets",
+      "category": "Unclassified",
+      "weaponType": "Gauntlets",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "?",
+      "worth": "?",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "salamander",
+      "slug": "salamander",
+      "name": "Salamander",
+      "category": "Unclassified",
+      "weaponType": "Gauntlets",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1-2",
+      "uses": "3",
+      "worth": "?",
+      "effects": "Works as magic damage. Grants access to the Compressed Laser combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "zerberus",
+      "slug": "zerberus",
+      "name": "Zerberus",
+      "category": "Unclassified",
+      "weaponType": "Gauntlets",
+      "level": "A",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1-2",
+      "uses": "5",
+      "worth": "?",
+      "effects": "Works as magic damage. Grants access to the Compressed Laser combat art.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "fire",
+      "slug": "fire",
+      "name": "Fire",
+      "category": "Unclassified",
+      "weaponType": "Black magic",
+      "level": "",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "10",
+      "worth": "",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "thunder",
+      "slug": "thunder",
+      "name": "Thunder",
+      "category": "Unclassified",
+      "weaponType": "Black magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "8",
+      "worth": "",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "wind",
+      "slug": "wind",
+      "name": "Wind",
+      "category": "Unclassified",
+      "weaponType": "Black magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1-2",
+      "uses": "10",
+      "worth": "",
+      "effects": "Effective against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cutting-gale",
+      "slug": "cutting-gale",
+      "name": "Cutting Gale",
+      "category": "Unclassified",
+      "weaponType": "Black magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "8",
+      "worth": "",
+      "effects": "Effective against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "blizzard",
+      "slug": "blizzard",
+      "name": "Blizzard",
+      "category": "Unclassified",
+      "weaponType": "Black magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "7",
+      "worth": "",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bolganone",
+      "slug": "bolganone",
+      "name": "Bolganone",
+      "category": "Unclassified",
+      "weaponType": "Black magic",
+      "level": "",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "10",
+      "worth": "",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "glass-wheel",
+      "slug": "glass-wheel",
+      "name": "Glass Wheel",
+      "category": "Unclassified",
+      "weaponType": "Black magic",
+      "level": "",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1-2",
+      "uses": "7",
+      "worth": "",
+      "effects": "Targets foe's defense.Effective against flying units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "miasma",
+      "slug": "miasma",
+      "name": "Miasma Δ",
+      "category": "Unclassified",
+      "weaponType": "Dark magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "10",
+      "worth": "",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mire",
+      "slug": "mire",
+      "name": "Mire Β",
+      "category": "Unclassified",
+      "weaponType": "Dark magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-?",
+      "uses": "?",
+      "worth": "",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "heal",
+      "slug": "heal",
+      "name": "Heal",
+      "category": "Unclassified",
+      "weaponType": "White magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1",
+      "uses": "10",
+      "worth": "",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "physic",
+      "slug": "physic",
+      "name": "Physic",
+      "category": "Unclassified",
+      "weaponType": "White magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-?",
+      "uses": "5",
+      "worth": "",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "nosferatu",
+      "slug": "nosferatu",
+      "name": "Nosferatu",
+      "category": "Unclassified",
+      "weaponType": "White magic",
+      "level": "",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "",
+      "range": "1-2",
+      "uses": "16",
+      "worth": "",
+      "effects": "Restores (damage dealt / 2)&nbsp;HP to the user.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "seraphim",
+      "slug": "seraphim",
+      "name": "Seraphim",
+      "category": "Unclassified",
+      "weaponType": "White magic",
+      "level": "",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "3",
+      "worth": "",
+      "effects": "Effective against undead units.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "starlight",
+      "slug": "starlight",
+      "name": "Starlight",
+      "category": "Unclassified",
+      "weaponType": "White magic",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "1-2",
+      "uses": "?",
+      "worth": "",
+      "effects": "?",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "beast-claw",
+      "slug": "beast-claw",
+      "name": "Beast Claw",
+      "category": "Unclassified",
+      "weaponType": "?",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "headbutt",
+      "slug": "headbutt",
+      "name": "Headbutt",
+      "category": "Unclassified",
+      "weaponType": "?",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "great-stinger",
+      "slug": "great-stinger",
+      "name": "Great Stinger",
+      "category": "Unclassified",
+      "weaponType": "?",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "water-strike",
+      "slug": "water-strike",
+      "name": "Water Strike",
+      "category": "Unclassified",
+      "weaponType": "?",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "trunk-attack",
+      "slug": "trunk-attack",
+      "name": "Trunk Attack",
+      "category": "Unclassified",
+      "weaponType": "?",
+      "level": "?",
+      "might": "?",
+      "weight": "?",
+      "hit": "?",
+      "critical": "?",
+      "curse": "?",
+      "range": "?",
+      "uses": "?",
+      "worth": "?",
+      "effects": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of weapons",
+          "url": "https://fireemblemwiki.org/wiki/List_of_weapons_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ]
+}

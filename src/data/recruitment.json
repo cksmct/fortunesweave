@@ -1,0 +1,680 @@
+{
+  "_comment": "Recruitment requirements for Part I, keyed by the character you are recruiting and the Flame Lord you are playing. Only rows the source labels with an explicit route are published: 37 rows. Rows for the other Flame Lords appear in the source inside a cross-table whose column association does not survive flattening, so they are deliberately omitted rather than guessed at.",
+  "_mechanics": {
+    "screen": "Recruitment requirements are shown in the Character Info screen when you speak to a character. If no requirement list appears, that unit cannot be recruited.",
+    "bondLevel": "Bond Level tracks how close your Flame Lord is to the recruit and starts at level 1 for everyone. Giving at least one gift starts the process.",
+    "renownLevel": "Renown Level is the account-wide progression stat, raised by story missions, subquests and Flame Lord specific tasks.",
+    "bond3": "Bond Level 2 develops quickly; Bond Level 3 takes considerably more effort, meals and money.",
+    "negotiation": "Some recruits end with a negotiation dialogue in which the right dialogue choices must be picked.",
+    "unknowns": "Some units show question marks instead of a requirement, which means further story progress is needed first.",
+    "routeExclusive": "Some Flame Lords can recruit units that others cannot."
+  },
+  "recruits": [
+    {
+      "id": "tialla-as-dietrich",
+      "slug": "tialla-as-dietrich",
+      "character": "Tialla",
+      "playingAs": "Dietrich",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "peter-as-dietrich",
+      "slug": "peter-as-dietrich",
+      "character": "Peter",
+      "playingAs": "Dietrich",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 5,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "fabio-as-leda",
+      "slug": "fabio-as-leda",
+      "character": "Fabio",
+      "playingAs": "Leda",
+      "supportLevelRequired": 2,
+      "renownLevelRequired": 7,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "esmeralda-as-cai",
+      "slug": "esmeralda-as-cai",
+      "character": "Esmeralda",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 5,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "lilian-as-cai",
+      "slug": "lilian-as-cai",
+      "character": "Lilian",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "buccar-as-dietrich",
+      "slug": "buccar-as-dietrich",
+      "character": "Buccar",
+      "playingAs": "Dietrich",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 9,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sirocco-as-cai",
+      "slug": "sirocco-as-cai",
+      "character": "Sirocco",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 9,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sirocco-as-dietrich",
+      "slug": "sirocco-as-dietrich",
+      "character": "Sirocco",
+      "playingAs": "Dietrich",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 7,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sirocco-as-theodora",
+      "slug": "sirocco-as-theodora",
+      "character": "Sirocco",
+      "playingAs": "Theodora",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 9,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "mu-as-cai",
+      "slug": "mu-as-cai",
+      "character": "Mu",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "gaitz-as-dietrich",
+      "slug": "gaitz-as-dietrich",
+      "character": "Gaitz",
+      "playingAs": "Dietrich",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 10,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "jester-as-cai",
+      "slug": "jester-as-cai",
+      "character": "Jester",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 7,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "goliath-as-cai",
+      "slug": "goliath-as-cai",
+      "character": "Goliath",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 10,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "diego-as-cai",
+      "slug": "diego-as-cai",
+      "character": "Diego",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 7,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "loretta-as-cai",
+      "slug": "loretta-as-cai",
+      "character": "Loretta",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 6,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "seteth-as-cai",
+      "slug": "seteth-as-cai",
+      "character": "Seteth",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 6,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sha-lan-as-dietrich",
+      "slug": "sha-lan-as-dietrich",
+      "character": "Sha Lan",
+      "playingAs": "Dietrich",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 6,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "nezha-as-cai",
+      "slug": "nezha-as-cai",
+      "character": "Nezha",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 5,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "halvin-as-cai",
+      "slug": "halvin-as-cai",
+      "character": "Halvin",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 7,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "ursula-as-cai",
+      "slug": "ursula-as-cai",
+      "character": "Ursula",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 9,
+      "negotiation": "Hard",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "ludia-as-cai",
+      "slug": "ludia-as-cai",
+      "character": "Ludia",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "fianna-as-cai",
+      "slug": "fianna-as-cai",
+      "character": "Fianna",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": "Easy",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "alexandra-as-cai",
+      "slug": "alexandra-as-cai",
+      "character": "Alexandra",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 9,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "benditz-as-cai",
+      "slug": "benditz-as-cai",
+      "character": "Benditz",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 10,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "catania-as-cai",
+      "slug": "catania-as-cai",
+      "character": "Catania",
+      "playingAs": "Cai",
+      "supportLevelRequired": 1,
+      "renownLevelRequired": 2,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "guzran-as-cai",
+      "slug": "guzran-as-cai",
+      "character": "Guzran",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "inyoni-as-cai",
+      "slug": "inyoni-as-cai",
+      "character": "Inyoni",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 10,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "io-as-cai",
+      "slug": "io-as-cai",
+      "character": "Io",
+      "playingAs": "Cai",
+      "supportLevelRequired": 1,
+      "renownLevelRequired": 8,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "jasmine-as-cai",
+      "slug": "jasmine-as-cai",
+      "character": "Jasmine",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "kiroc-as-cai",
+      "slug": "kiroc-as-cai",
+      "character": "Kiroc",
+      "playingAs": "Cai",
+      "supportLevelRequired": 2,
+      "renownLevelRequired": 5,
+      "negotiation": "Easy",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "majide-as-cai",
+      "slug": "majide-as-cai",
+      "character": "Majide",
+      "playingAs": "Cai",
+      "supportLevelRequired": 1,
+      "renownLevelRequired": 4,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "noctula-as-dietrich",
+      "slug": "noctula-as-dietrich",
+      "character": "'Noctula",
+      "playingAs": "Dietrich",
+      "supportLevelRequired": 1,
+      "renownLevelRequired": 9,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "nuzzuo-as-cai",
+      "slug": "nuzzuo-as-cai",
+      "character": "Nuzzuo",
+      "playingAs": "Cai",
+      "supportLevelRequired": 1,
+      "renownLevelRequired": 6,
+      "negotiation": "Moderate",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "nydine-as-cai",
+      "slug": "nydine-as-cai",
+      "character": "Nydine",
+      "playingAs": "Cai",
+      "supportLevelRequired": 1,
+      "renownLevelRequired": 9,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "peppe-as-cai",
+      "slug": "peppe-as-cai",
+      "character": "Peppe",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 9,
+      "negotiation": null,
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sofia-as-cai",
+      "slug": "sofia-as-cai",
+      "character": "Sofia",
+      "playingAs": "Cai",
+      "supportLevelRequired": 2,
+      "renownLevelRequired": 3,
+      "negotiation": "Easy",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "yang-jie-as-cai",
+      "slug": "yang-jie-as-cai",
+      "character": "Yang Jie",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 8,
+      "negotiation": "Easy",
+      "sources": [
+        {
+          "label": "IGN - How to Recruit Characters",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/How_to_Recruit_Characters",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}

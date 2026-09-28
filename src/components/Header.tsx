@@ -71,13 +71,13 @@ export default function Header() {
   const linkClass = (active: boolean) =>
     `rounded-full px-3 py-1.5 text-xs font-semibold transition-colors ${
       active
-        ? 'bg-zinc-900 text-white dark:bg-white/10 dark:text-white'
-        : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-white/[0.06] dark:hover:text-white'
+        ? 'bg-[#d3b475] text-zinc-950 font-bold shadow-sm'
+        : 'text-[#bbc1cf] hover:bg-white/[0.08] hover:text-[#f5f1eb]'
     }`;
 
   return (
     <>
-      <header className="sticky top-0 z-50 h-16 min-h-[64px] border-b border-zinc-200/80 bg-white/95 backdrop-blur-md dark:border-white/[0.08] dark:bg-[#090d16]/95">
+      <header className="sticky top-0 z-50 h-16 min-h-[64px] border-b border-white/[0.08] bg-[#000000]/95 backdrop-blur-md">
         <div className="container-site flex h-16 items-center justify-between gap-4">
           {/* Brand */}
           <Link
@@ -85,24 +85,17 @@ export default function Header() {
             className="flex shrink-0 items-center gap-2 whitespace-nowrap"
             aria-label={`${config.seo.siteName} home`}
           >
-            {/* 🛡️ Brand Mark: 首选内联 SVG。若替换为 <img>，必须强制携带 loading="lazy" fetchPriority="low" decoding="async"
-                严禁裸写 <img>，否则 React 19 会将其自动在 <head> 提升生成 <link rel="preload"> 抢占首屏 LCP 第一网络通道导致性能严重扣分！ */}
-            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 via-blue-600 to-indigo-700 text-white shadow-sm ring-1 ring-inset ring-white/20">
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M4 6h16M4 12h10M4 18h7" />
-              </svg>
-            </span>
-            <span className="text-base font-black tracking-tight text-zinc-900 dark:text-zinc-50">
+            <img
+              src="/images/logo.webp"
+              alt={`${config.seo.siteName} Logo`}
+              width={36}
+              height={36}
+              loading="lazy"
+              fetchPriority="low"
+              decoding="async"
+              className="h-9 w-9 shrink-0 rounded-full object-contain ring-1 ring-white/10 shadow-sm"
+            />
+            <span className="text-base font-black tracking-tight text-[#f5f1eb]">
               {config.seo.siteName}
             </span>
           </Link>
@@ -154,28 +147,50 @@ export default function Header() {
                 </button>
 
                 {openGroup === group.label && (
-                  <div className="absolute left-0 top-full z-50 whitespace-normal pt-2.5">
-                    <div className="rounded-2xl border border-zinc-200/90 bg-white p-5 shadow-2xl ring-1 ring-black/5 dark:border-white/10 dark:bg-[#0c121e]">
-                      <div className="grid grid-cols-2 gap-6">
+                  <div className="absolute right-0 top-full z-50 pt-2">
+                    {/* Hover Bridge: 填补按钮与浮层间隙，杜绝鼠标慢速滑动时菜单瞬关 */}
+                    <div className="absolute -top-2 left-0 right-0 h-2" aria-hidden="true" />
+
+                    <div
+                      className={`${
+                        group.label === 'More' ? 'w-[480px]' : 'w-[560px]'
+                      } max-h-[calc(100vh-5rem)] overflow-y-auto overscroll-contain rounded-2xl border border-white/10 bg-[#0c121e] p-4.5 shadow-2xl shadow-black/90 ring-1 ring-white/10`}
+                    >
+                      <div className="grid grid-cols-2 gap-5">
                         {group.columns.map((column) => (
-                          <div key={column.title}>
-                            <div className="mb-2.5 border-b border-zinc-100 pb-1 text-[11px] font-black uppercase tracking-wider text-amber-600 dark:border-white/5 dark:text-amber-400">
-                              {column.title}
+                          <div key={column.title} className="flex flex-col">
+                            <div className="mb-2 flex items-center justify-between border-b border-white/10 pb-1.5">
+                              <span className="text-[11px] font-black uppercase tracking-wider text-[#d3b475]">
+                                {column.title}
+                              </span>
+                              <span className="font-mono text-[10px] text-zinc-600 dark:text-zinc-400">
+                                {column.items.length}
+                              </span>
                             </div>
-                            <div className="space-y-1">
-                              {column.items.map((item) => (
-                                <Link
-                                  key={item.href}
-                                  href={item.href}
-                                  className={`block rounded-lg px-2.5 py-1.5 text-xs font-semibold transition-colors ${
-                                    isActive(item.href)
-                                      ? 'bg-sky-50 text-sky-700 dark:bg-sky-950/60 dark:text-sky-300'
-                                      : 'text-zinc-700 hover:bg-sky-50 hover:text-sky-700 dark:text-zinc-300 dark:hover:bg-sky-950/50 dark:hover:text-sky-300'
-                                  }`}
-                                >
-                                  {item.label}
-                                </Link>
-                              ))}
+                            <div className="flex flex-col gap-0.5">
+                              {column.items.map((item) => {
+                                const active = isActive(item.href);
+                                return (
+                                  <Link
+                                    key={item.href}
+                                    href={item.href}
+                                    onClick={() => setOpenGroup(null)}
+                                    className={`group/item flex items-center justify-between rounded-lg px-2.5 py-1.5 text-xs font-semibold transition-colors ${
+                                      active
+                                        ? 'bg-[#d3b475]/20 text-[#d3b475]'
+                                        : 'text-[#bbc1cf] hover:bg-white/[0.08] hover:text-[#f5f1eb]'
+                                    }`}
+                                  >
+                                    <span className="truncate">{item.label}</span>
+                                    {active && (
+                                      <span
+                                        className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#d3b475]"
+                                        aria-hidden="true"
+                                      />
+                                    )}
+                                  </Link>
+                                );
+                              })}
                             </div>
                           </div>
                         ))}
@@ -194,7 +209,7 @@ export default function Header() {
                 href={discordUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden items-center gap-1.5 rounded-full bg-amber-400 px-4 py-2 text-xs font-black text-zinc-950 transition-colors hover:bg-amber-300 sm:inline-flex dark:bg-amber-500 dark:hover:bg-amber-400"
+                className="hidden items-center gap-1.5 rounded-full bg-[#d3b475] px-4 py-2 text-xs font-black text-zinc-950 transition-colors hover:bg-[#e2c78f] sm:inline-flex"
               >
                 Discord
               </a>
@@ -202,7 +217,7 @@ export default function Header() {
             <button
               type="button"
               onClick={() => setMobileOpen((v) => !v)}
-              className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-zinc-200/80 bg-zinc-50 text-zinc-700 transition-colors hover:bg-zinc-100 lg:hidden dark:border-white/10 dark:bg-white/[0.05] dark:text-zinc-300"
+              className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-white/10 bg-white/[0.05] text-[#f5f1eb] transition-colors hover:bg-white/[0.1] lg:hidden"
               aria-label={mobileOpen ? 'Close navigation' : 'Open navigation'}
               aria-expanded={mobileOpen}
             >
@@ -239,22 +254,41 @@ export default function Header() {
       {mobileOpen && (
         <div className="fixed inset-0 z-40 lg:hidden">
           <div
-            className="fixed inset-0 bg-black/60"
+            className="fixed inset-0 bg-black/70 backdrop-blur-sm"
             onClick={() => setMobileOpen(false)}
             aria-hidden="true"
           />
-          <div className="fixed inset-y-0 right-0 top-16 max-h-[calc(100dvh-4rem)] w-full max-w-sm overflow-y-auto overscroll-contain border-l border-zinc-200 bg-white p-5 dark:border-white/10 dark:bg-[#090d16]">
-            <div className="mb-4 flex items-center justify-between border-b border-zinc-200 pb-4 dark:border-white/10">
-              <span className="text-xs font-black uppercase tracking-wider text-zinc-600 dark:text-zinc-300">
-                Navigation
+          <div className="fixed inset-y-0 right-0 top-16 max-h-[calc(100dvh-4rem)] w-full max-w-sm overflow-y-auto overscroll-contain border-l border-white/10 bg-[#090d16] p-5 pb-28">
+            {/* 顶栏微标头（严禁重复放置 Close 按钮，已委托右上角汉堡 X 键） */}
+            <div className="mb-4 flex items-center justify-between border-b border-white/10 pb-3">
+              <span className="text-xs font-black uppercase tracking-wider text-[#d3b475]">
+                Tactical Navigation
               </span>
-              <button
-                type="button"
-                onClick={() => setMobileOpen(false)}
-                className="cursor-pointer rounded-md bg-zinc-100 px-2.5 py-1 text-xs font-semibold text-zinc-600 dark:bg-white/[0.06] dark:text-zinc-300"
-              >
-                Close
-              </button>
+              <span className="text-[10px] text-zinc-600 dark:text-zinc-400 font-mono">
+                v{config.game.currentVersion}
+              </span>
+            </div>
+
+            {/* 黄金置顶直达胶囊（3 列，完整继承 topLinks，0 核心入口蒸发） */}
+            <div className="mb-5">
+              <div className="mb-2 text-[10px] font-black uppercase tracking-wider text-zinc-600 dark:text-zinc-400">
+                Quick Access
+              </div>
+              <div className="grid grid-cols-3 gap-2">
+                {topLinks.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`flex min-h-[44px] items-center justify-center rounded-xl px-2 py-2 text-center text-xs font-bold transition-all ${
+                      isActive(item.href)
+                        ? 'bg-[#d3b475] text-zinc-950 shadow-md'
+                        : 'border border-white/10 bg-white/[0.04] text-[#f5f1eb] hover:border-[#d3b475]/40 hover:bg-[#d3b475]/10 hover:text-[#d3b475]'
+                    }`}
+                  >
+                    <span className="truncate">{item.label}</span>
+                  </Link>
+                ))}
+              </div>
             </div>
 
             {discordUrl && (
@@ -262,52 +296,38 @@ export default function Header() {
                 href={discordUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mb-5 block rounded-xl bg-amber-400 px-4 py-3 text-center text-xs font-black text-zinc-950 dark:bg-amber-500"
+                className="mb-5 flex min-h-[44px] items-center justify-center rounded-xl bg-[#d3b475] px-4 py-2.5 text-center text-xs font-black text-zinc-950 hover:bg-[#e2c78f] transition-colors"
               >
-                Join the community Discord
+                Join Community Discord
               </a>
             )}
 
-            <div className="space-y-5">
+            <div className="space-y-6">
               {groups.map((group) => (
                 <div key={group.label}>
-                  <div className="mb-2 text-[10px] font-black uppercase tracking-wider text-amber-600 dark:text-amber-400">
+                  <div className="mb-2 text-[10px] font-black uppercase tracking-wider text-[#d3b475]">
                     {group.label}
                   </div>
-                  <div className="space-y-1">
-                    {group.columns.flatMap((col) => col.items).map((item) => (
-                      <Link
-                        key={item.href}
-                        href={item.href}
-                        className={`block rounded-xl px-3 py-2 text-xs font-semibold transition-colors ${
-                          isActive(item.href)
-                            ? 'bg-sky-50 text-sky-700 dark:bg-sky-950/60 dark:text-sky-300'
-                            : 'text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-white/[0.06]'
-                        }`}
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
+                  {/* 双列 Bento 紧凑卡片网格，min-h-[44px] 满足 A11y 靶心，高度缩减 50% */}
+                  <div className="grid grid-cols-2 gap-2">
+                    {group.columns
+                      .flatMap((col) => col.items)
+                      .map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className={`flex min-h-[44px] items-center rounded-xl px-3 py-2 text-xs font-medium transition-all ${
+                            isActive(item.href)
+                              ? 'bg-[#d3b475]/20 text-[#d3b475] border border-[#d3b475]/40'
+                              : 'border border-white/[0.06] bg-white/[0.02] text-[#bbc1cf] hover:border-white/10 hover:bg-white/[0.06] hover:text-[#f5f1eb]'
+                          }`}
+                        >
+                          <span className="truncate">{item.label}</span>
+                        </Link>
+                      ))}
                   </div>
                 </div>
               ))}
-
-              <div className="border-t border-zinc-200 pt-3 dark:border-white/10">
-                <div className="mb-2 text-[10px] font-black uppercase tracking-wider text-amber-600 dark:text-amber-400">
-                  All pages
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {allLinks.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className="rounded-full bg-zinc-100 px-3 py-1 text-[11px] font-semibold text-zinc-600 dark:bg-white/[0.06] dark:text-zinc-300"
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
         </div>

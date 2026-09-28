@@ -1,0 +1,862 @@
+{
+  "_comment": "Materials and ingredients: 23 rows across 5 categories ({\"Leaf\":4,\"Ingredient\":14,\"Meat\":2,\"Crate\":2,\"Item\":1}). Ingredient rows come from the Fextralife ingredient table; the meat rows are cross-checked against two independent guides; Pure Water is cross-checked between the dungeon chest table and the series item page.",
+  "materials": [
+    {
+      "id": "sweet-leaves",
+      "slug": "sweet-leaves",
+      "name": "Sweet Leaves",
+      "category": "Leaf",
+      "usedInQuests": [
+        "Simple Drink Recipes"
+      ],
+      "locations": [
+        {
+          "area": "Traveler's Hill",
+          "spot": "Best single Search point; closest to Dagsion",
+          "method": "Search"
+        },
+        {
+          "area": "Elektra region",
+          "spot": "Enter via Kavala Stronghold; Magnus Plateau is the first Search point on the way",
+          "method": "Search"
+        },
+        {
+          "area": "Verdant Hollow",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        },
+        {
+          "area": "Great Tree of Miugria",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        }
+      ],
+      "effects": {
+        "other": "Also handed out as a quest reward, so the Simple Drink Recipes step can finish without a dedicated trip."
+      },
+      "sources": [
+        {
+          "label": "KeenGamer - All Leaves Locations",
+          "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-leaves-locations/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "VGC - Sweet Leaves location",
+          "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-sweet-leaves-location-for-simple-drink-recipes-quest/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": "Both sources name Traveler's Hill in the Elektra region as the practical search point."
+    },
+    {
+      "id": "pepper-leaves",
+      "slug": "pepper-leaves",
+      "name": "Pepper Leaves",
+      "category": "Leaf",
+      "usedInQuests": [
+        "Captains Drink Recipes"
+      ],
+      "locations": [
+        {
+          "area": "Traveler's Garden",
+          "spot": "Best single Search point; north-east corner of Dagda in the Castalia region, past Fortuna's Temple and the Port of Pandora",
+          "method": "Search"
+        },
+        {
+          "area": "Forest of No Return",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        },
+        {
+          "area": "Great Tree of Miugria",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        },
+        {
+          "area": "Cape Nereus",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        }
+      ],
+      "effects": {
+        "other": "Harvested from the same node as Bitter Leaves, so one trip covers two quests."
+      },
+      "sources": [
+        {
+          "label": "KeenGamer - All Leaves Locations",
+          "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-leaves-locations/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "VGC - Pepper and Bitter Leaves location",
+          "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-pepper-and-bitter-leaves-location-for-captains-and-popular-drink-recipes-quests/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": "Both sources place Pepper and Bitter Leaves at the same Search point, Traveler's Garden."
+    },
+    {
+      "id": "bitter-leaves",
+      "slug": "bitter-leaves",
+      "name": "Bitter Leaves",
+      "category": "Leaf",
+      "usedInQuests": [
+        "Popular Drink Recipes"
+      ],
+      "locations": [
+        {
+          "area": "Traveler's Garden",
+          "spot": "Best single Search point; same node as Pepper Leaves",
+          "method": "Search"
+        },
+        {
+          "area": "Mahapira Garden",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        },
+        {
+          "area": "Forest of No Return",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        },
+        {
+          "area": "Cape Nereus",
+          "spot": "Secondary Search point",
+          "method": "Search"
+        }
+      ],
+      "effects": {
+        "other": "Keep at least one in hand until the Popular Drink Recipes step is turned in."
+      },
+      "sources": [
+        {
+          "label": "KeenGamer - All Leaves Locations",
+          "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-leaves-locations/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "VGC - Pepper and Bitter Leaves location",
+          "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-pepper-and-bitter-leaves-location-for-captains-and-popular-drink-recipes-quests/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": "Both sources place Pepper and Bitter Leaves at the same Search point, Traveler's Garden."
+    },
+    {
+      "id": "wonder-leaves",
+      "slug": "wonder-leaves",
+      "name": "Wonder Leaves",
+      "category": "Leaf",
+      "usedInQuests": [
+        "Elegant Drink Recipes"
+      ],
+      "locations": [
+        {
+          "area": "Mahapira Garden",
+          "spot": "Search node in the Ogmios region, extreme south of the map; fastest approach is the carriage to Salacia Posthouse",
+          "method": "Search"
+        },
+        {
+          "area": "Dance for Benetnasch",
+          "spot": "Chapter 11 Tavern performance quest; guaranteed reward",
+          "method": "Quest",
+          "chapterWindow": "Leda Chapter 11",
+          "deadline": "11/27"
+        }
+      ],
+      "effects": {
+        "other": "Only one leaf is needed for the Elegant Drink Recipes request."
+      },
+      "sources": [
+        {
+          "label": "KeenGamer - All Leaves Locations",
+          "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-leaves-locations/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "VGC - Wonder Leaves location",
+          "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-wonder-leaves-location-for-elegant-drink-recipes-quest/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Polygon - Where to find wonder leaves",
+          "url": "https://www.polygon.com/fire-emblem-fortunes-weave-wonder-leaves-location-where-to-find/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": "Sources differ on how you obtain these: two describe Mahapira Garden as a Search node, while one reports that searching the overworld does not yield them and that the Dance for Benetnasch quest is the only route. Both routes are listed; the conflict is left open as of 2026-09-28."
+    },
+    {
+      "id": "bakul",
+      "slug": "bakul",
+      "name": "Bakul",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Castalia",
+          "spot": "Utuna Pass, Whispering Rock, Zethus Falls",
+          "method": "Gather"
+        },
+        {
+          "area": "Elektra",
+          "spot": "Daybreak Plains, Sunwatch Pass",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "coffee-berries",
+      "slug": "coffee-berries",
+      "name": "Coffee Berries",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Ogmios",
+          "spot": "Wailing Woods",
+          "method": "Gather"
+        },
+        {
+          "area": "Pasithea",
+          "spot": "Giants' Mount, Mount Orgus Trail",
+          "method": "Gather"
+        },
+        {
+          "area": "Saveilon",
+          "spot": "Faun's Forest, Moonwatch Pass, Myugria Great Tree, Rotwood Pass",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dates",
+      "slug": "dates",
+      "name": "Dates",
+      "category": "Not recorded",
+      "usedInQuests": [
+        "Huge, Hairy Beast (Chapter 8)"
+      ],
+      "locations": [],
+      "effects": [],
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Not a foraging find but a quest payout: the Chapter 8 subquest Huge, Hairy Beast hands it over alongside Cadam."
+    },
+    {
+      "id": "desert-millet",
+      "slug": "desert-millet",
+      "name": "Desert Millet",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Lambath",
+          "spot": "Scorched-Grass Dunes, Smiling Stone",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ginji",
+      "slug": "ginji",
+      "name": "Ginji",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Amalthea",
+          "spot": "Choking-Wind Valley, Napier Woods",
+          "method": "Gather"
+        },
+        {
+          "area": "Melias",
+          "spot": "Klytius Plains",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "linaria",
+      "slug": "linaria",
+      "name": "Linaria",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Amalthea",
+          "spot": "Napier Woods, Valeri Gorge, Wodan Pass",
+          "method": "Gather"
+        },
+        {
+          "area": "Braxithea",
+          "spot": "Luminaria Pass, Unmarked Graves, Walle's Woodlands",
+          "method": "Gather"
+        },
+        {
+          "area": "Danann Sea",
+          "spot": "Isle of Balor",
+          "method": "Gather"
+        },
+        {
+          "area": "Idyia",
+          "spot": "Mount Aegina",
+          "method": "Gather"
+        },
+        {
+          "area": "Lambath",
+          "spot": "Midnight Turn, Tasit Plain, Verdant Hollow",
+          "method": "Gather"
+        },
+        {
+          "area": "Melias",
+          "spot": "Klytius Plains, Starwatch Pass",
+          "method": "Gather"
+        },
+        {
+          "area": "Pasithea",
+          "spot": "Rear Mountain Path",
+          "method": "Gather"
+        },
+        {
+          "area": "Saveilon",
+          "spot": "Faun's Forest, Moonwatch Pass, Starbirth Garden",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "miranilla",
+      "slug": "miranilla",
+      "name": "Miranilla",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Castalia",
+          "spot": "Brigadier Pass, Cape Damasen, Traveler's Garden, Utuna Pass, Whispering Rock, Zethus Falls",
+          "method": "Gather"
+        },
+        {
+          "area": "Solomon",
+          "spot": "Closed Oasis",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paya",
+      "slug": "paya",
+      "name": "Paya",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Braxithea",
+          "spot": "Cougar Canopy, Luminaria Pass, Walle's Woodlands",
+          "method": "Gather"
+        },
+        {
+          "area": "Pasithea",
+          "spot": "Giants' Mount, Mount Orgus Trail",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "pongo",
+      "slug": "pongo",
+      "name": "Pongo",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Danann Sea",
+          "spot": "Thiere Island",
+          "method": "Gather"
+        },
+        {
+          "area": "Melias",
+          "spot": "Dada Plains, Klytius Plains, Starwatch Pass",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "roca",
+      "slug": "roca",
+      "name": "Roca",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Solidus",
+          "spot": "Cape Nereus, Dubhe Ridge, Howling Gorge, Orion Canyon",
+          "method": "Gather"
+        },
+        {
+          "area": "Thaleia",
+          "spot": "Bernard Pass, Ere Mountains, Merak Pass",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "solom",
+      "slug": "solom",
+      "name": "Solom",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Solomon",
+          "spot": "Afar Gate, Closed Oasis",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "thry-fruit",
+      "slug": "thry-fruit",
+      "name": "Thry Fruit",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Amalthea",
+          "spot": "Choking-Wind Valley, Valeri Gorge",
+          "method": "Gather"
+        },
+        {
+          "area": "Castalia",
+          "spot": "Brigadier Pass, Utuna Pass, Zethus Falls",
+          "method": "Gather"
+        },
+        {
+          "area": "Elektra",
+          "spot": "Daybreak Plains",
+          "method": "Gather"
+        },
+        {
+          "area": "Idyia",
+          "spot": "Dragdon Pass, Mount Aegina",
+          "method": "Gather"
+        },
+        {
+          "area": "Solidus",
+          "spot": "Pale Raven's Perch",
+          "method": "Gather"
+        },
+        {
+          "area": "Thaleia",
+          "spot": "Bernard Pass, Merak Pass",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "wun-fruit",
+      "slug": "wun-fruit",
+      "name": "Wun Fruit",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Elektra",
+          "spot": "Daybreak Plains, Sunlit Garden, Sunwatch Pass, Traveler's Hill",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "yaamenthemum",
+      "slug": "yaamenthemum",
+      "name": "Yaamenthemum",
+      "category": "Ingredient",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Not recorded",
+          "spot": "The ingredient table lists this entry without a region or gathering point yet.",
+          "method": "Gather"
+        }
+      ],
+      "effects": {},
+      "sources": [
+        {
+          "label": "Fextralife - Ingredients",
+          "url": "https://fortunesweave.wiki.fextralife.com/Ingredients",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "giants-meat",
+      "slug": "giants-meat",
+      "asOf": "2026-09-28",
+      "name": "Giants' Meat",
+      "category": "Meat",
+      "usedInQuests": [
+        "Goliath recruitment (three pieces)"
+      ],
+      "locations": [
+        {
+          "area": "Pasithea",
+          "spot": "Giants fought in the random skirmishes on the west side of the map, south of the desert; one piece per giant",
+          "method": "Drop"
+        },
+        {
+          "area": "Luxury Meat Crate",
+          "spot": "Opening the crate can yield Giants' Meat or Sandworm Meat",
+          "method": "Gather"
+        }
+      ],
+      "effects": {
+        "other": "A cooking material that also feeds the Goliath recruitment, which is why keeping a stock beats eating it."
+      },
+      "sources": [
+        {
+          "label": "Polygon - Where to find giants meat",
+          "url": "https://www.polygon.com/fire-emblem-fortunes-weave-giants-meat-how-to-get-location-goliath/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Raider King - Where to Find Giant Meat",
+          "url": "https://raiderking.com/fire-emblem-fortunes-weave-where-to-find-giants-meat/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "note": "Both sources describe the same two routes: giant drops in Pasithea, or the luxury crate. Cai cannot reach Pasithea, so the crate is that path alternative. Also written as Giant Meat; the sources spell it Giants' Meat."
+    },
+    {
+      "id": "sandworm-meat",
+      "slug": "sandworm-meat",
+      "asOf": "2026-09-28",
+      "name": "Sandworm Meat",
+      "category": "Meat",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Luxury Meat Crate",
+          "spot": "Opening the crate has a chance of Giants' Meat or Sandworm Meat",
+          "method": "Gather"
+        }
+      ],
+      "effects": {
+        "other": "Recorded only as a possible result of opening a luxury crate."
+      },
+      "sources": [
+        {
+          "label": "Raider King - Where to Find Giant Meat",
+          "url": "https://raiderking.com/fire-emblem-fortunes-weave-where-to-find-giants-meat/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "note": "One source records this material so far, so the row stays source-reported rather than cross-checked."
+    },
+    {
+      "id": "luxury-meat-crate",
+      "slug": "luxury-meat-crate",
+      "asOf": "2026-09-28",
+      "name": "Luxury Meat Crate",
+      "category": "Crate",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Search points",
+          "spot": "Rare material found while searching, which yields meat when opened",
+          "method": "Search"
+        }
+      ],
+      "effects": {
+        "other": "The reliable path to meat when giant skirmishes are not spawning."
+      },
+      "sources": [
+        {
+          "label": "Raider King - Where to Find Giant Meat",
+          "url": "https://raiderking.com/fire-emblem-fortunes-weave-where-to-find-giants-meat/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "note": ""
+    },
+    {
+      "id": "luxury-veg-crate",
+      "slug": "luxury-veg-crate",
+      "asOf": "2026-09-28",
+      "name": "Luxury Veg. Crate",
+      "category": "Crate",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Nowah's Cave (Elektra)",
+          "spot": "Dungeon chest treasure",
+          "method": "Quest"
+        }
+      ],
+      "effects": {
+        "other": "The vegetable counterpart to the meat crate, and a dungeon chest rather than a search find."
+      },
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "note": ""
+    },
+    {
+      "id": "pure-water",
+      "slug": "pure-water",
+      "asOf": "2026-09-28",
+      "name": "Pure Water",
+      "category": "Item",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Cave Behind the Falls (Castalia)",
+          "spot": "Dungeon chest treasure",
+          "method": "Quest"
+        },
+        {
+          "area": "Series item",
+          "spot": "A recurring stat booster that raises Resistance and wears off one point per turn; the wiki entry documents the series item rather than this game measured values",
+          "method": "Shop"
+        }
+      ],
+      "effects": {
+        "other": "Cannot be used outside battle, and an unused effect does not carry into the next battle."
+      },
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Pure Water",
+          "url": "https://fireemblem.fandom.com/wiki/Pure_Water",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "note": "Two independent sources establish that Pure Water exists in this game as a dungeon chest item; the resistance figures on the wiki page belong to the series item rather than to a measurement made in this game."
+    },
+    {
+      "id": "cullet",
+      "slug": "cullet",
+      "name": "Cullet",
+      "category": "Ore and smithing material",
+      "usedInQuests": [
+        "One Last Challenge (Chapter 10)"
+      ],
+      "locations": [],
+      "effects": [
+        "Used in forging to sharpen blades."
+      ],
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Materials",
+          "url": "https://fortunesweave.co.uk/items/materials",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Described as a hard crystal shard found across the region's caves. The four locations the source counts are not itemised."
+    },
+    {
+      "id": "paradise-fish",
+      "slug": "paradise-fish",
+      "name": "Paradise Fish",
+      "category": "Not recorded",
+      "usedInQuests": [],
+      "locations": [],
+      "effects": [],
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Materials",
+          "url": "https://fortunesweave.co.uk/items/materials",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed as an item and searched for by name, but no source checked describes its category, where it is found or what it does."
+    },
+    {
+      "id": "glirmosa",
+      "slug": "glirmosa",
+      "name": "Glirmosa",
+      "category": "Not recorded",
+      "usedInQuests": [],
+      "locations": [],
+      "effects": [],
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Materials",
+          "url": "https://fortunesweave.co.uk/items/materials",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed as an item and searched for by name, but no source checked describes it at all beyond its existence."
+    }
+  ]
+}

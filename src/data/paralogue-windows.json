@@ -1,0 +1,45 @@
+{
+  "_comment": "Route-level paralogue windows. All paralogues in the game sit inside months 9-10 of the in-game calendar. Window detail is reported by video coverage; the per-route counts are corroborated by the wiki route locks in paralogues.json and agree exactly, which is why the counts carry cross-checked while the day-level windows stay source-reported.",
+  "windows": [
+    {
+      "id": "cai-window", "slug": "cai", "route": "Cai", "routeCodename": "Fox", "paralogueCount": 4,
+      "monthWindow": "Months 9-10",
+      "keyDates": ["9/17 - first two available", "9/24 - suggested checkpoint", "10/18 - final paralogue, be in Dagsion"],
+      "plan": "Play to the 17th of month 9 and clear the first two. Pass time to the 24th if you want extra preparation, then make sure you are back in Dagsion on 10/18 for the last one.",
+      "timeTravel": "Inn Auto-Activities; one hourglass jumps to 6:00 am, when more shops and locations are open.",
+      "sources": [ { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" } ],
+      "grade": "source-reported", "asOf": "2026-09-28",
+      "note": "Route count of 4 agrees with the wiki route locks (Vanished Carriage, Golden Secret, Orchels Regret, Friendly Match)."
+    },
+    {
+      "id": "dietrich-window", "slug": "dietrich", "route": "Dietrich", "routeCodename": "Lion", "paralogueCount": 8,
+      "monthWindow": "Months 9-10",
+      "keyDates": ["9/3 - accept the two new sidequests", "9/9 - forced start date (one of only two in the game)", "9/15 - deadline for the second quest", "9/17 - two more, must be in Dagsion", "9/18 - one paralogue is available on a single day"],
+      "plan": "Accept both quests on 9/3, pass time to 9/9 for the forced-start paralogue, finish the second before 9/15, and be in Dagsion on 9/17. Avoid map exploration during these windows so you do not roll past a deadline.",
+      "timeTravel": "Stop map exploration and auto-activity time progression before each critical date.",
+      "sources": [ { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" } ],
+      "grade": "source-reported", "asOf": "2026-09-28",
+      "note": "Highest paralogue count of any route (8). Count agrees with the wiki route locks."
+    },
+    {
+      "id": "theodora-window", "slug": "theodora", "route": "Theodora", "routeCodename": "Wolf", "paralogueCount": 7,
+      "monthWindow": "Months 9-10",
+      "keyDates": ["9/17 - two paralogues", "9/24 - next paralogue, finish before 10/5", "10/18 - final three", "10/24 - real deadline"],
+      "plan": "Clear the two available from 9/17, then the one that opens on 9/24 before the 5th of the next month. Be in Dagsion on 10/18 for the final three.",
+      "timeTravel": "Inn Auto-Activities.",
+      "sources": [ { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" } ],
+      "grade": "source-reported", "asOf": "2026-09-28",
+      "note": "The in-game text lists a later deadline than 10/24 for two of the final paralogues; 10/24 is reported as the real cut-off."
+    },
+    {
+      "id": "leda-window", "slug": "leda", "route": "Leda", "routeCodename": "Eagle", "paralogueCount": 4,
+      "monthWindow": "Month 10",
+      "keyDates": ["10/5 - first paralogue opens", "10/17 - deadline for the first", "10/18 - three more become available", "10/23 - forced start date for one"],
+      "plan": "Do the first paralogue on or shortly after 10/5 rather than cutting it close to 10/17. Then jump to 10/18, accept all three, finish what you can, and progress to 10/23 for the forced-start one.",
+      "timeTravel": "Inn Auto-Activities.",
+      "sources": [ { "label": "Lucky Crit - Paralogue guide", "url": "https://www.youtube.com/watch?v=nSH0bNJ1KU8", "date": "2026-09-28" } ],
+      "grade": "source-reported", "asOf": "2026-09-28",
+      "note": "Least spread-out route: all four paralogues sit inside month 10."
+    }
+  ]
+}

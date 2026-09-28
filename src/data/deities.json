@@ -1,0 +1,221 @@
+{
+  "_comment": "The twelve named deities of Dagda: 12 rows, six of which share a name with a blessing sold at the Shrine of Causality. The source lists names and roles only, so every field it does not cover is left empty rather than filled in.",
+  "_mechanics": {
+    "what": "Dagda names twelve deities. Six of them appear again in the shop list at the Shrine of Causality as blessings whose discounts can be bought with Karma Shards.",
+    "antagonist": "Balor, the god of the underworld, is the central antagonist of the game rather than a background figure.",
+    "naming": "The continent, the pantheon and the imperial capital of Dagsion all take their names from this group, which is why the same handful of words turns up across place names and blessings alike.",
+    "overlap": "Aurora is both a deity here and the name of a blessing. Cai~s mother is also recorded as Aurora, an Aubin bearer, and no source states whether the three are meant to be read together."
+  },
+  "_openGaps": [
+    "No domains for six of the twelve: only Sothis, Fortuna, Mars, Kalla and Balor carry a role.",
+    "No mythology: no source checked records a story, a relationship or an act for any of them beyond Aurora~s parentage.",
+    "No worship detail: which god is venerated where, and how that affects play, is not recorded.",
+    "No acknowledgement split: the unacknowledged-god stigma attached to Blaiddyd bearers is recorded for crests, but not which gods count as unacknowledged."
+  ],
+  "deities": [
+    {
+      "id": "sothis",
+      "slug": "sothis",
+      "name": "Sothis",
+      "domain": "The Progenitor",
+      "hasBlessingDiscount": false,
+      "note": "The founding deity of the pantheon and the name the series uses for the origin of crests.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "fortuna",
+      "slug": "fortuna",
+      "name": "Fortuna",
+      "domain": "Goddess of Fate",
+      "hasBlessingDiscount": false,
+      "note": "The goddess the game is named after. Fortuna's Temple appears on the map as a quest location.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "aurora",
+      "slug": "aurora",
+      "name": "Aurora",
+      "domain": "Not recorded",
+      "hasBlessingDiscount": true,
+      "note": "Recorded as the daughter of Solel and Yu Phas. Shares a name with one of the six blessings sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "mars",
+      "slug": "mars",
+      "name": "Mars",
+      "domain": "God of military prowess",
+      "hasBlessingDiscount": true,
+      "note": "One of the six blessings whose discount is sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "kalla",
+      "slug": "kalla",
+      "name": "Kalla",
+      "domain": "Goddess of hunting and the arts",
+      "hasBlessingDiscount": true,
+      "note": "One of the six blessings whose discount is sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "balor",
+      "slug": "balor",
+      "name": "Balor",
+      "domain": "God of the Underworld",
+      "hasBlessingDiscount": false,
+      "note": "The central antagonist of this game.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "smyrnos",
+      "slug": "smyrnos",
+      "name": "Smyrnos",
+      "domain": "Not recorded",
+      "hasBlessingDiscount": true,
+      "note": "Listed among the other gods. Smyrnos also names the shrine where Combat Arts are strengthened.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "jurah",
+      "slug": "jurah",
+      "name": "Jurah",
+      "domain": "Not recorded",
+      "hasBlessingDiscount": true,
+      "note": "Listed among the other gods, with a blessing discount sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "credna",
+      "slug": "credna",
+      "name": "Credna",
+      "domain": "Not recorded",
+      "hasBlessingDiscount": true,
+      "note": "Listed among the other gods, with a blessing discount sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "yu-phas",
+      "slug": "yu-phas",
+      "name": "Yu Phas",
+      "domain": "Not recorded",
+      "hasBlessingDiscount": false,
+      "note": "Recorded as one of Aurora's parents.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "solel",
+      "slug": "solel",
+      "name": "Solel",
+      "domain": "Not recorded",
+      "hasBlessingDiscount": false,
+      "note": "Recorded as one of Aurora's parents.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "dagda",
+      "slug": "dagda",
+      "name": "Dagda",
+      "domain": "Not recorded",
+      "hasBlessingDiscount": false,
+      "note": "The namesake of the continent and the pantheon.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Deities of Dagda",
+          "url": "https://fortunesweave.co.uk/wiki/deities-of-dagda",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}

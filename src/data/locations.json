@@ -1,0 +1,924 @@
+{
+  "_comment": "Dungeons recorded for Part 1: 28 across 15 regions, each with its Renown gate, expected enemy level and treasure list. Part 3 replenishes every dungeon with new chests and scaled enemies, which is recorded once under _mechanics rather than repeated on every row.",
+  "_mechanics": {
+    "where": "Dungeons sit across the world map of the Dagdan Empire, with several in each region you visit.",
+    "partOne": "In Part 1 the reachable regions are locked to your chosen path, and two dungeons lie in seas only Theodora can cross during Part 1; the other parties can sail those waters later.",
+    "partThree": "In Part 3 every dungeon replenishes with new unique chests, and enemy difficulty scales with how far the story has progressed.",
+    "renown": "Every dungeon carries a Renown requirement, the account-wide progression gate, so a low-Renown run cannot simply walk into the richest cave.",
+    "level": "The recorded enemy level tells you what to expect: a dungeon far above your current units is a later revisit target rather than a first-visit clear."
+  },
+  "dungeons": [
+    {
+      "id": "wandering-wood",
+      "slug": "wandering-wood",
+      "name": "Wandering Wood",
+      "kind": "Dungeon",
+      "region": "Savelion",
+      "renownRequired": "3",
+      "level": "N/A",
+      "levelLabel": "N/A",
+      "treasures": [
+        "Verdant Gem"
+      ],
+      "treasureCount": 1,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "niraga-mine",
+      "slug": "niraga-mine",
+      "name": "Niraga Mine",
+      "kind": "Dungeon",
+      "region": "Amalthea",
+      "renownRequired": "0",
+      "level": "5-8",
+      "levelLabel": "Level 5-8",
+      "treasures": [
+        "White-Magic Manual",
+        "Coin (x2)",
+        "Miracle Gem"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "coris-mine",
+      "slug": "coris-mine",
+      "name": "Coris Mine",
+      "kind": "Dungeon",
+      "region": "Thaleia",
+      "renownRequired": "4",
+      "level": "16",
+      "levelLabel": "Level 16",
+      "treasures": [],
+      "treasureCount": 0,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The source records the treasure for this dungeon as TBA. Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "galen-fort-ruins",
+      "slug": "galen-fort-ruins",
+      "name": "Galen Fort Ruins",
+      "kind": "Dungeon",
+      "region": "Idyia",
+      "renownRequired": "2",
+      "level": "8",
+      "levelLabel": "Level 8",
+      "treasures": [
+        "Hunter's Bow",
+        "Vulnerary",
+        "Wooden Shield"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "cindered-road-cave",
+      "slug": "cindered-road-cave",
+      "name": "Cindered Road Cave",
+      "kind": "Dungeon",
+      "region": "Solidus",
+      "renownRequired": "6",
+      "level": "22",
+      "levelLabel": "Level 22",
+      "treasures": [
+        "Concoction",
+        "Conflagrant Gem",
+        "Flying Manual"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "shadowy-cave",
+      "slug": "shadowy-cave",
+      "name": "Shadowy Cave",
+      "kind": "Dungeon",
+      "region": "Lambath",
+      "renownRequired": "2",
+      "level": "12",
+      "levelLabel": "Level 12",
+      "treasures": [
+        "Killing Edge",
+        "Coin (x2)",
+        "White-Magic Manual",
+        "Black-Magic Manual"
+      ],
+      "treasureCount": 4,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "heretics-cave",
+      "slug": "heretics-cave",
+      "name": "Heretics' Cave",
+      "kind": "Dungeon",
+      "region": "Thaleia",
+      "renownRequired": "0",
+      "level": "7",
+      "levelLabel": "Level 7",
+      "treasures": [
+        "Dew of Protection",
+        "Vulnerary"
+      ],
+      "treasureCount": 2,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "hundred-hole-cave",
+      "slug": "hundred-hole-cave",
+      "name": "Hundred-Hole Cave",
+      "kind": "Dungeon",
+      "region": "Pasithea",
+      "renownRequired": "6",
+      "level": "14",
+      "levelLabel": "Level 14",
+      "treasures": [
+        "Poisonbane Gem",
+        "Venin Edge",
+        "Bullion"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "cave-behind-the-falls",
+      "slug": "cave-behind-the-falls",
+      "name": "Cave Behind the Falls",
+      "kind": "Dungeon",
+      "region": "Castalia",
+      "renownRequired": "5",
+      "level": "22",
+      "levelLabel": "Level 22",
+      "treasures": [
+        "Archive B (Mire)l",
+        "Bullion",
+        "Pure Water"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "nowah-s-cave",
+      "slug": "nowah-s-cave",
+      "name": "Nowah's Cave",
+      "kind": "Dungeon",
+      "region": "Elektra",
+      "renownRequired": "1",
+      "level": "10",
+      "levelLabel": "Level 10",
+      "treasures": [
+        "Tactics Manual",
+        "Luxury Veg. Crate",
+        "Pure Water",
+        "Turmoil Mask"
+      ],
+      "treasureCount": 4,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "enno-isle",
+      "slug": "enno-isle",
+      "name": "Enno Isle",
+      "kind": "Dungeon",
+      "region": "Danann Sea",
+      "renownRequired": "N/A",
+      "level": "30",
+      "levelLabel": "Level 30",
+      "treasures": [],
+      "treasureCount": 0,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The source records the treasure for this dungeon as TBA. Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "valhalla-mine",
+      "slug": "valhalla-mine",
+      "name": "Valhalla Mine",
+      "kind": "Dungeon",
+      "region": "Savelion",
+      "renownRequired": "3",
+      "level": "20",
+      "levelLabel": "Level 20",
+      "treasures": [
+        "Large Bullion",
+        "Antitoxin",
+        "Azaga's Bow"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "uncharted-isle",
+      "slug": "uncharted-isle",
+      "name": "Uncharted Isle",
+      "kind": "Dungeon",
+      "region": "Lir Sea",
+      "renownRequired": "N/A",
+      "level": "30",
+      "levelLabel": "Level 30",
+      "treasures": [
+        "Anguishing Shield",
+        "Thick Foreign Tome"
+      ],
+      "treasureCount": 2,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "nemea-cavern",
+      "slug": "nemea-cavern",
+      "name": "Nemea Cavern",
+      "kind": "Dungeon",
+      "region": "Pasithea",
+      "renownRequired": "6",
+      "level": "30",
+      "levelLabel": "Level 30",
+      "treasures": [
+        "Sturdy Rucksack",
+        "Heavy-Armor Manual",
+        "Elixir",
+        "Hammer"
+      ],
+      "treasureCount": 4,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "cougar-woodlands",
+      "slug": "cougar-woodlands",
+      "name": "Cougar Woodlands",
+      "kind": "Dungeon",
+      "region": "Braxithea",
+      "renownRequired": "4",
+      "level": "23",
+      "levelLabel": "Level 23",
+      "treasures": [
+        "School Scandal",
+        "Bullion (x2)",
+        "Muen (Spear)"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "rubess-forest",
+      "slug": "rubess-forest",
+      "name": "Rubess Forest",
+      "kind": "Dungeon",
+      "region": "Melias",
+      "renownRequired": "0",
+      "level": "9",
+      "levelLabel": "Level 9",
+      "treasures": [
+        "Healing Staff",
+        "Riding Manual",
+        "Lucky Coin"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "masked-woods",
+      "slug": "masked-woods",
+      "name": "Masked Woods",
+      "kind": "Dungeon",
+      "region": "Melias",
+      "renownRequired": "2",
+      "level": "15",
+      "levelLabel": "Level 15",
+      "treasures": [
+        "Heavy-Armor Manual",
+        "Venin Bow",
+        "Veroquine (Sword)"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "fort-hayn",
+      "slug": "fort-hayn",
+      "name": "Fort Hayn",
+      "kind": "Dungeon",
+      "region": "Braxithea",
+      "renownRequired": "4",
+      "level": "18",
+      "levelLabel": "Level 18",
+      "treasures": [
+        "Axebreak Amulet",
+        "Dew of Peace"
+      ],
+      "treasureCount": 2,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "collapsed-fort",
+      "slug": "collapsed-fort",
+      "name": "Collapsed Fort",
+      "kind": "Dungeon",
+      "region": "Amalthea",
+      "renownRequired": "0",
+      "level": "6",
+      "levelLabel": "Level 6",
+      "treasures": [
+        "Black-Magic Manual",
+        "Bowbreak Amulet"
+      ],
+      "treasureCount": 2,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "sand-shadow-fort",
+      "slug": "sand-shadow-fort",
+      "name": "Sand-Shadow Fort",
+      "kind": "Dungeon",
+      "region": "Nysiades",
+      "renownRequired": "5",
+      "level": "25",
+      "levelLabel": "Level 25",
+      "treasures": [
+        "Large Bullion",
+        "Concoction",
+        "Gundogya (Axe)"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "stoppered-shrine",
+      "slug": "stoppered-shrine",
+      "name": "Stoppered Shrine",
+      "kind": "Dungeon",
+      "region": "Idyia",
+      "renownRequired": "6",
+      "level": "25",
+      "levelLabel": "Level 25",
+      "treasures": [
+        "Flower Painting",
+        "Velheit (Axe)"
+      ],
+      "treasureCount": 2,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "dione-fort",
+      "slug": "dione-fort",
+      "name": "Dione Fort",
+      "kind": "Dungeon",
+      "region": "Castalia",
+      "renownRequired": "5",
+      "level": "18",
+      "levelLabel": "Level 18",
+      "treasures": [
+        "Flying Manual",
+        "Concoction",
+        "Dual Fish Knives",
+        "Hexlock Shield"
+      ],
+      "treasureCount": 4,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "corroios-fort-ruins",
+      "slug": "corroios-fort-ruins",
+      "name": "Corroios Fort Ruins",
+      "kind": "Dungeon",
+      "region": "Thaleia",
+      "renownRequired": "4",
+      "level": "13",
+      "levelLabel": "Level 13",
+      "treasures": [
+        "Magic Staff",
+        "Tactics Manual",
+        "Poisonbone Chain"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "dragonbone-tangle",
+      "slug": "dragonbone-tangle",
+      "name": "Dragonbone Tangle",
+      "kind": "Dungeon",
+      "region": "Nysiades",
+      "renownRequired": "5",
+      "level": "20",
+      "levelLabel": "Level 20",
+      "treasures": [
+        "Hunter's Ring",
+        "Lucky Coin",
+        "Hexlock Shield"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "beast-s-path",
+      "slug": "beast-s-path",
+      "name": "Beast's Path",
+      "kind": "Dungeon",
+      "region": "Braxithea",
+      "renownRequired": "4",
+      "level": "20",
+      "levelLabel": "Level 20",
+      "treasures": [
+        "Bullion",
+        "Poisonhunt Gem",
+        "Concoction"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "aditi-s-cave",
+      "slug": "aditi-s-cave",
+      "name": "Aditi's Cave",
+      "kind": "Dungeon",
+      "region": "Nysiades",
+      "renownRequired": "5",
+      "level": "28",
+      "levelLabel": "Level 28",
+      "treasures": [
+        "Large Bullion",
+        "Spirit Board Game",
+        "Archive T (Death)"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "iapetus-cavern",
+      "slug": "iapetus-cavern",
+      "name": "Iapetus Cavern",
+      "kind": "Dungeon",
+      "region": "Solidus",
+      "renownRequired": "6",
+      "level": "32",
+      "levelLabel": "Level 32",
+      "treasures": [
+        "Black-Magic Manual",
+        "Archive O (Banshee)"
+      ],
+      "treasureCount": 2,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    },
+    {
+      "id": "giant-s-print-fort",
+      "slug": "giant-s-print-fort",
+      "name": "Giant's-Print Fort",
+      "kind": "Dungeon",
+      "region": "Ogmios",
+      "renownRequired": "7",
+      "level": "35",
+      "levelLabel": "Level 35",
+      "treasures": [
+        "Elixir",
+        "Advanced License",
+        "Onoa (Spear)"
+      ],
+      "treasureCount": 3,
+      "paths": [
+        "Cai",
+        "Dietrich",
+        "Theodora",
+        "Leda"
+      ],
+      "part": "Part 1",
+      "sources": [
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Recorded on all four Part 1 paths."
+    }
+  ]
+}

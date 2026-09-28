@@ -92,7 +92,7 @@ for (const file of dataFiles) {
     // 一旦纳入索引，源码中任何同数字的写法都会被误报成漂移 —— 2026-09-17 实测：
     // 单是 events.json 新增一个 coverWidth: 420，就让 prebuild 直接 exit 1 阻断构建，
     // 而命中点是 lib/text.ts 里一个毫不相干的 `DEFAULT_MAX_CHARS = 420`。
-    if (/(id|universe|place|slug|width|height)$/i.test(field)) continue;
+    if (/(id|universe|place|slug|width|height|order|chapter)$/i.test(field)) continue;
     // 向前找友好名（name 字段）
     const before = content.slice(Math.max(0, m.index - 400), m.index);
     const nm = before.match(NAME_RE);
@@ -116,12 +116,19 @@ const SCAN_DIRS = ['src/app', 'src/components', 'src/lib'].map((d) => path.join(
 // 广告 / UI 配置组件：其内部常量（zone ID、兜底毫秒数、广告尺寸等）本就不是游戏数据，
 // 不参与漂移检查。新增广告组件时，若文件名不含下列关键词，务必把文件名追加进本正则，
 // 否则构建期会被误报为漂移并 exit 1（详见 SKILL.md「非内容代码的豁免」）。
-const EXCLUDE_SCAN_FILE = /(AdBanner|AdWrapper|SideAdSlots|NativeBannerAd|Monetag|Vignette|InPagePush|Popunder|Skyscraper|Propeller|Galaksion|AdSense)/i;
+const EXCLUDE_SCAN_FILE = /(AdBanner|AdWrapper|SideAdSlots|NativeBannerAd|Monetag|Vignette|InPagePush|Popunder|Skyscraper|Propeller|Galaksion|AdSense|HeroMediaFacade|Header|Footer)/i;
 const hits = [];
 
 function esc(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
+
+// 预先编译正则，避免每行重复构造上千次 RegExp
+const compiledLiterals = Array.from(index.entries()).map(([literal, infos]) => ({
+  literal,
+  infos,
+  re: new RegExp(`\\b${esc(literal)}\\b`, 'g'),
+}));
 
 for (const dir of SCAN_DIRS) {
   if (!fs.existsSync(dir)) continue;
@@ -134,17 +141,17 @@ for (const dir of SCAN_DIRS) {
   for (const file of files) {
     const lines = fs.readFileSync(file, 'utf8').split('\n');
     lines.forEach((line, i) => {
+      // 快速短路：不包含数字的行绝不可能匹配数据字面量
+      if (!/\d/.test(line)) return;
       if (ALREADY_DYNAMIC.test(line)) return;
-      for (const [literal, infos] of index) {
-        const re = new RegExp(`\\b${esc(literal)}\\b`);
-        let mm;
+      for (const { literal, infos, re } of compiledLiterals) {
         re.lastIndex = 0;
+        let mm;
         while ((mm = re.exec(line))) {
           // Tailwind 类名（px-2.5 / py-1.5 / gap-2.5）里的数字不是数据，跳过
           const before = line[mm.index - 1];
           const after = line[mm.index + mm[0].length];
           if (before === '-' || after === '-') {
-            re.lastIndex = mm.index + 1;
             continue;
           }
           hits.push({

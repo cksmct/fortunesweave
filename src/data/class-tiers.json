@@ -1,0 +1,164 @@
+{
+  "_comment": "The four-tier class system. The tier structure is corroborated by the Fextralife wiki navigation and by launch-week coverage; the specific Renown gates come from one detailed class walkthrough and are therefore source-reported. Exams are taken from the exam proctor in Dagsion.",
+  "tiers": [
+    {
+      "id": "base",
+      "slug": "base",
+      "name": "Base Classes",
+      "order": 0,
+      "unlock": "Every unit is assigned one of the two base classes before any certification happens.",
+      "examLocation": "Not applicable",
+      "notes": "Commoner and Noble are the two base classes; certification is what moves a unit out of them.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "beginner",
+      "slug": "beginner",
+      "name": "Beginner Classes",
+      "order": 1,
+      "unlock": "Available from early in the game; the beginner exam tab opens once you reach Dagsion.",
+      "examLocation": "Exam proctor in Dagsion",
+      "notes": "Five options that each specialise in different weapons. They can be mastered for a permanent ability before moving up.",
+      "conflict": "One walkthrough reports the beginner exams unlock automatically at the start of the game; another reports they open shortly after reaching Dagsion. Both are recorded.",
+      "sources": [
+        {
+          "label": "LinkKing7 - Early Class Guide",
+          "url": "https://www.youtube.com/watch?v=9bo9OzBPrHI",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fextralife Fortune's Weave Wiki - Classes navigation",
+          "url": "https://fortunesweave.wiki.fextralife.com/Classes",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "specialty",
+      "slug": "specialty",
+      "name": "Specialty Classes",
+      "order": 2,
+      "unlock": "Reported as unlocking at Renown level 4.",
+      "examLocation": "Exam proctor in Dagsion",
+      "notes": "The tier most units spend the early and mid game in. One walkthrough counts eleven specialty classes in the exam list.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "LinkKing7 - Early Class Guide",
+          "url": "https://www.youtube.com/watch?v=9bo9OzBPrHI",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fextralife Fortune's Weave Wiki - Classes navigation",
+          "url": "https://fortunesweave.wiki.fextralife.com/Classes",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The tier exists in two independent sources; the Renown 4 requirement is reported by one walkthrough."
+    },
+    {
+      "id": "advanced",
+      "slug": "advanced",
+      "name": "Advanced Classes",
+      "order": 3,
+      "unlock": "Reported as unlocking at Renown level 8.",
+      "examLocation": "Exam proctor in Dagsion",
+      "notes": "Some advanced classes are route-specific: Ranger and Troubadour are reachable on Leda, Caladrias and Dragoon on Cai, and Blacksmith on Dietrich.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fextralife Fortune's Weave Wiki - Classes navigation",
+          "url": "https://fortunesweave.wiki.fextralife.com/Classes",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The tier exists in two independent sources; the Renown 8 requirement is reported by one walkthrough."
+    },
+    {
+      "id": "master",
+      "slug": "master",
+      "name": "Master Classes",
+      "order": 4,
+      "unlock": "Listed as a separate tier by the wiki; unlock requirements not recorded in the sources checked.",
+      "examLocation": "Exam proctor in Dagsion",
+      "notes": "A fourth tier exists above Advanced. One overview references higher tiers being unlocked by Renown, quests and class keys.",
+      "sources": [
+        {
+          "label": "Fextralife Fortune's Weave Wiki - Classes navigation",
+          "url": "https://fortunesweave.wiki.fextralife.com/Classes",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "TheGamer - drink ingredient locations (related guide listing)",
+          "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-drink-ingredient-leaves-locations/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "divine",
+      "slug": "divine",
+      "name": "Divine Classes",
+      "order": 6,
+      "unlock": "Not recorded in the sources checked.",
+      "examLocation": "Not recorded",
+      "notes": "Eight classes are grouped under this heading, including The Avatar, The Blade and The Calamity.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "enemy-only",
+      "slug": "enemy-only",
+      "name": "Enemy Only",
+      "order": 7,
+      "unlock": "Not available to the player.",
+      "examLocation": "Not applicable",
+      "notes": "Eight classes are recorded as enemy only, including Sea Beast, Mummy and The Darkest Dark.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}

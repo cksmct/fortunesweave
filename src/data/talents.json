@@ -1,0 +1,103 @@
+{
+  "_comment": "The four route talents, one per Flame Lord, each exclusive to that lord~s own path. No talent for any other character is recorded by any source checked, which is why this table has exactly four rows.",
+  "_mechanics": {
+    "scope": "Route talents are world map abilities that only work on the Flame Lord~s own path, which is part of why the four Part I routes play differently.",
+    "exclusivity": "A talent cannot be borrowed by another lord: Cai cannot farm on Dietrich~s route and Theodora cannot recruit battalions on Leda~s.",
+    "crossLinks": "Each talent feeds systems covered elsewhere on this site, so these rows connect to the battalions, farming, mounts and activities pages."
+  },
+  "_openGaps": [
+    "No talents for anyone but the four Flame Lords: no other character~s talent is recorded by any source checked.",
+    "No Spellsong detail: the upgrade is named and never quantified.",
+    "No mount or crop list: Cai~s two mechanics each lack a data table in every source checked."
+  ],
+  "talents": [
+    {
+      "id": "dietrich",
+      "slug": "dietrich",
+      "owner": "Dietrich",
+      "army": "Lion Obelisk",
+      "name": "Answerer's Cry",
+      "unlock": "A world map command available from Part I Chapter 4.",
+      "effect": "Reveals randomly hidden enemies inside a circular area for two turns.",
+      "reward": "Defeating those enemies in a Skirmish yields Magic Echo Shards, which strengthen Combat Arts at the Smyrnos shrine, and Renown as well.",
+      "limit": "Repeated use narrows the area of effect. It recovers over time, or by entering and leaving bases and dungeons.",
+      "bonus": "Exploring also occasionally triggers duel bounty requests against a strong enemy, and winning can add Renown again and may teach a new Combat Art.",
+      "bonusVerified": false,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Hero talents",
+          "url": "https://fortunesweave.co.uk/wiki/hero-talents",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "theodora",
+      "slug": "theodora",
+      "owner": "Theodora",
+      "army": "Wolf Obelisk",
+      "name": "Gambits and Battalions",
+      "unlock": "Recruit Soldiers on the world map, Rousing Speech from Renown 5, and the Transport Chief from Part I Chapter 7.",
+      "effect": "Recruits battalions from settlement nodes, which unlock the Gambit command on any infantry unit they are given to.",
+      "reward": "Battalions also gather materials unattended when stationed at Search nodes, and surplus ones convert into troop points towards a Tactics Manual.",
+      "limit": "Mounted units can never carry one, a unit can only equip a battalion at or below its own Authority, and gambits cannot be used during Clashes.",
+      "bonus": "Battalion quality and the number deployable at once improve at Renown 5, 7 and 9.",
+      "bonusVerified": false,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Hero talents",
+          "url": "https://fortunesweave.co.uk/wiki/hero-talents",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "cai",
+      "slug": "cai",
+      "owner": "Cai",
+      "army": "Fox Obelisk",
+      "name": "Animal Mounts and Crop Farming",
+      "unlock": "Both are introduced by the Chapter 5 and 6 subquests.",
+      "effect": "Captures animal mounts and plants crops on the world map, which is where the fertiliser, Rest Spot healing and weekly Bird Time food all come from.",
+      "reward": "Crops trade with the Vandahl merchants for weapons and accessories and pay quest item requests.",
+      "limit": "Farming needs an empty pentagon tile and is gated by Renown for the number of plots.",
+      "bonus": "Failed captures still pay out, because they yield the fertiliser that improves rare-crop odds.",
+      "bonusVerified": true,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Hero talents",
+          "url": "https://fortunesweave.co.uk/wiki/hero-talents",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "leda",
+      "slug": "leda",
+      "owner": "Leda",
+      "army": "Eagle Obelisk",
+      "name": "Spellsong Performances",
+      "unlock": "Through the Perform tasks recorded in the sidequest list.",
+      "effect": "Performing at the tavern yields Renown, gold and Spellsong upgrades.",
+      "reward": "Renown is the account-wide stat that gates recruitment, battalions, farming plots and the Renown perks elsewhere, so a perform routine compounds.",
+      "limit": "Not recorded.",
+      "bonus": "Not recorded.",
+      "bonusVerified": false,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Hero talents",
+          "url": "https://fortunesweave.co.uk/wiki/hero-talents",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}

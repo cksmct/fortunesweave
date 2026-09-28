@@ -1,0 +1,219 @@
+import type { Metadata } from "next";
+import PageHeader from "@/components/PageHeader";
+import { JsonLd } from "@/components/JsonLd";
+import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
+import weaponsData from "@/data/weapons.json";
+
+const weapons = weaponsData.weapons;
+const columns = weaponsData._columns;
+
+const types = Array.from(new Set(weapons.map((entry) => entry.weaponType))).filter(
+  (type) => type !== "" && type !== "?"
+);
+const unclassified = weapons.filter((entry) => entry.weaponType === "" || entry.weaponType === "?");
+const withEffects = weapons.filter((entry) => entry.effects !== "");
+const label = (type: string) => (type === "" || type === "?" ? "Not recorded" : type);
+
+const FAQS = [
+  {
+    question: "How many weapons are in Fortune\u0027s Weave?",
+    answer:
+      "The weapon and spell table checked lists " + weapons.length + " entries across swords, spears, axes, bows, gauntlets, black magic, dark magic and white magic, with a handful whose type is not recorded yet.",
+  },
+  {
+    question: "What does the Curse column mean?",
+    answer:
+      "Curse is a stat specific to this game. Ordinary weapons leave it blank and cursed weapons are what fill it in, which is why the cursed objects on the equipment page are worth reading alongside this table.",
+  },
+  {
+    question: "Which weapon type should a unit carry?",
+    answer:
+      "That depends on the class, because classes lock weapon types rather than the triangle deciding it: there is no weapon triangle in this game, and each type instead has its own baseline mechanic such as spears beating cavalry and bows beating fliers.",
+  },
+  {
+    question: "What do Might, Hit and Uses mean here?",
+    answer:
+      "Might is base attack power, Hit is base accuracy, and Uses is durability, so a weapon with high Might and low Uses is a burst option rather than a workhorse. Weight matters separately because it decides whether the wielder can follow up.",
+  },
+];
+
+export const metadata: Metadata = generateSEOMetadata({
+  title: "Weapons and Spells List",
+  description:
+    "All " + weapons.length + " recorded Fire Emblem: Fortune\u0027s Weave weapons and spells, with type, level, might, hit, critical, range, uses and worth.",
+  path: "/weapons/",
+});
+
+export default function WeaponsPage() {
+  return (
+    <>
+      <JsonLd
+        data={[
+          buildBreadcrumbSchema([
+            { name: "Home", item: "/" },
+            { name: "Weapons", item: "/weapons/" },
+          ]),
+          generateFAQSchema(FAQS),
+        ]}
+      />
+      <PageHeader
+        title="Weapons and Spells List"
+        description="The full weapon and spell table with the numbers that decide a fight: might, weight, hit, critical, range, uses and worth."
+        path="/weapons/"
+      />
+      <main className="container-site space-y-12 pb-16">
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Why the numbers matter more than the names
+          </h2>
+          <p>
+            {"A weapon list is only useful if it carries the numbers, because this game removed the weapon triangle and left each type to stand on its own mechanics. That makes the table below a planning tool rather than a shopping list: " +
+              weapons.length +
+              " entries, of which " +
+              withEffects.length +
+              " carry a written effect that changes what the weapon does."}
+          </p>
+          <p>
+            Weight and Uses are the two columns players skip and then regret. Weight decides whether a
+            unit still follows up after attacking, which quietly decides more fights than raw might does,
+            and Uses is durability, so the heaviest hitting weapon in a row is often a burst pick rather
+            than the one you leave equipped. Curse is the odd column out: ordinary weapons leave it blank
+            and cursed weapons fill it in, which is where the equipment page picks the story up.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <tbody>
+                {Object.keys(columns).map((key) => (
+                  <tr key={key} className="border-b border-gray-200 dark:border-gray-800">
+                    <td className="py-2 pr-4 font-medium text-gray-900 dark:text-gray-100">{key}</td>
+                    <td className="py-2 text-gray-700 dark:text-gray-300">
+                      {(columns as Record<string, string>)[key]}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Every recorded weapon and spell
+          </h2>
+          {types.map((type) => (
+            <article key={type} className="rounded-lg border border-gray-200 p-5 dark:border-gray-800">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+                {type}
+                <span className="ml-2 text-sm font-normal text-gray-600 dark:text-gray-400">
+                  {weapons.filter((entry) => entry.weaponType === type).length} recorded
+                </span>
+              </h3>
+              <div className="mt-3 overflow-x-auto">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr className="border-b border-gray-300 text-left dark:border-gray-700">
+                      <th className="py-2 pr-3">Weapon</th>
+                      <th className="py-2 pr-3">Lv</th>
+                      <th className="py-2 pr-3">Mgt</th>
+                      <th className="py-2 pr-3">Wt</th>
+                      <th className="py-2 pr-3">Hit</th>
+                      <th className="py-2 pr-3">Crit</th>
+                      <th className="py-2 pr-3">Rng</th>
+                      <th className="py-2 pr-3">Uses</th>
+                      <th className="py-2 pr-3">Worth</th>
+                      <th className="py-2">Effects</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {weapons
+                      .filter((entry) => entry.weaponType === type)
+                      .map((entry) => (
+                        <tr key={entry.id} className="border-b border-gray-200 dark:border-gray-800">
+                          <td className="py-2 pr-3 font-medium text-gray-900 dark:text-gray-100">
+                            {entry.name}
+                          </td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.level}</td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.might}</td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.weight}</td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.hit}</td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.critical}</td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.range}</td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.uses}</td>
+                          <td className="py-2 pr-3 text-gray-700 dark:text-gray-300">{entry.worth}</td>
+                          <td className="py-2 text-gray-700 dark:text-gray-300">{entry.effects}</td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </article>
+          ))}
+          {unclassified.length > 0 ? (
+            <p className="text-sm text-gray-700 dark:text-gray-300">
+              {"The remaining " + unclassified.length + " entries are listed in the source with a type that is not recorded yet, so they are named here without being assigned to a table: " +
+                unclassified.map((entry) => entry.name).join(", ") + "."}
+            </p>
+          ) : null}
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            How to read a row quickly
+          </h2>
+          <p>
+            Read Might against Weight first, because that pair decides whether a weapon hits hard once or
+            hits adequately twice, and follow up attacks are what most damage maths actually turns on.
+            Then check Uses: a 10-use weapon with high might behaves like a consumable, so buying it early
+            in a chapter and replacing it mid-map is normal rather than wasteful. Level tells you who can
+            equip it at all, and because classes lock weapon types, a unit with no axe proficiency will
+            never see use out of the best axe in the table.
+          </p>
+          <p>
+            Range is the quiet outlier in this game: bows cannot counter at melee range, so a bow with
+            excellent numbers still leaves its wielder exposed next to an enemy, and a thrown weapon with
+            mediocre numbers can be the safer pick in a corridor. Critical rate is the last column to
+            weigh, since a critical build usually needs a skill or a cursed weapon behind it rather than
+            the base rate alone.
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            What sits next to this table
+          </h2>
+          <p>
+            Two other pages complete the gear picture. The equipment page covers cursed objects, which is
+            where the Curse column above comes from and where the Blaze Art gauge rules live, and the
+            classes page records which weapon types each class can actually carry at each tier. Between
+            the three, the question of what to equip stops being a guess.
+          </p>
+          <p>
+            {"Where a value is blank in the source, the table leaves it blank rather than filling in a plausible number, and the " +
+              unclassified.length +
+              " untyped entries above are named without being sorted into a category that the source does not give them."}
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Frequently asked questions
+          </h2>
+          <dl className="space-y-5">
+            {FAQS.map((item) => (
+              <div key={item.question}>
+                <dt className="font-semibold text-gray-900 dark:text-gray-100">{item.question}</dt>
+                <dd className="mt-1 text-gray-700 dark:text-gray-300">{item.answer}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Quick answers</h2>
+          <p>
+            Fire Emblem: Fortune&apos;s Weave weapons are locked to classes rather than balanced by a triangle, so the Fortune&apos;s Weave weapons list above is best read together with the classes page: the question is rarely which sword is strongest, it is which of your units can hold it. Cursed weapons are the exception the Curse column marks, and those belong with the cursed objects on the equipment page because they are what feed the Blaze Art gauge.
+          </p>
+        </section>
+      </main>
+    </>
+  );
+}

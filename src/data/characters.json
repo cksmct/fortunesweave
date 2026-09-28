@@ -1,0 +1,3397 @@
+{
+  "_comment": "Playable roster plus named faction armies. Counts are derived from the arrays and never hardcoded: 56 permanent recruits = 21 route-army characters + 35 recruitable units; separately there are 3 temporary Guest characters and 111 named faction members who are not on the playable roster.",
+  "characters": [
+    {
+      "id": "eshmel",
+      "slug": "eshmel",
+      "name": "Eshmel",
+      "army": "Promised One's Army",
+      "kind": "route-army",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Offered as either a male or a female avatar at the start of the game."
+    },
+    {
+      "id": "hong-hua",
+      "slug": "hong-hua",
+      "name": "Hong Hua",
+      "army": "Promised One's Army",
+      "kind": "route-army",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "troy",
+      "slug": "troy",
+      "name": "Troy",
+      "army": "Promised One's Army",
+      "kind": "route-army",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai",
+      "slug": "cai",
+      "name": "Cai",
+      "army": "Ribeira Winds",
+      "kind": "route-army",
+      "routes": [
+        "Cai"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "tialla",
+      "slug": "tialla",
+      "name": "Tialla",
+      "army": "Ribeira Winds",
+      "kind": "route-army",
+      "routes": [
+        "Cai"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "peter",
+      "slug": "peter",
+      "name": "Peter",
+      "army": "Ribeira Winds",
+      "kind": "route-army",
+      "routes": [
+        "Cai"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ultand",
+      "slug": "ultand",
+      "name": "Ultand",
+      "army": "Ribeira Winds",
+      "kind": "route-army",
+      "routes": [
+        "Cai"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "castor",
+      "slug": "castor",
+      "name": "Castor",
+      "army": "Ribeira Winds",
+      "kind": "route-army",
+      "routes": [
+        "Cai"
+      ],
+      "playable": false,
+      "guest": true,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Acts as a temporary Guest character rather than a permanent recruit."
+    },
+    {
+      "id": "dietrich",
+      "slug": "dietrich",
+      "name": "Dietrich",
+      "army": "House Lamine",
+      "kind": "route-army",
+      "routes": [
+        "Dietrich"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "fabio",
+      "slug": "fabio",
+      "name": "Fabio",
+      "army": "House Lamine",
+      "kind": "route-army",
+      "routes": [
+        "Dietrich"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "esmeralda",
+      "slug": "esmeralda",
+      "name": "Esmeralda",
+      "army": "House Lamine",
+      "kind": "route-army",
+      "routes": [
+        "Dietrich"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mikaela",
+      "slug": "mikaela",
+      "name": "Mikaela",
+      "army": "House Lamine",
+      "kind": "route-army",
+      "routes": [
+        "Dietrich"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora",
+      "slug": "theodora",
+      "name": "Theodora",
+      "army": "Megaira's Beacon",
+      "kind": "route-army",
+      "routes": [
+        "Theodora"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bonaventure",
+      "slug": "bonaventure",
+      "name": "Bonaventure",
+      "army": "Megaira's Beacon",
+      "kind": "route-army",
+      "routes": [
+        "Theodora"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "tobias",
+      "slug": "tobias",
+      "name": "Tobias",
+      "army": "Megaira's Beacon",
+      "kind": "route-army",
+      "routes": [
+        "Theodora"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "lysander",
+      "slug": "lysander",
+      "name": "Lysander",
+      "army": "Megaira's Beacon",
+      "kind": "route-army",
+      "routes": [
+        "Theodora"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "lilian",
+      "slug": "lilian",
+      "name": "Lilian",
+      "army": "Megaira's Beacon",
+      "kind": "route-army",
+      "routes": [
+        "Theodora"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "long",
+      "slug": "long",
+      "name": "Long",
+      "army": "Megaira's Beacon",
+      "kind": "route-army",
+      "routes": [
+        "Theodora"
+      ],
+      "playable": false,
+      "guest": true,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Acts as a temporary Guest character rather than a permanent recruit."
+    },
+    {
+      "id": "leda",
+      "slug": "leda",
+      "name": "Leda",
+      "army": "Rose Tempest",
+      "kind": "route-army",
+      "routes": [
+        "Leda"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "buccar",
+      "slug": "buccar",
+      "name": "Buccar",
+      "army": "Rose Tempest",
+      "kind": "route-army",
+      "routes": [
+        "Leda"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "sirocco",
+      "slug": "sirocco",
+      "name": "Sirocco",
+      "army": "Rose Tempest",
+      "kind": "route-army",
+      "routes": [
+        "Leda"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mu",
+      "slug": "mu",
+      "name": "Mu",
+      "army": "Rose Tempest",
+      "kind": "route-army",
+      "routes": [
+        "Leda"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "olympia",
+      "slug": "olympia",
+      "name": "Olympia",
+      "army": "Rose Tempest",
+      "kind": "route-army",
+      "routes": [
+        "Leda"
+      ],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": true,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "maria",
+      "slug": "maria",
+      "name": "Maria",
+      "army": "Rose Tempest",
+      "kind": "route-army",
+      "routes": [
+        "Leda"
+      ],
+      "playable": false,
+      "guest": true,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Acts as a temporary Guest character rather than a permanent recruit."
+    },
+    {
+      "id": "bertrand",
+      "slug": "bertrand",
+      "name": "Bertrand",
+      "army": "Fiery Mane",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "gaitz",
+      "slug": "gaitz",
+      "name": "Gaitz",
+      "army": "Fiery Mane",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "dante",
+      "slug": "dante",
+      "name": "Dante",
+      "army": "Fiery Mane",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "goliath",
+      "slug": "goliath",
+      "name": "Goliath",
+      "army": "Fiery Mane",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "jester",
+      "slug": "jester",
+      "name": "Jester",
+      "army": "Fiery Mane",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "talimun",
+      "slug": "talimun",
+      "name": "Talimun",
+      "army": "Tale of the Moon",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "ursula",
+      "slug": "ursula",
+      "name": "Ursula",
+      "army": "Tale of the Moon",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "simon",
+      "slug": "simon",
+      "name": "Simon",
+      "army": "Tale of the Moon",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "ludia",
+      "slug": "ludia",
+      "name": "Ludia",
+      "army": "Tale of the Moon",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "fianna",
+      "slug": "fianna",
+      "name": "Fianna",
+      "army": "Tale of the Moon",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "orchel",
+      "slug": "orchel",
+      "name": "Orchel",
+      "army": "Linaria Dewdrops",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "diego",
+      "slug": "diego",
+      "name": "Diego",
+      "army": "Linaria Dewdrops",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "ninae",
+      "slug": "ninae",
+      "name": "Ninae",
+      "army": "Linaria Dewdrops",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "seteth",
+      "slug": "seteth",
+      "name": "Seteth",
+      "army": "Linaria Dewdrops",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "loretta",
+      "slug": "loretta",
+      "name": "Loretta",
+      "army": "Linaria Dewdrops",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "anatolia",
+      "slug": "anatolia",
+      "name": "Anatolia",
+      "army": "Bridal Party of the Pale Raven",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "sha-lan",
+      "slug": "sha-lan",
+      "name": "Sha Lan",
+      "army": "Bridal Party of the Pale Raven",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "nezha",
+      "slug": "nezha",
+      "name": "Nezha",
+      "army": "Bridal Party of the Pale Raven",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "dadao",
+      "slug": "dadao",
+      "name": "Dadao",
+      "army": "Bridal Party of the Pale Raven",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "halvin",
+      "slug": "halvin",
+      "name": "Halvin",
+      "army": "Bridal Party of the Pale Raven",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "benditz",
+      "slug": "benditz",
+      "name": "Benditz",
+      "army": "Other Clan Leaders",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "alexandra",
+      "slug": "alexandra",
+      "name": "Alexandra",
+      "army": "Other Clan Leaders",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "zarcone",
+      "slug": "zarcone",
+      "name": "Zarcone",
+      "army": "Other Clan Leaders",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "jasmine",
+      "slug": "jasmine",
+      "name": "Jasmine",
+      "army": "Other Clan Leaders",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "kiroc",
+      "slug": "kiroc",
+      "name": "Kiroc",
+      "army": "Other Clan Leaders",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "inyoni",
+      "slug": "inyoni",
+      "name": "Inyoni",
+      "army": "Other Clan Leaders",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "peppe",
+      "slug": "peppe",
+      "name": "Peppe",
+      "army": "Other Clan Leaders",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "guzran",
+      "slug": "guzran",
+      "name": "Guzran",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "nydine",
+      "slug": "nydine",
+      "name": "Nydine",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "io",
+      "slug": "io",
+      "name": "Io",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "catania",
+      "slug": "catania",
+      "name": "Catania",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "noctula",
+      "slug": "noctula",
+      "name": "Noctula",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "yang-jie",
+      "slug": "yang-jie",
+      "name": "Yang Jie",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "nuzzuo",
+      "slug": "nuzzuo",
+      "name": "Nuzzuo",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    },
+    {
+      "id": "majide",
+      "slug": "majide",
+      "name": "Majide",
+      "army": "Neutral",
+      "kind": "recruitable",
+      "routes": [],
+      "playable": true,
+      "guest": false,
+      "recruitableElsewhere": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Listed under Recruitable Units; the route conditions for this recruit are not recorded on the roster page."
+    }
+  ],
+  "factions": [
+    {
+      "id": "solel",
+      "slug": "solel",
+      "name": "Solel",
+      "faction": "Temple Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "aurora",
+      "slug": "aurora",
+      "name": "Aurora",
+      "faction": "Temple Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "centurio",
+      "slug": "centurio",
+      "name": "Centurio",
+      "faction": "Temple Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "sofia",
+      "slug": "sofia",
+      "name": "Sofia",
+      "faction": "Temple Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "anna",
+      "slug": "anna",
+      "name": "Anna",
+      "faction": "Temple Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "aswan",
+      "slug": "aswan",
+      "name": "Aswan",
+      "faction": "Kingdom of Arago",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "nathan",
+      "slug": "nathan",
+      "name": "Nathan",
+      "faction": "Kingdom of Arago",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "creek",
+      "slug": "creek",
+      "name": "Creek",
+      "faction": "Kingdom of Arago",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "tahonia",
+      "slug": "tahonia",
+      "name": "Tahonia",
+      "faction": "Kingdom of Arago",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "klapka",
+      "slug": "klapka",
+      "name": "Klapka",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "sothis",
+      "slug": "sothis",
+      "name": "Sothis",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "poloni",
+      "slug": "poloni",
+      "name": "Poloni",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "karina",
+      "slug": "karina",
+      "name": "Karina",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "tsiskaridze",
+      "slug": "tsiskaridze",
+      "name": "Tsiskaridze",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "gabriel",
+      "slug": "gabriel",
+      "name": "Gabriel",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "kumos",
+      "slug": "kumos",
+      "name": "Kumos",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "nomved",
+      "slug": "nomved",
+      "name": "Nomved",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "cruaid-n",
+      "slug": "cruaid-n",
+      "name": "Cruaidín",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "llewelyn",
+      "slug": "llewelyn",
+      "name": "Llewelyn",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "vinicius",
+      "slug": "vinicius",
+      "name": "Vinicius",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "katarina",
+      "slug": "katarina",
+      "name": "Katarina",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "myson",
+      "slug": "myson",
+      "name": "Myson",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "cleobulus",
+      "slug": "cleobulus",
+      "name": "Cleobulus",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "solel",
+      "slug": "solel",
+      "name": "Solel",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "fortuna",
+      "slug": "fortuna",
+      "name": "Fortuna",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "aurora",
+      "slug": "aurora",
+      "name": "Aurora",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "mars",
+      "slug": "mars",
+      "name": "Mars",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "kalla",
+      "slug": "kalla",
+      "name": "Kalla",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "jurah",
+      "slug": "jurah",
+      "name": "Jurah",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "smyrnos",
+      "slug": "smyrnos",
+      "name": "Smyrnos",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "credna",
+      "slug": "credna",
+      "name": "Credna",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "yu-phas",
+      "slug": "yu-phas",
+      "name": "Yu Phas",
+      "faction": "Mosa",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "balor",
+      "slug": "balor",
+      "name": "Balor",
+      "faction": "Underworld Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "arago",
+      "slug": "arago",
+      "name": "Arago",
+      "faction": "Underworld Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "breza",
+      "slug": "breza",
+      "name": "Breza",
+      "faction": "Underworld Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "mahadu",
+      "slug": "mahadu",
+      "name": "Mahadu",
+      "faction": "Underworld Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "guillermo",
+      "slug": "guillermo",
+      "name": "Guillermo",
+      "faction": "Underworld Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "cohen",
+      "slug": "cohen",
+      "name": "Cohen",
+      "faction": "Underworld Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "drake",
+      "slug": "drake",
+      "name": "Drake",
+      "faction": "Underworld Army",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "raksha",
+      "slug": "raksha",
+      "name": "Raksha",
+      "faction": "Order of Mithras",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "iliana",
+      "slug": "iliana",
+      "name": "Iliana",
+      "faction": "Order of Mithras",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "maria",
+      "slug": "maria",
+      "name": "Maria",
+      "faction": "Order of Mithras",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "baozi",
+      "slug": "baozi",
+      "name": "Baozi",
+      "faction": "Order of Mithras",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "shenlo",
+      "slug": "shenlo",
+      "name": "Shenlo",
+      "faction": "Order of Mithras",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "yanjin",
+      "slug": "yanjin",
+      "name": "Yanjin",
+      "faction": "Order of Mithras",
+      "factionKind": "Army",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "",
+      "note": "Listed as a named member of a faction army rather than on the playable roster."
+    },
+    {
+      "id": "nero",
+      "slug": "nero",
+      "name": "Nero",
+      "faction": "Fox Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Cai",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "zenzele",
+      "slug": "zenzele",
+      "name": "Zenzele",
+      "faction": "Fox Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Cai",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "harrison",
+      "slug": "harrison",
+      "name": "Harrison",
+      "faction": "Fox Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Cai",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "gervasio",
+      "slug": "gervasio",
+      "name": "Gervasio",
+      "faction": "Fox Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Cai",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "castor",
+      "slug": "castor",
+      "name": "Castor",
+      "faction": "Fox Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Cai",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "cetus",
+      "slug": "cetus",
+      "name": "Cetus",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "tarek",
+      "slug": "tarek",
+      "name": "Tarek",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "randa",
+      "slug": "randa",
+      "name": "Randa",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "tsuze",
+      "slug": "tsuze",
+      "name": "Tsuze",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "long",
+      "slug": "long",
+      "name": "Long",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "hannibal",
+      "slug": "hannibal",
+      "name": "Hannibal",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "zenon",
+      "slug": "zenon",
+      "name": "Zenon",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "mars",
+      "slug": "mars",
+      "name": "Mars",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "borges",
+      "slug": "borges",
+      "name": "Borges",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "aguirre",
+      "slug": "aguirre",
+      "name": "Aguirre",
+      "faction": "Lion Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Dietrich",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "dyan",
+      "slug": "dyan",
+      "name": "Dyan",
+      "faction": "Wolf Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Theodora",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "bahr-vahn",
+      "slug": "bahr-vahn",
+      "name": "Bahr Vahn",
+      "faction": "Wolf Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Theodora",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "huver",
+      "slug": "huver",
+      "name": "Huver",
+      "faction": "Wolf Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Theodora",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "idi",
+      "slug": "idi",
+      "name": "Idi",
+      "faction": "Wolf Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Theodora",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "digamma",
+      "slug": "digamma",
+      "name": "Digamma",
+      "faction": "Wolf Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Theodora",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "lechner",
+      "slug": "lechner",
+      "name": "Lechner",
+      "faction": "Eagle Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Leda",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "balboa",
+      "slug": "balboa",
+      "name": "Balboa",
+      "faction": "Eagle Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Leda",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "bjor",
+      "slug": "bjor",
+      "name": "Bjor",
+      "faction": "Eagle Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Leda",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "mahdel",
+      "slug": "mahdel",
+      "name": "Mahdel",
+      "faction": "Eagle Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Leda",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "ianuarius",
+      "slug": "ianuarius",
+      "name": "Ianuarius",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "gilchris",
+      "slug": "gilchris",
+      "name": "Gilchris",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "lind",
+      "slug": "lind",
+      "name": "Lind",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "dagda",
+      "slug": "dagda",
+      "name": "Dagda",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "caddock",
+      "slug": "caddock",
+      "name": "Caddock",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "tet",
+      "slug": "tet",
+      "name": "Tet",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "dallos",
+      "slug": "dallos",
+      "name": "Dallos",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "sed",
+      "slug": "sed",
+      "name": "Sed",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "ichi",
+      "slug": "ichi",
+      "name": "Ichi",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "lian-ren",
+      "slug": "lian-ren",
+      "name": "Lian Ren",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "flayn",
+      "slug": "flayn",
+      "name": "Flayn",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "cichol",
+      "slug": "cichol",
+      "name": "Cichol",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "jehoshaphat",
+      "slug": "jehoshaphat",
+      "name": "Jehoshaphat",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "nasshim",
+      "slug": "nasshim",
+      "name": "Nasshim",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "elfrida",
+      "slug": "elfrida",
+      "name": "Elfrida",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "seiros",
+      "slug": "seiros",
+      "name": "Seiros",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "thales",
+      "slug": "thales",
+      "name": "Thales",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "nemesis",
+      "slug": "nemesis",
+      "name": "Nemesis",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "lamine",
+      "slug": "lamine",
+      "name": "Lamine",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "blaiddyd",
+      "slug": "blaiddyd",
+      "name": "Blaiddyd",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "maurice",
+      "slug": "maurice",
+      "name": "Maurice",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "sinza",
+      "slug": "sinza",
+      "name": "Sinza",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "sichyon",
+      "slug": "sichyon",
+      "name": "Sichyon",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "sergio",
+      "slug": "sergio",
+      "name": "Sergio",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "shandor",
+      "slug": "shandor",
+      "name": "Shandor",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "kleitos",
+      "slug": "kleitos",
+      "name": "Kleitos",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "tabatha",
+      "slug": "tabatha",
+      "name": "Tabatha",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "brachi-dia",
+      "slug": "brachi-dia",
+      "name": "Brachi Dia",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "valencia",
+      "slug": "valencia",
+      "name": "Valencia",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "hilaria",
+      "slug": "hilaria",
+      "name": "Hilaria",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "gaia",
+      "slug": "gaia",
+      "name": "Gaia",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "helmeric",
+      "slug": "helmeric",
+      "name": "Helmeric",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "marius",
+      "slug": "marius",
+      "name": "Marius",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "vritra",
+      "slug": "vritra",
+      "name": "Vritra",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "chang-e",
+      "slug": "chang-e",
+      "name": "Chang'e",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "britannis",
+      "slug": "britannis",
+      "name": "Britannis",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "galdius",
+      "slug": "galdius",
+      "name": "Galdius",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "aeneus",
+      "slug": "aeneus",
+      "name": "Aeneus",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "morgan",
+      "slug": "morgan",
+      "name": "Morgan",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "mace",
+      "slug": "mace",
+      "name": "Mace",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "newman",
+      "slug": "newman",
+      "name": "Newman",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    },
+    {
+      "id": "hanno",
+      "slug": "hanno",
+      "name": "Hanno",
+      "faction": "Strife Obelisk",
+      "factionKind": "Obelisk",
+      "playable": false,
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of characters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_characters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "obeliskOwner": "Part II war army",
+      "note": "A named member of this Flame Lord Obelisk army rather than of the playable roster."
+    }
+  ]
+}

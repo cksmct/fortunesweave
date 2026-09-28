@@ -1,0 +1,1270 @@
+{
+  "_comment": "Animal Mounts: 16 subspecies across 5 breeds, 17 paired abilities and 18 spawn points. Every figure traces to one forum thread, which is why the rows are labelled community-reported rather than cross-checked.",
+  "_mechanics": [
+    {
+      "key": "availability",
+      "value": "Animal Mounts are a Cai-only world map mechanic.",
+      "sourceNote": "game8 and the community write-up agree on the Cai restriction."
+    },
+    {
+      "key": "unlock",
+      "value": "Unlocks on Cai's Part I route at Chapter 5.",
+      "sourceNote": "Community write-up."
+    },
+    {
+      "key": "luring",
+      "value": "Animal tiles appear on the world map. Selecting Lure places one food item; matching the species preference improves the odds.",
+      "sourceNote": "Community write-up plus the Game8 capture page title."
+    },
+    {
+      "key": "capture",
+      "value": "After several turns the tile fills a capture gauge. Returning and choosing Capture plays a short scene.",
+      "sourceNote": "Community write-up."
+    },
+    {
+      "key": "success",
+      "value": "A successful capture sends the animal to the stable in Lowtown, Dagsion.",
+      "sourceNote": "Community write-up."
+    },
+    {
+      "key": "failure",
+      "value": "A failed capture gives that animal's manure, which is used as crop fertiliser.",
+      "sourceNote": "Community write-up."
+    },
+    {
+      "key": "bond",
+      "value": "Assigning a unit to care for and feed an animal in the stable raises that unit's Bond Level with it, faster with preferred food.",
+      "sourceNote": "Community write-up."
+    },
+    {
+      "key": "pairing",
+      "value": "A mount only unlocks its abilities for a unit in a matching mounted class: an Ornius pairs with an Ornius Rider.",
+      "sourceNote": "Community write-up."
+    },
+    {
+      "key": "cap",
+      "value": "The stable holds up to 200 animals, and extras can be released.",
+      "sourceNote": "Community write-up."
+    },
+    {
+      "key": "refresh",
+      "value": "Players report the stable captures refresh daily, unlike most world map activities which are weekly.",
+      "sourceNote": "Community write-up, reported rather than confirmed."
+    },
+    {
+      "key": "rare",
+      "value": "Rare spawns are reported at roughly a 70 common to 30 rare split, and players report being able to shift the result by reloading and changing how many times a tile is searched.",
+      "sourceNote": "Community write-up, single-poster and explicitly described as imprecise."
+    },
+    {
+      "key": "bondBonus",
+      "value": "Each Bond Level grants +1 point in a stat and +5 percent growth in a stat, so Bond 5 is +5 points and +25 percent.",
+      "sourceNote": "Serenes Forest thread, corroborated by several posters inside the same thread."
+    },
+    {
+      "key": "bondException",
+      "value": "Bucephalus, Alexandra's unique mount, and Rocinan, Io's, cap at six reward points instead of five, giving +6 points and +30 percent.",
+      "sourceNote": "Serenes Forest thread, two posters agree."
+    },
+    {
+      "key": "statGrowthSplit",
+      "value": "The stat point and the growth percentage rarely apply to the same stat, so a mount can raise Speed as a flat bonus while raising Dexterity growth.",
+      "sourceNote": "Serenes Forest thread."
+    },
+    {
+      "key": "charioteer",
+      "value": "Players report the Charioteer class doubles the growth bonus a mount provides, and attribute it to its Charioteer's Path skill; the thread treats the mechanism as unresolved.",
+      "sourceNote": "Serenes Forest thread, described there as not settled."
+    },
+    {
+      "key": "otherRoutes",
+      "value": "Io and Alexandra carry paired mounts of their own, and one poster states those bonuses apply on other routes too, with bonding slower away from the stable.",
+      "sourceNote": "Single poster, and it conflicts with the Cai-only framing elsewhere; both are kept."
+    }
+  ],
+  "_openQuestions": [
+    "The exact figures for White Ornius, Wild Pegasus and every Elephant entry.",
+    "What Paired Magic-Focus does beyond the name, which one poster guesses is a magic hit rate boost.",
+    "Which bait gives the best odds on a rare spawn, which the thread asks and leaves unanswered.",
+    "Whether battalions also grant growth bonuses on Theodora's route, which one poster asks and nobody confirms.",
+    "Whether the Charioteer growth doubling is a real effect or a display artefact, which the thread itself calls unresolved.",
+    "How Rocinan is obtained, and whether recruiting Io is required for it."
+  ],
+  "_sourcing": "Primary source: the Serenes Forest thread titled Mounts give bonus stats AND growth rates, started by Nakai with a table compiled by Mujin and additions from several posters. The fortunesweave.co.uk mount page states that it republishes those same figures, so it is recorded as a secondary reference rather than an independent source.",
+  "bondAbilities": [
+    {
+      "id": "paired-run",
+      "slug": "paired-run",
+      "name": "Paired Run",
+      "bond3": "Move +1",
+      "bond5": "Move +2",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-alertness",
+      "slug": "paired-alertness",
+      "name": "Paired Alertness",
+      "bond3": "Dodge +5",
+      "bond5": "Dodge +10",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-arts-focus",
+      "slug": "paired-arts-focus",
+      "name": "Paired Arts-Focus",
+      "bond3": "Hit +10 when attacking with a Combat Art",
+      "bond5": "Hit +15 when attacking with a Combat Art",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-healing",
+      "slug": "paired-healing",
+      "name": "Paired Healing",
+      "bond3": "Restores a little HP after combat",
+      "bond5": "Restores some HP after combat",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-stealth",
+      "slug": "paired-stealth",
+      "name": "Paired Stealth",
+      "bond3": "Avoid +10 while on favourable terrain",
+      "bond5": "Avoid +10 and Shield +3 while on favourable terrain",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-purify",
+      "slug": "paired-purify",
+      "name": "Paired Purify",
+      "bond3": "Clears poison at the start of the player phase, 50 percent chance",
+      "bond5": "Clears poison at the start of the player phase",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-bulk",
+      "slug": "paired-bulk",
+      "name": "Paired Bulk",
+      "bond3": "Build +2",
+      "bond5": "Build +4",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-protection",
+      "slug": "paired-protection",
+      "name": "Paired Protection",
+      "bond3": "Critical damage taken is reduced to 70 percent",
+      "bond5": "Critical damage taken is reduced to 50 percent",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-magic-sight",
+      "slug": "paired-magic-sight",
+      "name": "Paired Magic-Sight",
+      "bond3": "Critical +5 while equipped with magic",
+      "bond5": "Critical +10 while equipped with magic",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "canto-granted-by-the-mount",
+      "slug": "canto-granted-by-the-mount",
+      "name": "Canto (granted by the mount)",
+      "bond3": "Move 1 space after combat",
+      "bond5": "Move 2 spaces after combat",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-mage-kill",
+      "slug": "paired-mage-kill",
+      "name": "Paired Mage-Kill",
+      "bond3": "Attack +3 in combat if the enemy uses magic",
+      "bond5": "Attack +5 in combat if the enemy uses magic",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-streak",
+      "slug": "paired-streak",
+      "name": "Paired Streak",
+      "bond3": "Move +1",
+      "bond5": "Move +2",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-magic-speed",
+      "slug": "paired-magic-speed",
+      "name": "Paired Magic Speed",
+      "bond3": "Avoid +10 in combat, trigger chance equals Magic",
+      "bond5": "Avoid +20 in combat, trigger chance equals Magic",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-tempest",
+      "slug": "paired-tempest",
+      "name": "Paired Tempest",
+      "bond3": "Avoid +10 against bows",
+      "bond5": "Avoid +15 against bows",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-fierce-arts",
+      "slug": "paired-fierce-arts",
+      "name": "Paired Fierce-Arts",
+      "bond3": "Attack +2 when using a Combat Art",
+      "bond5": "Attack +4 when using a Combat Art",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-miracle",
+      "slug": "paired-miracle",
+      "name": "Paired Miracle",
+      "bond3": "Luck +3",
+      "bond5": "Luck +5",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "paired-magic-focus",
+      "slug": "paired-magic-focus",
+      "name": "Paired Magic-Focus",
+      "bond3": "Not recorded",
+      "bond5": "Not recorded",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ],
+  "mounts": [
+    {
+      "id": "wild-ornius",
+      "slug": "wild-ornius",
+      "name": "Wild Ornius",
+      "breed": "Ornius",
+      "food": "Fish",
+      "pairedClass": "Ornius Rider",
+      "abilities": [
+        "Paired Run",
+        "Paired Stealth"
+      ],
+      "statBonus": "Spd +2, Dex +3",
+      "growthBonus": "Spd 10%, Dex 15%",
+      "spawns": [
+        "Elissa Pass (Amalthea)",
+        "Sparrow's Thoroughfare (Melias)",
+        "Mount Ouranos (Saveilon)",
+        "Faro Forest (Castalia)"
+      ],
+      "spawnNote": "Common",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "white-ornius",
+      "slug": "white-ornius",
+      "name": "White Ornius",
+      "breed": "Ornius",
+      "food": "Fish",
+      "pairedClass": "Ornius Rider",
+      "abilities": [
+        "Paired Purify"
+      ],
+      "statBonus": "Not recorded",
+      "growthBonus": "Not recorded",
+      "spawns": [
+        "Faro Forest (Castalia)"
+      ],
+      "spawnNote": "Rare",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "meganius",
+      "slug": "meganius",
+      "name": "Meganius",
+      "breed": "Ornius",
+      "food": "Fish",
+      "pairedClass": "Ornius Rider",
+      "abilities": [
+        "Paired Run",
+        "Paired Bulk"
+      ],
+      "statBonus": "Str +1, Def +3, Dex +1",
+      "growthBonus": "Str 5%, Def 15%, Dex 5%",
+      "spawns": [
+        "Sparrow's Thoroughfare (Melias)",
+        "Mount Ouranos (Saveilon)",
+        "Axion Gorge (Saveilon)"
+      ],
+      "spawnNote": "Rare at two spawns, common at Axion Gorge",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "red-meganius",
+      "slug": "red-meganius",
+      "name": "Red Meganius",
+      "breed": "Ornius",
+      "food": "Fish",
+      "pairedClass": "Ornius Rider",
+      "abilities": [
+        "Paired Run",
+        "Paired Protection"
+      ],
+      "statBonus": "Str +3, Def +1, Dex +1",
+      "growthBonus": "Str 15%, Def 5%, Dex 5%",
+      "spawns": [
+        "Axion Gorge (Saveilon)"
+      ],
+      "spawnNote": "Rare",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "magonius",
+      "slug": "magonius",
+      "name": "Magonius",
+      "breed": "Ornius",
+      "food": "Fish",
+      "pairedClass": "Ornius Rider",
+      "abilities": [
+        "Paired Run",
+        "Paired Magic-Focus"
+      ],
+      "statBonus": "Mag +3, Dex +2",
+      "growthBonus": "Mag 15%, Dex 10%",
+      "spawns": [
+        "Headsman's Rock (Ogmios)"
+      ],
+      "spawnNote": "Common; reaching it from Saramis is reported to need Renown 7",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "black-magonius",
+      "slug": "black-magonius",
+      "name": "Black Magonius",
+      "breed": "Ornius",
+      "food": "Fish",
+      "pairedClass": "Ornius Rider",
+      "abilities": [
+        "Paired Magic-Sight",
+        "Canto"
+      ],
+      "statBonus": "Mag +2, Spd +2, Dex +1",
+      "growthBonus": "Mag 10%, Spd 10%, Dex 5%",
+      "spawns": [
+        "Headsman's Rock (Ogmios)"
+      ],
+      "spawnNote": "Rare",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "wild-horse",
+      "slug": "wild-horse",
+      "name": "Wild Horse",
+      "breed": "Horse",
+      "food": "Vegetable",
+      "pairedClass": "Not recorded",
+      "abilities": [
+        "Paired Run",
+        "Paired Alertness"
+      ],
+      "statBonus": "Dex +3, Spd +1, Def +1",
+      "growthBonus": "HP 5%, Spd 5%, Dex 5%, Def 5%, Res 5%",
+      "spawns": [
+        "Sunlit Pass (Amalthea)",
+        "Oleance Plains (Melias)",
+        "Daimos Plateau (Lambath)",
+        "Sunfall Path (Elektra)"
+      ],
+      "spawnNote": "Common",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "monoceros",
+      "slug": "monoceros",
+      "name": "Monoceros",
+      "breed": "Horse",
+      "food": "Vegetable",
+      "pairedClass": "Not recorded",
+      "abilities": [
+        "Paired Healing",
+        "Paired Miracle"
+      ],
+      "statBonus": "Spd +1, Dex +1, Lck +3",
+      "growthBonus": "HP 5%, Spd 5%, Dex 5%, Res 10%",
+      "spawns": [
+        "Oleance Plains (Melias)"
+      ],
+      "spawnNote": "Rare",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "ferghanan-horse",
+      "slug": "ferghanan-horse",
+      "name": "Ferghanan Horse",
+      "breed": "Horse",
+      "food": "Vegetable",
+      "pairedClass": "Not recorded",
+      "abilities": [
+        "Paired Arts-Focus",
+        "Canto",
+        "Paired Fierce-Arts"
+      ],
+      "statBonus": "Str +2, Dex +1, Def +2",
+      "growthBonus": "HP 5%, Str 5%, Dex 5%, Def 10%",
+      "spawns": [
+        "Sunfall Path (Elektra)"
+      ],
+      "spawnNote": "Rare",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "rocinan",
+      "slug": "rocinan",
+      "name": "Rocinan",
+      "breed": "Horse",
+      "food": "Vegetable",
+      "pairedClass": "Unique to Io",
+      "abilities": [
+        "Paired Run"
+      ],
+      "statBonus": "Spd +1, Dex +3, Def +2",
+      "growthBonus": "HP 5%, Spd 5%, Dex 5%, Def 10%, Res 5%",
+      "spawns": [
+        "Not recorded"
+      ],
+      "spawnNote": "Unique; its capture condition is an open question in the source, and it caps at six reward points",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "wild-pegasus",
+      "slug": "wild-pegasus",
+      "name": "Wild Pegasus",
+      "breed": "Pegasus",
+      "food": "Vegetable",
+      "pairedClass": "Not recorded",
+      "abilities": [
+        "Paired Streak",
+        "Paired Mage-Kill"
+      ],
+      "statBonus": "Not recorded",
+      "growthBonus": "Not recorded",
+      "spawns": [
+        "Valley of Black Wings (Idyia)",
+        "Raptor's Throat (Castalia)",
+        "Pegasi's Peak (Castalia)"
+      ],
+      "spawnNote": "Common",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "falicorn",
+      "slug": "falicorn",
+      "name": "Falicorn",
+      "breed": "Pegasus",
+      "food": "Vegetable",
+      "pairedClass": "Not recorded",
+      "abilities": [
+        "Paired Streak",
+        "Paired Tempest",
+        "Canto"
+      ],
+      "statBonus": "Str +1, Spd +3, Dex +1",
+      "growthBonus": "Str 5%, Spd 15%, Dex 5%",
+      "spawns": [
+        "Raptor's Throat (Castalia)",
+        "Pegasi's Peak (Castalia)"
+      ],
+      "spawnNote": "Rare; one poster also records Build +1",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "dark-pegasus",
+      "slug": "dark-pegasus",
+      "name": "Dark Pegasus",
+      "breed": "Pegasus",
+      "food": "Vegetable",
+      "pairedClass": "Not recorded",
+      "abilities": [
+        "Paired Streak",
+        "Paired Magic Speed"
+      ],
+      "statBonus": "Mag +3, Spd +2",
+      "growthBonus": "Mag 15%, Spd 10%",
+      "spawns": [
+        "Valley of Black Wings (Idyia)"
+      ],
+      "spawnNote": "Rare",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "bucephalus",
+      "slug": "bucephalus",
+      "name": "Bucephalus",
+      "breed": "Pegasus",
+      "food": "Vegetable",
+      "pairedClass": "Unique to Alexandra",
+      "abilities": [
+        "Paired Streak"
+      ],
+      "statBonus": "Str +1, Spd +3, Res +2",
+      "growthBonus": "Str 5%, Spd 15%, Res 10%",
+      "spawns": [
+        "Not recorded"
+      ],
+      "spawnNote": "Unique; caps at six reward points, which is the change one poster records for Falicorn as well",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "wild-bau",
+      "slug": "wild-bau",
+      "name": "Wild Bau",
+      "breed": "Bau",
+      "food": "Meat",
+      "pairedClass": "Not recorded",
+      "abilities": [
+        "Paired Streak",
+        "Paired Fierce-Arts"
+      ],
+      "statBonus": "Str +2, Dex +2, Spd +1",
+      "growthBonus": "Str 10%, Dex 10%, Spd 5%",
+      "spawns": [
+        "Warrior's Road (Pasithea)",
+        "Valley of Sedden (Pasithea)",
+        "Bau-Caller's Cape (Idyia)",
+        "Velatori Valley (Thaleia)",
+        "Yashiro Fort (Solidus)"
+      ],
+      "spawnNote": "Common",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    },
+    {
+      "id": "elephant",
+      "slug": "elephant",
+      "name": "Elephant",
+      "breed": "Elephant",
+      "food": "Not recorded",
+      "pairedClass": "Not recorded",
+      "abilities": [],
+      "statBonus": "Not recorded",
+      "growthBonus": "Not recorded",
+      "spawns": [
+        "Not recorded"
+      ],
+      "spawnNote": "No subspecies, figures, abilities or spawn points are recorded yet, and its preferred food is listed as TBD",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Animal Mounts (republishes the Serenes Forest figures)",
+          "url": "https://fortunesweave.co.uk/wiki/mounts",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "Community figures: one forum thread with several posters corroborating inside it, plus a site that states it republishes those same figures. Because that second site is a republisher rather than an independent source, the row stays community-reported instead of cross-checked."
+    }
+  ],
+  "spawns": [
+    {
+      "id": "sunlit-pass",
+      "slug": "sunlit-pass",
+      "region": "Amalthea",
+      "spot": "Sunlit Pass",
+      "common": "Wild Horse",
+      "rare": "None",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The community write-up states that a Game8 screenshot shows this row, but Game8 blocks non-browser clients, so the second source is claimed rather than verified here."
+    },
+    {
+      "id": "elissa-pass",
+      "slug": "elissa-pass",
+      "region": "Amalthea",
+      "spot": "Elissa Pass",
+      "common": "Wild Ornius",
+      "rare": "None",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "faro-forest",
+      "slug": "faro-forest",
+      "region": "Castalia",
+      "spot": "Faro Forest",
+      "common": "Wild Ornius",
+      "rare": "White Ornius",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "raptor-s-throat",
+      "slug": "raptor-s-throat",
+      "region": "Castalia",
+      "spot": "Raptor's Throat",
+      "common": "Wild Pegasus",
+      "rare": "Falicorn",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "pegasi-s-peak",
+      "slug": "pegasi-s-peak",
+      "region": "Castalia",
+      "spot": "Pegasi's Peak",
+      "common": "Wild Pegasus",
+      "rare": "Falicorn",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "sunfall-path",
+      "slug": "sunfall-path",
+      "region": "Elektra",
+      "spot": "Sunfall Path",
+      "common": "Wild Horse",
+      "rare": "Ferghanan Horse",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "valley-of-black-wings",
+      "slug": "valley-of-black-wings",
+      "region": "Idyia",
+      "spot": "Valley of Black Wings",
+      "common": "Wild Pegasus",
+      "rare": "Dark Pegasus",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bau-caller-s-cape",
+      "slug": "bau-caller-s-cape",
+      "region": "Idyia",
+      "spot": "Bau-Caller's Cape",
+      "common": "Wild Bau",
+      "rare": "None",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "daimos-plateau",
+      "slug": "daimos-plateau",
+      "region": "Lambath",
+      "spot": "Daimos Plateau",
+      "common": "Wild Horse",
+      "rare": "Not recorded",
+      "caiPartOne": "No",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "oleance-plains",
+      "slug": "oleance-plains",
+      "region": "Melias",
+      "spot": "Oleance Plains",
+      "common": "Wild Horse",
+      "rare": "Monoceros",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "sparrow-s-thoroughfare",
+      "slug": "sparrow-s-thoroughfare",
+      "region": "Melias",
+      "spot": "Sparrow's Thoroughfare",
+      "common": "Wild Ornius",
+      "rare": "Meganius",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "headsman-s-rock",
+      "slug": "headsman-s-rock",
+      "region": "Ogmios",
+      "spot": "Headsman's Rock",
+      "common": "Magonius",
+      "rare": "Black Magonius",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "warrior-s-road",
+      "slug": "warrior-s-road",
+      "region": "Pasithea",
+      "spot": "Warrior's Road",
+      "common": "Wild Bau",
+      "rare": "Not recorded",
+      "caiPartOne": "No",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "valley-of-sedden",
+      "slug": "valley-of-sedden",
+      "region": "Pasithea",
+      "spot": "Valley of Sedden",
+      "common": "Wild Bau",
+      "rare": "Not recorded",
+      "caiPartOne": "No",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mount-ouranos",
+      "slug": "mount-ouranos",
+      "region": "Saveilon",
+      "spot": "Mount Ouranos",
+      "common": "Wild Ornius",
+      "rare": "Meganius",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "axion-gorge",
+      "slug": "axion-gorge",
+      "region": "Saveilon",
+      "spot": "Axion Gorge",
+      "common": "Meganius",
+      "rare": "Red Meganius",
+      "caiPartOne": "Yes",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "yashiro-fort",
+      "slug": "yashiro-fort",
+      "region": "Solidus",
+      "spot": "Yashiro Fort",
+      "common": "Wild Bau",
+      "rare": "None",
+      "caiPartOne": "No",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "velatori-valley",
+      "slug": "velatori-valley",
+      "region": "Thaleia",
+      "spot": "Velatori Valley",
+      "common": "Wild Bau",
+      "rare": "None",
+      "caiPartOne": "No",
+      "sources": [
+        {
+          "label": "Serenes Forest forum - Mounts give bonus stats AND growth rates",
+          "url": "https://forums.serenesforest.net/topic/108370-mounts-give-bonus-stats-and-growth-rates/",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ]
+}

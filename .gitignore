@@ -12,3 +12,20 @@ build.log
 
 # env files
 .env*
+
+# ============================================================
+# 凭据 / 会话文件 —— 严禁提交
+# 历史事故：完整 YouTube 登录 session（含 SID / LOGIN_INFO / __Secure-*）
+# 曾被 git add 进仓库并推送，等于凭据进入公开历史。
+# 规则：UUID 形式的一次性导出 + 名称含 cookie/session 的任何文件。
+# ============================================================
+????????-????-????-????-????????????.txt
+*cookie*.txt
+*cookies*.txt
+*session*.txt
+*.cookies
+yt-cookies.txt
+
+# one-click-site-update 工作态（证据与断点状态不入库）
+update-inbox/.evidence/
+update-inbox/.run-state.json

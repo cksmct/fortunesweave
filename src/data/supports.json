@@ -1,0 +1,1850 @@
+{
+  "_comment": "Support pairs with the highest conversation rank recorded for each pair. 73 pairs published (5 of them reach A rank), extracted from 7 per-character tables; 19 pairs are listed by the source without rank data and are deliberately not published.",
+  "_rankScale": {
+    "C": "Rank 2",
+    "B": "Rank 3",
+    "A": "Rank 4",
+    "S": "Requires a maximum rating of 5 and is only offered to Eshmel"
+  },
+  "_mechanics": {
+    "howRaised": "Support ratings rise when the two units fight and work together, on and off the battlefield.",
+    "whereRead": "Support conversations are read in Dagsion at the taverns near the colosseum and in Lowtown.",
+    "passiveBonus": "Units without support conversations can still raise their support rating, which grants passive bonuses when the pair fights together.",
+    "locks": "A padlock in the tavern support list means an earlier condition has to be met first, such as reaching a later part of the story or recruiting the unit.",
+    "aRank": "Only some characters can reach A rank, and many A ranks allow a Paired Ending in the epilogue.",
+    "sRank": "Eshmel can pick a Paired Ending at a maximum rating of 5, which unlocks an S-rank scene. IGN states that every character Eshmel can reach A rank with is assumed, but not confirmed, to be S-rank eligible."
+  },
+  "supports": [
+    {
+      "id": "alexandra--cai",
+      "slug": "alexandra--cai",
+      "a": "Cai",
+      "b": "Alexandra",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bertrand--cai",
+      "slug": "bertrand--cai",
+      "a": "Cai",
+      "b": "Bertrand",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--centurio",
+      "slug": "cai--centurio",
+      "a": "Cai",
+      "b": "Centurio",
+      "ranks": [
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--esmeralda",
+      "slug": "cai--esmeralda",
+      "a": "Cai",
+      "b": "Esmeralda",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Must be Recruited"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--goliath",
+      "slug": "cai--goliath",
+      "a": "Cai",
+      "b": "Goliath",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--mu",
+      "slug": "cai--mu",
+      "a": "Cai",
+      "b": "Mu",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--ninae",
+      "slug": "cai--ninae",
+      "a": "Cai",
+      "b": "Ninae",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 2"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--unlocked in part 3",
+      "slug": "cai--unlocked in part 3",
+      "a": "Cai",
+      "b": "Unlocked in Part 3",
+      "ranks": [
+        "A"
+      ],
+      "maxRank": "A",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "buccar--dietrich",
+      "slug": "buccar--dietrich",
+      "a": "Dietrich",
+      "b": "Buccar",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--dietrich",
+      "slug": "cai--dietrich",
+      "a": "Dietrich",
+      "b": "Cai",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "catania--dietrich",
+      "slug": "catania--dietrich",
+      "a": "Dietrich",
+      "b": "Catania",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Must be Recruited"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--esmeralda",
+      "slug": "dietrich--esmeralda",
+      "a": "Dietrich",
+      "b": "Esmeralda",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--fabio",
+      "slug": "dietrich--fabio",
+      "a": "Dietrich",
+      "b": "Fabio",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Requires ???"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--halvin",
+      "slug": "dietrich--halvin",
+      "a": "Dietrich",
+      "b": "Halvin",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--mikaela",
+      "slug": "dietrich--mikaela",
+      "a": "Dietrich",
+      "b": "Mikaela",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--seteth",
+      "slug": "dietrich--seteth",
+      "a": "Dietrich",
+      "b": "Seteth",
+      "ranks": [
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocks in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--talimun",
+      "slug": "dietrich--talimun",
+      "a": "Dietrich",
+      "b": "Talimun",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--unlocked in part 3",
+      "slug": "dietrich--unlocked in part 3",
+      "a": "Dietrich",
+      "b": "Unlocked in Part 3",
+      "ranks": [
+        "A"
+      ],
+      "maxRank": "A",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "buccar--leda",
+      "slug": "buccar--leda",
+      "a": "Leda",
+      "b": "Buccar",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 2",
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--leda",
+      "slug": "cai--leda",
+      "a": "Leda",
+      "b": "Cai",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dante--leda",
+      "slug": "dante--leda",
+      "a": "Leda",
+      "b": "Dante",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 2"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--leda",
+      "slug": "dietrich--leda",
+      "a": "Leda",
+      "b": "Dietrich",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "esmeralda--leda",
+      "slug": "esmeralda--leda",
+      "a": "Leda",
+      "b": "Esmeralda",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocks in Chapter 7"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "guzran--leda",
+      "slug": "guzran--leda",
+      "a": "Leda",
+      "b": "Guzran",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Must be Recruited"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "jester--leda",
+      "slug": "jester--leda",
+      "a": "Leda",
+      "b": "Jester",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Must be Recruited Before Chapter 11",
+        "Unlocked in Part 2"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--olympia",
+      "slug": "leda--olympia",
+      "a": "Leda",
+      "b": "Olympia",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 2"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--orchel",
+      "slug": "leda--orchel",
+      "a": "Leda",
+      "b": "Orchel",
+      "ranks": [
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--sirocco",
+      "slug": "leda--sirocco",
+      "a": "Leda",
+      "b": "Sirocco",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--talimun",
+      "slug": "leda--talimun",
+      "a": "Leda",
+      "b": "Talimun",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--theodora",
+      "slug": "leda--theodora",
+      "a": "Leda",
+      "b": "Theodora",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocks in Part 3",
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--unlocked in part 3",
+      "slug": "leda--unlocked in part 3",
+      "a": "Leda",
+      "b": "Unlocked in Part 3",
+      "ranks": [
+        "A",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Requires ???"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--unlocks in chapter 10",
+      "slug": "leda--unlocks in chapter 10",
+      "a": "Leda",
+      "b": "Unlocks in Chapter 10",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda--unlocks in chapter 9",
+      "slug": "leda--unlocks in chapter 9",
+      "a": "Leda",
+      "b": "Unlocks in Chapter 9",
+      "ranks": [
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--peter",
+      "slug": "cai--peter",
+      "a": "Peter",
+      "b": "Cai",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dadao--peter",
+      "slug": "dadao--peter",
+      "a": "Peter",
+      "b": "Dadao",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "jester--peter",
+      "slug": "jester--peter",
+      "a": "Peter",
+      "b": "Jester",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mu--peter",
+      "slug": "mu--peter",
+      "a": "Peter",
+      "b": "Mu",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ninae--peter",
+      "slug": "ninae--peter",
+      "a": "Peter",
+      "b": "Ninae",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "peter--sofia",
+      "slug": "peter--sofia",
+      "a": "Peter",
+      "b": "Sofia",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "peter--unlocked in part 3",
+      "slug": "peter--unlocked in part 3",
+      "a": "Peter",
+      "b": "Unlocked in Part 3",
+      "ranks": [
+        "A"
+      ],
+      "maxRank": "A",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "peter--ursula",
+      "slug": "peter--ursula",
+      "a": "Peter",
+      "b": "Ursula",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "alexandra--theodora",
+      "slug": "alexandra--theodora",
+      "a": "Theodora",
+      "b": "Alexandra",
+      "ranks": [
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bonaventure--theodora",
+      "slug": "bonaventure--theodora",
+      "a": "Theodora",
+      "b": "Bonaventure",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--theodora",
+      "slug": "cai--theodora",
+      "a": "Theodora",
+      "b": "Cai",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3",
+        "Unlocks in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "diego--theodora",
+      "slug": "diego--theodora",
+      "a": "Theodora",
+      "b": "Diego",
+      "ranks": [
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 2"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich--theodora",
+      "slug": "dietrich--theodora",
+      "a": "Theodora",
+      "b": "Dietrich",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3",
+        "Unlocks in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "lilian--theodora",
+      "slug": "lilian--theodora",
+      "a": "Theodora",
+      "b": "Lilian",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "lysander--theodora",
+      "slug": "lysander--theodora",
+      "a": "Theodora",
+      "b": "Lysander",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Requires ???"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "nezha--theodora",
+      "slug": "nezha--theodora",
+      "a": "Theodora",
+      "b": "Nezha",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocks in Chapter 9",
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "simon--theodora",
+      "slug": "simon--theodora",
+      "a": "Theodora",
+      "b": "Simon",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "talimun--theodora",
+      "slug": "talimun--theodora",
+      "a": "Theodora",
+      "b": "Talimun",
+      "ranks": [
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora--tialla",
+      "slug": "theodora--tialla",
+      "a": "Theodora",
+      "b": "Tialla",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocks in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora--tobias",
+      "slug": "theodora--tobias",
+      "a": "Theodora",
+      "b": "Tobias",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocked in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora--unlocked in part 3",
+      "slug": "theodora--unlocked in part 3",
+      "a": "Theodora",
+      "b": "Unlocked in Part 3",
+      "ranks": [
+        "A",
+        "B"
+      ],
+      "maxRank": "B",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bonaventure--tialla",
+      "slug": "bonaventure--tialla",
+      "a": "Tialla",
+      "b": "Bonaventure",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--tialla",
+      "slug": "cai--tialla",
+      "a": "Tialla",
+      "b": "Cai",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "io--tialla",
+      "slug": "io--tialla",
+      "a": "Tialla",
+      "b": "Io",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ludia--tialla",
+      "slug": "ludia--tialla",
+      "a": "Tialla",
+      "b": "Ludia",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "peter--tialla",
+      "slug": "peter--tialla",
+      "a": "Tialla",
+      "b": "Peter",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "seteth--tialla",
+      "slug": "seteth--tialla",
+      "a": "Tialla",
+      "b": "Seteth",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "talimun--tialla",
+      "slug": "talimun--tialla",
+      "a": "Tialla",
+      "b": "Talimun",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": true,
+      "conditions": [
+        "Unlocks in Part 3"
+      ],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "tialla--unlocked in part 3",
+      "slug": "tialla--unlocked in part 3",
+      "a": "Tialla",
+      "b": "Unlocked in Part 3",
+      "ranks": [
+        "A"
+      ],
+      "maxRank": "A",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai--ultand",
+      "slug": "cai--ultand",
+      "a": "Ultand",
+      "b": "Cai",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "centurio--ultand",
+      "slug": "centurio--ultand",
+      "a": "Ultand",
+      "b": "Centurio",
+      "ranks": [
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "goliath--ultand",
+      "slug": "goliath--ultand",
+      "a": "Ultand",
+      "b": "Goliath",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "loretta--ultand",
+      "slug": "loretta--ultand",
+      "a": "Ultand",
+      "b": "Loretta",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "nezha--ultand",
+      "slug": "nezha--ultand",
+      "a": "Ultand",
+      "b": "Nezha",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "orchel--ultand",
+      "slug": "orchel--ultand",
+      "a": "Ultand",
+      "b": "Orchel",
+      "ranks": [
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "peppe--ultand",
+      "slug": "peppe--ultand",
+      "a": "Ultand",
+      "b": "Peppe",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "peter--ultand",
+      "slug": "peter--ultand",
+      "a": "Ultand",
+      "b": "Peter",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "tialla--ultand",
+      "slug": "tialla--ultand",
+      "a": "Ultand",
+      "b": "Tialla",
+      "ranks": [
+        "A",
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "tobias--ultand",
+      "slug": "tobias--ultand",
+      "a": "Ultand",
+      "b": "Tobias",
+      "ranks": [
+        "B",
+        "C"
+      ],
+      "maxRank": "C",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ultand--unlocked in part 3",
+      "slug": "ultand--unlocked in part 3",
+      "a": "Ultand",
+      "b": "Unlocked in Part 3",
+      "ranks": [
+        "A"
+      ],
+      "maxRank": "A",
+      "partTwoPlusOnly": false,
+      "conditions": [],
+      "romanceEligible": "no",
+      "sources": [
+        {
+          "label": "IGN - Supports and Romance",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Supports_and_Romance",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ]
+}

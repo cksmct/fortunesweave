@@ -1,0 +1,1507 @@
+{
+  "_comment": "Notable Deeds: 53 recorded entries worth 20695 Karma Shards in total, of which 20000 comes from the four Part I route completions alone. Both sources behind this list describe themselves as incomplete, so this is a floor rather than the full set.",
+  "_mechanics": {
+    "where": "Completed deeds are claimed at any Pale Raven~s Perch in Dagsion or at the Shrine of Causality in the Obelisk Chamber.",
+    "currency": "Deeds pay Karma Shards.",
+    "purpose": "Karma Shards unlock Boons of Salvation, and from Part III they also feed Merge Causality.",
+    "completeness": "You do not need every deed to unlock every boon, so a completionist run is optional rather than required.",
+    "reminder": "The game may pop up a reminder when a deed completes rather than paying out immediately. The source marks that unverified."
+  },
+  "_economy": {
+    "oneRoute": "One Part I route with every recorded deed comes to about 5,695 shards, of which 5,000 is the route completion itself.",
+    "allRoutes": "All four Part I routes come to about 20,695 shards.",
+    "knownFirstTierCosts": "The published first-tier boon prices add up to about 5,000 shards for sixteen of the thirty-one boons.",
+    "caveat": "Both figures are floors, because one source marks its own list work in progress and the other states outright that it does not list every deed."
+  },
+  "_openGaps": [
+    "No total: no source states how many Notable Deeds the game actually contains.",
+    "Every entry is marked unverified by the source that compiled them.",
+    "No payout mechanics: where and when shards are credited, and whether the reminder is required, is recorded only loosely."
+  ],
+  "deeds": [
+    {
+      "id": "deed-1",
+      "slug": "deed-1",
+      "order": 1,
+      "category": "Battle",
+      "requirement": "Defeat 10 enemies in battle",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-2",
+      "slug": "deed-2",
+      "order": 2,
+      "category": "Battle",
+      "requirement": "Defeat 20 enemies in battle",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-3",
+      "slug": "deed-3",
+      "order": 3,
+      "category": "Battle",
+      "requirement": "Defeat 30 enemies in battle",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-4",
+      "slug": "deed-4",
+      "order": 4,
+      "category": "Battle",
+      "requirement": "Defeat 40 enemies in battle",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-5",
+      "slug": "deed-5",
+      "order": 5,
+      "category": "Battle",
+      "requirement": "Defeat 50 enemies in battle",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-6",
+      "slug": "deed-6",
+      "order": 6,
+      "category": "Battle",
+      "requirement": "Defeat 75 enemies in battle",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-7",
+      "slug": "deed-7",
+      "order": 7,
+      "category": "Battle",
+      "requirement": "Defeat 10 undead enemies",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-8",
+      "slug": "deed-8",
+      "order": 8,
+      "category": "Battle",
+      "requirement": "Defeat 20 undead enemies",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-9",
+      "slug": "deed-9",
+      "order": 9,
+      "category": "Battle",
+      "requirement": "Defeat 30 undead enemies",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-10",
+      "slug": "deed-10",
+      "order": 10,
+      "category": "Battle",
+      "requirement": "Defeat 10 large enemies",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-11",
+      "slug": "deed-11",
+      "order": 11,
+      "category": "Battle",
+      "requirement": "Defeat 10 beasts",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-12",
+      "slug": "deed-12",
+      "order": 12,
+      "category": "Battle",
+      "requirement": "Defeat 10 livestock",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-13",
+      "slug": "deed-13",
+      "order": 13,
+      "category": "Battle",
+      "requirement": "Defeat 10 gold or silver mummies",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-14",
+      "slug": "deed-14",
+      "order": 14,
+      "category": "Battle",
+      "requirement": "Evade 10 attacks",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-15",
+      "slug": "deed-15",
+      "order": 15,
+      "category": "Battle",
+      "requirement": "Evade 20 attacks",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-16",
+      "slug": "deed-16",
+      "order": 16,
+      "category": "Battle",
+      "requirement": "Evade 30 attacks",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-17",
+      "slug": "deed-17",
+      "order": 17,
+      "category": "Battle",
+      "requirement": "Land 10 critical hits",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-18",
+      "slug": "deed-18",
+      "order": 18,
+      "category": "Battle",
+      "requirement": "Trigger 10 assists",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-19",
+      "slug": "deed-19",
+      "order": 19,
+      "category": "Battle",
+      "requirement": "Use Blaze Arts 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-20",
+      "slug": "deed-20",
+      "order": 20,
+      "category": "Battle",
+      "requirement": "Use gambits 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-21",
+      "slug": "deed-21",
+      "order": 21,
+      "category": "Battle",
+      "requirement": "Trigger support salvation 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-22",
+      "slug": "deed-22",
+      "order": 22,
+      "category": "Battle",
+      "requirement": "Win 5 skirmishes",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-23",
+      "slug": "deed-23",
+      "order": 23,
+      "category": "Battle",
+      "requirement": "Win 10 clashes",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-24",
+      "slug": "deed-24",
+      "order": 24,
+      "category": "Battle",
+      "requirement": "Win 20 clashes",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-25",
+      "slug": "deed-25",
+      "order": 25,
+      "category": "Battle",
+      "requirement": "Trigger Attack Link 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-26",
+      "slug": "deed-26",
+      "order": 26,
+      "category": "Battle",
+      "requirement": "Trigger Attack Link 20 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-27",
+      "slug": "deed-27",
+      "order": 27,
+      "category": "Battle",
+      "requirement": "Trigger Recovery Link 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-28",
+      "slug": "deed-28",
+      "order": 28,
+      "category": "Battle",
+      "requirement": "Trigger Mixed Link 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-29",
+      "slug": "deed-29",
+      "order": 29,
+      "category": "Allies",
+      "requirement": "Watch 5 C-rank support conversations",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-30",
+      "slug": "deed-30",
+      "order": 30,
+      "category": "Allies",
+      "requirement": "Watch 5 B-rank support conversations",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-31",
+      "slug": "deed-31",
+      "order": 31,
+      "category": "Allies",
+      "requirement": "Watch 5 A-rank support conversations",
+      "karmaShards": 100,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-32",
+      "slug": "deed-32",
+      "order": 32,
+      "category": "Bases",
+      "requirement": "Perform 10 rounds of personal actions in total",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-33",
+      "slug": "deed-33",
+      "order": 33,
+      "category": "Bases",
+      "requirement": "Give 10 gifts",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-34",
+      "slug": "deed-34",
+      "order": 34,
+      "category": "Bases",
+      "requirement": "Spend 10,000G at base shops",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-35",
+      "slug": "deed-35",
+      "order": 35,
+      "category": "Items",
+      "requirement": "Obtain 10 ore",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-36",
+      "slug": "deed-36",
+      "order": 36,
+      "category": "Items",
+      "requirement": "Obtain 50 ore",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-37",
+      "slug": "deed-37",
+      "order": 37,
+      "category": "The World Map",
+      "requirement": "Pay a wandering merchant 10,000G",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-38",
+      "slug": "deed-38",
+      "order": 38,
+      "category": "Other",
+      "requirement": "Complete 1 paralogue",
+      "karmaShards": 25,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-39",
+      "slug": "deed-39",
+      "order": 39,
+      "category": "Other",
+      "requirement": "Play for more than 10 hours",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-40",
+      "slug": "deed-40",
+      "order": 40,
+      "category": "Other",
+      "requirement": "Reach skill rank C three times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-41",
+      "slug": "deed-41",
+      "order": 41,
+      "category": "Other",
+      "requirement": "Reach skill rank B three times",
+      "karmaShards": 20,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-42",
+      "slug": "deed-42",
+      "order": 42,
+      "category": "Other",
+      "requirement": "Reach skill rank A three times",
+      "karmaShards": 30,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-43",
+      "slug": "deed-43",
+      "order": 43,
+      "category": "Other",
+      "requirement": "Reach skill rank S three times",
+      "karmaShards": 40,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-44",
+      "slug": "deed-44",
+      "order": 44,
+      "category": "Other",
+      "requirement": "Max out a skill three times",
+      "karmaShards": 50,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-45",
+      "slug": "deed-45",
+      "order": 45,
+      "category": "Other",
+      "requirement": "Complete Cai's Part I route",
+      "karmaShards": 5000,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-46",
+      "slug": "deed-46",
+      "order": 46,
+      "category": "Other",
+      "requirement": "Complete Dietrich's Part I route",
+      "karmaShards": 5000,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-47",
+      "slug": "deed-47",
+      "order": 47,
+      "category": "Other",
+      "requirement": "Complete Theodora's Part I route",
+      "karmaShards": 5000,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-48",
+      "slug": "deed-48",
+      "order": 48,
+      "category": "Other",
+      "requirement": "Complete Leda's Part I route",
+      "karmaShards": 5000,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-49",
+      "slug": "deed-49",
+      "order": 49,
+      "category": "Uncategorised",
+      "requirement": "Rent a room at the inn 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-50",
+      "slug": "deed-50",
+      "order": 50,
+      "category": "Uncategorised",
+      "requirement": "Dine at the inn 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-51",
+      "slug": "deed-51",
+      "order": 51,
+      "category": "Uncategorised",
+      "requirement": "Reach 10 perfect interactions at the perch",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-52",
+      "slug": "deed-52",
+      "order": 52,
+      "category": "Uncategorised",
+      "requirement": "Deepen the bond with the Pale Raven 10 times",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "deed-53",
+      "slug": "deed-53",
+      "order": 53,
+      "category": "Uncategorised",
+      "requirement": "Hold 5 feasts",
+      "karmaShards": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Notable Deeds",
+          "url": "https://fortunesweave.co.uk/wiki/notable-deeds",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Notable Deeds",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623431",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ]
+}

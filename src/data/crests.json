@@ -1,0 +1,708 @@
+{
+  "_comment": "The crest table: 22 named crests with the Dagdan Diadem names, the bearers confirmed in this game, the trigger rate and the Relic each one maps to.",
+  "_mechanics": {
+    "naming": "In Dagdan culture crests are called Diadems, and also Bloodmarks or Godmarks. This site keeps the series term crest alongside the in-world names so both searches land.",
+    "scope": "Twenty-two named crests exist across the series. Twelve of them have a bearer confirmed in this game, and the rest are recorded here as crests with no bearer in this title rather than being left out.",
+    "trigger": "Every recorded crest effect is a chance on attack, expressed as a percentage, so a crest is a reliability curve rather than a flat stat.",
+    "relics": "The Hero~s Relic tied to each crest is known, and the effect of every relic is not yet documented by any source checked.",
+    "stigma": "A Diadem granted by an unacknowledged god is read by some Dagdans as an ill omen, and its bearer can be shunned. Esmeralda carries Blaiddyd, which is the recorded case.",
+    "conflict": "Ernest has a live source conflict: one source attributes its active effect to Anna while a wiki lineage page places it on Raksha. Both readings are recorded rather than one being chosen."
+  },
+  "_cursedObjects": {
+    "summary": "Some bearers do not need to wield a cursed object at all, because it is embedded in their body.",
+    "carriers": [
+      "Cai and Theodora carry a cursed object embedded in their bodies, so they run Duality, the Gautier Diadem, natively with any weapon rather than only when holding the cursed weapon.",
+      "Talimun~s Blaze Gauge behaviour suggests the same innate Duality.",
+      "Orchel is recorded as a Duality bearer with no known cursed object, which is the case the embedded-object explanation does not cover.",
+      "Cai carries two crests, Aubin and Gautier, side by side rather than one nested inside the other. His mother Aurora is recorded as an Aubin bearer."
+    ],
+    "naming": "Aurora is also the name of one of the six blessings sold at the Shrine of Causality. No source states whether the blessing and the character share a source, so the two are kept apart here rather than conflated."
+  },
+  "_blazeArts": {
+    "what": "Blaze Arts are the heavy super-move class of action, and they are paid for in HP rather than in a resource bar.",
+    "gauge": "Every use fills a gauge, and once that gauge fills the unit~s maximum HP is reduced.",
+    "consequence": "That makes them a limited, high-risk resource rather than a rotation. The design intent is visible in the cost: you are trading a permanent slice of the unit~s durability for a burst of damage.",
+    "gap": "No source checked publishes the move list, the individual effects, or the shrine path for strengthening them."
+  },
+  "_combatArts": {
+    "what": "Combat Arts are special attacks that consume weapon durability when they are used.",
+    "inheritance": "A Combat Art can be carried across when a Part 1 version of a unit is merged into a Part 3 unit through Merge Causality, which is how multi-route training compounds.",
+    "gap": "No source checked publishes a Combat Art list or its learning conditions."
+  },
+  "_openGaps": [
+    "No acquisition routes: no source records where any Diadem is obtained, which unit joins holding it, or in which chapter.",
+    "No relic effects: every Hero~s Relic is named and none has its effect documented.",
+    "No ability list: no source checked publishes the game~s Abilities, only the crest-triggered effects above.",
+    "No Blaze Art moves: the mechanic is described, the moves are not."
+  ],
+  "crests": [
+    {
+      "id": "blaiddyd",
+      "slug": "blaiddyd",
+      "name": "Blaiddyd",
+      "diadem": "Valor, the crown of courage",
+      "category": "Ten Elites",
+      "bearers": [
+        "Esmeralda"
+      ],
+      "bearerCount": 1,
+      "effect": "Multiplies attack damage by 1.5.",
+      "triggerRate": 0.03,
+      "relic": "Areadbhar",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "charon",
+      "slug": "charon",
+      "name": "Charon",
+      "diadem": "",
+      "category": "Ten Elites",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Thunderbrand",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "daphnel",
+      "slug": "daphnel",
+      "name": "Daphnel",
+      "diadem": "Victor, the crown of the champion",
+      "category": "Ten Elites",
+      "bearers": [
+        "Bertrand"
+      ],
+      "bearerCount": 1,
+      "effect": "Grants +5 Attack when attacking.",
+      "triggerRate": 0.1,
+      "relic": "Luin",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "dominic",
+      "slug": "dominic",
+      "name": "Dominic",
+      "diadem": "Earth, the crown of the land",
+      "category": "Ten Elites",
+      "bearers": [
+        "Leda",
+        "Aswan"
+      ],
+      "bearerCount": 2,
+      "effect": "Grants +7 Attack when attacking.",
+      "triggerRate": 0.03,
+      "relic": "Crusher",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "fraldarius",
+      "slug": "fraldarius",
+      "name": "Fraldarius",
+      "diadem": "Revival, the crown of renewal",
+      "category": "Ten Elites",
+      "bearers": [
+        "Fianna"
+      ],
+      "bearerCount": 1,
+      "effect": "Restores a small amount of HP when attacking.",
+      "triggerRate": 0.2,
+      "relic": "Aegis Shield",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "gautier",
+      "slug": "gautier",
+      "name": "Gautier",
+      "diadem": "Duality, the crown of two",
+      "category": "Ten Elites",
+      "bearers": [
+        "Cai",
+        "Theodora",
+        "Talimun",
+        "Orchel",
+        "Bertrand"
+      ],
+      "bearerCount": 5,
+      "effect": "Grants +3 Attack when attacking.",
+      "triggerRate": 0.25,
+      "relic": "Lance of Ruin",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "gloucester",
+      "slug": "gloucester",
+      "name": "Gloucester",
+      "diadem": "Reflection, the crown of mirrors",
+      "category": "Ten Elites",
+      "bearers": [
+        "Ninae"
+      ],
+      "bearerCount": 1,
+      "effect": "Grants +30 Hit when attacking.",
+      "triggerRate": 0.1,
+      "relic": "Thyrsus",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "goneril",
+      "slug": "goneril",
+      "name": "Goneril",
+      "diadem": "Fortuna, the crown of fate",
+      "category": "Ten Elites",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Freikugel",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "lamine",
+      "slug": "lamine",
+      "name": "Lamine",
+      "diadem": "Endless, the crown of continuity",
+      "category": "Ten Elites",
+      "bearers": [
+        "Dietrich"
+      ],
+      "bearerCount": 1,
+      "effect": "Restores HP when attacking.",
+      "triggerRate": 0.1,
+      "relic": "Answerer",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "riegan",
+      "slug": "riegan",
+      "name": "Riegan",
+      "diadem": "",
+      "category": "Ten Elites",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Failnaught",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "beast",
+      "slug": "beast",
+      "name": "Beast",
+      "diadem": "Fetters, the crown of shackles",
+      "category": "Ten Elites",
+      "bearers": [
+        "Ursula"
+      ],
+      "bearerCount": 1,
+      "effect": "Multiplies attack damage by 1.2.",
+      "triggerRate": 0.05,
+      "relic": "Blutgang",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "cethleann",
+      "slug": "cethleann",
+      "name": "Cethleann",
+      "diadem": "",
+      "category": "Four Saints",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Not recorded",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "cichol",
+      "slug": "cichol",
+      "name": "Cichol",
+      "diadem": "Balance, the crown of equilibrium",
+      "category": "Four Saints",
+      "bearers": [
+        "Seteth"
+      ],
+      "bearerCount": 1,
+      "effect": "The unit cannot be counterattacked.",
+      "triggerRate": 0.03,
+      "relic": "Spear of Assal",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "indech",
+      "slug": "indech",
+      "name": "Indech",
+      "diadem": "Constancy, the crown of steadiness",
+      "category": "Four Saints",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "The Inexhaustible",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "macuil",
+      "slug": "macuil",
+      "name": "Macuil",
+      "diadem": "The crown of Smyrnos",
+      "category": "Four Saints",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Wind Caller's Genesis",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "aubin",
+      "slug": "aubin",
+      "name": "Aubin",
+      "diadem": "Apostle, the crown of envoys",
+      "category": "Four Apostles",
+      "bearers": [
+        "Cai",
+        "Orchel"
+      ],
+      "bearerCount": 2,
+      "effect": "Grants +20 Hit when attacking.",
+      "triggerRate": 0.2,
+      "relic": "Fetters of Dromi",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "chevalier",
+      "slug": "chevalier",
+      "name": "Chevalier",
+      "diadem": "",
+      "category": "Four Apostles",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Vajra-Mushti",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "noa",
+      "slug": "noa",
+      "name": "Noa",
+      "diadem": "Auger, the crown of diviners",
+      "category": "Four Apostles",
+      "bearers": [
+        "Eshmel"
+      ],
+      "bearerCount": 1,
+      "effect": "Grants +100 Hit when attacking.",
+      "triggerRate": 0.05,
+      "relic": "Scroll of Talos",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "timotheos",
+      "slug": "timotheos",
+      "name": "Timotheos",
+      "diadem": "",
+      "category": "Four Apostles",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Hrotti",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "flames",
+      "slug": "flames",
+      "name": "Flames",
+      "diadem": "",
+      "category": "Divine",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Sword of the Creator",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "seiros",
+      "slug": "seiros",
+      "name": "Seiros",
+      "diadem": "",
+      "category": "Divine",
+      "bearers": [],
+      "bearerCount": 0,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "Aymr",
+      "relicEffectRecorded": false,
+      "unverified": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "ernest",
+      "slug": "ernest",
+      "name": "Ernest",
+      "diadem": "Fanatic, the crown of zeal",
+      "category": "Lost to History",
+      "bearers": [
+        "Raksha"
+      ],
+      "bearerCount": 1,
+      "effect": "",
+      "triggerRate": null,
+      "relic": "",
+      "relicEffectRecorded": false,
+      "unverified": false,
+      "note": "Source conflict: one source attributes this crest~s active effect to Anna, while a wiki lineage page places it on Raksha. Both readings are recorded.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crests, Diadems and Blaze Arts",
+          "url": "https://fortunesweave.co.uk/wiki/crests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - Crest",
+          "url": "https://fireemblem.fandom.com/wiki/Crest",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}

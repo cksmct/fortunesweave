@@ -7,7 +7,9 @@
     "developer": "Intelligent Systems",
     "publisher": "Nintendo",
     "genre": "Turn-Based Tactics RPG",
-    "platforms": ["Nintendo Switch 2"],
+    "platforms": [
+      "Nintendo Switch 2"
+    ],
     "releaseDate": "2026-09-17",
     "currentVersion": "1.0.1",
     "lastUpdated": "2026-09-28",
@@ -20,9 +22,18 @@
     "siteDescription": "An independent Fire Emblem: Fortune's Weave companion - characters, classes, paralogues, gifts, materials and locations, with a source and a date on every row.",
     "baseUrl": "https://fortunesweave.online",
     "email": "hi@fortunesweave.online",
-    "primaryKeywords": ["Fire Emblem Fortune's Weave", "Fortune's Weave guide", "Fortune's Weave wiki"],
-    "secondaryKeywords": ["Fortune's Weave paralogues", "Fortune's Weave gifts", "Fortune's Weave classes", "Fortune's Weave materials"],
-    "defaultOgImage": "/og-default.png"
+    "primaryKeywords": [
+      "Fire Emblem Fortune's Weave",
+      "Fortune's Weave guide",
+      "Fortune's Weave wiki"
+    ],
+    "secondaryKeywords": [
+      "Fortune's Weave paralogues",
+      "Fortune's Weave gifts",
+      "Fortune's Weave classes",
+      "Fortune's Weave materials"
+    ],
+    "defaultOgImage": "/images/og-card.jpg"
   },
   "author": {
     "entity": "organization",
@@ -38,13 +49,240 @@
     "_comment": "只填已核实渠道；无则留空字符串。严禁占位 URL。",
     "official": "https://www.nintendo.com/games/detail/fire-emblem-fortunes-weave-switch-2/"
   },
-  "features": { "database": true, "tools": true, "updates": true },
+  "features": {
+    "database": true,
+    "tools": true,
+    "updates": true,
+    "paralogues": true
+  },
   "routes": [
-    { "path": "/", "title": "Fire Emblem: Fortune's Weave Guide & Wiki", "priority": "1.0", "changeFrequency": "weekly" },
-    { "path": "/updates", "title": "Fortune's Weave Patch Notes & Updates", "priority": "0.8", "changeFrequency": "weekly" },
-    { "path": "/about", "title": "About & How We Verify", "priority": "0.3", "changeFrequency": "yearly" },
-    { "path": "/contact", "title": "Contact", "priority": "0.3", "changeFrequency": "yearly" },
-    { "path": "/privacy", "title": "Privacy Policy", "priority": "0.3", "changeFrequency": "yearly" },
-    { "path": "/terms", "title": "Terms of Use", "priority": "0.3", "changeFrequency": "yearly" }
+    {
+      "path": "/",
+      "title": "Fire Emblem: Fortune's Weave Guide & Wiki",
+      "priority": "1.0",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/updates",
+      "title": "Fortune's Weave Patch Notes & Updates",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/about",
+      "title": "About & How We Verify",
+      "priority": "0.3",
+      "changeFrequency": "yearly"
+    },
+    {
+      "path": "/contact",
+      "title": "Contact",
+      "priority": "0.3",
+      "changeFrequency": "yearly"
+    },
+    {
+      "path": "/privacy",
+      "title": "Privacy Policy",
+      "priority": "0.3",
+      "changeFrequency": "yearly"
+    },
+    {
+      "path": "/terms",
+      "title": "Terms of Use",
+      "priority": "0.3",
+      "changeFrequency": "yearly"
+    },
+    {
+      "path": "/paralogues",
+      "title": "Fortune's Weave Paralogues",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/tools/paralogue-checklist",
+      "title": "Paralogue Checklist",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/materials",
+      "title": "Fortune's Weave Leaf Materials",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/tools/recipe-solver",
+      "title": "Drink Recipe Solver",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/gifts",
+      "title": "Fortune's Weave Gifts",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/tools/gift-finder",
+      "title": "Gift Finder",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/classes",
+      "title": "Fortune's Weave Classes",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/tools/class-planner",
+      "title": "Class Certification Planner",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/characters",
+      "title": "Fortune's Weave Characters",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/tools/recruitment-planner",
+      "title": "Recruitment Planner",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/supports",
+      "title": "Fortune's Weave Supports",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/tools/support-matrix",
+      "title": "Support Matrix",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/activities",
+      "title": "Pale Raven Bird Time",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/tools/bird-time",
+      "title": "Bird Time Lookup",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/walkthrough",
+      "title": "Walkthrough and Chapter List",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/locations",
+      "title": "Dungeons and Locations",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/map",
+      "title": "Schematic Map",
+      "priority": "0.6",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/equipment",
+      "title": "Weapons and Cursed Objects",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/systems",
+      "title": "Core Systems and Blaze Arts",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/weapons",
+      "title": "Weapons and Spells List",
+      "priority": "0.9",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/mounts",
+      "title": "Animal Mounts and Bonds",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/factions",
+      "title": "Factions and Armies",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/farming",
+      "title": "Crop Farming and Crops",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/battalions",
+      "title": "Gambits and Battalions",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/meals",
+      "title": "Meals and Dining",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/crests",
+      "title": "Crests and Diadems",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/talents",
+      "title": "Hero Talents",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/deeds",
+      "title": "Notable Deeds and Karma Shards",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/boons",
+      "title": "Boons of Salvation",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/postgame",
+      "title": "Post-game and Merge Causality",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
+      "path": "/sidequests",
+      "title": "Subquests and Deadlines",
+      "priority": "0.8",
+      "changeFrequency": "weekly"
+    },
+    {
+      "path": "/deities",
+      "title": "Deities of Dagda",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    }
   ]
 }

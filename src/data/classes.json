@@ -1,0 +1,1629 @@
+{
+  "_comment": "Named classes. Growth rates depend on both class and character, and classes also carry base stat modifiers and a mastery ability you keep after mastering the class. Names captured from spoken walkthroughs can be mangled by auto-captions, so any uncertain name is flagged in its note rather than silently corrected.",
+  "classes": [
+    {
+      "id": "gladiator",
+      "slug": "gladiator",
+      "name": "Gladiator",
+      "tier": "Beginner",
+      "weapons": "Swords, axes, gauntlets",
+      "movement": "Infantry",
+      "growths": "+10 HP, +10 Strength, nothing else",
+      "modifiers": "+1 HP, +1 Strength",
+      "mastery": "No class ability",
+      "sources": [
+        {
+          "label": "LinkKing7 - Early Class Guide",
+          "url": "https://www.youtube.com/watch?v=9bo9OzBPrHI",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Gauntlets, Axe and Sword level at D or higher",
+      "fandomMastery": "Attack Basis",
+      "fandomTier": "Beginner"
+    },
+    {
+      "id": "hunter",
+      "slug": "hunter",
+      "name": "Hunter",
+      "tier": "Beginner",
+      "weapons": "Swords, bows",
+      "movement": "Infantry",
+      "growths": "Not recorded",
+      "modifiers": "+1 Speed",
+      "mastery": "Not recorded",
+      "note": "The class a bow-user route reclasses into automatically. The +1 Speed modifier is called out as unusually valuable because Speed decides doubling.",
+      "sources": [
+        {
+          "label": "LinkKing7 - Early Class Guide",
+          "url": "https://www.youtube.com/watch?v=9bo9OzBPrHI",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Bow and Sword level at D or higher",
+      "fandomMastery": "Hunting Basis",
+      "fandomTier": "Beginner"
+    },
+    {
+      "id": "soldier",
+      "slug": "soldier",
+      "name": "Soldier",
+      "tier": "Beginner",
+      "weapons": "Infantry weapons",
+      "movement": "Infantry",
+      "growths": "Reported defence-focused bonuses",
+      "modifiers": "Defence bonus reported",
+      "mastery": "Defence Basics (Defence +1)",
+      "note": "Rated the weakest of the five beginner options in one walkthrough, mainly because both its bonuses and its mastery ability are defensive.",
+      "sources": [
+        {
+          "label": "LinkKing7 - Early Class Guide",
+          "url": "https://www.youtube.com/watch?v=9bo9OzBPrHI",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Axe and Spear at D or higher",
+      "fandomMastery": "Defence Basis",
+      "fandomTier": "Beginner"
+    },
+    {
+      "id": "diviner",
+      "slug": "diviner",
+      "name": "Diviner",
+      "tier": "Beginner",
+      "weapons": "Magic (white or black)",
+      "movement": "Infantry",
+      "growths": "Not recorded",
+      "modifiers": "Reduces Strength; raises magic stats",
+      "mastery": "Magic Basics (Magic and Resistance +1)",
+      "note": "Handles damage and healing magic, often both. Recommended when a unit needs to raise magic.",
+      "sources": [
+        {
+          "label": "LinkKing7 - Early Class Guide",
+          "url": "https://www.youtube.com/watch?v=9bo9OzBPrHI",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Black Magic and White Magic level at D or higher",
+      "fandomMastery": "Magic Basis",
+      "fandomTier": "Beginner"
+    },
+    {
+      "id": "ornius-rider",
+      "slug": "ornius-rider",
+      "name": "Ornius Rider",
+      "tier": "Beginner",
+      "weapons": "Mounted weapons",
+      "movement": "Mounted (Ornius)",
+      "growths": "Speed, dexterity and HP growths",
+      "modifiers": "Combined bonuses that can stack with Gladiator and Diviner bonuses",
+      "mastery": "Not recorded",
+      "note": "Described as a solid generalist; the stacking note is why it is recommended alongside Gladiator and Diviner rather than instead of them.",
+      "sources": [
+        {
+          "label": "LinkKing7 - Early Class Guide",
+          "url": "https://www.youtube.com/watch?v=9bo9OzBPrHI",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Riding at E+ or higher; Axe and Spear at D or higher",
+      "fandomMastery": "Offense Basis",
+      "fandomTier": "Beginner"
+    },
+    {
+      "id": "archer",
+      "slug": "archer",
+      "name": "Archer",
+      "tier": "Specialty",
+      "weapons": "Bows",
+      "movement": "Infantry",
+      "mastery": "Not recorded",
+      "note": "Named among the ranged specialty options.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Bow level at C or higher",
+      "fandomMastery": "Crescendo",
+      "fandomTier": "Specialty"
+    },
+    {
+      "id": "rogue",
+      "slug": "rogue",
+      "name": "Rogue",
+      "tier": "Specialty",
+      "weapons": "Ranged",
+      "movement": "Infantry",
+      "mastery": "Not recorded",
+      "note": "Named among the ranged specialty options.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Bow and Sword level at C or higher",
+      "fandomMastery": "In Shadow",
+      "fandomTier": "Specialty"
+    },
+    {
+      "id": "winged-soldier",
+      "slug": "winged-soldier",
+      "name": "Winged Soldier",
+      "tier": "Specialty",
+      "weapons": "Not recorded",
+      "movement": "Flying",
+      "mastery": "Not recorded",
+      "note": "Sources spell this class differently as of 2026-09-28: recorded here as Winged Soldier and as Wing Soldier in another source.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Flying level at D or higher; Spear and Sword level at C or higher",
+      "fandomMastery": "Protecting Wings",
+      "fandomTier": "Specialty",
+      "alternateNames": [
+        "Wing Soldier"
+      ]
+    },
+    {
+      "id": "ranger",
+      "slug": "ranger",
+      "name": "Ranger",
+      "tier": "Advanced",
+      "weapons": "Not recorded",
+      "movement": "Not recorded",
+      "mastery": "Not recorded",
+      "routes": [
+        "Leda"
+      ],
+      "note": "Route-specific class reachable on Leda and described as dancer-like. Access is also granted by finishing the Drink Recipe chain, which hands out Ranger and Troubadour.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "VGC - Wonder Leaves location",
+          "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-wonder-leaves-location-for-elegant-drink-recipes-quest/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Bow and Sword level at B or higher",
+      "fandomMastery": "Countershot",
+      "fandomNotes": "Unlocked by completing the Oko Headhunting contract in Dietrich's path",
+      "fandomTier": "Advanced"
+    },
+    {
+      "id": "troubadour",
+      "slug": "troubadour",
+      "name": "Troubadour",
+      "tier": "Advanced",
+      "weapons": "Not recorded",
+      "movement": "Mounted",
+      "mastery": "Not recorded",
+      "routes": [
+        "Leda",
+        "Cai"
+      ],
+      "note": "Reachable on more than one route, and also granted by finishing the Drink Recipe chain.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "VGC - Wonder Leaves location",
+          "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-wonder-leaves-location-for-elegant-drink-recipes-quest/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Riding level at D or higher; White Magic and Black Magic at B or higher",
+      "fandomMastery": "Song of Courage",
+      "fandomNotes": "Unlocked by completing Bertrand's final mentoring in Cai's path or the \"Elegant Drink Recipes\" in Leda's path.",
+      "fandomTier": "Advanced"
+    },
+    {
+      "id": "caladrias",
+      "slug": "caladrias",
+      "name": "Caladrias",
+      "tier": "Advanced",
+      "weapons": "Not recorded",
+      "movement": "Mounted",
+      "mastery": "Not recorded",
+      "routes": [
+        "Cai"
+      ],
+      "note": "Sources spell this class differently as of 2026-09-28: recorded here as Caladrias and as Caladrius in another source.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Riding level at D or higher; Black Magic Level at B or higher",
+      "fandomMastery": "Overtake",
+      "fandomTier": "Advanced",
+      "alternateNames": [
+        "Caladrius"
+      ]
+    },
+    {
+      "id": "dragoon",
+      "slug": "dragoon",
+      "name": "Dragoon",
+      "tier": "Advanced",
+      "weapons": "Not recorded",
+      "movement": "Flying",
+      "mastery": "Not recorded",
+      "routes": [
+        "Cai"
+      ],
+      "note": "Name captured from spoken audio and may be spelled differently in game; recorded with that caveat rather than guessed at.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Flying level at C or higher; Axe and Spear Level at B or higher",
+      "fandomMastery": "Besiger",
+      "fandomNotes": "Unlocked by completing Aurora's final Mentoring in Cai's Path or complete the \"Send supplies: LIr Fish\" and \"Send supplis: Sea Star Stone\" quest in Theodora's Path's Chapter 11",
+      "fandomTier": "Advanced"
+    },
+    {
+      "id": "blacksmith",
+      "slug": "blacksmith",
+      "name": "Blacksmith",
+      "tier": "Advanced",
+      "weapons": "Not recorded",
+      "movement": "Infantry",
+      "mastery": "Not recorded",
+      "routes": [
+        "Dietrich"
+      ],
+      "note": "Called out as an extra class available to Dietrich.",
+      "sources": [
+        {
+          "label": "Jay Dunna - Class Guide",
+          "url": "https://www.youtube.com/watch?v=4eAmLCXvqRQ",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Black Magic level at D or higher; Axe level at C or higher",
+      "fandomMastery": "Makeshift",
+      "fandomNotes": "Enhance 10 Combat Arts in Dietrich's path.",
+      "fandomTier": "Advanced"
+    },
+    {
+      "id": "charioteer",
+      "slug": "charioteer",
+      "name": "Charioteer",
+      "tier": "Not recorded",
+      "weapons": "Not recorded",
+      "movement": "Mounted (chariot)",
+      "mastery": "Not recorded",
+      "note": "New mount type introduced by this game, listed among its classes.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Fortune's Weave",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "certification": "Riding level at D or higher; Bow level at C or higher",
+      "fandomMastery": "Charger",
+      "fandomTier": "Specialty"
+    },
+    {
+      "id": "elephant-rider",
+      "slug": "elephant-rider",
+      "name": "Elephant Rider",
+      "tier": "Not recorded",
+      "weapons": "Not recorded",
+      "movement": "Mounted (elephant)",
+      "mastery": "Not recorded",
+      "note": "New mount type introduced by this game, listed among its classes.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Fortune's Weave",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "fandomNotes": "Unlocked when starting Part IIIRequires an Elepant License",
+      "fandomTier": "Advanced"
+    },
+    {
+      "id": "commoner",
+      "slug": "commoner",
+      "name": "Commoner",
+      "tier": "Base",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "None",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "noble",
+      "slug": "noble",
+      "name": "Noble",
+      "tier": "Base",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "None",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "armored-knight",
+      "slug": "armored-knight",
+      "name": "Armored Knight",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Great Counter",
+      "abilities": "Combate Arts +1; Strike-Last Def +3",
+      "certification": "Heavy Armor level at E+ or higher; Axe and Spear level at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "armored-ornius-rider",
+      "slug": "armored-ornius-rider",
+      "name": "Armored Ornius Rider",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Sense Threat",
+      "abilities": "Mount/Dismount",
+      "certification": "Riding level at D or Higher; Axe and Spear level at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "brigand",
+      "slug": "brigand",
+      "name": "Brigand",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Regroup",
+      "abilities": "Combat Arts +1; Axe Hit +3",
+      "certification": "Axe and Sword level at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "light-cavalry",
+      "slug": "light-cavalry",
+      "name": "Light Cavalry",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Bolster Health",
+      "abilities": "Mount/Dismount",
+      "certification": "Riding level at D or higher; Spear and Sword level at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "myrmidon",
+      "slug": "myrmidon",
+      "name": "Myrmidon",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Ravaging Arts",
+      "abilities": "Combat Arts +1; Sword Crit +3",
+      "certification": "Sword level at C or Higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "priest",
+      "slug": "priest",
+      "name": "Priest",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Piety",
+      "abilities": "White-Magic Seeker; Magic-Heal +5",
+      "certification": "White Magic level at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "pugilist",
+      "slug": "pugilist",
+      "name": "Pugilist",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Attack, Get Back",
+      "abilities": "Combat Arts +1; Brawl Avo +3",
+      "certification": "Gauntlets level at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "shaman",
+      "slug": "shaman",
+      "name": "Shaman",
+      "tier": "Specialty",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Bind Dexterity",
+      "abilities": "Black-Magic Seeker; Magic Hit +3",
+      "certification": "Black Magic level at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "bardinger",
+      "slug": "bardinger",
+      "name": "Bardinger",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Aegis",
+      "abilities": "Mount/Dismount; Combat Arts +2",
+      "certification": "Riding level at C or higher; Spear and Sword Skill at C or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "bishop",
+      "slug": "bishop",
+      "name": "Bishop",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Barrier",
+      "abilities": "White-Magic Seeker; Magic Heal +10",
+      "certification": "White Magic level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "cataphract",
+      "slug": "cataphract",
+      "name": "Cataphract",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Unlocked by completing \"Send Supplies: Landon Loach\" and \"Send Supplies: Steel Fish\" in Theodora's Path's chapter 9."
+    },
+    {
+      "id": "dancer",
+      "slug": "dancer",
+      "name": "Dancer",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Complete the \"Great Dancer's Successsor\" request in Leda's Path Chapter 9."
+    },
+    {
+      "id": "dreadnought",
+      "slug": "dreadnought",
+      "name": "Dreadnought",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Focused Counter",
+      "abilities": "Combat Arts +2; Strike-Last Def +5",
+      "certification": "Heavy Armor level at D or higher; Axe and Spear level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "forest-knight",
+      "slug": "forest-knight",
+      "name": "Forest Knight",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Hunter's Eye",
+      "abilities": "Mount/Dismount; Combat Arts +1; Bow Hit +5",
+      "certification": "Riding level at D or higher; Bow level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "guardian",
+      "slug": "guardian",
+      "name": "Guardian",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Brace",
+      "abilities": "Combat Art +2; Magic Heal +10",
+      "certification": "Spear level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Unlocked by completing the Il-Lara Headhunting contract in Dietrich's path or complete \"Send Supplies: Roca\" and \"Send Supplies: Kotha Gar\" requests in Theodora's Chapter 9."
+    },
+    {
+      "id": "ovate",
+      "slug": "ovate",
+      "name": "Ovate",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Bind Speed",
+      "abilities": "Black-Magic Seeker; Magic Hit +5",
+      "certification": "Black Magic level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "shido",
+      "slug": "shido",
+      "name": "Shido",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Ever Vigilant",
+      "abilities": "Combat Arts +2; Sword Crit +5",
+      "certification": "Sword level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sniper",
+      "slug": "sniper",
+      "name": "Sniper",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Marksmanship",
+      "abilities": "Combat Arts +2; Bow Hit +10",
+      "certification": "Bow level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "warrior",
+      "slug": "warrior",
+      "name": "Warrior",
+      "tier": "Advanced",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "Practiced Art",
+      "abilities": "Combat Arts +2; Axe Hit +5; Brawl Hit +5",
+      "certification": "Gauntlet; Axe and Sword level at B or higher",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "battlemaster",
+      "slug": "battlemaster",
+      "name": "Battlemaster",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "bau-lord",
+      "slug": "bau-lord",
+      "name": "Bau Lord",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "bow-adept",
+      "slug": "bow-adept",
+      "name": "Bow Adept",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "bow-knight",
+      "slug": "bow-knight",
+      "name": "Bow Knight",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "castle-knight",
+      "slug": "castle-knight",
+      "name": "Castle Knight",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "celestial-trooper",
+      "slug": "celestial-trooper",
+      "name": "Celestial Trooper",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Female only"
+    },
+    {
+      "id": "druid",
+      "slug": "druid",
+      "name": "Druid",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "great-knight",
+      "slug": "great-knight",
+      "name": "Great Knight",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "high-savant",
+      "slug": "high-savant",
+      "name": "High Savant",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "orichaldia",
+      "slug": "orichaldia",
+      "name": "Orichaldia",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sentinel",
+      "slug": "sentinel",
+      "name": "Sentinel",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "shadow-seeker",
+      "slug": "shadow-seeker",
+      "name": "Shadow Seeker",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "swordmaster",
+      "slug": "swordmaster",
+      "name": "Swordmaster",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "valkyrium",
+      "slug": "valkyrium",
+      "name": "Valkyrium",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "war-monk",
+      "slug": "war-monk",
+      "name": "War Monk",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "wiseman",
+      "slug": "wiseman",
+      "name": "Wiseman",
+      "tier": "Master",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-apsara",
+      "slug": "the-apsara",
+      "name": "The Apsara",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-avatar",
+      "slug": "the-avatar",
+      "name": "The Avatar",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-blade",
+      "slug": "the-blade",
+      "name": "The Blade",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-calamity",
+      "slug": "the-calamity",
+      "name": "The Calamity",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-cavalier",
+      "slug": "the-cavalier",
+      "name": "The Cavalier",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-eternal",
+      "slug": "the-eternal",
+      "name": "The Eternal",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-godhand",
+      "slug": "the-godhand",
+      "name": "The Godhand",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-trident",
+      "slug": "the-trident",
+      "name": "The Trident",
+      "tier": "Divine",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "sea-beast",
+      "slug": "sea-beast",
+      "name": "Sea Beast",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "mummy",
+      "slug": "mummy",
+      "name": "Mummy",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "skellion",
+      "slug": "skellion",
+      "name": "Skellion",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "the-brandisher",
+      "slug": "the-brandisher",
+      "name": "The Brandisher",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Mars only"
+    },
+    {
+      "id": "the-skyblotter",
+      "slug": "the-skyblotter",
+      "name": "The Skyblotter",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Dagda only"
+    },
+    {
+      "id": "the-beckoner",
+      "slug": "the-beckoner",
+      "name": "The Beckoner",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Lyrah only"
+    },
+    {
+      "id": "flesh-pod",
+      "slug": "flesh-pod",
+      "name": "Flesh Pod",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Lyrah only"
+    },
+    {
+      "id": "the-darkest-dark",
+      "slug": "the-darkest-dark",
+      "name": "The Darkest Dark",
+      "tier": "Enemy Only",
+      "weapons": "",
+      "movement": "",
+      "growths": "",
+      "modifiers": "",
+      "mastery": "",
+      "abilities": "",
+      "certification": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of classes",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_classes_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "Balor only"
+    }
+  ]
+}

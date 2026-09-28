@@ -12,10 +12,12 @@
     "lint": "eslint .",
     "gen-dates": "node scripts/gen-content-dates.mjs",
     "audit": "npm run postbuild",
+    "audit:nav": "node scripts/audit-header-footer.mjs",
     "audit:data": "node scripts/audit-data.mjs",
     "audit:drift": "node scripts/audit-data-drift.mjs",
     "audit:media": "node scripts/audit-media-integrity.mjs",
     "audit:trends": "node scripts/audit-trend-coverage.mjs",
+    "build:icons": "node scripts/build-favicons.mjs",
     "submit-indexnow": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {

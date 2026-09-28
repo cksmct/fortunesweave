@@ -1,0 +1,1141 @@
+{
+  "_comment": "Boons of Salvation: 31 recorded boons across four groups. Six of them are discounts on the blessings of named gods, which is the only place in the record where those gods appear by name.",
+  "_mechanics": {
+    "what": "Boons of Salvation are permanent, account-wide upgrades bought with Karma Shards at the Shrine of Causality.",
+    "scope": "They apply across all four Part I routes, which is what makes them a long-term investment rather than a route upgrade.",
+    "toggling": "A boon can be switched on and off once unlocked. Toggling is not the same as buying again.",
+    "unlocks": "The tier requirements below are the source~s own estimates rather than confirmed figures, and it says so on the page it publishes them on.",
+    "shardUse": "Karma Shards have two uses: buying boons, and Merge Causality from Part III onwards. Once every boon is unlocked, extra shards have nowhere to go but a merge.",
+    "refunds": "Whether shards spent on a merge come back on a restart is not recorded anywhere, so the safe reading is that they do not."
+  },
+  "_openGaps": [
+    "Fifteen of the thirty-one boons have no published price at all.",
+    "No second or third tier has a published price anywhere, so a full unlock total cannot be calculated. The sixteen known first tiers add up to about 5,000 Karma Shards.",
+    "Whether a boon can be bought more than once is not recorded.",
+    "Whether shards are refunded on a restart is not recorded."
+  ],
+  "boons": [
+    {
+      "id": "increase-exp",
+      "slug": "increase-exp",
+      "name": "Increase EXP",
+      "category": "Experience",
+      "tiers": [
+        "10%",
+        "30% (one Part I route completed)",
+        "50% (three routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 500,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-class-exp",
+      "slug": "increase-class-exp",
+      "name": "Increase Class EXP",
+      "category": "Experience",
+      "tiers": [
+        "+1 (one route completed)",
+        "+2 (three routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "increase-sword-exp",
+      "slug": "increase-sword-exp",
+      "name": "Increase Sword EXP",
+      "category": "Weapon experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-spear-exp",
+      "slug": "increase-spear-exp",
+      "name": "Increase Spear EXP",
+      "category": "Weapon experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-axe-exp",
+      "slug": "increase-axe-exp",
+      "name": "Increase Axe EXP",
+      "category": "Weapon experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-bow-exp",
+      "slug": "increase-bow-exp",
+      "name": "Increase Bow EXP",
+      "category": "Weapon experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-brawling-exp",
+      "slug": "increase-brawling-exp",
+      "name": "Increase Brawling EXP",
+      "category": "Weapon experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-black-magic-exp",
+      "slug": "increase-black-magic-exp",
+      "name": "Increase Black-Magic EXP",
+      "category": "Weapon experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-white-magic-exp",
+      "slug": "increase-white-magic-exp",
+      "name": "Increase White-Magic EXP",
+      "category": "Weapon experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-infantry-exp",
+      "slug": "increase-infantry-exp",
+      "name": "Increase Infantry EXP",
+      "category": "Unit experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-rider-exp",
+      "slug": "increase-rider-exp",
+      "name": "Increase Rider EXP",
+      "category": "Unit experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-heavy-exp",
+      "slug": "increase-heavy-exp",
+      "name": "Increase Heavy EXP",
+      "category": "Unit experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-flier-exp",
+      "slug": "increase-flier-exp",
+      "name": "Increase Flier EXP",
+      "category": "Unit experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "increase-authority-exp",
+      "slug": "increase-authority-exp",
+      "name": "Increase Authority EXP",
+      "category": "Unit experience",
+      "tiers": [
+        "+1",
+        "+2 (one route completed)",
+        "+3 (two routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "weapons-discount",
+      "slug": "weapons-discount",
+      "name": "Weapons Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "10% (one route completed)",
+        "30% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "items-discount",
+      "slug": "items-discount",
+      "name": "Items Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "10% (one route completed)",
+        "30% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "gifts-discount",
+      "slug": "gifts-discount",
+      "name": "Gifts Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "10% (one route completed)",
+        "30% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": 300,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "room-discount",
+      "slug": "room-discount",
+      "name": "Room Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "20% (one route completed)",
+        "40% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "meals-discount",
+      "slug": "meals-discount",
+      "name": "Meals Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "20% (one route completed)",
+        "40% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "theater-discount",
+      "slug": "theater-discount",
+      "name": "Theater Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "20% (one route completed)",
+        "40% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "thermae-discount",
+      "slug": "thermae-discount",
+      "name": "Thermae Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "20% (one route completed)",
+        "40% (source prints the same requirement for both tiers)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "blacksmith-discount",
+      "slug": "blacksmith-discount",
+      "name": "Blacksmith Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "10% (one route completed)",
+        "20% (two routes completed)",
+        "30% (three routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "carriage-discount",
+      "slug": "carriage-discount",
+      "name": "Carriage Discount",
+      "category": "Shop discount",
+      "tiers": [
+        "20% (one route completed)",
+        "40% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "dungeon-evasion",
+      "slug": "dungeon-evasion",
+      "name": "Dungeon Evasion",
+      "category": "Dungeon",
+      "tiers": [
+        "Reduces how long enemies chase you in a dungeon"
+      ],
+      "tierCount": 1,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "rich-deposits",
+      "slug": "rich-deposits",
+      "name": "Rich Deposits",
+      "category": "Dungeon",
+      "tiers": [
+        "10% (one route completed)",
+        "20% (two routes completed)",
+        "30% (three routes completed)"
+      ],
+      "tierCount": 3,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "aurora-s-blessing-discount",
+      "slug": "aurora-s-blessing-discount",
+      "name": "Aurora's Blessing Discount",
+      "category": "Blessing discount",
+      "tiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "mars-s-blessing-discount",
+      "slug": "mars-s-blessing-discount",
+      "name": "Mars's Blessing Discount",
+      "category": "Blessing discount",
+      "tiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "smyrnos-s-blessing-discount",
+      "slug": "smyrnos-s-blessing-discount",
+      "name": "Smyrnos's Blessing Discount",
+      "category": "Blessing discount",
+      "tiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "jurah-s-blessing-discount",
+      "slug": "jurah-s-blessing-discount",
+      "name": "Jurah's Blessing Discount",
+      "category": "Blessing discount",
+      "tiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "kalla-s-blessing-discount",
+      "slug": "kalla-s-blessing-discount",
+      "name": "Kalla's Blessing Discount",
+      "category": "Blessing discount",
+      "tiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    },
+    {
+      "id": "credna-s-blessing-discount",
+      "slug": "credna-s-blessing-discount",
+      "name": "Credna's Blessing Discount",
+      "category": "Blessing discount",
+      "tiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "tierCount": 2,
+      "firstTierPrice": null,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Boons of Salvation",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Fortune~s Weave guide",
+          "url": "https://www.rpgsite.net/guide/21395",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The source publishes no price for this boon."
+    }
+  ],
+  "blessings": [
+    {
+      "id": "aurora-s-blessing",
+      "slug": "aurora-s-blessing",
+      "name": "Aurora's Blessing",
+      "discountTiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "note": "Shares its name with Cai's mother, who is recorded as an Aubin bearer. No source states whether the two are connected, so the blessing is listed here on its own.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "mars-s-blessing",
+      "slug": "mars-s-blessing",
+      "name": "Mars's Blessing",
+      "discountTiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "note": "Recorded as a blessing whose discount is sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "smyrnos-s-blessing",
+      "slug": "smyrnos-s-blessing",
+      "name": "Smyrnos's Blessing",
+      "discountTiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "note": "Smyrnos also names the shrine where Combat Arts are strengthened, and the crown of Smyrnos is the Dagdan name of Macuil's Diadem.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "jurah-s-blessing",
+      "slug": "jurah-s-blessing",
+      "name": "Jurah's Blessing",
+      "discountTiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "note": "Recorded as a blessing whose discount is sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "kalla-s-blessing",
+      "slug": "kalla-s-blessing",
+      "name": "Kalla's Blessing",
+      "discountTiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "note": "Recorded as a blessing whose discount is sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "credna-s-blessing",
+      "slug": "credna-s-blessing",
+      "name": "Credna's Blessing",
+      "discountTiers": [
+        "20% (one route completed)",
+        "50% (two routes completed)"
+      ],
+      "note": "Recorded as a blessing whose discount is sold at the Shrine of Causality.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Boons of Salvation",
+          "url": "https://fortunesweave.co.uk/wiki/boons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}

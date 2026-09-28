@@ -1,0 +1,773 @@
+{
+  "_comment": "Core systems and the full recorded Blaze Art list: 6 systems, 9 characters with Blaze Arts, and 25 named Arts. Art names are grouped by type because the three types fill their meters differently.",
+  "_mechanics": {
+    "blazeTypes": "Celestial Wells belong to Mediators, Underworld Arts come from a character's cursed object, and Automaton Arts belong to Automations. No Automaton Arts are recorded in the source yet.",
+    "meter": "Arts fill a Blaze Meter: half full grants Overblaze, which raises stats and unlocks certain Arts, and a completely full meter triggers a Burst that halves maximum HP for the rest of the battle.",
+    "cost": "Blaze Arts are paid for with HP instead of weapon durability, and the HP cost varies between Arts.",
+    "rewind": "Fortuna's Blessing is the turn-rewinding mechanic, supplied as Divine Sand in limited quantity.",
+    "clash": "Clash replaces the grid with a shared party HP pool, and linking two characters for an action costs Link Points."
+  },
+  "systems": [
+    {
+      "id": "free-time",
+      "slug": "free-time",
+      "name": "Free Time",
+      "category": "Between battles",
+      "summary": "Preparation time before a Main Battle, measured in Turns.",
+      "details": [
+        "One Turn equals six in-game hours, and the deadline before the next chapter battle is expressed as a number of Turns.",
+        "Exploring Dagsion covers the Shopping Arcade for weapons and items, weekly access to a training facility, and spectating other teams in the Heroic Games.",
+        "Inns are where meals are shared, units rest, time is passed, and support conversations happen; an auto mode can run the chores to build levels and gather resources."
+      ],
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "main-battles",
+      "slug": "main-battles",
+      "name": "Main Battles",
+      "category": "Between battles",
+      "summary": "The chapter-equivalent stages of the Heroic Games.",
+      "details": [
+        "A stat card previews each Main Battle with information and recommendations for preparing units.",
+        "The same card states the Turn limit allowed before the battle has to begin.",
+        "Main Battles are staged in the Grand Arena, and the layouts are drawn from historical battles in Dagda's history."
+      ],
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "tactical-combat",
+      "slug": "tactical-combat",
+      "name": "Tactical combat",
+      "category": "Combat",
+      "summary": "The primary battle system, inherited from the series.",
+      "details": [
+        "Weapon types replace the weapon triangle with individual baseline mechanics.",
+        "Combat Arts are available to units that carry the weapon which unlocks them."
+      ],
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "clash",
+      "slug": "clash",
+      "name": "Clash",
+      "category": "Combat",
+      "summary": "The secondary combat system used in dungeons and in specific story events.",
+      "details": [
+        "Closer to a party-based turn-based RPG than a grid battle, used inside dungeons.",
+        "The party shares one collective HP total; reducing it to zero forces an evacuation from the dungeon.",
+        "The command menu covers Attack, Combat Arts, and a Link command that pairs two characters for an action such as attacking or healing.",
+        "Linking is paid for with a separate resource, Link Points.",
+        "Combat can be skipped and resolved automatically."
+      ],
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "blaze-arts",
+      "slug": "blaze-arts",
+      "name": "Blaze Arts",
+      "category": "Combat",
+      "summary": "Character-specific Combat Arts paid for with HP rather than weapon durability.",
+      "details": [
+        "Nine characters have Blaze Arts, and each Art consumes a portion of the user's HP that varies per Art.",
+        "Performing Arts fills a Blaze Meter: half full triggers Overblaze, which boosts stats and unlocks certain Arts.",
+        "A completely full meter triggers a Burst, which empties the gauge but halves the user's maximum HP for the remainder of the battle.",
+        "The three types are Celestial Wells (Mediators), Underworld (cursed object users) and Automaton (Automations).",
+        "Celestial Wells fill the gauge even with ordinary attacks and are reduced by cursed weapons; Underworld Arts come from the character's cursed object and are fuelled by them."
+      ],
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "fortuna-s-blessing",
+      "slug": "fortuna-s-blessing",
+      "name": "Fortuna's Blessing",
+      "category": "Rewind",
+      "summary": "The turn-rewinding mechanic, granted through Divine Sand.",
+      "details": [
+        "Fortuna gives Eshmel a pouch of Divine Sand, which turns back time; the supply is limited in both quantity and how far it reaches.",
+        "Each Flame Lord receives a pouch as part of the plan to change their fates, and the handovers happen at different points in the chronology.",
+        "Leda receives hers in 1444 during the Cydonia Massacre as she retrieves Obsidian; Cai receives his on 01/24/1449 at a shrine to Fortuna after a pure white Ornius drags him there; Dietrich receives his shortly after arriving in Dagda and allying with Fabio; Theodora receives hers shortly after learning of the attempt to speed up Dyan's coronation."
+      ],
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Fortuna's Blessing",
+          "url": "https://fireemblem.fandom.com/wiki/Fortuna%27s_Blessing",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    }
+  ],
+  "blazeUsers": [
+    {
+      "id": "eshmel-blaze",
+      "slug": "eshmel-blaze",
+      "name": "Eshmel",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Leader's Heart Core",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "anatolia-blaze",
+      "slug": "anatolia-blaze",
+      "name": "Anatolia",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Seven-Star Engine",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-blaze",
+      "slug": "cai-blaze",
+      "name": "Cai",
+      "blazeType": "Underworld",
+      "blazeSource": "Red Jewel",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-blaze",
+      "slug": "dietrich-blaze",
+      "name": "Dietrich",
+      "blazeType": "Underworld",
+      "blazeSource": "Ink-Black Wen",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-blaze",
+      "slug": "theodora-blaze",
+      "name": "Theodora",
+      "blazeType": "Underworld",
+      "blazeSource": "Mahadu's Right Arm",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-blaze",
+      "slug": "leda-blaze",
+      "name": "Leda",
+      "blazeType": "Underworld",
+      "blazeSource": "Obsidian",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "talimun-blaze",
+      "slug": "talimun-blaze",
+      "name": "Talimun",
+      "blazeType": "Underworld",
+      "blazeSource": "Dhaba's Compass",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bertrand-blaze",
+      "slug": "bertrand-blaze",
+      "name": "Bertrand",
+      "blazeType": "Underworld",
+      "blazeSource": "Bloodaxe Curse",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "maria-blaze",
+      "slug": "maria-blaze",
+      "name": "Maria",
+      "blazeType": "Underworld",
+      "blazeSource": "Moonstone",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The source repeats Leda's name on this line while heading it with Maria, which conflicts with the Leda entry above; the Moonstone attribution is recorded exactly as written rather than corrected."
+    }
+  ],
+  "blazeArts": [
+    {
+      "id": "eshmel-purifying-flash",
+      "slug": "purifying-flash",
+      "name": "Purifying Flash",
+      "owner": "Eshmel",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Leader's Heart Core",
+      "effect": "Pierces foes with a spear of holy light. Effective against undead.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "anatolia-dragon-strike-i",
+      "slug": "dragon-strike-i",
+      "name": "Dragon Strike I",
+      "owner": "Anatolia",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Seven-Star Engine",
+      "effect": "Unleashes force refined within the body as an area attack. Can destroy obstacles.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "anatolia-dragon-strike-ii",
+      "slug": "dragon-strike-ii",
+      "name": "Dragon Strike II",
+      "owner": "Anatolia",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Seven-Star Engine",
+      "effect": "Unleashes force refined within the body as an area attack. Can destroy obstacles.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "anatolia-dragon-strike-iii",
+      "slug": "dragon-strike-iii",
+      "name": "Dragon Strike III",
+      "owner": "Anatolia",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Seven-Star Engine",
+      "effect": "Unleashes force refined within the body as an area attack. Can destroy obstacles.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "anatolia-shining-dragon-strike",
+      "slug": "shining-dragon-strike",
+      "name": "Shining Dragon Strike",
+      "owner": "Anatolia",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Seven-Star Engine",
+      "effect": "Area attacks that damage all foes in range and destroy obstacles; the affected area grows with each tier.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "anatolia-dragon-rotation",
+      "slug": "dragon-rotation",
+      "name": "Dragon Rotation",
+      "owner": "Anatolia",
+      "blazeType": "Celestial Wells",
+      "blazeSource": "Seven-Star Engine",
+      "effect": "Unleashes a spiral of energy. Can destroy obstacles.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-underworld-burst",
+      "slug": "underworld-burst",
+      "name": "Underworld Burst",
+      "owner": "Cai",
+      "blazeType": "Underworld",
+      "blazeSource": "Red Jewel",
+      "effect": "Fires a blast from the gem in his palm for long-range area damage. During Overblaze it leaves Underworld Flames that damage enemies standing on them.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-blackfire",
+      "slug": "blackfire",
+      "name": "Blackfire",
+      "owner": "Cai",
+      "blazeType": "Underworld",
+      "blazeSource": "Red Jewel",
+      "effect": "Fires a cone of dark fire. During Overblaze it leaves Underworld Flames that damage enemies standing on them.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-underworld-inferno",
+      "slug": "underworld-inferno",
+      "name": "Underworld Inferno",
+      "owner": "Cai",
+      "blazeType": "Underworld",
+      "blazeSource": "Red Jewel",
+      "effect": "Available only during Overblaze. Fires a blast of dark fire along a straight line with a circular area at the end, leaving Underworld Flames behind.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-moving-shadow",
+      "slug": "moving-shadow",
+      "name": "Moving Shadow",
+      "owner": "Dietrich",
+      "blazeType": "Underworld",
+      "blazeSource": "Ink-Black Wen",
+      "effect": "Warp up to three spaces after moving, then attack.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-stifling-shadow",
+      "slug": "stifling-shadow",
+      "name": "Stifling Shadow",
+      "owner": "Dietrich",
+      "blazeType": "Underworld",
+      "blazeSource": "Ink-Black Wen",
+      "effect": "Warp up to three spaces after moving, immobilising enemies within two spaces.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-umbra-calamity",
+      "slug": "umbra-calamity",
+      "name": "Umbra Calamity",
+      "owner": "Dietrich",
+      "blazeType": "Underworld",
+      "blazeSource": "Ink-Black Wen",
+      "effect": "Effect not recorded in the source checked.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The source lists this Art without recording what it does yet."
+    },
+    {
+      "id": "theodora-earthen-throw",
+      "slug": "earthen-throw",
+      "name": "Earthen Throw",
+      "owner": "Theodora",
+      "blazeType": "Underworld",
+      "blazeSource": "Mahadu's Right Arm",
+      "effect": "Pitches a chunk of rock straight at a foe.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-earthen-hurl",
+      "slug": "earthen-hurl",
+      "name": "Earthen Hurl",
+      "owner": "Theodora",
+      "blazeType": "Underworld",
+      "blazeSource": "Mahadu's Right Arm",
+      "effect": "Lobs a boulder ripped from the ground at an area of enemies.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-song-of-beasts",
+      "slug": "song-of-beasts",
+      "name": "Song of Beasts",
+      "owner": "Leda",
+      "blazeType": "Underworld",
+      "blazeSource": "Obsidian",
+      "effect": "Summons a Demonic Beast. Once per map.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-song-of-madness",
+      "slug": "song-of-madness",
+      "name": "Song of Madness",
+      "owner": "Leda",
+      "blazeType": "Underworld",
+      "blazeSource": "Obsidian",
+      "effect": "Effect not recorded in the source checked.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The source lists this Art without recording what it does yet."
+    },
+    {
+      "id": "leda-song-of-passion",
+      "slug": "song-of-passion",
+      "name": "Song of Passion",
+      "owner": "Leda",
+      "blazeType": "Underworld",
+      "blazeSource": "Obsidian",
+      "effect": "Grants Strength +4 and Magic +4 to all allies in range for one turn; upgradable for larger boosts.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-song-of-icewater",
+      "slug": "song-of-icewater",
+      "name": "Song of Icewater",
+      "owner": "Leda",
+      "blazeType": "Underworld",
+      "blazeSource": "Obsidian",
+      "effect": "Grants Defence +4 and Resistance +4 to all allies in range for one turn; upgradable for larger boosts.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-song-of-abjuring",
+      "slug": "song-of-abjuring",
+      "name": "Song of Abjuring",
+      "owner": "Leda",
+      "blazeType": "Underworld",
+      "blazeSource": "Obsidian",
+      "effect": "Grants effectiveness against undead to all allies in range for one turn.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "talimun-collapsing-curse",
+      "slug": "collapsing-curse",
+      "name": "Collapsing Curse",
+      "owner": "Talimun",
+      "blazeType": "Underworld",
+      "blazeSource": "Dhaba's Compass",
+      "effect": "Inflicts Numb for one combat or one turn, halving Hit. The area grows during Overblaze.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "talimun-slowing-curse",
+      "slug": "slowing-curse",
+      "name": "Slowing Curse",
+      "owner": "Talimun",
+      "blazeType": "Underworld",
+      "blazeSource": "Dhaba's Compass",
+      "effect": "Inflicts Slow for one combat or one turn, halving attack speed. The area grows during Overblaze.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "talimun-unlucky-curse",
+      "slug": "unlucky-curse",
+      "name": "Unlucky Curse",
+      "owner": "Talimun",
+      "blazeType": "Underworld",
+      "blazeSource": "Dhaba's Compass",
+      "effect": "Inflicts Jinx for one combat or one turn, halving Luck. The area grows during Overblaze.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bertrand-ruler-s-awakening",
+      "slug": "ruler-s-awakening",
+      "name": "Ruler's Awakening",
+      "owner": "Bertrand",
+      "blazeType": "Underworld",
+      "blazeSource": "Bloodaxe Curse",
+      "effect": "Grants Hit +50 until the next phase; the unit can attack after using it.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bertrand-flash-awakening",
+      "slug": "flash-awakening",
+      "name": "Flash Awakening",
+      "owner": "Bertrand",
+      "blazeType": "Underworld",
+      "blazeSource": "Bloodaxe Curse",
+      "effect": "Grants Protection +10 until the unit's next phase; the unit can attack after using it.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bertrand-reason-awakening",
+      "slug": "reason-awakening",
+      "name": "Reason Awakening",
+      "owner": "Bertrand",
+      "blazeType": "Underworld",
+      "blazeSource": "Bloodaxe Curse",
+      "effect": "Grants Resistance +10 until the unit's next phase; the unit can attack after using it.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Blaze Art",
+          "url": "https://fireemblem.fandom.com/wiki/Blaze_Art",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ]
+}

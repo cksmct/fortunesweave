@@ -1,0 +1,278 @@
+{
+  "_comment": "Gambits and battalions, the Theodora route talent: 12 recorded mechanics plus the Renown perks. The named battalions and the gambit effects are deliberately absent because no source checked has recorded any of them, and inventing a roster would be the one thing that makes this page useless.",
+  "_mechanics": [
+    {
+      "key": "availability",
+      "value": "Gambits and battalions are Theodora's route talent: the command and the units belong to her and her allies, and the other three Flame Lords get their own systems instead.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "recruit",
+      "value": "Battalions are recruited from settlement nodes on the world map with her Recruit Soldiers action, and the recruits arrive after some time rather than instantly.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Gambits and Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/gambits-and-battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "equip",
+      "value": "A battalion has to be assigned in the inventory menu before the Gambit command appears on that unit at all, and a unit holds one battalion at a time.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "eligibility",
+      "value": "Only infantry can hold a battalion. Mounted units, whether on a horse, an Ornius or a flying mount, can never use one.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "authority",
+      "value": "A unit can only equip battalions at or below its own Authority skill level. Battalions do not display an authority value of their own, so the gate is entirely on the unit side.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "gambitCondition",
+      "value": "Each battalion's gambit carries a fixed spatial requirement relative to its target, and the condition has to be met exactly before the option appears in the action list.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "clashExcluded",
+      "value": "Gambits cannot be used during the turn-based Clashes fought inside dungeons.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "charm",
+      "value": "Charm raises how effective a gambit is, which makes Theodora and Bonaventure the natural picks for a gambit-driven build.",
+      "grade": "cross-checked",
+      "note": "Two independent publications describe the Charm interaction.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "IGN - Theodora~s Path",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Theodora%27s_Path",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "deployment",
+      "value": "Battalions can also be stationed at Search nodes on the world map or in dungeons, where they gather materials unattended. Cleric-type battalions favour resource nodes and mage-type battalions favour ore.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "rousingSpeech",
+      "value": "From Renown 5, a Rousing Speech can optionally follow Recruit Soldiers at the same settlement to bias the remaining pool towards higher-rank battalions. Success clears most or all of the low-rank pool; failure still removes a few of them temporarily.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "recruitingDrive",
+      "value": "When a Recruiting Drive appears in place of Recruit Soldiers, it combines the recruitment and the speech into a single action.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "surplus",
+      "value": "Surplus battalions handed to the Transport Chief convert into troop points, more per higher rank, and 100 troop points buy one Tactics Manual. The Transport Chief unlocks in Theodora's Part I at Chapter 7.",
+      "grade": "community-reported",
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - How to Use Gambits and Battalions",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282",
+          "date": "2026-09-28"
+        }
+      ]
+    }
+  ],
+  "_openGaps": [
+    "No battalion roster: the sources state that no individual battalion has been documented anywhere yet.",
+    "No gambit list: only the positional rule is described, never a named gambit or its numbers.",
+    "No deployment caps: the Renown perks promise more simultaneous deployments without stating a figure.",
+    "No costs or per-settlement rosters: neither the gold cost of recruitment nor the fixed pool of a specific town is recorded.",
+    "No troop point conversion: how many points each battalion rank is worth is not recorded."
+  ],
+  "renownPerks": [
+    {
+      "id": "renown-5",
+      "slug": "renown-5",
+      "level": 5,
+      "effect": "Unlocks the Rousing Speech option on the world map, improves the quality of battalions produced by Recruit Soldiers, and raises how many battalions can be deployed at once.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The community write-up marks every Renown perk as unverified."
+    },
+    {
+      "id": "renown-7",
+      "slug": "renown-7",
+      "level": 7,
+      "effect": "Improves Recruit Soldiers quality again and raises the simultaneous deployment count again.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The community write-up marks every Renown perk as unverified."
+    },
+    {
+      "id": "renown-9",
+      "slug": "renown-9",
+      "level": 9,
+      "effect": "The same two improvements a third time.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Battalions",
+          "url": "https://fortunesweave.co.uk/wiki/battalions",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "The community write-up marks every Renown perk as unverified."
+    }
+  ]
+}

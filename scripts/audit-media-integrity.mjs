@@ -171,6 +171,23 @@ function extractComponentEmbeds(content) {
 }
 
 /** 解析数据数组 / JSON-LD 中的 YouTube URL（对象边界内配对 title） */
+/**
+ * 判断某个下标是否落在 sources[] 数组内部。
+ * 立项动机：sources[].url 指向的 YouTube 链接是「来源引用」，不是「嵌入播放器」；
+ * 同一个来源被多个页面引用是正确行为，只有跨页重复嵌入才是缺陷。
+ * 本函数让媒体门禁不再把引用误判为重复嵌入。
+ */
+function isInsideSourcesArray(content, index) {
+  const before = content.slice(0, index);
+  const open = Math.max(before.lastIndexOf("sources"), before.lastIndexOf("source"));
+  if (open < 0) return false;
+  const tail = content.slice(open, open + 600);
+  const arrayStart = tail.indexOf("[");
+  if (arrayStart < 0) return false;
+  const arrayEnd = content.indexOf("]", open + arrayStart);
+  return arrayEnd > index;
+}
+
 function extractDataEmbeds(content, componentIds, tagSpans) {
   const out = [];
   YT_URL_RE.lastIndex = 0;
@@ -180,6 +197,8 @@ function extractDataEmbeds(content, componentIds, tagSpans) {
     // 已由组件形式覆盖（含跨行标签内部的 URL）→ 跳过，避免重复计数与错误配对
     if (componentIds.has(videoId)) continue;
     if (tagSpans.some((s) => m.index >= s.tagStart && m.index <= s.tagEnd)) continue;
+    // 来源引用不是嵌入：sources[] 内的 YouTube URL 不参与重复判定
+    if (isInsideSourcesArray(content, m.index)) continue;
     const span = objectSpanAt(content, m.index);
     out.push({
       videoId,

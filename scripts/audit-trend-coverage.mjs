@@ -68,6 +68,11 @@ function expandGlob(pattern) {
   return results;
 }
 
+function toRegExp(query) {
+  const match = /^\/([\s\S]*)\/([a-z]*)$/.exec(query);
+  if (match) return new RegExp(match[1], match[2]);
+  return new RegExp(query.replace(/[.*+?^${}()|[\]\\\\]/g, "\\\\$&"), "i");
+}
 for (const kw of config.keywords || []) {
   const { query, target, min = 1 } = kw;
   const files = expandGlob(target);
@@ -75,8 +80,8 @@ for (const kw of config.keywords || []) {
     warnings.push(`[${query}] 目标文件不存在或未匹配: ${target}`);
     continue;
   }
-  const re = query.startsWith('/') && query.endsWith('/')
-    ? new RegExp(query.slice(1, -1))
+  const re = /^\/([\s\S]*)\/[a-z]*$/.test(query)
+    ? toRegExp(query)
     : new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
 
   let hitCount = 0;

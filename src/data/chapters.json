@@ -1,0 +1,1406 @@
+{
+  "_comment": "Chapter list covering 62 numbered chapters across 7 narrative groups, plus 9 paralogues. Paralogues are unnumbered and can be missed once the story moves past their window, which is why each one carries its route restriction here.",
+  "_mechanics": {
+    "structure": "A two-chapter prologue, then Part I in which each of the four Flame Lords has a twelve-chapter path, then Part II with six chapters and Part III with six.",
+    "obelisks": "Each Flame Lord leads an Obelisk army: Fox is Cai, Lion is Dietrich, Wolf is Theodora and Eagle is Leda. Strife is the Part II war army.",
+    "paralogues": "Paralogues carry no chapter number, need at least one specific character from their cast in your army during Part 1, and can be missed if the story moves past their window.",
+    "routeLocks": "Some paralogues are locked to particular paths, for example Lion and Wolf only, so a single playthrough cannot see all of them."
+  },
+  "_parts": {
+    "Prologue: Descent": 2,
+    "Part I: Cai's Path": 12,
+    "Part I: Dietrich's Path": 12,
+    "Part I: Theodora's Path": 12,
+    "Part I: Leda's Path": 12,
+    "Part II: War": 6,
+    "Part III: Salvation": 6
+  },
+  "chapters": [
+    {
+      "id": "prologue-descent-ch1",
+      "slug": "prologue-descent-ch1",
+      "sequence": 1,
+      "number": 1,
+      "name": "The White Bird",
+      "part": "Prologue: Descent",
+      "pathOwner": "",
+      "army": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "prologue-descent-ch2",
+      "slug": "prologue-descent-ch2",
+      "sequence": 2,
+      "number": 2,
+      "name": "The Ruined Land",
+      "part": "Prologue: Descent",
+      "pathOwner": "",
+      "army": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch1",
+      "slug": "cai-ch1",
+      "sequence": 3,
+      "number": 1,
+      "name": "Uproar in Ribeira",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch2",
+      "slug": "cai-ch2",
+      "sequence": 4,
+      "number": 2,
+      "name": "Road to the Capital",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch3",
+      "slug": "cai-ch3",
+      "sequence": 5,
+      "number": 3,
+      "name": "Partings and Hopes",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch4",
+      "slug": "cai-ch4",
+      "sequence": 6,
+      "number": 4,
+      "name": "Festival of the Strong",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch5",
+      "slug": "cai-ch5",
+      "sequence": 7,
+      "number": 5,
+      "name": "Cai's Battle",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch6",
+      "slug": "cai-ch6",
+      "sequence": 8,
+      "number": 6,
+      "name": "To the Land of Cybele",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch7",
+      "slug": "cai-ch7",
+      "sequence": 9,
+      "number": 7,
+      "name": "Opposed Agendas",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch8",
+      "slug": "cai-ch8",
+      "sequence": 10,
+      "number": 8,
+      "name": "Unyielding Feelings",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch9",
+      "slug": "cai-ch9",
+      "sequence": 11,
+      "number": 9,
+      "name": "Mystery at Aurora's Temple",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch10",
+      "slug": "cai-ch10",
+      "sequence": 12,
+      "number": 10,
+      "name": "Precious Time",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch11",
+      "slug": "cai-ch11",
+      "sequence": 13,
+      "number": 11,
+      "name": "Dagda's Cauldron",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "cai-ch12",
+      "slug": "cai-ch12",
+      "sequence": 14,
+      "number": 12,
+      "name": "Just One Wish",
+      "part": "Part I: Cai's Path",
+      "pathOwner": "Cai",
+      "army": "Fox Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch1",
+      "slug": "dietrich-ch1",
+      "sequence": 15,
+      "number": 1,
+      "name": "A Stranger Comes to Dagda",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch2",
+      "slug": "dietrich-ch2",
+      "sequence": 16,
+      "number": 2,
+      "name": "Sacrifice and Strife",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch3",
+      "slug": "dietrich-ch3",
+      "sequence": 17,
+      "number": 3,
+      "name": "The Grand Megalith",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch4",
+      "slug": "dietrich-ch4",
+      "sequence": 18,
+      "number": 4,
+      "name": "Brute Force",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch5",
+      "slug": "dietrich-ch5",
+      "sequence": 19,
+      "number": 5,
+      "name": "The Essence of a Warrior",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch6",
+      "slug": "dietrich-ch6",
+      "sequence": 20,
+      "number": 6,
+      "name": "Instinct and Reason",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch7",
+      "slug": "dietrich-ch7",
+      "sequence": 21,
+      "number": 7,
+      "name": "Gazing at the Rose Moon",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch8",
+      "slug": "dietrich-ch8",
+      "sequence": 22,
+      "number": 8,
+      "name": "Cetus, the Sea Tyrant",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch9",
+      "slug": "dietrich-ch9",
+      "sequence": 23,
+      "number": 9,
+      "name": "The Legend of the White Egg",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch10",
+      "slug": "dietrich-ch10",
+      "sequence": 24,
+      "number": 10,
+      "name": "The Mediator of Nuwa",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch11",
+      "slug": "dietrich-ch11",
+      "sequence": 25,
+      "number": 11,
+      "name": "Twisted Love",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dietrich-ch12",
+      "slug": "dietrich-ch12",
+      "sequence": 26,
+      "number": 12,
+      "name": "Mars, Bringer of War",
+      "part": "Part I: Dietrich's Path",
+      "pathOwner": "Dietrich",
+      "army": "Lion Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch1",
+      "slug": "theodora-ch1",
+      "sequence": 27,
+      "number": 1,
+      "name": "Theodora, the Iron Bastion",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch2",
+      "slug": "theodora-ch2",
+      "sequence": 28,
+      "number": 2,
+      "name": "Dyan's Uprising",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch3",
+      "slug": "theodora-ch3",
+      "sequence": 29,
+      "number": 3,
+      "name": "Tumult at the Imperial Capital",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch4",
+      "slug": "theodora-ch4",
+      "sequence": 30,
+      "number": 4,
+      "name": "Unlikely Allegiances",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch5",
+      "slug": "theodora-ch5",
+      "sequence": 31,
+      "number": 5,
+      "name": "An Ominous Clash",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch6",
+      "slug": "theodora-ch6",
+      "sequence": 32,
+      "number": 6,
+      "name": "The Treasure Hunter",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch7",
+      "slug": "theodora-ch7",
+      "sequence": 33,
+      "number": 7,
+      "name": "A Voice from the Darkness",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch8",
+      "slug": "theodora-ch8",
+      "sequence": 34,
+      "number": 8,
+      "name": "Rendezvous with Troy",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch9",
+      "slug": "theodora-ch9",
+      "sequence": 35,
+      "number": 9,
+      "name": "To The Forbidden Land",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch10",
+      "slug": "theodora-ch10",
+      "sequence": 36,
+      "number": 10,
+      "name": "The Queen and the Merchant",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch11",
+      "slug": "theodora-ch11",
+      "sequence": 37,
+      "number": 11,
+      "name": "A Sudden Turn",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "theodora-ch12",
+      "slug": "theodora-ch12",
+      "sequence": 38,
+      "number": 12,
+      "name": "The War of Zanbar",
+      "part": "Part I: Theodora's Path",
+      "pathOwner": "Theodora",
+      "army": "Wolf Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch1",
+      "slug": "leda-ch1",
+      "sequence": 39,
+      "number": 1,
+      "name": "The Vengeful Dancer",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch2",
+      "slug": "leda-ch2",
+      "sequence": 40,
+      "number": 2,
+      "name": "Battle at Coris Mine",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch3",
+      "slug": "leda-ch3",
+      "sequence": 41,
+      "number": 3,
+      "name": "The Rose of Caelus",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch4",
+      "slug": "leda-ch4",
+      "sequence": 42,
+      "number": 4,
+      "name": "The Indelible Past",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch5",
+      "slug": "leda-ch5",
+      "sequence": 43,
+      "number": 5,
+      "name": "Women at Battle",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch6",
+      "slug": "leda-ch6",
+      "sequence": 44,
+      "number": 6,
+      "name": "The Soaring Maiden",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch7",
+      "slug": "leda-ch7",
+      "sequence": 45,
+      "number": 7,
+      "name": "Rose of Retribution",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch8",
+      "slug": "leda-ch8",
+      "sequence": 46,
+      "number": 8,
+      "name": "Shape of Conspiracy",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch9",
+      "slug": "leda-ch9",
+      "sequence": 47,
+      "number": 9,
+      "name": "Discordance",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch10",
+      "slug": "leda-ch10",
+      "sequence": 48,
+      "number": 10,
+      "name": "A Father's Request and a Daughter's Wish",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch11",
+      "slug": "leda-ch11",
+      "sequence": 49,
+      "number": 11,
+      "name": "Banquet of the Risen Dead",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "leda-ch12",
+      "slug": "leda-ch12",
+      "sequence": 50,
+      "number": 12,
+      "name": "Revenge's End",
+      "part": "Part I: Leda's Path",
+      "pathOwner": "Leda",
+      "army": "Eagle Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-ii-war-ch1",
+      "slug": "part-ii-war-ch1",
+      "sequence": 51,
+      "number": 1,
+      "name": "The Battle of Klytius Plains",
+      "part": "Part II: War",
+      "pathOwner": "",
+      "army": "Strife Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-ii-war-ch2",
+      "slug": "part-ii-war-ch2",
+      "sequence": 52,
+      "number": 2,
+      "name": "Showdown at Agris Stronghold",
+      "part": "Part II: War",
+      "pathOwner": "",
+      "army": "Strife Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-ii-war-ch3",
+      "slug": "part-ii-war-ch3",
+      "sequence": 53,
+      "number": 3,
+      "name": "Beyond the Salt Road",
+      "part": "Part II: War",
+      "pathOwner": "",
+      "army": "Strife Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-ii-war-ch4",
+      "slug": "part-ii-war-ch4",
+      "sequence": 54,
+      "number": 4,
+      "name": "The Storming of Dagsion",
+      "part": "Part II: War",
+      "pathOwner": "",
+      "army": "Strife Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-ii-war-ch5",
+      "slug": "part-ii-war-ch5",
+      "sequence": 55,
+      "number": 5,
+      "name": "Divine Emperor Dagda",
+      "part": "Part II: War",
+      "pathOwner": "",
+      "army": "Strife Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-ii-war-ch6",
+      "slug": "part-ii-war-ch6",
+      "sequence": 56,
+      "number": 6,
+      "name": "The Underworld Incarnate",
+      "part": "Part II: War",
+      "pathOwner": "",
+      "army": "Strife Obelisk",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-iii-salvation-ch1",
+      "slug": "part-iii-salvation-ch1",
+      "sequence": 57,
+      "number": 1,
+      "name": "The Liberation of Dagsion",
+      "part": "Part III: Salvation",
+      "pathOwner": "",
+      "army": "Door of Destiny",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-iii-salvation-ch2",
+      "slug": "part-iii-salvation-ch2",
+      "sequence": 58,
+      "number": 2,
+      "name": "True Strength",
+      "part": "Part III: Salvation",
+      "pathOwner": "",
+      "army": "Door of Destiny",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-iii-salvation-ch3",
+      "slug": "part-iii-salvation-ch3",
+      "sequence": 59,
+      "number": 3,
+      "name": "The Inheritors",
+      "part": "Part III: Salvation",
+      "pathOwner": "",
+      "army": "Door of Destiny",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-iii-salvation-ch4",
+      "slug": "part-iii-salvation-ch4",
+      "sequence": 60,
+      "number": 4,
+      "name": "",
+      "part": "Part III: Salvation",
+      "pathOwner": "",
+      "army": "Door of Destiny",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": "The source lists this chapter by number only and records no title yet."
+    },
+    {
+      "id": "part-iii-salvation-ch5",
+      "slug": "part-iii-salvation-ch5",
+      "sequence": 61,
+      "number": 5,
+      "name": "Song of the Living",
+      "part": "Part III: Salvation",
+      "pathOwner": "",
+      "army": "Door of Destiny",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "part-iii-salvation-ch6",
+      "slug": "part-iii-salvation-ch6",
+      "sequence": 62,
+      "number": 6,
+      "name": "To the Edge of Twilight",
+      "part": "Part III: Salvation",
+      "pathOwner": "",
+      "army": "Door of Destiny",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ],
+  "paralogueChapters": [
+    {
+      "id": "leda-paralogue",
+      "slug": "diversionary-tactics",
+      "owner": "Leda",
+      "name": "Diversionary Tactics",
+      "routeRestriction": "Lion and Wolf only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "theodora-paralogue",
+      "slug": "missing-brave-warrior-statue",
+      "owner": "Theodora",
+      "name": "Missing Brave-Warrior Statue",
+      "routeRestriction": "Lion only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "talimun-paralogue",
+      "slug": "secret-of-the-vanished-carriage",
+      "owner": "Talimun",
+      "name": "Secret of the Vanished Carriage",
+      "routeRestriction": "Fox, Lion and Wolf only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "anna-paralogue",
+      "slug": "golden-secret",
+      "owner": "Anna",
+      "name": "Golden Secret",
+      "routeRestriction": "Fox, Lion and Wolf only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "anatolia-paralogue",
+      "slug": "queen-of-the-erased",
+      "owner": "Anatolia",
+      "name": "Queen of the Erased",
+      "routeRestriction": "Lion and Eagle only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "cai-paralogue",
+      "slug": "great-escape",
+      "owner": "Cai",
+      "name": "Great Escape",
+      "routeRestriction": "Lion, Wolf and Eagle only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "dietrich-paralogue",
+      "slug": "sealed-off-past",
+      "owner": "Dietrich",
+      "name": "Sealed-Off Past",
+      "routeRestriction": "Wolf and Eagle only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "orchel-paralogue",
+      "slug": "orchel-s-regret",
+      "owner": "Orchel",
+      "name": "Orchel's Regret",
+      "routeRestriction": "All Paths",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "bertrand-paralogue",
+      "slug": "friendly-match-with-brigid-s-king",
+      "owner": "Bertrand",
+      "name": "Friendly Match with Brigid's King",
+      "routeRestriction": "Fox, Lion and Wolf only",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - List of Chapters",
+          "url": "https://fireemblem.fandom.com/wiki/List_of_Chapters_in_Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}

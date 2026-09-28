@@ -1,0 +1,404 @@
+{
+  "_comment": "Dining at the inn: 8 recorded mechanics and 12 dishes with the characters who love each one. One dish restores two Motivation instead of one for those characters, which is the whole practical difference between a good week and a wasted one.",
+  "_mechanics": [
+    {
+      "key": "purpose",
+      "value": "Dining at an inn with a character you have bonded with raises their Support Level and restores Motivation.",
+      "grade": "community-reported"
+    },
+    {
+      "key": "motivation",
+      "value": "A dish the character likes or loves restores two points of Motivation; anything else restores one. Watching how they react to the menu is the only in-game tell.",
+      "grade": "community-reported"
+    },
+    {
+      "key": "prerequisite",
+      "value": "You have to give a gift first to form a New Bond before the character can be invited to a meal at all.",
+      "grade": "community-reported"
+    },
+    {
+      "key": "cost",
+      "value": "Each dish costs gold, each character can eat each dish once per week, and the inn menu refreshes when the week turns over.",
+      "grade": "community-reported"
+    },
+    {
+      "key": "ordering",
+      "value": "Two habits pay off: spread gifts across characters you have not bonded with yet so the weekly menu stays wide, and spend Motivation on training, performances or shrine services before restoring it, so the restore is not wasted on a full bar.",
+      "grade": "community-reported"
+    },
+    {
+      "key": "innRest",
+      "value": "Resting at the inn is a different action from dining. It fully restores the whole party's Motivation, HP and spell uses, and it costs gold plus one free-time turn.",
+      "grade": "community-reported"
+    },
+    {
+      "key": "notableDeed",
+      "value": "Dining at the inn ten times is a Notable Deed, and claiming it at the Pale Raven's Perch or the Shrine of Causality pays ten Karma Shards.",
+      "grade": "community-reported"
+    },
+    {
+      "key": "scope",
+      "value": "The dish list below was built by one player on Dietrich's route with 46 characters recruited, so it is a real record rather than a complete one.",
+      "grade": "community-reported"
+    }
+  ],
+  "_openGaps": [
+    "No recipes: not a single dish has its ingredients or quantities recorded in the sources checked.",
+    "No HP, spell or stat effects: dining restores Motivation, and the full party heal belongs to resting at the inn instead.",
+    "No support point values: the support gain is described qualitatively only.",
+    "No dislikes: a dish outside the liked and loved lists restores one point, and no source distinguishes disliked from neutral.",
+    "Ingredient preferences are unrecorded: the ingredient list runs to dozens of names with likes and dislikes still marked as not documented."
+  ],
+  "dishes": [
+    {
+      "id": "goat-roast",
+      "slug": "goat-roast",
+      "name": "Goat Roast",
+      "lovedBy": [
+        "Dadao",
+        "Goliath",
+        "Lilian",
+        "Loretta",
+        "Olympia",
+        "Peter",
+        "Sofia"
+      ],
+      "lovedByCount": 7,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "garlic-seared-scallops",
+      "slug": "garlic-seared-scallops",
+      "name": "Garlic Seared Scallops",
+      "lovedBy": [
+        "Benditz",
+        "Dadao",
+        "Guzran",
+        "Jasmine",
+        "Kiroc",
+        "Lilian",
+        "Peppe",
+        "Sofia",
+        "Talimun",
+        "Ultand"
+      ],
+      "lovedByCount": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "pumpkin-soup",
+      "slug": "pumpkin-soup",
+      "name": "Pumpkin Soup",
+      "lovedBy": [
+        "Alexandra",
+        "Dietrich",
+        "Esmeralda",
+        "Guzran",
+        "Lilian",
+        "Loretta",
+        "Peter",
+        "Sofia",
+        "Talimun",
+        "Zarcone"
+      ],
+      "lovedByCount": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "salt-crusted-ham",
+      "slug": "salt-crusted-ham",
+      "name": "Salt-Crusted Ham",
+      "lovedBy": [
+        "Dadao",
+        "Fabio",
+        "Fianna",
+        "Goliath",
+        "Guzran",
+        "Io",
+        "Kiroc",
+        "Lilian",
+        "Lysander",
+        "Mikaela",
+        "Peter",
+        "Sirocco",
+        "Sofia",
+        "Talimun",
+        "Tobias"
+      ],
+      "lovedByCount": 15,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "fish-sauce-soup",
+      "slug": "fish-sauce-soup",
+      "name": "Fish-Sauce Soup",
+      "lovedBy": [
+        "Dadao",
+        "Fianna",
+        "Guzran",
+        "Kiroc",
+        "Lilian",
+        "Lysander",
+        "Peppe",
+        "Sofia",
+        "Talimun",
+        "Tobias",
+        "Ultand"
+      ],
+      "lovedByCount": 11,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "madazins",
+      "slug": "madazins",
+      "name": "Madazins",
+      "lovedBy": [
+        "Alexandra",
+        "Halvin",
+        "Loretta",
+        "Mu",
+        "Nezha",
+        "Simon",
+        "Sofia",
+        "Tialla",
+        "Zarcone"
+      ],
+      "lovedByCount": 9,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "sand-boar-and-beans",
+      "slug": "sand-boar-and-beans",
+      "name": "Sand Boar and Beans",
+      "lovedBy": [
+        "Dadao",
+        "Fabio",
+        "Goliath",
+        "Guzran",
+        "Io",
+        "Kiroc",
+        "Lilian",
+        "Ludia",
+        "Mikaela",
+        "Sirocco",
+        "Sofia",
+        "Talimun",
+        "Tobias"
+      ],
+      "lovedByCount": 13,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "cheese-coated-crayfish",
+      "slug": "cheese-coated-crayfish",
+      "name": "Cheese-Coated Crayfish",
+      "lovedBy": [
+        "Dadao",
+        "Esmeralda",
+        "Lilian",
+        "Loretta",
+        "Nydine",
+        "Peppe",
+        "Peter",
+        "Sofia",
+        "Tialla",
+        "Ultand"
+      ],
+      "lovedByCount": 10,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "honey-poached-pear",
+      "slug": "honey-poached-pear",
+      "name": "Honey-Poached Pear",
+      "lovedBy": [
+        "Alexandra",
+        "Benditz",
+        "Buccar",
+        "Dadao",
+        "Dietrich",
+        "Esmeralda",
+        "Guzran",
+        "Nezha",
+        "Peter",
+        "Sofia",
+        "Talimun",
+        "Zarcone"
+      ],
+      "lovedByCount": 12,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "sweet-and-sour-stick-bugs",
+      "slug": "sweet-and-sour-stick-bugs",
+      "name": "Sweet-and-Sour Stick Bugs",
+      "lovedBy": [
+        "Benditz",
+        "Dadao",
+        "Diego",
+        "Fabio",
+        "Goliath",
+        "Guzran",
+        "Kiroc",
+        "Lilian",
+        "Mikaela",
+        "Peter",
+        "Sofia",
+        "Talimun"
+      ],
+      "lovedByCount": 12,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "charred-fish-grill",
+      "slug": "charred-fish-grill",
+      "name": "Charred Fish Grill",
+      "lovedBy": [
+        "Dadao",
+        "Esmeralda",
+        "Fabio",
+        "Guzran",
+        "Kiroc",
+        "Lilian",
+        "Ludia",
+        "Mikaela",
+        "Peppe",
+        "Sofia",
+        "Talimun",
+        "Ultand"
+      ],
+      "lovedByCount": 12,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    },
+    {
+      "id": "coffee-berry-paste",
+      "slug": "coffee-berry-paste",
+      "name": "Coffee-Berry Paste",
+      "lovedBy": [
+        "Alexandra",
+        "Buccar",
+        "Dietrich",
+        "Esmeralda",
+        "Fabio",
+        "Guzran",
+        "Ludia",
+        "Mu",
+        "Nezha",
+        "Peter",
+        "Sofia",
+        "Talimun",
+        "Zarcone"
+      ],
+      "lovedByCount": 13,
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Meals",
+          "url": "https://fortunesweave.co.uk/wiki/meals",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": "From a single player record, so the list is a floor rather than a ceiling."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "_comment": "Crop farming as a Cai-only world map loop: 8 recorded mechanics, 4 uses for the crops, and an explicit list of what no source has recorded yet. The mechanism rows come from a community write-up that names Game8 as its own source and marks its figures unverified, so nothing here is graded higher than community-reported except the two facts a second publication confirms.",
+  "_mechanics": [
+    {
+      "key": "availability",
+      "value": "Crop farming is a Cai-only world map mechanic.",
+      "grade": "community-reported",
+      "note": ""
+    },
+    {
+      "key": "unlock",
+      "value": "It unlocks by progressing Cai's Part I route to Chapter 6, after which an empty unmarked pentagon-shaped tile appears on the world map.",
+      "grade": "cross-checked",
+      "note": "The pentagon tile and the plant-then-wait loop are recorded by two independent publications."
+    },
+    {
+      "key": "plots",
+      "value": "How many crops you can grow at once is set by Renown: one plot at Renown 6 or below, two from Renown 7, three from Renown 9.",
+      "grade": "community-reported",
+      "note": ""
+    },
+    {
+      "key": "seeding",
+      "value": "Seeds are not a separate item: you plant crops you already hold in your bag through the Farm option. Where the first crops come from is not recorded by any source checked.",
+      "grade": "community-reported",
+      "note": ""
+    },
+    {
+      "key": "growth",
+      "value": "Passing turns fills a growth gauge, and the tile is ready to harvest once it is full.",
+      "grade": "cross-checked",
+      "note": "Both the community write-up and Fextralife describe waiting a few turns for the harvest."
+    },
+    {
+      "key": "regrow",
+      "value": "A harvested tile regrows a few more times before it is emptied for good.",
+      "grade": "community-reported",
+      "note": ""
+    },
+    {
+      "key": "newFarm",
+      "value": "New Farm lets you swap the crop immediately instead of waiting, at the cost of the current crop's whole yield.",
+      "grade": "community-reported",
+      "note": ""
+    },
+    {
+      "key": "fertiliser",
+      "value": "Fertiliser comes from the stable, or from a failed animal capture, and applying it raises the chance of a rarer crop at harvest.",
+      "grade": "community-reported",
+      "note": "No source gives the size of the increase or a rarity split."
+    }
+  ],
+  "_openGaps": [
+    "No crop list: no source checked names the individual crops.",
+    "No yields or season data: the community write-up states plainly that it found neither.",
+    "No fertiliser numbers: the increase in rare-crop odds is not quantified anywhere.",
+    "No turn counts: the growth gauge is described without a number of turns.",
+    "No seed source: how a player first obtains crops to plant is not recorded."
+  ],
+  "uses": [
+    {
+      "id": "quest-item-requests",
+      "slug": "quest-item-requests",
+      "purpose": "Quest item requests",
+      "detail": "Crops are turned in for quest item requests, which is the simplest reason to keep a stock.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crop farming",
+          "url": "https://fortunesweave.co.uk/wiki/crop-farming",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Farming Guide",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624288",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "vandahl-trading-co-merchants",
+      "slug": "vandahl-trading-co-merchants",
+      "purpose": "Vandahl Trading Co. merchants",
+      "detail": "Crops are traded with Vandahl Trading Co. merchants found on the world map, and later with their stall in the port area of Dagsion, in exchange for weapons and accessories.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crop farming",
+          "url": "https://fortunesweave.co.uk/wiki/crop-farming",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Farming Guide",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624288",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dungeon-rest-spots",
+      "slug": "dungeon-rest-spots",
+      "purpose": "Dungeon Rest Spots",
+      "detail": "At a Rest Spot inside a dungeon, crops restore HP and spell uses.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crop farming",
+          "url": "https://fortunesweave.co.uk/wiki/crop-farming",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Farming Guide",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624288",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "pale-raven-feeding",
+      "slug": "pale-raven-feeding",
+      "purpose": "Pale Raven feeding",
+      "detail": "A crop is the weekly food that starts Pale Raven Bird Time, which is the reason the farming loop matters beyond money.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Crop farming",
+          "url": "https://fortunesweave.co.uk/wiki/crop-farming",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Farming Guide",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624288",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_comment": "Leda\u0027s Drink Recipe perform quest chain. The four requests run in sequence and each needs one leaf type; the later steps also gate on Renown. Deliver the leaf at the Tavern in Dagsion to convert it into a drink recipe.",
+  "chain": "Leda Drink Recipe perform quests",
+  "deliveryPoint": "Tavern in Dagsion",
+  "recipes": [
+    {
+      "id": "simple-drink-recipes", "slug": "simple-drink-recipes", "name": "Simple Drink Recipes", "order": 1,
+      "leafRequired": "Sweet Leaves",
+      "renownRequirement": null,
+      "rewards": ["Song of Madness Blaze Art", "150 Renown", "New drinks available from the drink merchant"],
+      "sources": [
+        { "label": "VGC - Sweet Leaves location", "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-sweet-leaves-location-for-simple-drink-recipes-quest/", "date": "2026-09-28" }
+      ],
+      "grade": "source-reported", "asOf": "2026-09-28"
+    },
+    {
+      "id": "captains-drink-recipes", "slug": "captains-drink-recipes", "name": "Captains Drink Recipes", "order": 2,
+      "leafRequired": "Pepper Leaves",
+      "renownRequirement": null,
+      "rewards": ["Song of Icewater+ Blaze Art", "180 Renown"],
+      "sources": [
+        { "label": "VGC - Pepper and Bitter Leaves location", "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-pepper-and-bitter-leaves-location-for-captains-and-popular-drink-recipes-quests/", "date": "2026-09-28" },
+        { "label": "KeenGamer - All Leaves Locations", "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-leaves-locations/", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28",
+      "note": "Both sources agree the reward includes the Song of Icewater+ Blaze Art; the 180 Renown figure is reported by one source."
+    },
+    {
+      "id": "popular-drink-recipes", "slug": "popular-drink-recipes", "name": "Popular Drink Recipes", "order": 3,
+      "leafRequired": "Bitter Leaves",
+      "renownRequirement": null,
+      "rewards": ["Song of Passion+ Blaze Art", "Renown"],
+      "sources": [
+        { "label": "KeenGamer - All Leaves Locations", "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-leaves-locations/", "date": "2026-09-28" },
+        { "label": "VGC - Pepper and Bitter Leaves location", "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-pepper-and-bitter-leaves-location-for-captains-and-popular-drink-recipes-quests/", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28",
+      "note": "The exact Renown amount for this step is not reported in the sources checked; only the Blaze Art reward is named."
+    },
+    {
+      "id": "elegant-drink-recipes", "slug": "elegant-drink-recipes", "name": "Elegant Drink Recipes", "order": 4,
+      "leafRequired": "Wonder Leaves",
+      "renownRequirement": 10,
+      "availability": "The quest can be taken from Leda Chapter 10 but only completes in Chapter 11, once the leaf is available.",
+      "deadline": "11/27",
+      "rewards": ["Song of Angels Blaze Art", "200 Renown", "Two advanced classes: Ranger and Troubadour", "New drink recipe"],
+      "sources": [
+        { "label": "VGC - Wonder Leaves location", "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-wonder-leaves-location-for-elegant-drink-recipes-quest/", "date": "2026-09-28" },
+        { "label": "KeenGamer - All Leaves Locations", "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-leaves-locations/", "date": "2026-09-28" },
+        { "label": "Polygon - Where to find wonder leaves", "url": "https://www.polygon.com/fire-emblem-fortunes-weave-wonder-leaves-location-where-to-find/", "date": "2026-09-28" }
+      ],
+      "grade": "cross-checked", "asOf": "2026-09-28",
+      "note": "Three sources agree on the class unlock and the Chapter 11 completion; the 200 Renown and 11/27 deadline figures are single-source."
+    }
+  ]
+}

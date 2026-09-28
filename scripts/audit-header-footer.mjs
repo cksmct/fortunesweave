@@ -225,7 +225,26 @@ for (const tag of imgTags) {
   }
 }
 
-// 10. Report findings
+// 10. Brand Identity Isolation (Prevent Roblox/other brand leaks in Nintendo project)
+if (/Roblox/i.test(footerContent) || /Roblox/i.test(headerContent)) {
+  errors.push("Header or Footer contains 'Roblox' reference which violates project identity isolation for Fire Emblem: Fortune's Weave!");
+}
+
+// 11. Desktop Dropdown Shrink-to-Fit Defense Gate (Prevent 100px collapsed vertical sticks)
+if (headerContent.includes('openGroup') || headerContent.includes('dropdown')) {
+  const hasGridDropdown = /grid\s+grid-cols-\d+/.test(headerContent);
+  if (hasGridDropdown) {
+    const hasExplicitWidth = /\bw-(?:\[[0-9]+px\]|[0-9]{2,3})\b|\bmin-w-(?:\[[0-9]+px\]|[0-9]{2,3})\b/.test(headerContent);
+    if (!hasExplicitWidth) {
+      errors.push("Header contains a grid-based desktop dropdown without explicit width (missing w-[...px] or min-w-[...px]). Under CSS shrink-to-fit rules, an unconstrained absolute grid collapses into an unreadable 100px vertical stick!");
+    }
+    if (!headerContent.includes('truncate') && !headerContent.includes('whitespace-nowrap')) {
+      errors.push("Header dropdown items lack text truncation protection (missing 'truncate' or 'whitespace-nowrap'). Multi-word labels will break into chaotic multi-line text fragments!");
+    }
+  }
+}
+
+// 12. Report findings
 console.log(`Audited Routes        : ${validRoutes.size}`);
 console.log(`Header Nav Links      : ${headerHrefs.size}`);
 console.log(`Footer Matrix Links   : ${footerHrefs.size}`);

@@ -88,8 +88,21 @@ for (const file of files) {
   const rel = path.relative(ROOT, file).replace(/\\/g, "/");
   if (POLICY_FILE_RE.test(rel)) continue;
   const lines = fs.readFileSync(file, "utf8").split(/\r?\n/);
+  // 数据文件只扫我们自己撰写的字段：来源原文（prompt / name / 台词）不属于本站文案，
+  // 若一并扫描，游戏内一句台词就会让门禁误报自我否定。
+  const isDataFile = /\.json$/i.test(file) && path.basename(path.dirname(file)) === "data";
+  const OWN_COPY_KEYS = new Set(["note", "description", "summary", "intro", "body"]);
+  let ownDepth = 0;
   lines.forEach((line, index) => {
     if (isNonRenderedLine(line)) return;
+    if (isDataFile) {
+      const keyMatch = line.match(/^[ ]*["]([A-Za-z_][A-Za-z0-9_]*)["][ ]*:/);
+      const key = keyMatch ? keyMatch[1] : "";
+      const isOurs = ownDepth > 0 || (key ? key.charAt(0) === "_" || OWN_COPY_KEYS.has(key) : false);
+      if (ownDepth > 0 && line.trim().charAt(0) === "}") ownDepth -= 1;
+      if (key && key.charAt(0) === "_" && line.trimEnd().slice(-1) === "{") ownDepth += 1;
+      if (!isOurs) return;
+    }
     for (const rule of RULES) {
       if (!rule.re.test(line)) continue;
       findings.push({

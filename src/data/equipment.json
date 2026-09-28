@@ -1,0 +1,749 @@
+{
+  "_comment": "Weapon-type mechanics and named items for Fortune's Weave: 6 weapon types and 29 named objects, of which 8 name a dungeon recorded on the locations page.",
+  "_mechanics": {
+    "noTriangle": "The weapon triangle is not part of this game. Each weapon type instead carries its own baseline mechanic, which is what the weapon type table records.",
+    "cursedObjects": "Cursed objects are a special item type in Dagda, appearing as weapons and as accessories, and possession is what appears to grant access to Blaze Arts.",
+    "gaugeInteraction": "Using a cursed weapon adds to the Blaze Art gauge of units with Underworld Blaze Arts, while units with Celestial Blaze Arts have their gauge depleted instead, and the gauge of Orchel is unaffected either way.",
+    "diadem": "Using a cursed weapon or equipping a cursed accessory gives a chance to activate the Diadem of Duality. Cai and Theodora, whose cursed objects are embedded in their bodies, hold it inherently regardless of what they carry.",
+    "drakes": "Several cursed objects are called Drake's treasures after the pirate Drake, who was their original owner, and collectors such as Talimun hunt them down.",
+    "combatArts": "Named weapons are what unlock Combat Arts, for example Full Moon on Mahadu's Spear.",
+    "scope": "The weapon and spell table is recorded separately on the weapons page; this page records the weapon-type mechanics and the named cursed objects with their wielders and acquisition sources."
+  },
+  "weaponTypes": [
+    {
+      "id": "swords",
+      "slug": "swords",
+      "name": "Swords",
+      "effect": "A balanced martial weapon. Follow-up attacks made with swords carry a 1.2x damage modifier.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "spears",
+      "slug": "spears",
+      "name": "Spears",
+      "effect": "Deal effective damage to every cavalry unit.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "axes",
+      "slug": "axes",
+      "name": "Axes",
+      "effect": "Reduced accuracy but higher attack power, and axe strikes never deal less than 5 HP of damage.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "bows",
+      "slug": "bows",
+      "name": "Bows",
+      "effect": "Ranged, deal effective damage to flying units, and cannot counter at melee range.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "gauntlets",
+      "slug": "gauntlets",
+      "name": "Gauntlets",
+      "effect": "Grant a higher chance to evade incoming attacks.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "magic",
+      "slug": "magic",
+      "name": "Magic",
+      "effect": "Effective against enemies with low resistance.",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Gameplay",
+          "url": "https://fireemblem.fandom.com/wiki/Fire_Emblem:_Fortune%27s_Weave",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28"
+    }
+  ],
+  "items": [
+    {
+      "id": "red-jewel",
+      "slug": "red-jewel",
+      "name": "Red Jewel",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Cai",
+      "effect": "Embedded itself into Cai's left palm and lets him generate black flames.",
+      "acquisition": "Originally a necklace belonging to Aurora, given to her by Solel.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ink-black-wen",
+      "slug": "ink-black-wen",
+      "name": "Ink-Black Wen",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Majide, then Dietrich",
+      "effect": "A cursed cloak that lets its wearer move like a shadow.",
+      "acquisition": "Given to Majide by Baozi and taken by Dietrich soon after.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mahadu-s-right-arm",
+      "slug": "mahadu-s-right-arm",
+      "name": "Mahadu's Right Arm",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Theodora",
+      "effect": "The right arm of a statue of the hero Mahadu, given to Theodora by Mahadu's spirit after she lost her own arm.",
+      "acquisition": "Story event.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "balor-s-left-hand",
+      "slug": "balor-s-left-hand",
+      "name": "Balor's Left Hand",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Bahr Vahn",
+      "effect": "A left hand that Bahr Vahn uses as a prosthetic.",
+      "acquisition": "Obtained before his contact with the Order of Mithras.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "obsidian",
+      "slug": "obsidian",
+      "name": "Obsidian",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Leda",
+      "effect": "Leda's cursed vihuela, used for cursed songs that support allies, summon Demonic Beasts, or strike enemies directly.",
+      "acquisition": "Originally belonged to her ancestor Cohen.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "moonstone",
+      "slug": "moonstone",
+      "name": "Moonstone",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Maria",
+      "effect": "A second cursed vihuela and the counterpart to Obsidian.",
+      "acquisition": "Not recorded in the source checked.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "gleipnir",
+      "slug": "gleipnir",
+      "name": "Gleipnir",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Baozi",
+      "effect": "A magical thread crafted from the remains of Balor over five years of alchemy. Said to be inescapable, although Answerer cut through it.",
+      "acquisition": "One of Drake's treasures.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "dhaba-s-compass",
+      "slug": "dhaba-s-compass",
+      "name": "Dhaba's Compass",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "Talimun",
+      "effect": "Points its holder towards other cursed objects.",
+      "acquisition": "In Talimun's possession.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "bragi-s-brush",
+      "slug": "bragi-s-brush",
+      "name": "Bragi's Brush",
+      "category": "Cursed item",
+      "weaponType": "",
+      "owner": "",
+      "effect": "A paintbrush that lets the painter create worlds inside paintings and capture individuals within them.",
+      "acquisition": "Not recorded in the source checked.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "lakshashi-s-iron-fan",
+      "slug": "lakshashi-s-iron-fan",
+      "name": "Lakshashi's Iron Fan",
+      "category": "Cursed weapon",
+      "weaponType": "Fan",
+      "owner": "Balboa, then Leda",
+      "effect": "A bladed fan.",
+      "acquisition": "Given to Balboa by Maria before Leda took it.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "long-night-katara",
+      "slug": "long-night-katara",
+      "name": "Long-Night Katara",
+      "category": "Cursed weapon",
+      "weaponType": "",
+      "owner": "Talimun",
+      "effect": "Talimun's sword.",
+      "acquisition": "In Talimun's possession.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "angela",
+      "slug": "angela",
+      "name": "Angela",
+      "category": "Cursed weapon",
+      "weaponType": "",
+      "owner": "Lind",
+      "effect": "An evil, poisoned sword.",
+      "acquisition": "Wielded by Lind.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "fragarach",
+      "slug": "fragarach",
+      "name": "Fragarach",
+      "category": "Cursed weapon",
+      "weaponType": "",
+      "owner": "Bahr Vahn",
+      "effect": "A sword.",
+      "acquisition": "Stolen by Bahr Vahn.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "veroquine",
+      "slug": "veroquine",
+      "name": "Veroquine",
+      "category": "Cursed weapon",
+      "weaponType": "Sword",
+      "owner": "",
+      "effect": "A cursed sword.",
+      "acquisition": "Obtained in the Masked Woods.",
+      "locationSlug": "masked-woods",
+      "locationName": "Masked Woods",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "muen",
+      "slug": "muen",
+      "name": "Muen",
+      "category": "Cursed weapon",
+      "weaponType": "Spear",
+      "owner": "",
+      "effect": "A cursed spear.",
+      "acquisition": "Obtained in the Cougar Woodlands.",
+      "locationSlug": "cougar-woodlands",
+      "locationName": "Cougar Woodlands",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "onoa",
+      "slug": "onoa",
+      "name": "Onoa",
+      "category": "Cursed weapon",
+      "weaponType": "Spear",
+      "owner": "",
+      "effect": "A cursed spear.",
+      "acquisition": "Obtained in the Giant's-Print Fort.",
+      "locationSlug": "giant-s-print-fort",
+      "locationName": "Giant's-Print Fort",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "IGN - List of Dungeons",
+          "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/List_of_Dungeons",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": "Two independent sources place this spear in the Giant's-Print Fort: the cursed object list and the dungeon treasure table."
+    },
+    {
+      "id": "bloodaxe",
+      "slug": "bloodaxe",
+      "name": "Bloodaxe",
+      "category": "Cursed weapon",
+      "weaponType": "Axe",
+      "owner": "Hanno",
+      "effect": "The axe of Bloodaxe Hanno, a former king of Arago. Its maddening corruption led to his assassination.",
+      "acquisition": "Linked to Hanno.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "velheit",
+      "slug": "velheit",
+      "name": "Velheit",
+      "category": "Cursed weapon",
+      "weaponType": "Axe",
+      "owner": "",
+      "effect": "A cursed axe.",
+      "acquisition": "Obtained in the Stoppered Shrine.",
+      "locationSlug": "stoppered-shrine",
+      "locationName": "Stoppered Shrine",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "gundogya",
+      "slug": "gundogya",
+      "name": "Gundogya",
+      "category": "Cursed weapon",
+      "weaponType": "Axe",
+      "owner": "",
+      "effect": "A cursed axe.",
+      "acquisition": "Obtained in the Sand-Shadow Fort.",
+      "locationSlug": "sand-shadow-fort",
+      "locationName": "Sand-Shadow Fort",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "hedagg-s-bow",
+      "slug": "hedagg-s-bow",
+      "name": "Hedagg's Bow",
+      "category": "Cursed weapon",
+      "weaponType": "Bow",
+      "owner": "Maria",
+      "effect": "Maria's bow.",
+      "acquisition": "In Maria's possession.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "ugo-s-bow",
+      "slug": "ugo-s-bow",
+      "name": "Ugo's Bow",
+      "category": "Cursed weapon",
+      "weaponType": "Bow",
+      "owner": "Inyoni",
+      "effect": "A bow said to be powerful enough to pierce any material.",
+      "acquisition": "Wielded by Inyoni during the Heroic Games.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "azaga-s-bow",
+      "slug": "azaga-s-bow",
+      "name": "Azaga's Bow",
+      "category": "Cursed weapon",
+      "weaponType": "Bow",
+      "owner": "",
+      "effect": "A cursed bow.",
+      "acquisition": "Obtained in the Valhalla Mine.",
+      "locationSlug": "valhalla-mine",
+      "locationName": "Valhalla Mine",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "turmoil-mask",
+      "slug": "turmoil-mask",
+      "name": "Turmoil Mask",
+      "category": "Cursed accessory",
+      "weaponType": "",
+      "owner": "",
+      "effect": "A cursed accessory.",
+      "acquisition": "Obtained in Nowah's Cave.",
+      "locationSlug": "nowah-s-cave",
+      "locationName": "Nowah's Cave",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "poisonbone-chain",
+      "slug": "poisonbone-chain",
+      "name": "Poisonbone Chain",
+      "category": "Cursed accessory",
+      "weaponType": "",
+      "owner": "",
+      "effect": "A cursed accessory.",
+      "acquisition": "Obtained in the Corroios Fort Ruins.",
+      "locationSlug": "corroios-fort-ruins",
+      "locationName": "Corroios Fort Ruins",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "lashing-rapture",
+      "slug": "lashing-rapture",
+      "name": "Lashing Rapture",
+      "category": "Cursed accessory",
+      "weaponType": "",
+      "owner": "",
+      "effect": "A tongue imbued with dark power.",
+      "acquisition": "Obtained in the Temple of Balor.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "aaron-s-rod",
+      "slug": "aaron-s-rod",
+      "name": "Aaron's Rod",
+      "category": "Cursed accessory",
+      "weaponType": "",
+      "owner": "Talimun",
+      "effect": "A rod imbued with dark power.",
+      "acquisition": "Wielded by Talimun.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "beckoning-branch",
+      "slug": "beckoning-branch",
+      "name": "Beckoning Branch",
+      "category": "Cursed accessory",
+      "weaponType": "",
+      "owner": "Hong Hua",
+      "effect": "A flute imbued with dark power that can raise the dead.",
+      "acquisition": "Wielded by Hong Hua.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "mahadu-s-spear",
+      "slug": "mahadu-s-spear",
+      "name": "Mahadu's Spear",
+      "category": "Legendary weapon",
+      "weaponType": "Spear",
+      "owner": "Theodora",
+      "effect": "A shining golden spear wielded by a hero of legend. Allows use of the Full Moon Combat Art, and is recorded as rank E with 20 uses.",
+      "acquisition": "Received by Theodora alongside the arm of Mahadu.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "answerer",
+      "slug": "answerer",
+      "name": "Answerer",
+      "category": "Heroes Relic",
+      "weaponType": "Sword",
+      "owner": "Dietrich",
+      "effect": "The fell blade and a Heroes Relic of House Lamine, passed down through Lamine's family line. It glows red and flips out spines along the blade near objects or entities with aspects of Crests.",
+      "acquisition": "Inherited by Dietrich.",
+      "locationSlug": "",
+      "locationName": "",
+      "sources": [
+        {
+          "label": "Fire Emblem Wiki - Cursed Object",
+          "url": "https://fireemblem.fandom.com/wiki/Cursed_Object",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-28",
+      "note": ""
+    }
+  ]
+}

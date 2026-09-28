@@ -1,21 +1,187 @@
 {
-  "_comment": "导航单一事实源。此处每个内部 href 都必须有对应的 src/app/<path>/page.tsx（audit-nav.mjs 逐个校验，缺页即构建失败）。同一区块内不得出现重复 href。",
+  "_comment": "导航单一事实源。每个内部 href 都必须有对应 src/app/<path>/page.tsx。audit-header-footer.mjs 限制 Header 主项(header.top + header.groups)合计最多 5 个。",
   "header": {
     "top": [
-      { "label": "Home", "href": "/" },
-      { "label": "Updates", "href": "/updates/" },
-      { "label": "About", "href": "/about/" },
-      { "label": "Contact", "href": "/contact/" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Paralogues",
+        "href": "/paralogues/"
+      },
+      {
+        "label": "Materials",
+        "href": "/materials/"
+      }
     ],
     "groups": [
       {
-        "label": "Site",
+        "label": "Database",
         "columns": [
           {
-            "title": "Policies",
+            "title": "Reference",
             "items": [
-              { "label": "Privacy Policy", "href": "/privacy/" },
-              { "label": "Terms of Use", "href": "/terms/" }
+              {
+                "label": "Walkthrough",
+                "href": "/walkthrough/"
+              },
+              {
+                "label": "Characters",
+                "href": "/characters/"
+              },
+              {
+                "label": "Gifts & Likes",
+                "href": "/gifts/"
+              },
+              {
+                "label": "Updates",
+                "href": "/updates/"
+              },
+              {
+                "label": "Classes",
+                "href": "/classes/"
+              },
+              {
+                "label": "Supports & Romance",
+                "href": "/supports/"
+              },
+              {
+                "label": "Bird Time",
+                "href": "/activities/"
+              },
+              {
+                "label": "Weapons & Spells List",
+                "href": "/weapons/"
+              },
+              {
+                "label": "Animal Mounts",
+                "href": "/mounts/"
+              },
+              {
+                "label": "Factions & Armies",
+                "href": "/factions/"
+              }
+            ]
+          },
+          {
+            "title": "Systems and reference",
+            "items": [
+              {
+                "label": "Dungeons & Locations",
+                "href": "/locations/"
+              },
+              {
+                "label": "Weapons & Cursed Objects",
+                "href": "/equipment/"
+              },
+              {
+                "label": "Core Systems & Blaze Arts",
+                "href": "/systems/"
+              },
+              {
+                "label": "Crop Farming",
+                "href": "/farming/"
+              },
+              {
+                "label": "Gambits & Battalions",
+                "href": "/battalions/"
+              },
+              {
+                "label": "Meals & Dining",
+                "href": "/meals/"
+              },
+              {
+                "label": "Crests and Diadems",
+                "href": "/crests/"
+              },
+              {
+                "label": "Hero Talents",
+                "href": "/talents/"
+              },
+              {
+                "label": "Notable Deeds",
+                "href": "/deeds/"
+              },
+              {
+                "label": "Boons and Blessings",
+                "href": "/boons/"
+              },
+              {
+                "label": "Post-game",
+                "href": "/postgame/"
+              },
+              {
+                "label": "Subquests",
+                "href": "/sidequests/"
+              },
+              {
+                "label": "Deities of Dagda",
+                "href": "/deities/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "More",
+        "columns": [
+          {
+            "title": "Tools",
+            "items": [
+              {
+                "label": "Paralogue Checklist",
+                "href": "/tools/paralogue-checklist/"
+              },
+              {
+                "label": "Drink Recipe Solver",
+                "href": "/tools/recipe-solver/"
+              },
+              {
+                "label": "Gift Finder",
+                "href": "/tools/gift-finder/"
+              },
+              {
+                "label": "Class Planner",
+                "href": "/tools/class-planner/"
+              },
+              {
+                "label": "Recruitment Planner",
+                "href": "/tools/recruitment-planner/"
+              },
+              {
+                "label": "Support Matrix",
+                "href": "/tools/support-matrix/"
+              },
+              {
+                "label": "Bird Time Lookup",
+                "href": "/tools/bird-time/"
+              },
+              {
+                "label": "Schematic Map",
+                "href": "/map/"
+              }
+            ]
+          },
+          {
+            "title": "Site",
+            "items": [
+              {
+                "label": "About & How We Verify",
+                "href": "/about/"
+              },
+              {
+                "label": "Contact",
+                "href": "/contact/"
+              },
+              {
+                "label": "Privacy Policy",
+                "href": "/privacy/"
+              },
+              {
+                "label": "Terms of Use",
+                "href": "/terms/"
+              }
             ]
           }
         ]
@@ -25,22 +191,170 @@
   "footer": {
     "columns": [
       {
-        "title": "Reference",
+        "title": "Guides and data",
         "links": [
-          { "label": "Updates & Patch Notes", "href": "/updates/" }
+          {
+            "label": "Walkthrough & Chapters",
+            "href": "/walkthrough/"
+          },
+          {
+            "label": "Characters & Recruits",
+            "href": "/characters/"
+          },
+          {
+            "label": "Paralogues",
+            "href": "/paralogues/"
+          },
+          {
+            "label": "Leaf Materials",
+            "href": "/materials/"
+          },
+          {
+            "label": "Gifts & Character Likes",
+            "href": "/gifts/"
+          },
+          {
+            "label": "Classes & Exams",
+            "href": "/classes/"
+          },
+          {
+            "label": "Supports & Romance",
+            "href": "/supports/"
+          },
+          {
+            "label": "Pale Raven Bird Time",
+            "href": "/activities/"
+          },
+          {
+            "label": "Dungeons & Locations",
+            "href": "/locations/"
+          },
+          {
+            "label": "Weapons & Cursed Objects",
+            "href": "/equipment/"
+          },
+          {
+            "label": "Core Systems & Blaze Arts",
+            "href": "/systems/"
+          },
+          {
+            "label": "Weapons & Spells List",
+            "href": "/weapons/"
+          },
+          {
+            "label": "Animal Mounts",
+            "href": "/mounts/"
+          },
+          {
+            "label": "Factions & Armies",
+            "href": "/factions/"
+          }
         ]
       },
       {
-        "title": "About this site",
+        "title": "Tools",
         "links": [
-          { "label": "About & How We Verify", "href": "/about/" },
-          { "label": "Contact", "href": "/contact/" }
+          {
+            "label": "Paralogue Checklist",
+            "href": "/tools/paralogue-checklist/"
+          },
+          {
+            "label": "Drink Recipe Solver",
+            "href": "/tools/recipe-solver/"
+          },
+          {
+            "label": "Gift Finder",
+            "href": "/tools/gift-finder/"
+          },
+          {
+            "label": "Class Planner",
+            "href": "/tools/class-planner/"
+          },
+          {
+            "label": "Recruitment Planner",
+            "href": "/tools/recruitment-planner/"
+          },
+          {
+            "label": "Support Matrix",
+            "href": "/tools/support-matrix/"
+          },
+          {
+            "label": "Bird Time Lookup",
+            "href": "/tools/bird-time/"
+          }
+        ]
+      },
+      {
+        "title": "About",
+        "links": [
+          {
+            "label": "Subquests and Deadlines",
+            "href": "/sidequests/"
+          },
+          {
+            "label": "Deities of Dagda",
+            "href": "/deities/"
+          },
+          {
+            "label": "Crests and Diadems",
+            "href": "/crests/"
+          },
+          {
+            "label": "Hero Talents",
+            "href": "/talents/"
+          },
+          {
+            "label": "Notable Deeds",
+            "href": "/deeds/"
+          },
+          {
+            "label": "Boons and Blessings",
+            "href": "/boons/"
+          },
+          {
+            "label": "Post-game",
+            "href": "/postgame/"
+          },
+          {
+            "label": "Crop Farming",
+            "href": "/farming/"
+          },
+          {
+            "label": "Gambits & Battalions",
+            "href": "/battalions/"
+          },
+          {
+            "label": "Meals & Dining",
+            "href": "/meals/"
+          },
+          {
+            "label": "Schematic Map",
+            "href": "/map/"
+          },
+          {
+            "label": "Updates & Patch Notes",
+            "href": "/updates/"
+          },
+          {
+            "label": "About & How We Verify",
+            "href": "/about/"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact/"
+          }
         ]
       }
     ],
     "legal": [
-      { "label": "Privacy Policy", "href": "/privacy/" },
-      { "label": "Terms of Use", "href": "/terms/" }
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy/"
+      },
+      {
+        "label": "Terms of Use",
+        "href": "/terms/"
+      }
     ]
   }
 }

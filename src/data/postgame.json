@@ -1,0 +1,204 @@
+{
+  "_comment": "Post-game and the two systems that replace it: Descend Again for replay and Merge Causality for carrying trained versions of a unit forward. There is no post-game campaign and no traditional New Game Plus, which is the headline.",
+  "_mechanics": {
+    "postgame": "There is no separate post-game campaign. Finishing the story returns you to the moment before the final battle and leaves the whole game open to replay.",
+    "newGamePlus": "There is no traditional New Game Plus either. The replay route is Descend Again on the title screen, which restarts at a higher difficulty and replays the prologue.",
+    "carryOver": "Once at least one Part I route is complete, these carry into a replay: map exploration, unlocked classes, Boons of Salvation, and sidequest progress.",
+    "merge": "Merge Causality sits at the Shrine of Causality and combines multiple Part 1 versions of the same unit, trained on different lords~ routes, into a single flexible Part 3 unit.",
+    "mergeRules": "All Abilities and Combat Arts from the merged versions are inherited, and the higher stat wins wherever the versions disagree. The payoff is a Part 3 unit with a wider choice of classes, abilities and Combat Arts.",
+    "mergeTiming": "Karma Shards feed two systems and Merge Causality is the second one, available from Part III and used on characters you have already recruited."
+  },
+  "_openGaps": [
+    "No post-game-exclusive content: the sources agree that nothing is locked behind finishing the story.",
+    "No merge costs or limits: how many shards a merge takes, how many times it can be done and whether it can be undone are all unrecorded.",
+    "No support inheritance: whether supports carry through a merge is not recorded either way.",
+    "No Descend Again detail beyond difficulty and the replayed prologue, and that row is itself marked unverified."
+  ],
+  "checklist": [
+    {
+      "id": "post-1",
+      "slug": "post-1",
+      "order": 1,
+      "task": "Finish the routes you have not played",
+      "detail": "Any unplayed Part I or Part II route is still open. Map exploration, unlocked classes, Boons of Salvation and sidequest progress only carry over once at least one Part I route is finished.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Post-game content",
+          "url": "https://fortunesweave.co.uk/wiki/post-game-content",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Merge Causality",
+          "url": "https://fortunesweave.co.uk/wiki/merge-causality",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "TheGamer - How to merge unit versions",
+          "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-merge-unit-versions-causality/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Siliconera - Part 3 character merge",
+          "url": "https://www.siliconera.com/how-does-the-fire-emblem-fortunes-weave-part-3-character-merge-work/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "ReadDork - How to merge units",
+          "url": "https://readdork.com/how-to-merge-units-fire-emblem-fortunes-weave-ce1b9da783",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "post-2",
+      "slug": "post-2",
+      "order": 2,
+      "task": "Recruit what you missed",
+      "detail": "Characters skipped on the first pass are still recruitable, and the recruitment page records what each one asks for per route.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Post-game content",
+          "url": "https://fortunesweave.co.uk/wiki/post-game-content",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Merge Causality",
+          "url": "https://fortunesweave.co.uk/wiki/merge-causality",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "TheGamer - How to merge unit versions",
+          "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-merge-unit-versions-causality/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Siliconera - Part 3 character merge",
+          "url": "https://www.siliconera.com/how-does-the-fire-emblem-fortunes-weave-part-3-character-merge-work/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "ReadDork - How to merge units",
+          "url": "https://readdork.com/how-to-merge-units-fire-emblem-fortunes-weave-ce1b9da783",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "post-3",
+      "slug": "post-3",
+      "order": 3,
+      "task": "Unlock every Divine class",
+      "detail": "Find a Key of the Diadem in the Part III dungeons, then use it in Part III Section 4 to open the licence chamber in the Temple of the Diadem.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Post-game content",
+          "url": "https://fortunesweave.co.uk/wiki/post-game-content",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Merge Causality",
+          "url": "https://fortunesweave.co.uk/wiki/merge-causality",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "TheGamer - How to merge unit versions",
+          "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-merge-unit-versions-causality/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Siliconera - Part 3 character merge",
+          "url": "https://www.siliconera.com/how-does-the-fire-emblem-fortunes-weave-part-3-character-merge-work/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "ReadDork - How to merge units",
+          "url": "https://readdork.com/how-to-merge-units-fire-emblem-fortunes-weave-ce1b9da783",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "post-4",
+      "slug": "post-4",
+      "order": 4,
+      "task": "Spend the leftover Karma Shards",
+      "detail": "Shards buy the Boons of Salvation you have not taken yet, and after that they only have Merge Causality left to feed.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Post-game content",
+          "url": "https://fortunesweave.co.uk/wiki/post-game-content",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Merge Causality",
+          "url": "https://fortunesweave.co.uk/wiki/merge-causality",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "TheGamer - How to merge unit versions",
+          "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-merge-unit-versions-causality/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Siliconera - Part 3 character merge",
+          "url": "https://www.siliconera.com/how-does-the-fire-emblem-fortunes-weave-part-3-character-merge-work/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "ReadDork - How to merge units",
+          "url": "https://readdork.com/how-to-merge-units-fire-emblem-fortunes-weave-ce1b9da783",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": ""
+    },
+    {
+      "id": "post-5",
+      "slug": "post-5",
+      "order": 5,
+      "task": "Descend Again",
+      "detail": "Replay from the title screen at a higher difficulty, which restarts from the prologue. The source marks this one unverified.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Post-game content",
+          "url": "https://fortunesweave.co.uk/wiki/post-game-content",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "fortunesweave.co.uk - Merge Causality",
+          "url": "https://fortunesweave.co.uk/wiki/merge-causality",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "TheGamer - How to merge unit versions",
+          "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-merge-unit-versions-causality/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Siliconera - Part 3 character merge",
+          "url": "https://www.siliconera.com/how-does-the-fire-emblem-fortunes-weave-part-3-character-merge-work/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "ReadDork - How to merge units",
+          "url": "https://readdork.com/how-to-merge-units-fire-emblem-fortunes-weave-ce1b9da783",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-28",
+      "note": "The source marks the difficulty and prologue details of this step unverified."
+    }
+  ]
+}

@@ -1,0 +1,4145 @@
+{
+  "_comment": "Subquests by chapter: 125 recorded entries with the accept point, the location, the reward and the in-game deadline. Every entry carries a deadline in day/month form, which is what makes this list worth having: a subquest expires silently, and the reward is simply gone.",
+  "_mechanics": {
+    "kinds": "Two kinds are recorded. Generic subquests are taken from bulletin boards in Dagsion and appear on more than one route, while route-specific subquests belong to one lord~s path and can be missed entirely by choosing another.",
+    "priority": "Priority subquests carry a real deadline. Missing one does not fail the run, it just deletes the reward, which for several of them is a class unlock rather than money.",
+    "dates": "Deadlines are in-game dates in day/month form and are not tied to the real calendar. Several of them cluster on 27/11, which is the practical outer edge of Part I.",
+    "supplies": "The Send Supplies chain on Theodora~s route all expires on 24/10, which is before Part I ends, so the items have to be collected early rather than banked.",
+    "semirandom": "Four entries are recorded as likely semi-random generic subquests, because they do not appear in any published route walkthrough: Behelda Axes, Sinister Sacrifices, Energy Nuts and Soil Survey.",
+    "unlockQuests": "Several subquests unlock classes outright, including Cataphract, Guardian, Dragoon, Dancer and Troubadour, which makes them the highest-value entries on the list.",
+    "paralogues": "Paralogues are listed separately from subquests: they are unnumbered side chapters, not city errands, and the walkthrough page covers their route locks."
+  },
+  "_openGaps": [
+    "Missing NPC names: several entries record a location but no one to talk to, including Missing Master at Dagsion and Purloined Spellcaster~s Tools at the Secret Altar.",
+    "Deadline conflicts: the Dread Warrior Challenge series has two deadlines inside the same source, and three of those entries are grouped under a different chapter than the source states.",
+    "No year on the dates: deadlines are day/month only, so they are read as within-part dates rather than as a calendar.",
+    "No expiry confirmation for the entries listed as having no deadline, which means they are untested rather than safe."
+  ],
+  "quests": [
+    {
+      "id": "quest-1",
+      "slug": "welcome-to-the-item-shop",
+      "order": 1,
+      "chapter": 2,
+      "chapterLabel": "Chapter 2",
+      "name": "Welcome to the Item Shop",
+      "accept": "board",
+      "location": "Dagsion",
+      "reward": "Vulnerary",
+      "deadline": "First free-time window",
+      "priority": false,
+      "note": "Tutorial subquest.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-2",
+      "slug": "swing-by-the-armory",
+      "order": 2,
+      "chapter": 2,
+      "chapterLabel": "Chapter 2",
+      "name": "Swing by the Armory",
+      "accept": "board",
+      "location": "Dagsion",
+      "reward": "Wooden Sword",
+      "deadline": "First free-time window",
+      "priority": false,
+      "note": "Tutorial subquest.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-3",
+      "slug": "lost-hair-clip",
+      "order": 3,
+      "chapter": 3,
+      "chapterLabel": "Chapter 3",
+      "name": "Lost Hair Clip",
+      "accept": "route",
+      "location": "Niraga Mine",
+      "reward": "550G, 100 Renown",
+      "deadline": "28/2",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-4",
+      "slug": "awaiting-you-at-the-inn",
+      "order": 4,
+      "chapter": 3,
+      "chapterLabel": "Chapter 3",
+      "name": "Awaiting You at the Inn",
+      "accept": "board",
+      "location": "Dagsion",
+      "reward": "Sand-Boar Meat, 10 Renown",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-5",
+      "slug": "gifts-of-the-marketplace",
+      "order": 5,
+      "chapter": 3,
+      "chapterLabel": "Chapter 3",
+      "name": "Gifts of the Marketplace",
+      "accept": "board",
+      "location": "Dagsion",
+      "reward": "Southern Ghosh, 10 Renown",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-6",
+      "slug": "the-fabled-sunset",
+      "order": 6,
+      "chapter": 3,
+      "chapterLabel": "Chapter 3",
+      "name": "The Fabled Sunset",
+      "accept": "route",
+      "location": "Magnus Plateau",
+      "reward": "550G, 130 Renown",
+      "deadline": "28/2",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-7",
+      "slug": "furious-vengeance",
+      "order": 7,
+      "chapter": 3,
+      "chapterLabel": "Chapter 3",
+      "name": "Furious Vengeance",
+      "accept": "route",
+      "location": "Rolling Breeze Hill",
+      "reward": "550G, 130 Renown",
+      "deadline": "28/2",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-8",
+      "slug": "granada-s-thieves",
+      "order": 8,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Granada's Thieves",
+      "accept": "npc",
+      "location": "Granada Fort Ruins",
+      "reward": "Baal Pike, 600G, 30 Renown",
+      "deadline": "30/4",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-9",
+      "slug": "valeri-s-eight-fangs",
+      "order": 9,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Valeri's Eight Fangs",
+      "accept": "npc",
+      "location": "Valeri Gorge",
+      "reward": "Yarc Meat, 600G, 30 Renown",
+      "deadline": "No exact date",
+      "priority": true,
+      "note": "Chapter 4 onwards.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-10",
+      "slug": "knowing-more-about-him",
+      "order": 10,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Knowing More about Him",
+      "accept": "npc",
+      "location": "Dagsion",
+      "reward": "Mane Ornament, 600G, 30 Renown",
+      "deadline": "30/4",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-11",
+      "slug": "searching-for-smithing-stones",
+      "order": 11,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Searching for Smithing Stones",
+      "accept": "npc",
+      "location": "Niraga Mine",
+      "reward": "600G, 30 Renown",
+      "deadline": "No exact date",
+      "priority": true,
+      "note": "Recorded as Chapters 4 to 5 on all four routes.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-12",
+      "slug": "find-fellowship-at-the-temples",
+      "order": 12,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Find Fellowship at the Temples",
+      "accept": "board",
+      "location": "Dagsion",
+      "reward": "Ginji, 10 Renown",
+      "deadline": "First window",
+      "priority": true,
+      "note": "Tutorial subquest.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-13",
+      "slug": "dance-for-yaaman",
+      "order": 13,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Dance for Yaaman",
+      "accept": "route",
+      "location": "Yaaman",
+      "reward": "Vegetable Crate, Gift Box, 3000G, 200 Renown, Choking-Wind Valley",
+      "deadline": "Leda, 28/5",
+      "priority": true,
+      "note": "Leda route only.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-14",
+      "slug": "the-missing-granddaughter",
+      "order": 14,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "The Missing Granddaughter",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "1500G, 100 Renown",
+      "deadline": "Cai, 7/3",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-15",
+      "slug": "cleaning-an-abandoned-house",
+      "order": 15,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Cleaning an Abandoned House",
+      "accept": "route",
+      "location": "Forsaken Lakehouse",
+      "reward": "1500G, 130 Renown",
+      "deadline": "Cai, 10/4",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-16",
+      "slug": "dance-at-the-tavern",
+      "order": 16,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Dance at the Tavern",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "Song of Icewater, 200 Renown",
+      "deadline": "Leda, 27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-17",
+      "slug": "dance-for-daimon",
+      "order": 17,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Dance for Daimon",
+      "accept": "route",
+      "location": "Daimon",
+      "reward": "Gift Box, Simple Weapon Crate, 3000G, 200 Renown, Verdant Hollow",
+      "deadline": "Leda, 28/5",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-18",
+      "slug": "dance-for-regia",
+      "order": 18,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Dance for Regia",
+      "accept": "route",
+      "location": "Regia",
+      "reward": "3000G, 200 Renown",
+      "deadline": "Leda, 28/5",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-19",
+      "slug": "simple-drink-recipes",
+      "order": 19,
+      "chapter": 4,
+      "chapterLabel": "Chapter 4",
+      "name": "Simple Drink Recipes",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "Song of Madness, 3000G, 150 Renown",
+      "deadline": "No expiry recorded",
+      "priority": true,
+      "note": "On Leda's route the delivery has to wait for the next chapter because Renown is not high enough yet.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-20",
+      "slug": "dread-warrior-challenge-aguirre",
+      "order": 20,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Dread Warrior Challenge - Aguirre",
+      "accept": "route",
+      "location": "Rubess Forest",
+      "reward": "Hidden Birdbane, 6000G, 150 Renown",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-21",
+      "slug": "monster-in-the-night",
+      "order": 21,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Monster in the Night",
+      "accept": "npc",
+      "location": "Dagsion",
+      "reward": "1500G, 100 Renown",
+      "deadline": "Leda, 7/5",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-22",
+      "slug": "request-to-capture-orniuses",
+      "order": 22,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Request to Capture Orniuses",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "2000G, 200 Renown",
+      "deadline": "Cai, 1/9",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-23",
+      "slug": "hidden-memories",
+      "order": 23,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Hidden Memories",
+      "accept": "route",
+      "location": "Collapsed Fort",
+      "reward": "2000G, 100 Renown",
+      "deadline": "Cai, 9/7",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-24",
+      "slug": "a-peculiar-message",
+      "order": 24,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "A Peculiar Message",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "2000G, 180 Renown",
+      "deadline": "Cai, 20/5",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-25",
+      "slug": "behelda-axes",
+      "order": 25,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Behelda Axes",
+      "accept": "npc",
+      "location": "Napier Woods",
+      "reward": "Desert Millet, Shem Yam, 1000G, 50 Renown",
+      "deadline": "No date recorded",
+      "priority": true,
+      "note": "Recorded as a likely semi-random generic subquest.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-26",
+      "slug": "petals-of-encouragement",
+      "order": 26,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Petals of Encouragement",
+      "accept": "npc",
+      "location": "Yaaman",
+      "reward": "Linking Rock, 800G, 50 Renown",
+      "deadline": "No exact date",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-27",
+      "slug": "sinister-sacrifices",
+      "order": 27,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Sinister Sacrifices",
+      "accept": "npc",
+      "location": "Sunset Fortress",
+      "reward": "Black-Magic Manual, 1000G, 50 Renown",
+      "deadline": "No date recorded",
+      "priority": true,
+      "note": "Recorded as a likely semi-random generic subquest.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-28",
+      "slug": "send-supplies-caltrop-flowers",
+      "order": 28,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Send Supplies - Caltrop Flowers",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G, 100 Renown",
+      "deadline": "Theodora, 24/10",
+      "priority": true,
+      "note": "Delivers Caltrop Flowers x5.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-29",
+      "slug": "send-supplies-white-trout",
+      "order": 29,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Send Supplies - White Trout",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G, 300 Renown",
+      "deadline": "Theodora, 24/10",
+      "priority": true,
+      "note": "Delivers White Trout x20.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-30",
+      "slug": "dread-warrior-challenge-borges",
+      "order": 30,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Dread Warrior Challenge - Borges",
+      "accept": "route",
+      "location": "Niraga Mine",
+      "reward": "Hidden Soulrend, 5000G, 150 Renown",
+      "deadline": "Sources conflict: 24/11 or 27/11",
+      "priority": true,
+      "note": "Two deadlines appear inside the same guide; the later one is the more consistent.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-31",
+      "slug": "dance-for-callianeira-port",
+      "order": 31,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Dance for Callianeira Port",
+      "accept": "route",
+      "location": "Callianeira Port",
+      "reward": "Sweet Leaves, Gift Box, 5000G, 200 Renown, Traveler's Hill",
+      "deadline": "Leda, 28/6",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-32",
+      "slug": "dance-for-aguino",
+      "order": 32,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Dance for Aguino",
+      "accept": "route",
+      "location": "Aguino",
+      "reward": "Sweet Leaves, Gift Box, 5000G, 180 Renown, Ladon Lake",
+      "deadline": "Leda, 28/6",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-33",
+      "slug": "captains-drink-recipes",
+      "order": 33,
+      "chapter": 5,
+      "chapterLabel": "Chapter 5",
+      "name": "Captains' Drink Recipes",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "Song of Icewater Plus, 180 Renown",
+      "deadline": "Leda, 27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-34",
+      "slug": "vegetables-for-saramis-guests",
+      "order": 34,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Vegetables for Saramis Guests",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "2500G +200R",
+      "deadline": "Cai, 27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-35",
+      "slug": "ever-employed-a-blacksmith",
+      "order": 35,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Ever Employed a Blacksmith",
+      "accept": "npc",
+      "location": "Dagsion",
+      "reward": "Smithing Stone +10R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "Teaching subquest at the forge; it does not reappear if a route has already been finished.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-36",
+      "slug": "energy-nuts",
+      "order": 36,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Energy Nuts",
+      "accept": "npc",
+      "location": "Sunlit Garden",
+      "reward": "Fodlan Tea, 2000G +50R",
+      "deadline": "No date recorded",
+      "priority": true,
+      "note": "Recorded as a likely semi-random generic subquest.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-37",
+      "slug": "helping-a-bug-hater",
+      "order": 37,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Helping a Bug Hater",
+      "accept": "route",
+      "location": "Klytius Plains",
+      "reward": "2500G +100R",
+      "deadline": "Cai, 1/9",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-38",
+      "slug": "a-bouquet-of-eternal-love",
+      "order": 38,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "A Bouquet of Eternal Love",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "2500G +130R",
+      "deadline": "Cai, 1/9",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-39",
+      "slug": "lost-temple-cat",
+      "order": 39,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Lost Temple Cat",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "2500G +130R",
+      "deadline": "Cai, 20/5",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-40",
+      "slug": "soil-survey",
+      "order": 40,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Soil Survey",
+      "accept": "npc",
+      "location": "Ruins of Megrez",
+      "reward": "2000G +50R",
+      "deadline": "No date recorded",
+      "priority": true,
+      "note": "Recorded as a likely semi-random generic subquest.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-41",
+      "slug": "dread-warrior-challenge-sepente",
+      "order": 41,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Dread Warrior Challenge - Sepente",
+      "accept": "route",
+      "location": "Corroios Fort Ruins",
+      "reward": "Hidden Flowform, 7500G +150R",
+      "deadline": "Dietrich, 27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-42",
+      "slug": "send-supplies-black-sand-steel",
+      "order": 42,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Send Supplies - Black-Sand Steel",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +320R",
+      "deadline": "Theodora, 24/10",
+      "priority": true,
+      "note": "Delivers Black-Sand Steel x20.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-43",
+      "slug": "send-supplies-melara",
+      "order": 43,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Send Supplies - Melara",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +320R",
+      "deadline": "Theodora, 24/10",
+      "priority": true,
+      "note": "Delivers Melara x10 alongside the Black-Sand Steel. Melara is also a reward item from a Chapter 9 quest, so the two are easy to confuse.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-44",
+      "slug": "dance-for-raivo-port",
+      "order": 44,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Dance for Raivo Port",
+      "accept": "route",
+      "location": "Raivo Port",
+      "reward": "Sweet Leaves, Gift Box, 5000G +180R",
+      "deadline": "Leda, 1/9",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-45",
+      "slug": "dance-for-zoste",
+      "order": 45,
+      "chapter": 6,
+      "chapterLabel": "Chapter 6",
+      "name": "Dance for Zoste",
+      "accept": "route",
+      "location": "Zoste",
+      "reward": "Sweet Leaves, Vegetable Crate, 5000G +180R",
+      "deadline": "Leda, 1/9",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-46",
+      "slug": "special-request-from-mom",
+      "order": 46,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Special Request from Mom",
+      "accept": "route",
+      "location": "Fortuna's Temple",
+      "reward": "Dragoon, 8000G",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "Unlocks the Dragoon class.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-47",
+      "slug": "special-request-from-pop",
+      "order": 47,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Special Request from Pop",
+      "accept": "route",
+      "location": "Starbirth Garden",
+      "reward": "Advanced License, Caladrius",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-48",
+      "slug": "white-maned-demon-s-request",
+      "order": 48,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "White-Maned Demon's Request",
+      "accept": "route",
+      "location": "Galen Fort Ruins",
+      "reward": "Advanced License, Troubadour",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-49",
+      "slug": "a-sword-of-deadly-renown",
+      "order": 49,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "A Sword of Deadly Renown",
+      "accept": "npc",
+      "location": "Regia",
+      "reward": "Iron Axe, 4000G +50R",
+      "deadline": "Chapter 7",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-50",
+      "slug": "a-challenge",
+      "order": 50,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "A Challenge",
+      "accept": "npc",
+      "location": "Sonai Pass",
+      "reward": "1000G +50R",
+      "deadline": "Chapter 7",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-51",
+      "slug": "catching-sweetie-s-eyes",
+      "order": 51,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Catching Sweetie's Eyes",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "Sea-Spirit Charm +10R",
+      "deadline": "Chapter 7",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-52",
+      "slug": "a-screeching-strange-shadow",
+      "order": 52,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "A Screeching, Strange Shadow",
+      "accept": "npc",
+      "location": "Fallen General's Barrows",
+      "reward": "Black-Sand Steel, 1000G +80R",
+      "deadline": "Chapter 7",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-53",
+      "slug": "a-taste-from-home",
+      "order": 53,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "A Taste from Home",
+      "accept": "npc",
+      "location": "Aguino",
+      "reward": "Pickled Bulbs, 2000G +50R",
+      "deadline": "Chapter 7",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-54",
+      "slug": "dread-warrior-challenge-camilo",
+      "order": 54,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Dread Warrior Challenge - Camilo",
+      "accept": "route",
+      "location": "Fort Hayn",
+      "reward": "Hidden Giantsbane, 9000G +150R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-55",
+      "slug": "send-supplies-thry-fruit",
+      "order": 55,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Send Supplies - Thry Fruit",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +320R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Thry Fruit x30.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-56",
+      "slug": "send-supplies-carna-bonito",
+      "order": 56,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Send Supplies - Carna Bonito",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +320R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Carna Bonito x30.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-57",
+      "slug": "trouble-at-the-gate",
+      "order": 57,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Trouble at the Gate",
+      "accept": "route",
+      "location": "Hugo Stronghold",
+      "reward": "3000G +100R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-58",
+      "slug": "the-artisans-of-megaira",
+      "order": 58,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "The Artisans of Megaira",
+      "accept": "route",
+      "location": "Megaira",
+      "reward": "5000G +130R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-59",
+      "slug": "help-my-feelings-take-wing",
+      "order": 59,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Help My Feelings Take Wing",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "3000G +130R",
+      "deadline": "9/7",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-60",
+      "slug": "fish-are-gross",
+      "order": 60,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Fish Are Gross",
+      "accept": "route",
+      "location": "Fina Reef",
+      "reward": "3000G +180R",
+      "deadline": "23/10",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-61",
+      "slug": "learning-more-about-mahdel",
+      "order": 61,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Learning More About Mahdel",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "+30R",
+      "deadline": "28/6",
+      "priority": true,
+      "note": "Easy to confuse with the Leda-only Learning More about Mehdel entry, which is spelled differently.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-62",
+      "slug": "dance-for-mons",
+      "order": 62,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Dance for Mons",
+      "accept": "route",
+      "location": "Mons",
+      "reward": "Sweet Leaves, Quality Weapon Crate, 5000G +200R, Oracle Falls",
+      "deadline": "15/10",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-63",
+      "slug": "dance-for-alecto",
+      "order": 63,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Dance for Alecto",
+      "accept": "route",
+      "location": "Alecto",
+      "reward": "Sweet Leaves, Quality Weapon Crate, 5000G +200R, Myugria Great Tree",
+      "deadline": "15/10",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-64",
+      "slug": "dance-for-barsk-post-town",
+      "order": 64,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Dance for Barsk Post Town",
+      "accept": "route",
+      "location": "Barsk Post Town",
+      "reward": "Pepper Leaves, Luxury Vegetable Crate, 5000G +200R",
+      "deadline": "15/10",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-65",
+      "slug": "popular-drink-recipes",
+      "order": 65,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Popular Drink Recipes",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "Song of Passion Plus +200R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-66",
+      "slug": "legacy-of-a-legendary-sculptor",
+      "order": 66,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Legacy of a Legendary Sculptor",
+      "accept": "route",
+      "location": "Dagda",
+      "reward": "Riding Manual, Flying Manual, Heavy-Armor Manual, 5000G +100R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-67",
+      "slug": "seteth-s-request",
+      "order": 67,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "Seteth's Request",
+      "accept": "route",
+      "location": "Mount Ouranos",
+      "reward": "Not recorded",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-68",
+      "slug": "the-magic-of-theater",
+      "order": 68,
+      "chapter": 7,
+      "chapterLabel": "Chapter 7",
+      "name": "The Magic of Theater",
+      "accept": "npc",
+      "location": "Dagsion",
+      "reward": "Simple Pastries +10R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-69",
+      "slug": "dread-warrior-challenge-il-lara",
+      "order": 69,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Dread Warrior Challenge - Il-Lara",
+      "accept": "route",
+      "location": "Dione Fort, the Piercer",
+      "reward": "Hidden Windpierce, Guardian, 10000G +150R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "Unlocks the Guardian class.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-70",
+      "slug": "huge-hairy-beast",
+      "order": 70,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Huge, Hairy Beast",
+      "accept": "npc",
+      "location": "Moonwatch Pass",
+      "reward": "Cadam, Dates, 1500G +80R",
+      "deadline": "Chapter 8",
+      "priority": true,
+      "note": "One of the few quests that pays the Dates item.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-71",
+      "slug": "blight-louse-extermination-request",
+      "order": 71,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Blight-Louse Extermination Request",
+      "accept": "npc",
+      "location": "Bugs' Burrow",
+      "reward": "2500G +50R",
+      "deadline": "Chapter 8",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-72",
+      "slug": "purloined-spellcaster-s-tools",
+      "order": 72,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Purloined Spellcaster's Tools",
+      "accept": "npc",
+      "location": "Secret Altar",
+      "reward": "White-Magic Manual, 1500G +80R",
+      "deadline": "Chapter 8, no exact date",
+      "priority": true,
+      "note": "The Secret Altar has no obvious route to it, which is why the quest is searched for by location only.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-73",
+      "slug": "send-supplies-steelfish",
+      "order": 73,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Send Supplies - Steelfish",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +320R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Steelfish x10 and unlocks Cataphract.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-74",
+      "slug": "send-supplies-ladon-loach",
+      "order": 74,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Send Supplies - Ladon Loach",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +320R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Ladon Loach x35.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-75",
+      "slug": "a-letter-of-some-gravity",
+      "order": 75,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "A Letter of Some Gravity",
+      "accept": "route",
+      "location": "Unmanned Storehouse",
+      "reward": "1000G +30R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-76",
+      "slug": "for-the-empire-s-safety",
+      "order": 76,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "For the Empire's Safety",
+      "accept": "route",
+      "location": "Unmanned Storehouse",
+      "reward": "Specialty License +200R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-77",
+      "slug": "beasts-blocking-the-path-home",
+      "order": 77,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Beasts Blocking the Path Home",
+      "accept": "route",
+      "location": "Libertas Stronghold",
+      "reward": "4000G +100R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-78",
+      "slug": "bringing-peace",
+      "order": 78,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Bringing Peace",
+      "accept": "route",
+      "location": "Mulciber Marshlands",
+      "reward": "7000G +130R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-79",
+      "slug": "vegetables-for-arago-guests",
+      "order": 79,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Vegetables for Arago Guests",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "2500G +200R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-80",
+      "slug": "esmeralda-s-request",
+      "order": 80,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Esmeralda's Request",
+      "accept": "route",
+      "location": "Cape Damasen",
+      "reward": "Not recorded",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-81",
+      "slug": "beauty-and-health-at-the-thermae",
+      "order": 81,
+      "chapter": 8,
+      "chapterLabel": "Chapter 8",
+      "name": "Beauty and Health at the Thermae",
+      "accept": "npc",
+      "location": "Dagsion",
+      "reward": "Young Ghosh +10R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-82",
+      "slug": "my-late-sister-s-accessory",
+      "order": 82,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "My Late Sister's Accessory",
+      "accept": "npc",
+      "location": "Axion Gorge",
+      "reward": "3000G +100R",
+      "deadline": "Chapter 9",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-83",
+      "slug": "spellcasters-in-the-forest",
+      "order": 83,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Spellcasters in the Forest",
+      "accept": "npc",
+      "location": "Faun's Forest",
+      "reward": "Melara, 4000G +50R",
+      "deadline": "Chapter 9",
+      "priority": true,
+      "note": "Pays the Melara item, which the Theodora supply chain also asks for.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-84",
+      "slug": "something-a-god-eats",
+      "order": 84,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Something a God Eats",
+      "accept": "npc",
+      "location": "Port of Pandora",
+      "reward": "Eastern Black Silk, 6000G +50R",
+      "deadline": "Chapter 9",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-85",
+      "slug": "dread-warrior-challenge-cabaye",
+      "order": 85,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Dread Warrior Challenge - Cabaye",
+      "accept": "route",
+      "location": "Stoppered Shrine",
+      "reward": "10000G +50R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-86",
+      "slug": "send-supplies-roca",
+      "order": 86,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Send Supplies - Roca",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +320R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Roca x30 and unlocks Guardian.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-87",
+      "slug": "send-supplies-kothar-gar",
+      "order": 87,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Send Supplies - Kothar Gar",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +350R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Kothar Gar x10.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-88",
+      "slug": "another-challenge",
+      "order": 88,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Another Challenge",
+      "accept": "npc",
+      "location": "Cape Damasen",
+      "reward": "2000G +50R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-89",
+      "slug": "great-dancer-s-successor",
+      "order": 89,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Great Dancer's Successor",
+      "accept": "route",
+      "location": "Baina Oasis, Pride of Midea",
+      "reward": "Dancer's Necklace, Dancer",
+      "deadline": "15/10",
+      "priority": true,
+      "note": "Unlocks the Dancer class.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-90",
+      "slug": "dance-for-orens",
+      "order": 90,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Dance for Orens",
+      "accept": "route",
+      "location": "Orens",
+      "reward": "Pepper Leaves, Quality Weapon Crate, Gift Box, 5000G +150R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-91",
+      "slug": "dance-for-port-of-pandora",
+      "order": 91,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Dance for Port of Pandora",
+      "accept": "route",
+      "location": "Port of Pandora",
+      "reward": "Pepper Leaves, Luxury Vegetable Crate, Gift Box, 5000G +150R, Traveler's Garden",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-92",
+      "slug": "dance-for-mahon-castle-town",
+      "order": 92,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Dance for Mahon Castle Town",
+      "accept": "route",
+      "location": "Mahon Castle Town",
+      "reward": "Pepper Leaves, Quality Weapon Crate, Gift Box, 5000G +150R, Towering Sands",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-93",
+      "slug": "dance-for-twalinn",
+      "order": 93,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Dance for Twalinn",
+      "accept": "route",
+      "location": "Twalinn",
+      "reward": "Pepper Leaves, Luxury Vegetable Crate, Gift Box, 5000G +200R, Land's-Limit Tower",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-94",
+      "slug": "dance-for-breston",
+      "order": 94,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Dance for Breston",
+      "accept": "route",
+      "location": "Breston",
+      "reward": "Pepper Leaves, Da Mina Crate, Gift Box, 5000G +200R, Ancient Tower of Ash",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-95",
+      "slug": "dance-for-whill",
+      "order": 95,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Dance for Whill",
+      "accept": "route",
+      "location": "Whill",
+      "reward": "Pepper Leaves, Luxury Vegetable Crate, Gift Box, 5000G +200R, Forest of No Return",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-96",
+      "slug": "missing-master",
+      "order": 96,
+      "chapter": 9,
+      "chapterLabel": "Chapter 9",
+      "name": "Missing Master",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "4000G +130 Renown",
+      "deadline": "15/10",
+      "priority": true,
+      "note": "A priority quest with the earliest deadline of any Chapter 9 entry, and no NPC name recorded.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-97",
+      "slug": "elegant-drink-recipes",
+      "order": 97,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Elegant Drink Recipes",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "Song of Angels, Ranger, Troubadour +200R",
+      "deadline": "17/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-98",
+      "slug": "send-supplies-desert-millet",
+      "order": 98,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Send Supplies - Desert Millet",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +350R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Desert Millet x35.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-99",
+      "slug": "send-supplies-venomstone",
+      "order": 99,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Send Supplies - Venomstone",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +350R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Venomstone x35.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-100",
+      "slug": "attack-of-the-huge-birds",
+      "order": 100,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Attack of the Huge Birds",
+      "accept": "npc",
+      "location": "Lake Brontes",
+      "reward": "Shem Yam, Redflicker, 3000G +80R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-101",
+      "slug": "skeleton-in-the-ruins",
+      "order": 101,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Skeleton in the Ruins",
+      "accept": "npc",
+      "location": "Krove Ditch",
+      "reward": "Elixir, 2000G +50R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-102",
+      "slug": "one-last-challenge",
+      "order": 102,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "One Last Challenge",
+      "accept": "npc",
+      "location": "Mount Ouranos",
+      "reward": "Cullet, 3000G +80R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "One of the few quests that pays the Cullet forging material.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-103",
+      "slug": "dread-warrior-challenge-damien",
+      "order": 103,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Dread Warrior Challenge - Damien",
+      "accept": "route",
+      "location": "Aditi's Cave",
+      "reward": "Hidden Truesnipe, 10000G +150R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "Grouped under Chapter 10 but the source records it as Chapter 9.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-104",
+      "slug": "dance-for-osiris",
+      "order": 104,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Dance for Osiris",
+      "accept": "route",
+      "location": "Osiris",
+      "reward": "Bitter Leaves, Luxury Vegetable Crate, Gift Box, 5000G +200R, Cape Nereus",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-105",
+      "slug": "dance-for-niiza-port",
+      "order": 105,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Dance for Niiza Port",
+      "accept": "route",
+      "location": "Niiza Port",
+      "reward": "Bitter Leaves, Da Mina Crate, Gift Box, 5000G +200R, Arrecif Saltmarsh",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-106",
+      "slug": "ultand-s-request",
+      "order": 106,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Ultand's Request",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "Not recorded",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-107",
+      "slug": "vegetables-for-the-arena-basement",
+      "order": 107,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Vegetables for the Arena Basement",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "2500G +200R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-108",
+      "slug": "eternal-prisoner",
+      "order": 108,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Eternal Prisoner",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5000G +100R",
+      "deadline": "15/10",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-109",
+      "slug": "brawlers-of-the-plains",
+      "order": 109,
+      "chapter": 10,
+      "chapterLabel": "Chapter 10",
+      "name": "Brawlers of the Plains",
+      "accept": "route",
+      "location": "Bran Plains",
+      "reward": "5000G +130R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-110",
+      "slug": "dread-warrior-challenge-berenguela",
+      "order": 110,
+      "chapter": 11,
+      "chapterLabel": "Chapter 11",
+      "name": "Dread Warrior Challenge - Berenguela",
+      "accept": "route",
+      "location": "Nemea Cavern",
+      "reward": "Hidden Evilbreak, 11000G +150R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "Grouped under Chapter 11 but the source records it as Chapter 9.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-111",
+      "slug": "send-supplies-lir-fish",
+      "order": 111,
+      "chapter": 11,
+      "chapterLabel": "Chapter 11",
+      "name": "Send Supplies - Lir Fish",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +350R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Lir Fish x35 and unlocks Dragoon.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-112",
+      "slug": "send-supplies-sea-star-stone",
+      "order": 112,
+      "chapter": 11,
+      "chapterLabel": "Chapter 11",
+      "name": "Send Supplies - Sea-Star Stone",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "5500G +350R",
+      "deadline": "24/10",
+      "priority": true,
+      "note": "Delivers Sea-Star Stone x35.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-113",
+      "slug": "secret-sparkle",
+      "order": 113,
+      "chapter": 11,
+      "chapterLabel": "Chapter 11",
+      "name": "Secret Sparkle",
+      "accept": "npc",
+      "location": "Pyroxene Cave",
+      "reward": "Dew of Protection, 3000G +80R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-114",
+      "slug": "defeat-the-rampaging-golems",
+      "order": 114,
+      "chapter": 11,
+      "chapterLabel": "Chapter 11",
+      "name": "Defeat the Rampaging Golems",
+      "accept": "route",
+      "location": "Kurdelind Ruins",
+      "reward": "Sea-Star Stone, 2000G +90R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-115",
+      "slug": "dance-for-benetnasch",
+      "order": 115,
+      "chapter": 11,
+      "chapterLabel": "Chapter 11",
+      "name": "Dance for Benetnasch",
+      "accept": "route",
+      "location": "Benetnasch",
+      "reward": "Wonder Leaves, Bitter Leaves, Da Mina Crate, 5000G +180R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-116",
+      "slug": "a-flying-steed",
+      "order": 116,
+      "chapter": 11,
+      "chapterLabel": "Chapter 11",
+      "name": "A Flying Steed",
+      "accept": "route",
+      "location": "Pegasi's Peak",
+      "reward": "4000G +130R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-117",
+      "slug": "gold-coin-chase",
+      "order": 117,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "Gold-Coin Chase",
+      "accept": "npc",
+      "location": "Giant's-Print Fort",
+      "reward": "Luxury Weapon Crate, 2000G +80R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-118",
+      "slug": "stolen-star-observations",
+      "order": 118,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "Stolen Star Observations",
+      "accept": "npc",
+      "location": "Bau-Caller's Cape",
+      "reward": "White-Magic Manual, 3000G +50R",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-119",
+      "slug": "olympia-s-request-scarlet-firedrops",
+      "order": 119,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "Olympia's Request: Scarlet Firedrops",
+      "accept": "route",
+      "location": "Daybreak Plains",
+      "reward": "Not recorded",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-120",
+      "slug": "olympia-s-request-aurum-rose",
+      "order": 120,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "Olympia's Request: Aurum Rose",
+      "accept": "route",
+      "location": "Klytius Plains",
+      "reward": "Not recorded",
+      "deadline": "No deadline",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-121",
+      "slug": "olympia-s-request-azure-heart",
+      "order": 121,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "Olympia's Request: Azure Heart",
+      "accept": "route",
+      "location": "Valhalla Mine",
+      "reward": "Not recorded",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "Observed on Dietrich's route on Monday 10/9.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-122",
+      "slug": "that-dark-hero",
+      "order": 122,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "That Dark Hero",
+      "accept": "route",
+      "location": "Dagsion",
+      "reward": "7000G +130R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-123",
+      "slug": "the-mystery-of-headsman-s-rock",
+      "order": 123,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "The Mystery of Headsman's Rock",
+      "accept": "route",
+      "location": "Headsman's Rock",
+      "reward": "7000G +130R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-124",
+      "slug": "dread-warrior-challenge-oko",
+      "order": 124,
+      "chapter": 12,
+      "chapterLabel": "Chapter 12",
+      "name": "Dread Warrior Challenge - Oko",
+      "accept": "route",
+      "location": "Iapetus Cavern",
+      "reward": "Ranger, 12000G +150R",
+      "deadline": "27/11",
+      "priority": true,
+      "note": "Grouped under Chapter 12 but the source records it as Chapter 10.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    },
+    {
+      "id": "quest-125",
+      "slug": "jester-s-request-underworld-wanderers",
+      "order": 125,
+      "chapter": 0,
+      "chapterLabel": "Timing not recorded",
+      "name": "Jester's Request: Underworld Wanderers",
+      "accept": "quest",
+      "location": "Not recorded",
+      "reward": "Not recorded",
+      "deadline": "27/11",
+      "priority": false,
+      "note": "Timing not recorded beyond the deadline; observed on Dietrich's route.",
+      "sources": [
+        {
+          "label": "fortunesweave.co.uk - Sidequests",
+          "url": "https://fortunesweave.co.uk/sidequests",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "RPG Site - Part 1 subquest guide",
+          "url": "https://www.rpgsite.net/guide/21392",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Game8 - Sidequests",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786",
+          "date": "2026-09-28"
+        }
+      ],
+      "grade": "community-reported",
+      "asOf": "2026-09-28"
+    }
+  ]
+}
