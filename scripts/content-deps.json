@@ -1,0 +1,9 @@
+{
+  "_comment": "gen-content-dates.mjs 的配置。sitePublished 是全站兜底日期；routeDependencies 声明「除自身 page.tsx 外还依赖哪些文件」，用于把数据改动传导到页面最后修改日。严禁把每日抓取产物写进 routeDependencies（会造成 content churn）。",
+  "sitePublished": "2026-09-28",
+  "evergreenRoutes": [],
+  "routeDependencies": {
+    "/": ["src/data/updates.json"],
+    "/updates": ["src/data/updates.json"]
+  }
+}

@@ -1,0 +1,17 @@
+# Cloudflare Pages 原生头配置（构建时自动复制到 out/）。
+# ⚠️ 静态导出下 next.config 的 async headers() 是空操作，必须用本文件（或 Vercel 用 vercel.json）。
+# 若部署到 Vercel：本文件不生效，请把同样的规则搬进 vercel.json 的 "headers" 字段。
+
+# 带 hash 的构建产物：文件名随内容变化，可安全 immutable 一年
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 图片无 hash 后缀：长缓存但保留校验
+/images/*
+  Cache-Control: public, max-age=604800, must-revalidate
+
+# HTML 短缓存：保证内容 / sitemap / 日期更新能及时传播给爬虫
+/*
+  Cache-Control: public, max-age=3600, must-revalidate
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

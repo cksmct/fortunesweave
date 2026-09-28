@@ -1,0 +1,21 @@
+{
+  "_comment": "唯一真源：首页 Latest Update 区块与 /updates/ 页都必须读本文件，严禁在 page.tsx 里写死数组。updates[0] 即首页 C 位。currentVersion 与 lastUpdated 必须与 game.config.json 的 game 字段一致（audit-updates.mjs 会比对）。",
+  "lastUpdated": "2026-09-28",
+  "currentVersion": "1.0.1",
+  "updates": [
+    {
+      "slug": "launch-and-1-0-1",
+      "date": "Sep 17, 2026",
+      "isoDate": "2026-09-17",
+      "title": "Fire Emblem: Fortune's Weave launches worldwide (v1.0.1)",
+      "headline": "Launch-day patch plus four free collaboration weapons",
+      "description": "The game released on Nintendo Switch 2 on September 17, 2026 at $69.99 digital / $79.99 physical, alongside version 1.0.1 and a free update that adds four collaboration weapons. This is the version baseline every page on this site is written against.",
+      "badge": "Live",
+      "features": [
+        { "icon": "Game", "label": "Sep 17, 2026", "text": "Worldwide release", "href": "/updates/" },
+        { "icon": "Patch", "label": "1.0.1", "text": "Launch-day update", "href": "/updates/" },
+        { "icon": "Free", "label": "4 weapons", "text": "Free collaboration update", "href": "/updates/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "_comment": "下游契约单一事实源。siteLanguage=站点内容语言（英文站=en），reportLang=给你看的报告语言。占位值必须替换。",
+  "siteDomain": "fortunesweave.online",
+  "statsTarget": "",
+  "_statsTargetNote": "主机独占（console）平台无实时数值数据源，故留空；严禁为了走通 Phase 2 而给 Nintendo 游戏硬套 Roblox/Steam 抓取脚本。",
+  "trendsUrl": "https://trends.google.com/explore?date=now%207-d&geo=US&q=fire%20emblem%20fortune%27s%20weave",
+  "gamePlatform": "console",
+  "statsRefresh": "none",
+  "gameName": "Fire Emblem: Fortune's Weave",
+  "siteLanguage": "en",
+  "build": "npm run build",
+  "inbox": "update-inbox",
+  "reportLang": "zh",
+  "competitorKbPath": "competitor-profiles",
+  "skills": {
+    "trends": "google-trends-to-pages",
+    "competitor": "competitor-profiling"
+  },
+  "audits": {
+    "site": "node scripts/audit-site.mjs",
+    "seoMeta": "node scripts/audit-seo-meta.mjs",
+    "hero": "node scripts/audit-hero.mjs",
+    "nav": "node scripts/audit-nav.mjs",
+    "headerFooter": "node scripts/audit-header-footer.mjs",
+    "orphans": "node scripts/audit-orphans.mjs",
+    "links": "node scripts/audit-links.mjs",
+    "thin": "node scripts/audit-thin-content.mjs",
+    "lang": "node scripts/audit-language.mjs",
+    "trustCopy": "node scripts/audit-trust-copy.mjs",
+    "sources": "node scripts/audit-sources.mjs",
+    "author": "node scripts/audit-author-eeat.mjs",
+    "uiIntegrity": "node scripts/audit-ui-integrity.mjs",
+    "data": "node scripts/audit-data.mjs",
+    "drift": "node scripts/audit-data-drift.mjs",
+    "updates": "node scripts/audit-updates.mjs",
+    "media": "node scripts/audit-media-integrity.mjs",
+    "trend": "node scripts/audit-trend-coverage.mjs",
+    "browserslist": "node scripts/audit-browserslist-polyfills.mjs"
+  },
+  "videoIntel": {
+    "enabled": true,
+    "searchTerms": [],
+    "maxPerTerm": 6,
+    "onlyWithCaptions": true,
+    "autoDeriveTerms": true
+  },
+  "indexnow": false,
+  "gitCommit": false,
+  "gitPush": false,
+  "forceRerun": false,
+  "excludeRunState": true
+}

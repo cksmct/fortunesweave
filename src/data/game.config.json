@@ -1,0 +1,50 @@
+{
+  "_comment": "单一事实源。所有字段必须是已核实事实；baseUrl 严禁占位符（audit-seo-meta.mjs 会拦）。",
+  "game": {
+    "name": "Fortune's Weave",
+    "fullName": "Fire Emblem: Fortune's Weave",
+    "slug": "fortune-s-weave",
+    "developer": "Intelligent Systems",
+    "publisher": "Nintendo",
+    "genre": "Turn-Based Tactics RPG",
+    "platforms": ["Nintendo Switch 2"],
+    "releaseDate": "2026-09-17",
+    "currentVersion": "1.0.1",
+    "lastUpdated": "2026-09-28",
+    "officialUrl": "https://www.nintendo.com/games/detail/fire-emblem-fortunes-weave-switch-2/"
+  },
+  "seo": {
+    "siteName": "fortunesweave.online",
+    "titleSuffix": "Fire Emblem: Fortune's Weave",
+    "siteTitle": "Fire Emblem: Fortune's Weave Guide & Wiki",
+    "siteDescription": "An independent Fire Emblem: Fortune's Weave companion - characters, classes, paralogues, gifts, materials and locations, with a source and a date on every row.",
+    "baseUrl": "https://fortunesweave.online",
+    "email": "hi@fortunesweave.online",
+    "primaryKeywords": ["Fire Emblem Fortune's Weave", "Fortune's Weave guide", "Fortune's Weave wiki"],
+    "secondaryKeywords": ["Fortune's Weave paralogues", "Fortune's Weave gifts", "Fortune's Weave classes", "Fortune's Weave materials"],
+    "defaultOgImage": "/og-default.png"
+  },
+  "author": {
+    "entity": "organization",
+    "name": "fortunesweave.online",
+    "org": "fortunesweave.online",
+    "description": "Independent, community-run reference for Fire Emblem: Fortune's Weave.",
+    "disambiguatingDescription": "Unofficial fan site. Not affiliated with, endorsed by, or sponsored by Nintendo or Intelligent Systems.",
+    "maintainer": "CT",
+    "maintainerRole": "Site Maintainer",
+    "sameAs": []
+  },
+  "socials": {
+    "_comment": "只填已核实渠道；无则留空字符串。严禁占位 URL。",
+    "official": "https://www.nintendo.com/games/detail/fire-emblem-fortunes-weave-switch-2/"
+  },
+  "features": { "database": true, "tools": true, "updates": true },
+  "routes": [
+    { "path": "/", "title": "Fire Emblem: Fortune's Weave Guide & Wiki", "priority": "1.0", "changeFrequency": "weekly" },
+    { "path": "/updates", "title": "Fortune's Weave Patch Notes & Updates", "priority": "0.8", "changeFrequency": "weekly" },
+    { "path": "/about", "title": "About & How We Verify", "priority": "0.3", "changeFrequency": "yearly" },
+    { "path": "/contact", "title": "Contact", "priority": "0.3", "changeFrequency": "yearly" },
+    { "path": "/privacy", "title": "Privacy Policy", "priority": "0.3", "changeFrequency": "yearly" },
+    { "path": "/terms", "title": "Terms of Use", "priority": "0.3", "changeFrequency": "yearly" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_comment": "导航单一事实源。此处每个内部 href 都必须有对应的 src/app/<path>/page.tsx（audit-nav.mjs 逐个校验，缺页即构建失败）。同一区块内不得出现重复 href。",
+  "header": {
+    "top": [
+      { "label": "Home", "href": "/" },
+      { "label": "Updates", "href": "/updates/" },
+      { "label": "About", "href": "/about/" },
+      { "label": "Contact", "href": "/contact/" }
+    ],
+    "groups": [
+      {
+        "label": "Site",
+        "columns": [
+          {
+            "title": "Policies",
+            "items": [
+              { "label": "Privacy Policy", "href": "/privacy/" },
+              { "label": "Terms of Use", "href": "/terms/" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Reference",
+        "links": [
+          { "label": "Updates & Patch Notes", "href": "/updates/" }
+        ]
+      },
+      {
+        "title": "About this site",
+        "links": [
+          { "label": "About & How We Verify", "href": "/about/" },
+          { "label": "Contact", "href": "/contact/" }
+        ]
+      }
+    ],
+    "legal": [
+      { "label": "Privacy Policy", "href": "/privacy/" },
+      { "label": "Terms of Use", "href": "/terms/" }
+    ]
+  }
+}

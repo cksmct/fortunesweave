@@ -1,0 +1,19 @@
+# 建站第 1 天必建。不声明浏览器目标时 Next.js 会按最保守基线打包，
+# 白送约 14 KB legacy polyfill/transform（Roblox 玩家与 Googlebot 都不需要）。
+#
+# 🛑 两条禁令：
+#  1) 严禁包含 `not dead`（会拉入过时浏览器，强制注入 Array.prototype.at 等兼容代码）；
+#  2) 严禁同时在 package.json 里保留 "browserslist" 字段——两者并存会报
+#     "contains both .browserslistrc and package.json with browsers" 并回退 legacy 模式。
+#     浏览器目标只由本文件单一管理。
+#
+# 验收：构建后 `npx browserslist` 必须 0 报错；out/_next/static/chunks 下不应出现 polyfill-*.js
+last 2 Chrome versions
+last 2 Firefox versions
+last 2 Safari versions
+last 2 Edge versions
+iOS >= 16.4
+Chrome >= 105
+Safari >= 16.4
+Firefox >= 105
+Edge >= 105

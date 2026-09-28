@@ -1,0 +1,69 @@
+/* ⚠️ 本文件复制到 src/app/globals.css（根布局里写的是 import './globals.css'）。
+   入口语法必须与 tailwindcss 主版本一致：
+   - v4（本模板 package.json 为 ^4）→ 下面这行 @import
+   - v3 → 改回 @tailwind base; @tailwind components; @tailwind utilities;
+   写反会报 Module not found: Can't resolve 'tailwindcss' 或样式全丢。 */
+@import "tailwindcss";
+
+/* 🛑 CORE SITE CONTAINER - NEVER DELETE, RENAME OR MIX WITH ADS
+   全站统一页面容器（PageHeader 与各页面共同使用，绝对禁止删除或与第三方广告混排）
+   Tailwind v4 @utility 声明，确保全端居中与 max-w 约束 */
+@utility container-site {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 64rem;
+  padding-inline: 1rem;
+}
+
+.container-site {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 64rem;
+  padding-inline: 1rem;
+}
+
+@layer base {
+  :root {
+    --color-primary: #3b82f6;
+    --color-secondary: #6366f1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  body {
+    @apply antialiased;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+}
+
+/* 暗黑模式支持 */
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* 链接样式 */
+a {
+  @apply transition-colors duration-200;
+}
+
+/* 卡片悬停效果 */
+.card-hover {
+  @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
+}
+
+/* 标签样式 */
+.tag {
+  @apply inline-block px-2 py-0.5 rounded text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400;
+}
+
+/* 代码块样式 */
+code {
+  @apply px-1 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-sm font-mono;
+}

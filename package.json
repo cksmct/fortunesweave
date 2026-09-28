@@ -1,0 +1,37 @@
+{
+  "name": "fortunesweave-online",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/gen-content-dates.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/gen-content-dates.mjs && node scripts/audit-trust-copy.mjs && node scripts/audit-sources.mjs",
+    "build": "next build",
+    "postbuild": "node scripts/audit-site.mjs && node scripts/audit-hero.mjs && node scripts/audit-orphans.mjs && node scripts/audit-seo-meta.mjs && node scripts/audit-nav.mjs && node scripts/audit-header-footer.mjs && node scripts/audit-links.mjs && node scripts/audit-thin-content.mjs && node scripts/audit-language.mjs && node scripts/audit-trust-copy.mjs && node scripts/audit-ui-integrity.mjs && node scripts/audit-author-eeat.mjs && node scripts/audit-updates.mjs && node scripts/audit-sources.mjs && node scripts/audit-data-drift.mjs && node scripts/audit-media-integrity.mjs && node scripts/audit-trend-coverage.mjs && node scripts/audit-browserslist-polyfills.mjs",
+    "start": "next start",
+    "lint": "eslint .",
+    "gen-dates": "node scripts/gen-content-dates.mjs",
+    "audit": "npm run postbuild",
+    "audit:data": "node scripts/audit-data.mjs",
+    "audit:drift": "node scripts/audit-data-drift.mjs",
+    "audit:media": "node scripts/audit-media-integrity.mjs",
+    "audit:trends": "node scripts/audit-trend-coverage.mjs",
+    "submit-indexnow": "node scripts/submit-indexnow.mjs"
+  },
+  "dependencies": {
+    "next": "^16.2.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.4",
+    "sharp": "^0.33.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
