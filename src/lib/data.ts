@@ -31,6 +31,8 @@ export interface GameConfig {
     primaryKeywords: string[];
     secondaryKeywords: string[];
     defaultOgImage: string;
+    yandexVerification?: string;
+    googleAnalyticsId?: string;
   };
   author: {
     entity: string;

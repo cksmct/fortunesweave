@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  verification: {
+    yandex: config.seo.yandexVerification || 'ecb353ffcdbc64e0',
+  },
   openGraph: {
     title: config.seo.siteTitle,
     description: config.seo.siteDescription,
@@ -57,8 +60,40 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="min-h-[calc(100vh-180px)]">{children}</main>
         <Footer />
-        {/* GA4 按需接入：不要在这里写 new Date() 或即时加载的第三方脚本，
-            避免 long task 推高 TBT。可参考 google-analytics 相关技能做延迟挂载。 */}
+        {/* GA4 接入：遵循 PageSpeed & Core Web Vitals 0-TBT 交互优先延迟加载法则，
+            首屏交互（scroll/click/touchstart）或 20s 超时后挂载，杜绝移动端主线程阻塞与性能扣分 */}
+        {config.seo.googleAnalyticsId && (
+          <script
+            id="google-analytics"
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${config.seo.googleAnalyticsId}');
+
+                (function() {
+                  var loaded = false;
+                  function loadGtag() {
+                    if (loaded) return;
+                    loaded = true;
+                    var s = document.createElement('script');
+                    s.async = true;
+                    s.src = 'https://www.googletagmanager.com/gtag/js?id=${config.seo.googleAnalyticsId}';
+                    document.head.appendChild(s);
+                    ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(e) {
+                      window.removeEventListener(e, loadGtag, { passive: true });
+                    });
+                  }
+                  ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(e) {
+                    window.addEventListener(e, loadGtag, { once: true, passive: true });
+                  });
+                  setTimeout(loadGtag, 20000);
+                })();
+              `,
+            }}
+          />
+        )}
       </body>
     </html>
   );

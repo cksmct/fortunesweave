@@ -22,11 +22,17 @@ const nextConfig: NextConfig = {
     resolveAlias: {
       'next/dist/build/polyfills/polyfill-module': './src/lib/empty-polyfill.js',
       '../build/polyfills/polyfill-module': './src/lib/empty-polyfill.js',
+      'next/dist/build/polyfills/polyfill-nomodule': './src/lib/empty-polyfill.js',
+      '../build/polyfills/polyfill-nomodule': './src/lib/empty-polyfill.js',
     },
   },
   webpack: (config) => {
     config.resolve.alias = config.resolve.alias || {};
     config.resolve.alias['next/dist/build/polyfills/polyfill-module'] = path.resolve(
+      __dirname,
+      'src/lib/empty-polyfill.js'
+    );
+    config.resolve.alias['next/dist/build/polyfills/polyfill-nomodule'] = path.resolve(
       __dirname,
       'src/lib/empty-polyfill.js'
     );
