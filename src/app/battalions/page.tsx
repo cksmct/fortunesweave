@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import battalionsData from "@/data/battalions.json";
 
@@ -158,9 +159,11 @@ export default function BattalionsPage() {
             What no source has recorded yet
           </h2>
           <p>
-            This is the one system on the site where the honest answer to &quot;which one should I
-            use&quot; is that nobody has published a single named battalion or a single gambit effect.
-            Rather than fill that hole with plausible names, the gap is stated.
+            The names and effects of the first battalions recorded on this site come from the captioned
+            route guide above, so this is a starting roster rather than an empty list: they are one
+            creator&apos;s Theodora run, not the complete set the game ships with. A full table would need a
+            second route guide and a second account of the same rows, and until that exists the list below is
+            labelled as one creator&apos;s observations.
           </p>
           <ul className="space-y-2 text-gray-700 dark:text-gray-300">
             {gaps.map((gap) => (
@@ -171,6 +174,100 @@ export default function BattalionsPage() {
             The practical workaround in the meantime is to read the two gates rather than a tier list:
             pick battalions at or below your unit&apos;s Authority, keep them on infantry, and deploy the
             cleric-type ones to resource nodes and the mage-type ones to ore when they are not in use.
+          </p>
+        </section>
+
+        {/* Battalion Roster Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                The First Named Battalions
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot; Verified
+              English Captions &middot; <span className="font-mono">w9SoSWIcysg</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="w9SoSWIcysg"
+              title="BEST THEODORA Team Build in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            This route-build guide is where the tables above stop being abstract, because the battalions it
+            names are the clearest record of what a gambit actually does. Everything below is taken from the
+            captions of one Theodora playthrough: the effects are the useful part, and the labels he uses for
+            them are quoted rather than asserted, since a caption rendering of a menu name is not a
+            verified string. His placements are his own choices for one team, not requirements.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Shape of Attack
+              </span>
+              <h3 className="text-sm font-semibold text-white">A battalion that strikes diagonally</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The most interesting one he fields is a caster battalion whose attack lands in an X pattern,
+                which is worth more than it sounds: it gives a unit whose own attacks run in straight lines the
+                ability to cover the diagonals around it. He puts it on Theodora precisely because her own
+                ranged attacks are line-based, so the battalion closes the gaps her weapon cannot.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Control
+              </span>
+              <h3 className="text-sm font-semibold text-white">A battalion that stops a target acting</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The second named effect immobilizes the target, which he reads as a survivability tool rather
+                than a damage tool and assigns to the squishiest unit on the team: if a fragile caster is
+                caught in melee she does not survive the retaliation, so removing the target&apos;s turn is
+                worth more than adding damage to it. That is a genuinely different use of a gambit from
+                hitting harder.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Damage and Rank
+              </span>
+              <h3 className="text-sm font-semibold text-white">A heavy physical gambit and the entry tier</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The rest of his loadout covers the two ends of the ladder. One is described as a strong
+                physical attack that he puts on a unit who meets its Authority requirement rather than on the
+                unit who would hit hardest, and the others are the entry-level soldier and trainee-cleric
+                battalions that come first and carry simple effects, the latter granting a form of healing.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                04 &middot; Upkeep
+              </span>
+              <h3 className="text-sm font-semibold text-white">Re-check the assign menu as Authority rises</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                His standing instruction is to keep opening the assign menu and upgrading battalions as each
+                character&apos;s Authority skill climbs, because a battalion that was the best available at
+                Authority one is usually outclassed a tier later. That is the same gate the FAQ above
+                describes, seen from the maintenance side rather than the eligibility side.
+              </p>
+            </div>
+          </div>
+
+          <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Worth separating from battalions in the same video: his Theodora build leans on a class ability
+            acquired by auto-levelling the class at the inn rather than by fielding her in it, which keeps her
+            stat growth untouched while still banking the ability. The full battalion list and its gambit
+            table are still waiting on a second independent route guide before any of the labels above are
+            promoted to cross-checked.
           </p>
         </section>
 

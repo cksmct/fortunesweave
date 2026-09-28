@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import deitiesData from "@/data/deities.json";
 
@@ -130,6 +131,130 @@ export default function DeitiesPage() {
           </p>
         </section>
 
+        {/* Temple Row Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Temple Row and What Each God Pays Out
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Lucky Crit</span> &middot; Verified
+              English Captions &middot; <span className="font-mono">CLWyypxDWZo</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="CLWyypxDWZo"
+              title="Blessings Guide & The Gods of Dagda EXPLAINED"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The table above lists the pantheon by name and domain. This captioned gods-and-blessings guide
+            supplies what the tables could not: where each god is housed in the capital, which ones you can
+            actually serve, and the shape of the battlefield benefit each one grants. It is recorded here as
+            video-reported detail rather than as settled fact: it rests on one creator&apos;s read of the
+            game, so it is written below as his account, and the numeric tiers he quotes are deliberately
+            left out because captions are not a reliable source for values.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; The Street Itself
+              </span>
+              <h3 className="text-sm font-semibold text-white">Nine temples, six you can serve</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Temple Row is a two-tier street. The upper level holds the temples of Jurah, Solel, Mars and
+                Smyrnos; the lower level holds Credna, Kalla, Yu Phas and Aurora, with the temple of Dagda the
+                Great standing above them all. Of the nine only six accept a volunteer, and the creator reads
+                the closed ones as a story signal rather than a bug: Yu Phas is worshipped in a temple whose
+                cult is frowned upon, and Solel has moved into Dagda&apos;s own house.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; The Loop
+              </span>
+              <h3 className="text-sm font-semibold text-white">Serve to unlock, spend to use</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                A blessing has two separate costs, which is the part easy to miss. Serving at a temple unlocks
+                the blessing in the first place, and the service activity is god-specific: Aurora&apos;s is
+                upkeep of the temple interior, Kalla&apos;s is singing hymns, Smyrnos&apos;s is petting cats.
+                Once unlocked, using it in battle spends Divine Sand rather than the service currency, which
+                makes the resource a battle-tempo decision rather than a permanent upgrade.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Defence
+              </span>
+              <h3 className="text-sm font-semibold text-white">Aurora and Jurah</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Aurora covers damage prevention: the tiers step from halving physical damage for a turn, to
+                halving magical damage, to stripping the Underworld Boon from a foe. Jurah covers protection
+                of one specific unit instead, stepping from multi-target attacks, to follow-up attacks, to
+                critical hits. The creator notes the fit between Jurah and the Fraldarius line, whose relic in
+                the earlier game was a shield.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                04 &middot; Offence
+              </span>
+              <h3 className="text-sm font-semibold text-white">Kalla and Mars</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Kalla is the agility blessing and the one he rates highest in practice: avoidance first, then
+                speed, then extra movement, all for a single turn, which he uses to walk a turn the army
+                should have lost. Mars is the direct counterpart for physical units, stepping from accuracy on
+                physical attacks, to restoring health when a foe goes down, to a strength increase. Kalla is
+                also the god of the arts, which is why her temple is the one Leda&apos;s group keeps returning
+                to.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                05 &middot; Magic
+              </span>
+              <h3 className="text-sm font-semibold text-white">Smyrnos, Credna and Fortuna</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Smyrnos&apos;s tiers are magic-only and run accuracy, then magic range, then magic power, which
+                explains why the shrine carrying his name is the one that strengthens Combat Arts. Credna was
+                the one god whose blessing he had not seen in footage, so his engineering focus is inference
+                rather than observation. Fortuna has no temple at all: her single effect is the rewind, it
+                arrives through the story, and the creator reports it is free on Normal difficulty.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                06 &middot; The People
+              </span>
+              <h3 className="text-sm font-semibold text-white">Who is standing in which temple</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The gods are residents of Dagsion rather than distant myths, and the temples are staffed, in
+                places by characters you can recruit. The staff named in the video: Olympia serves as a
+                priestess of Kalla, Alexandra serves in Jurah&apos;s temple, and temple guardians and law
+                enforcement are called Vulkans. Aurora&apos;s blue temple and Kalla&apos;s red one are the two
+                the story routes keep returning to.
+              </p>
+            </div>
+          </div>
+
+          <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Two of the creator&apos;s readings stay labelled as readings: the idea that each Flame Lord is
+            attached to a patron god, and the closed-temple explanation above. Both are consistent with the
+            story so far but neither is stated anywhere in the game text, so they are recorded here as
+            interpretation and will be promoted only if a second independent source says the same thing.
+          </p>
+        </section>
+
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             What no source records
@@ -140,7 +265,7 @@ export default function DeitiesPage() {
             ))}
           </ul>
           <p className="text-gray-700 dark:text-gray-300">
-            {"This page exists because of one of those gaps. The blessing shop lists six divine names, which is enough to place them in gameplay but not enough to explain them, and a pantheon page that guessed at the missing six roles would be worse than a table that admits the gap."}
+            {"This page exists because of one of those gaps. The blessing shop lists six divine names, which is enough to place them in gameplay but not enough to explain them, and a pantheon page that guessed at the missing six roles would be worse than a table that admits the gap. The temple layout and the shape of each blessing now come from the captioned guide above rather than from a guess, so they are published with their source attached and with the creator's own inferences marked as inferences."}
           </p>
         </section>
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import boonsData from "@/data/boons.json";
 
@@ -35,7 +36,7 @@ const FAQS = [
   {
     question: "Who are Aurora, Mars, Smyrnos, Jurah, Kalla and Credna?",
     answer:
-      "They are the six named blessings whose discount boons are sold at the Shrine of Causality, and they are the only divine names the record carries. Smyrnos also names the shrine where Combat Arts are strengthened, and the crown of Smyrnos is the Dagdan name of Macuil\u0027s Diadem. No source publishes a pantheon, a domain list or a myth for any of the six.",
+      "They are the six named blessings whose discount boons are sold at the Shrine of Causality, and each one is also housed in a temple on Temple Row in Dagsion. Smyrnos also names the shrine where Combat Arts are strengthened, and the crown of Smyrnos is the Dagdan name of Macuil\u0027s Diadem. The domains, temple positions and battlefield effects recorded for them come from the tables on the deities page and from the captioned temple guide below, and what is still missing is a myth or a full account for Credna, whose blessing has not been recorded in footage.",
   },
 ];
 
@@ -154,6 +155,96 @@ export default function BoonsPage() {
               </table>
             </article>
           ))}
+        </section>
+
+        {/* Blessing Priority Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Which Blessing to Take First
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Joe Hammer Gaming</span> &middot;
+              Verified English Captions &middot; <span className="font-mono">ZBVPkKVdFFY</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="ZBVPkKVdFFY"
+              title="Which Blessing First - Fire Emblem Fortunes Weave Tips And Tricks"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            This is the page that has to separate two systems that share a name, and a captioned blessing
+            walkthrough is the clearest record of the second one. Boons of Salvation are the permanent Karma
+            Shard purchases tabled above. Blessings are the in-battle effects, unlocked by serving at a temple
+            and spent from a different resource, and the video below is about picking between them. As with
+            every video-sourced section on the site, the creator&apos;s rankings are his judgement, and the
+            values he quotes are left out because captions are not reliable for numbers.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Do Not Conflate
+              </span>
+              <h3 className="text-sm font-semibold text-white">Shards unlock, sand spends</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Karma Shards buy the permanent boons. Blessings are unlocked by providing service at the
+                relevant god&apos;s temple and then paid for in battle from a separate, limited resource, so a
+                player holding a large shard balance can still be unable to fire a blessing mid-map. That
+                split is why the two halves of this page are worth reading as separate budgets rather than one
+                upgrade list.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Weekly Habit
+              </span>
+              <h3 className="text-sm font-semibold text-white">Temple service scales with Renown</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Providing service is a weekly action rather than a one-off purchase, and the contribution each
+                service makes grows with your account-wide Renown level, so the same week of work fills a
+                blessing faster on a high-Renown save. The creator&apos;s own takeaway is that he skipped
+                services early and lost that time permanently, which makes the temple stop part of the weekly
+                circuit rather than an optional detour.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; His Ranking
+              </span>
+              <h3 className="text-sm font-semibold text-white">Kalla first, by a wide margin</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Asked which blessing is worth unlocking first, the creator answers Kalla&apos;s without
+                hesitation and calls it the strongest effect in the game: an avoidance blessing that turns a
+                turn the army should have lost into one it walks through, and which he reaches for whenever he
+                is under-levelled for an encounter. Fortuna&apos;s rewind he treats as effectively locked in
+                rather than chosen.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                04 &middot; The Rest
+              </span>
+              <h3 className="text-sm font-semibold text-white">Situational, not weak</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The remaining blessings are judged by scenario rather than by tier. Magic-focused blessings
+                suit two chapters spent training under-levelled mages before a push, damage halving suits a
+                deliberately tanky run, and the accuracy blessings suit physical attackers who keep missing.
+                What each god actually grants, and where their temple sits, is recorded on the deities page;
+                this page keeps the decision rather than the layout.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-4">

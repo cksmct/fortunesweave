@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import weaponsData from "@/data/weapons.json";
 
@@ -192,6 +193,81 @@ export default function WeaponsPage() {
               unclassified.length +
               " untyped entries above are named without being sorted into a category that the source does not give them."}
           </p>
+        </section>
+
+        {/* Durability Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                What Actually Burns the Uses Column
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">The Game Looters</span> &middot;
+              Verified English Captions &middot; <span className="font-mono">b4puAn2x5m0</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="b4puAn2x5m0"
+              title="Fire Emblem: Fortune's Weave - STOP Repairing Your Weapons! Do THIS Instead"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The Uses column above is the one this page cannot explain on its own, because how a weapon loses
+            durability is a rule rather than a number. The creator here tested it directly and reports a rule
+            the game does not surface clearly, which is why it is recorded as a section of its own: the
+            distinction changes what a low-durability weapon is actually worth, and it is what turns the
+            blacksmith into a sequencing decision.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; The Rule
+              </span>
+              <h3 className="text-sm font-semibold text-white">Ordinary attacks are free</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Normal attacks do not consume durability; combat arts do. That single distinction rewrites how
+                the table above should be read, because a strong weapon with a small Uses value is not a
+                fragile weapon, it is a weapon with a limited number of combat arts in it. The creator&apos;s
+                practice is to attack with the base action when the extra damage would be wasted and reserve
+                the arts for the turns that need them.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; The Sequence
+              </span>
+              <h3 className="text-sm font-semibold text-white">Refine before you repair</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The blacksmith offers repair and refinement side by side, and the tested result is that
+                refining a worn weapon returns it to full durability as part of the upgrade. Repairing first
+                and refining afterwards therefore pays the material cost twice for the same outcome. If a
+                refinement was going to happen anyway, the order is refine then repair, never the reverse.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; The Exception
+              </span>
+              <h3 className="text-sm font-semibold text-white">When repairing is still right</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Repair remains the correct call for a weapon you have no intention of refining, or when the
+                materials for the refinement are not in hand yet. In that second case the creator suggests
+                leaving the weapon and running an alternative rather than sinking materials into a repair that
+                an upgrade will overwrite later, which matters most in the early game when materials are the
+                binding constraint.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-4">

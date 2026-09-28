@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import supportsData from "@/data/supports.json";
 
@@ -195,6 +196,119 @@ export default function SupportsPage() {
             on. As the tables fill in, the row count on this page moves with them rather than being
             restated by hand.
           </p>
+        </section>
+
+        {/* Support Grind Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                How the Rating Actually Climbs
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot; Verified
+              English Captions &middot; <span className="font-mono">vd4NqKk9VGI</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="vd4NqKk9VGI"
+              title="How to MAX SUPPORTS FAST in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The tables above map which pairs exist. This captioned guide covers the other half of the
+            question, which is how the rating underneath those pairs is farmed, and it surfaces the single
+            most consequential fact on the page: support progress is not scoped to one route. Everything below
+            is drawn from its captions, with the creator&apos;s habits marked as habits rather than rules.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Scope
+              </span>
+              <h3 className="text-sm font-semibold text-white">Progress carries across routes</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Support levels are saved between the four paths rather than per run, so a bond raised on one
+                route is already there when you start the next. That changes the value of every meal and gift:
+                it is account progress rather than spending that resets, which is also why the recruitment
+                gates on the characters page can be planned across a full playthrough rather than one route at
+                a time.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; The Loop
+              </span>
+              <h3 className="text-sm font-semibold text-white">Restarting a chapter keeps the rating</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Restarting the chapter from the system menu keeps the support levels you gained inside it,
+                which the game itself states when you use the option, so the creator reads it as a deliberate
+                system rather than an oversight. Chapters with a large turn budget therefore become support
+                farms: spend the turns on meals and gifts, restart, repeat, and keep everything that mattered.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Meals
+              </span>
+              <h3 className="text-sm font-semibold text-white">Half price on a weekend day</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Meals are the fastest lever because they can be shared with units you have not recruited yet,
+                and they run at half price on a weekend day that the in-game calendar lists. One caution worth
+                stating plainly: the creators covering this do not agree on whether that day is Saturday or
+                Sunday, so the calendar in your own save is the authority and both guides are wrong at least
+                half the time.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                04 &middot; Gifts
+              </span>
+              <h3 className="text-sm font-semibold text-white">Buy in bulk, and discount the habit</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Gifts are the largest recurring gold cost in the game, so the creator&apos;s advice is to buy
+                in bulk from the cheapest sources rather than one at a time: a southern city vendor sells
+                sweets in effectively unlimited quantity, the tavern area carries free and cheap gifts, and
+                the gift-discount Boon of Salvation is the first boon he recommends buying because the
+                discount compounds over a whole run.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                05 &middot; Everything Else
+              </span>
+              <h3 className="text-sm font-semibold text-white">The other four levers</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Beyond gifts and meals, support also comes from the theater, the temples, the bathhouse and
+                Bird Time. The theater splits by activity: watching a show can include units you are still
+                recruiting, while acting is restricted to the team you already field. Temple service only
+                pays support to units in your party, and the bathhouse adds stat bonuses to the bond it
+                builds, which is why the weekly circuit on the activities page matters here too.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                06 &middot; Planning
+              </span>
+              <h3 className="text-sm font-semibold text-white">Bank support ahead of Renown</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                A recruit needs both its support level and its Renown level, and only one of those is something
+                you push directly: Renown arrives from simply playing, Chapters and side quests. The
+                creator&apos;s working method is therefore to over-invest in support early and let Renown catch
+                up, so the unit joins the moment the account-level gate clears instead of being gated on a
+                grind you could have done weeks earlier.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-4">

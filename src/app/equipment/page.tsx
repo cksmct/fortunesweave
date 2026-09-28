@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import equipmentData from "@/data/equipment.json";
 
@@ -179,6 +180,98 @@ export default function EquipmentPage() {
               </li>
             ))}
           </ul>
+        </section>
+
+        {/* Treasure Run Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                What a Treasure Run Looks Like
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot; Verified
+              English Captions &middot; <span className="font-mono">H56RfLy8iDA</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="H56RfLy8iDA"
+              title="How to Get CURSED BOW in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            The list above says what drops where; it cannot say what collecting one actually involves. This
+            captioned walkthrough does, using the cursed bow as the worked example, and it is worth watching
+            before a first treasure run because the dungeons do not draw you a map. The object and its
+            location match the table above, which is the cross-check that lets the route detail be used.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Where
+              </span>
+              <h3 className="text-sm font-semibold text-white">Valhalla Mine, far south</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The bow sits in Valhalla Mine, reached from the capital by heading west and then far south,
+                and the creator&apos;s route there uses the carriage rather than walking. That matches the
+                Valhalla Mine row in the table above, so the entry and the video agree on the dungeon even
+                though they come from different sources.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Finding It
+              </span>
+              <h3 className="text-sm font-semibold text-white">No map, so use the compass</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Inside, there is no minimap, but the compass strip at the top of the screen gives the rough
+                bearing of the chest, which is what the run is navigated by. The creator&apos;s route runs
+                forward from the entrance into an open room, takes the right-hand branch rather than the left
+                exit, makes a further left, and ends at the chest at the end of a tunnel.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; It Doubles Up
+              </span>
+              <h3 className="text-sm font-semibold text-white">The run is also a smithing-stone stop</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The same dungeon is described as one of the better places for smithing stones, which is what
+                makes it worth a full sweep rather than a beeline: the creator clears the whole thing and
+                upgrades several weapons on the way out. That pairs directly with the durability rule on the
+                weapons page, where refinement is what restores a worn weapon&apos;s uses.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                04 &middot; Who
+              </span>
+              <h3 className="text-sm font-semibold text-white">The creator&apos;s wielder pick</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                He hands the bow to Leda, and treats the whole run as a before-you-continue job rather than
+                something to leave for later. That is a recommendation rather than a rule, and the table above
+                still records no confirmed wielder for the weapon, so the pick is worth reading as the
+                creator&apos;s opinion about a good pairing.
+              </p>
+            </div>
+          </div>
+
+          <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Two cautions on the route as written. The creator used a chapter restart to re-record the walk
+            after finishing it once, and the mine contains more than one enemy group and a rest spot he
+            recommends using before the chest room, so the tunnel is not an empty corridor. Positions inside
+            the dungeon are also the kind of detail captions carry imperfectly, which is why they are given
+            here as the shape of the route rather than as room-by-room directions.
+          </p>
         </section>
 
         <section className="space-y-4">

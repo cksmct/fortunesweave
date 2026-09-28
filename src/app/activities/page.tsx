@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import activitiesData from "@/data/activities.json";
 
@@ -162,6 +163,124 @@ export default function ActivitiesPage() {
               </article>
             ))}
           </div>
+        </section>
+
+        {/* Weekly Routine Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                The Rest of the Weekly Routine
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot; Verified
+              English Captions &middot; <span className="font-mono">q9xlI364_Og</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="q9xlI364_Og"
+              title="EVERY WEEKLY MISSABLE Event in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Bird Time is one stop on a weekly circuit rather than a standalone activity, so this walkthrough
+            of every missable weekly event is worth reading next to the prompt tables above. The points below
+            are the structural ones taken from its captions: what repeats weekly, in what order, and what
+            permanently expires if a week goes by. The creator&apos;s own routine advice is labelled as such
+            rather than presented as a rule the game enforces, and no figure from the captions is restated
+            here as a number.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Plan First
+              </span>
+              <h3 className="text-sm font-semibold text-white">Read the calendar, then move</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The adventure guide holds a calendar listing the week&apos;s notable days, including the days
+                arena training costs less and the Divine Service Days that boost gathering such as fishing and
+                mining. Every weekly activity below is cheaper, better or gated by what that calendar says, and
+                a week that is spent before it is read cannot be recovered.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Order of Operations
+              </span>
+              <h3 className="text-sm font-semibold text-white">Spend motivation, then refresh it</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The routine the creator settled on is deliberately ordered: run the arena and the temple
+                services first, because both consume a unit&apos;s motivation, then take the meal afterwards to
+                restore it. Waiting on the meal until late in the day also lets a single session roll the week
+                over, which is how one trip collects two weeks of refreshable activities.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Recruiting Loop
+              </span>
+              <h3 className="text-sm font-semibold text-white">Feed the raven, then the table</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Bird Time sits at the start of the loop rather than the end. From the Perch the route continues
+                to the innkeeper, whose meals build support with units that are not recruited yet, and the map
+                shows both gates a recruit has to clear, the support level and the Renown level. The creator
+                targets unrecruited characters with those meals specifically to shorten the wait on an A rank.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                04 &middot; Once a Week
+              </span>
+              <h3 className="text-sm font-semibold text-white">Temple service rotates by weekday</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The temple row allows one service per week, and each weekday favours a different one of the
+                six named gods, so the blessing you buy depends on when you go rather than on a menu. Temples
+                that are highlighted on the map are the ones paying out Renown at that moment, which the
+                calendar confirms. The creator&apos;s shortcut is to book the service on the same day the week
+                rolls over.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                05 &middot; Cai Only
+              </span>
+              <h3 className="text-sm font-semibold text-white">Stables level a mounted ability</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                On Cai&apos;s route the stables accept a weekly visit that tends the horses and, unlike most
+                weekly jobs, does not hand over a one-off reward: it raises a mounted ability that keeps
+                levelling with each visit. That makes the stable a compounding stop rather than a chore, and
+                it is route-exclusive in the same way that battalions are Theodora&apos;s.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                06 &middot; Easy to Miss
+              </span>
+              <h3 className="text-sm font-semibold text-white">Gifts, thermae and paralogue windows</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Gifts are one per character per week, and characters can be warped to directly, so the cost of
+                forgetting is a whole week of support. The thermae runs special baths at weekends with a
+                different effect on different days and restores health and magic outright. Orange markers on
+                the map are the quests and paralogues, and the creator&apos;s habit is to sweep the map every
+                time a trip into Dagsion begins.
+              </p>
+            </div>
+          </div>
+
+          <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            One illusion worth clearing up from the same video: the clock advances as you fast travel, but it
+            stops at the end of the current time block, so a long warp does not burn an extra turn. The
+            planner-safe reading is that movement costs time only until the block is spent.
+          </p>
         </section>
 
         <section className="space-y-4">

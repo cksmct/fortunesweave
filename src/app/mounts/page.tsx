@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import mountsData from "@/data/mounts.json";
 
@@ -230,6 +231,93 @@ export default function MountsPage() {
                 )}
               </tbody>
             </table>
+          </div>
+        </section>
+
+        {/* Bond Timing Video Intel */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Bond Early, Ride Later
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Varsona</span> &middot; Verified
+              English Captions &middot; <span className="font-mono">gTVnq4iqeGs</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="gTVnq4iqeGs"
+              title="Fortune's Weave Gave Mounted Units a Game-Changing Upgrade"
+            />
+          </div>
+
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            This section exists for one mechanic that the tables above imply but never spell out: when the
+            bond has to be built. The video it comes from is pre-release commentary recorded before the game
+            shipped, so its speculation is labelled as speculation below and the parts that our tables have
+            since settled are marked as settled. The load-bearing point it makes about timing is the one worth
+            carrying into a run.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-2">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; The Gate
+              </span>
+              <h3 className="text-sm font-semibold text-white">The class decides, not the bond</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Whether a unit may ride a given mount is decided by its class rather than by the mount, so a
+                horse, an Ornius or a flying animal that is bonded to an infantry unit still does nothing
+                until that unit is in a matching mounted class. That is the same rule the mechanics table
+                above records, and it is why a mount is not simply equipment you swap in.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; The Trick
+              </span>
+              <h3 className="text-sm font-semibold text-white">Pre-build the bond in a non-mounted class</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The mechanic the video singles out is that bonding is not gated by the class that can use the
+                mount. A unit can build its bond from a class that cannot ride the animal, so that the moment
+                it promotes into the mounted tier the ability is already at the level it would otherwise have
+                taken a tour of duty to reach. In practice this turns class planning into a scheduling problem
+                rather than a swap.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Unsettled
+              </span>
+              <h3 className="text-sm font-semibold text-white">Does the ability follow the unit?</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The creator raises, and explicitly declines to answer, whether an unlocked mount ability stays
+                with the unit after the mount is swapped, or only while that specific animal is attached. He
+                cannot confirm it from the footage. It is recorded here as unresolved, because the whole value
+                of bonding early depends on the answer, and nobody has demonstrated it since.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                04 &middot; Settled Since
+              </span>
+              <h3 className="text-sm font-semibold text-white">Which routes get mounts at all</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The video also asks whether routes other than Cai&apos;s can obtain mounts, or only buy worse
+                ones from vendors. That question has since been answered by the capture loop recorded on this
+                page: the animal tiles, the lure and the Lowtown stable belong to Cai&apos;s Part I route from
+                Chapter 5, which makes the mount subsystem a route mechanic rather than a universal vendor
+                line.
+              </p>
+            </div>
           </div>
         </section>
 
