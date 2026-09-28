@@ -29,3 +29,6 @@ yt-cookies.txt
 # one-click-site-update 工作态（证据与断点状态不入库）
 update-inbox/.evidence/
 update-inbox/.run-state.json
+
+# Temporary YouTube scraping & subtitle cache
+scripts/tmp_yt/

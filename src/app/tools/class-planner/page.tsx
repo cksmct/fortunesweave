@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import tiersData from "@/data/class-tiers.json";
 import classesData from "@/data/classes.json";
 
@@ -86,6 +87,61 @@ export default function ClassPlannerPage() {
                 <p className="mt-1 text-sm text-gray-700 dark:text-gray-300">{tier.unlock}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Tactical Video Guide & Field Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Class Promotion &amp; Mastery Certification Guide
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">LinkKing7</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="0u1jKIJspeI"
+              title="ALL PLAYABLE CLASSES in Fire Emblem Fortune's Weave - The ULTIMATE Class Guide"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Advanced Benchmarks
+              </span>
+              <h3 className="text-sm font-semibold text-white">Dreadnought &amp; Shidto</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Dreadnought boasts +30% Defense growth and <em>Strike Last Defense +5</em>. Combined with <em>Armored Move</em> (+1 to +2 move points), heavy armor mobility penalties are negated. Shidto offers <em>Ever Vigilant</em>, regenerating HP on critical strikes.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Magic Scaling
+              </span>
+              <h3 className="text-sm font-semibold text-white">Ovate vs. Bishop Pressure</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Ovate provides Black Magic Seeker and <em>Bind Speed</em> (-3 foe speed debuff aura), heavily out-damaging Bishop for hard-mode offensive doubles. Bishop remains restricted to resistance tanking and extra white magic utility.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Part 3 Masteries
+              </span>
+              <h3 className="text-sm font-semibold text-white">War Monk &amp; Bow Knight</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Master classes unlock in Part 3 (~Lv 45) after deity temple restorations. War Monk grants S-tier <em>Strike and Heal</em> (attack with combat arts and trigger assist healing), while Bow Knight grants <em>Hunter&apos;s Cross</em> (+8 Might, +20 Hit, +10 Crit).
+              </p>
+            </div>
           </div>
         </section>
 

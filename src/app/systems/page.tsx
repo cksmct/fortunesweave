@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import systemsData from "@/data/systems.json";
 
@@ -72,6 +73,61 @@ export default function SystemsPage() {
             currency, which is Renown, and pay back in chests. The one thing the loop will not let you do
             is convert Turns into everything at once, which is the actual difficulty of the game.
           </p>
+        </section>
+
+        {/* Tactical Video Guide & Systems Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Combat Loop &amp; Exploration Mechanics Field Guide
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">PhillyBeatzU</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="WrupS2DQH-U"
+              title="31+ EARLY Game Tips You Must Know (Fire Emblem Fortune's Weave)"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Time Budget
+              </span>
+              <h3 className="text-sm font-semibold text-white">Quarter-Day Turn Economy</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Time is strictly partitioned: 4 turns equal 1 full in-game day (each turn represents a 6-hour segment). Moving across the world map consumes turns, requiring careful route planning to avoid missing weekly resets in Dagsion.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Holy Day Cycles
+              </span>
+              <h3 className="text-sm font-semibold text-white">Deity Devotion Multipliers</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Temple services accumulate devotion that unlocks battle-altering blessings. Consult the in-game calendar for designated Holy Days, which multiply favor gains when praying to specific patrons.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Zero-Turn Meals
+              </span>
+              <h3 className="text-sm font-semibold text-white">Inn Dining &amp; Sunday Discounts</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Sharing meals at the inn raises bond levels without consuming turn units—costing only gold. Dining on Sundays grants a 50% discount across all dishes, making weekend town visits ideal for economical support grinding.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-4">

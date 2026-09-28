@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import talentsData from "@/data/talents.json";
 
@@ -69,6 +70,61 @@ export default function TalentsPage() {
           <p>{mechanics.scope}</p>
           <p>{mechanics.exclusivity}</p>
           <p>{mechanics.crossLinks}</p>
+        </section>
+
+        {/* Tactical Video Guide & Field Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Talents &amp; Essential Class Mastery Abilities
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Varsona</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="Mql_v-thCvY"
+              title="Unlock These Skills ASAP! Fire Emblem Fortune's Weave (Early Game Tips)"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Core Mechanics
+              </span>
+              <h3 className="text-sm font-semibold text-white">Universal Mastery &amp; Authority</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Mastery abilities can be equipped across any class once unlocked. Prioritize Authority ranks early: adjacent passive auras like Olympia&apos;s <em>Attack Formation</em> (+1 Atk) and Katana&apos;s <em>Distraction</em> (-3 foe Hit) require zero action economy cost.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Priority Masteries
+              </span>
+              <h3 className="text-sm font-semibold text-white">Shaman, Knight &amp; Ornith</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Dip early into specialty masteries: Shaman&apos;s <em>Bind Dexterity</em> (-3 Dex/Crit aura to foes), Armored Knight&apos;s <em>Great Counter</em> (+3 Atk when attacked on Enemy Phase), and Armored Ornith Rider&apos;s <em>Sense Threat</em> (+20 Avoid against effective weapons).
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Level 20 Spikes
+              </span>
+              <h3 className="text-sm font-semibold text-white">Personal Signature Talents</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Units unlock game-changing personal passives at Level 20: Esmeralda gains <em>Throwing Arm</em> (+10 Hit, +2 Atk on ranged lances), while Olympia gains <em>Ardent Nosferatu</em> (+3 Atk, +5 Crit on self-healing white magic).
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-6">

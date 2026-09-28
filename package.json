@@ -5,7 +5,7 @@
   "scripts": {
     "predev": "node scripts/gen-content-dates.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/gen-content-dates.mjs && node scripts/audit-trust-copy.mjs && node scripts/audit-sources.mjs",
+    "prebuild": "node scripts/optimize-media.mjs && node scripts/gen-content-dates.mjs && node scripts/audit-trust-copy.mjs && node scripts/audit-sources.mjs",
     "build": "next build && node scripts/clean-legacy-nomodule.mjs",
     "postbuild": "node scripts/audit-site.mjs && node scripts/audit-hero.mjs && node scripts/audit-orphans.mjs && node scripts/audit-seo-meta.mjs && node scripts/audit-nav.mjs && node scripts/audit-header-footer.mjs && node scripts/audit-links.mjs && node scripts/audit-thin-content.mjs && node scripts/audit-language.mjs && node scripts/audit-trust-copy.mjs && node scripts/audit-ui-integrity.mjs && node scripts/audit-author-eeat.mjs && node scripts/audit-updates.mjs && node scripts/audit-sources.mjs && node scripts/audit-data-drift.mjs && node scripts/audit-media-integrity.mjs && node scripts/audit-trend-coverage.mjs && node scripts/audit-browserslist-polyfills.mjs",
     "start": "next start",

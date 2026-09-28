@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import { getGameConfig } from "@/lib/data";
 import paraloguesData from "@/data/paralogues.json";
@@ -70,6 +71,61 @@ export default function ParaloguesPage() {
             old chapter after progressing far past it can cost several chapters of progress, so the
             practical answer is to catch them on the way through.
           </p>
+        </section>
+
+        {/* Tactical Video Guide & Field Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Paralogue Timing &amp; Route Schedule Walkthrough
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Lucky Crit</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="nSH0bNJ1KU8"
+              title="Don’t Miss Every Important Paralogue! (Spoiler Free Fortune's Weave Guide)"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Critical Windows
+              </span>
+              <h3 className="text-sm font-semibold text-white">Month 9 &amp; 10 Lock</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                All 9 paralogues take place strictly inside Months 9 and 10 of the in-game calendar. Avoid blindly using Auto-Activities at the Inn, as uncalculated week skips can advance past paralogue deadlines and permanently miss key recruits.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Dietrich Traps
+              </span>
+              <h3 className="text-sm font-semibold text-white">Single-Day &amp; Forced Starts</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Dietrich accesses 8 paralogues, but one is open for only a single day (9/18). Two paralogues in the game feature forced start dates: 9/9 (must accept between 9/3 and 9/8) and 10/23 (must accept between 10/18 and 10/23).
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Clock Optimization
+              </span>
+              <h3 className="text-sm font-semibold text-white">Inn Hourglass &amp; UI Deadlines</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                In-game calendar menus incorrectly show a later cutoff for Theodora&apos;s late-October quests; the actual deadline is strictly 10/24. If arriving at midnight in Dagsion, burning 1 hourglass jumps the clock directly to 6:00 AM to unlock city quest markers.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-4">

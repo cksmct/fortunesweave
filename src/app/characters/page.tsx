@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import charactersData from "@/data/characters.json";
 import recruitmentData from "@/data/recruitment.json";
@@ -89,6 +90,61 @@ export default function CharactersPage() {
             marks instead of a number, which means the story has to move forward before the requirement
             becomes visible.
           </p>
+        </section>
+
+        {/* Tactical Video Guide & Recruitment Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Character Recruitment &amp; Roster Building Masterclass
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">IGN</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="_2aEuVhvNKE"
+              title="Fire Emblem: Fortune's Weave - How to Recruit the Best Characters"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; 4-Stage Funnel
+              </span>
+              <h3 className="text-sm font-semibold text-white">The Recruitment Sequence</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Check Character Info in Dagsion. Recruitment requires meeting a Renown rank gate, unlocking the dialogue with a preferred gift, sharing inn meals to build Bond Level 2 or 3, and passing an exit negotiation test.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Standout Recruits
+              </span>
+              <h3 className="text-sm font-semibold text-white">Key High-Value Units</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Prioritize Bandits (unlocked after tournament qualifier as the premier Charioteer), Neza (high-speed double-striking Myrmidon), and Sophia (dedicated healer whose <em>Healing Knowledge</em> adds +10 HP to every heal).
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Split-Force Depth
+              </span>
+              <h3 className="text-sm font-semibold text-white">Multi-Front Readiness</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Late-game chapters frequently force your army onto divided combat fronts. Recruit backup duplicates of core functional roles—especially secondary healers, defense tanks, and high-mobility cavalry—so neither wing collapses.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-4">

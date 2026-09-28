@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import recruitmentData from "@/data/recruitment.json";
 import charactersData from "@/data/characters.json";
 
@@ -89,6 +90,61 @@ export default function RecruitmentPlannerPage() {
               : ""}{" "}
             {hardest > 0 ? hardest + " of them end in a Hard negotiation." : ""}
           </p>
+        </section>
+
+        {/* Tactical Video Guide & Field Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Character Tier List &amp; Strategic Recruitment Priority
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="w474XVj7-vg"
+              title="BEST CHARACTERS in Fire Emblem: Fortune's Weave TIER LIST"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; S-Tier Anchors
+              </span>
+              <h3 className="text-sm font-semibold text-white">Sarraco, Kai &amp; Dietrich</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Kai commands +1 base move with mixed damage; Dietrich boasts unrivaled physical growths and free Moving Shadow spam; Sarraco acts as an immortal magic dodge-tank healing 5 HP after combat while packing Thoron, Excalibur, and Warp.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Safe Ranged Sniping
+              </span>
+              <h3 className="text-sm font-semibold text-white">Peter (Bear) &amp; Steady Aim</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Peter pairs <em>Steady Aim</em> (+1 bow range on combat arts) with an extraordinary 80% Dexterity growth in Sniper. This allows him to safely chip lethal bosses and one-shot flyers from outside enemy counterattack ranges.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; High Scalers
+              </span>
+              <h3 className="text-sm font-semibold text-white">Moo &amp; Inoni Combat Roles</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Moo scales exponentially via <em>Signs of Growth</em> into an untouchable Pugilist brawler. Inoni dominates as a heavy archer with innate +3 Str, +4 Atk, and +10 Crit on bow arts, consistently deleting mages in Hard mode.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-3">

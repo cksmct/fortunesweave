@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import chaptersData from "@/data/chapters.json";
 
@@ -83,6 +84,61 @@ export default function WalkthroughPage() {
             battles two units share. Treating the chapter list as a schedule rather than a contents page
             is the difference between a clean run and a second playthrough to collect what expired.
           </p>
+        </section>
+
+        {/* Tactical Video Guide & Essential Progression Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                10 Crucial Progression &amp; Combat Mechanics
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="b_i00R0hHG4"
+              title="10 Things I Wish I Knew SOONER in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Weekly Circuit
+              </span>
+              <h3 className="text-sm font-semibold text-white">4 Mandatory Routine Stops</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Run the weekly cycle religiously: Arena Plaza for 300g unit weapon skill training, Temple reception for faith service, Port market for barter trades (turning surplus vegetables into iron weapons and cheap vulneraries), and the Inn for support meals.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Pale Raven Perch
+              </span>
+              <h3 className="text-sm font-semibold text-white">&quot;Bird Time&quot; Response Cues</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Visit the raven perch weekly for vital survival buffs. Follow the response cues: nod reassuringly when asked about surpassing predecessors, flap wings when invited to play, and never select aggressive or intimidating reactions.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Combat Overdrive
+              </span>
+              <h3 className="text-sm font-semibold text-white">Blaze Arts &amp; Karma Shards</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Blaze Arts power up into enhanced ground hazard strikes after roughly three triggers, but overfilling past six uses triggers catastrophic self-recoil and halves maximum HP. Complete Part 1 to bank a substantial influx of Karma Shards for permanent run-wide account upgrades.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-6">

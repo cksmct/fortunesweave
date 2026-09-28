@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import tiersData from "@/data/class-tiers.json";
 import classesData from "@/data/classes.json";
@@ -70,6 +71,61 @@ export default function ClassesPage() {
             beginner class you master before moving on leaves you with a permanent ability, which is
             why the low tiers are worth finishing rather than skipping.
           </p>
+        </section>
+
+        {/* Tactical Video Guide & Field Breakdown */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Verified Video Intel &middot; Audio Transcript
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Class Progression &amp; Stat Scaling Masterclass
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot; Verified English Captions
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="4eAmLCXvqRQ"
+              title="Fire Emblem: Fortune's Weave CLASS GUIDE"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Certification Tiers
+              </span>
+              <h3 className="text-sm font-semibold text-white">Renown Gate Milestones</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Beginner exams are ready on arrival in Dagsion. Specialty classes unlock at Renown level 4, and Advanced exams become accessible at Renown level 8. Route-locked classes (such as Caladrias, Troubadour, and Dragoon) are specific to route paths.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Combat Formula
+              </span>
+              <h3 className="text-sm font-semibold text-white">Attack Speed &amp; Pursuit Rules</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Attack Speed is calculated as <code>Speed + Build - Weapon Weight</code>. Securing an advantage of 4 points or higher over an opponent guarantees an automatic follow-up pursuit strike, making constitution and equipment weight vital.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Mastery Stacking
+              </span>
+              <h3 className="text-sm font-semibold text-white">Permanent Skill Inheritance</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Mastering a class permanently unlocks its passive skill for other class configurations. Priority masteries include Myrmidon&apos;s <em>Ravaging Arts</em> (+6 critical damage), Archer&apos;s <em>Crescendo</em> (up to +30 Hit), and Soldier&apos;s <em>Defense Basics</em>.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-4">
