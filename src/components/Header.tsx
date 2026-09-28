@@ -163,7 +163,7 @@ export default function Header() {
                               <span className="text-[11px] font-black uppercase tracking-wider text-[#d3b475]">
                                 {column.title}
                               </span>
-                              <span className="font-mono text-[10px] text-zinc-600 dark:text-zinc-400">
+                              <span className="font-mono text-xs text-[#bbc1cf]">
                                 {column.items.length}
                               </span>
                             </div>
@@ -264,14 +264,14 @@ export default function Header() {
               <span className="text-xs font-black uppercase tracking-wider text-[#d3b475]">
                 Tactical Navigation
               </span>
-              <span className="text-[10px] text-zinc-600 dark:text-zinc-400 font-mono">
+              <span className="text-xs text-[#bbc1cf] font-mono">
                 v{config.game.currentVersion}
               </span>
             </div>
 
             {/* 黄金置顶直达胶囊（3 列，完整继承 topLinks，0 核心入口蒸发） */}
             <div className="mb-5">
-              <div className="mb-2 text-[10px] font-black uppercase tracking-wider text-zinc-600 dark:text-zinc-400">
+              <div className="mb-2 text-xs font-black uppercase tracking-wider text-[#bbc1cf]">
                 Quick Access
               </div>
               <div className="grid grid-cols-3 gap-2">

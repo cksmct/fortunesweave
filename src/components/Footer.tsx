@@ -95,7 +95,7 @@ export default function Footer() {
             with, endorsed by, or sponsored by Nintendo or Intelligent Systems. All game trademarks,
             character names, and assets belong to Nintendo and Intelligent Systems.
           </p>
-          <p className="shrink-0 font-mono text-xs text-zinc-600 dark:text-zinc-400">
+          <p className="shrink-0 font-mono text-xs text-[#bbc1cf]">
             &copy; {year} {config.seo.siteName}
           </p>
         </div>
@@ -106,7 +106,7 @@ export default function Footer() {
             <Link
               key={link.href}
               href={link.href}
-              className="py-1.5 px-1 text-xs text-zinc-600 dark:text-zinc-400 transition-colors hover:text-[#d3b475]"
+              className="py-1.5 px-1 text-xs text-[#bbc1cf] transition-colors hover:text-[#d3b475]"
             >
               {link.label}
             </Link>

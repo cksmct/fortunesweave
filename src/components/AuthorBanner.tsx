@@ -171,14 +171,14 @@ export default function AuthorBanner({
           </span>
           {author.maintainer && (
             <>
-              <span className="text-zinc-500" aria-hidden="true">·</span>
+              <span className="text-[#bbc1cf]" aria-hidden="true">·</span>
               <span className="text-zinc-300 font-medium">
                 {author.maintainerRole || 'Site Maintainer'}: {author.maintainer}
               </span>
             </>
           )}
         </div>
-        <div className="mt-0.5 flex items-center gap-1 text-[11px] text-zinc-600 dark:text-zinc-400">
+        <div className="mt-0.5 flex items-center gap-1 text-xs text-[#bbc1cf]">
           <span>Last updated:</span>
           <time dateTime={iso} className="font-semibold text-zinc-200">
             {formatted}

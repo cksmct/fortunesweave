@@ -302,7 +302,7 @@ export default function HomePage() {
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#d3b475] bg-[#d3b475]/10 px-2 py-0.5 rounded-full border border-[#d3b475]/30">
                       {lord.badge}
                     </span>
-                    <span className="text-[10px] text-zinc-500 font-mono">Flame Lord</span>
+                    <span className="text-xs font-semibold text-[#bbc1cf] font-mono">Flame Lord</span>
                   </div>
                   <h3 className="text-xl font-bold text-[#f5f1eb] group-hover:text-[#d3b475] transition-colors">
                     {lord.name}
@@ -310,7 +310,7 @@ export default function HomePage() {
                   <div className="text-xs font-semibold text-[#d3b475] mb-2">{lord.title}</div>
                   <p className="text-xs text-[#bbc1cf] leading-relaxed mb-4">{lord.tagline}</p>
                 </div>
-                <div className="pt-3 border-t border-white/[0.06] text-[11px] space-y-1 text-zinc-600 dark:text-zinc-400">
+                <div className="pt-3 border-t border-white/[0.06] text-xs space-y-1 text-[#bbc1cf]">
                   <div className="flex justify-between">
                     <span>Route Length:</span>
                     <span className="text-[#f5f1eb] font-medium">{lord.chapters}</span>
@@ -354,7 +354,7 @@ export default function HomePage() {
                     </span>
                     <span
                       aria-hidden="true"
-                      className="text-zinc-500 group-hover:text-[#d3b475] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"
+                      className="text-[#bbc1cf] group-hover:text-[#d3b475] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"
                     >
                       &rarr;
                     </span>
@@ -364,9 +364,9 @@ export default function HomePage() {
                   </h3>
                   <p className="text-xs text-[#bbc1cf] leading-relaxed mt-2">{db.desc}</p>
                 </div>
-                <div className="mt-4 pt-3 border-t border-white/[0.06] text-[11px] font-semibold text-[#d3b475] flex items-center justify-between">
+                <div className="mt-4 pt-3 border-t border-white/[0.06] text-xs font-semibold text-[#d3b475] flex items-center justify-between">
                   <span>Browse register</span>
-                  <span className="text-[10px] text-zinc-500">Verified 2026</span>
+                  <span className="text-xs font-medium text-[#bbc1cf]">Verified 2026</span>
                 </div>
               </Link>
             ))}
@@ -405,7 +405,7 @@ export default function HomePage() {
                     </span>
                     <span
                       aria-hidden="true"
-                      className="text-zinc-500 group-hover:text-[#38bdf8] group-hover:translate-x-0.5 transition-all text-sm"
+                      className="text-[#bbc1cf] group-hover:text-[#38bdf8] group-hover:translate-x-0.5 transition-all text-sm"
                     >
                       &rarr;
                     </span>
@@ -415,7 +415,7 @@ export default function HomePage() {
                   </h3>
                   <p className="text-xs text-[#bbc1cf] leading-relaxed mt-1.5">{tool.desc}</p>
                 </div>
-                <div className="mt-4 pt-2.5 border-t border-white/[0.06] text-[11px] font-medium text-zinc-600 dark:text-zinc-400">
+                <div className="mt-4 pt-2.5 border-t border-white/[0.06] text-xs font-medium text-[#bbc1cf]">
                   Runs offline in browser
                 </div>
               </Link>
