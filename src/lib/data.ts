@@ -33,6 +33,7 @@ export interface GameConfig {
     defaultOgImage: string;
     yandexVerification?: string;
     googleAnalyticsId?: string;
+    indexNowKey?: string;
   };
   author: {
     entity: string;

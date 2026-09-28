@@ -44,7 +44,7 @@
     "onlyWithCaptions": true,
     "autoDeriveTerms": true
   },
-  "indexnow": false,
+  "indexnow": true,
   "gitCommit": false,
   "gitPush": false,
   "forceRerun": false,
