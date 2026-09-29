@@ -3,6 +3,7 @@ import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import charactersData from "@/data/characters.json";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 
 const characters = charactersData.characters;
 const factions = charactersData.factions;
@@ -190,6 +191,32 @@ export default function FactionsPage() {
             asks for, and which units can be pulled across paths.
           </p>
         </section>
+        {/* Video intel: 8PwLFaicAkY */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Splitting the Part 1 roster four ways</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Nagapedia</span> &middot;{" "}
+              <span className="font-mono">8PwLFaicAkY</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="8PwLFaicAkY" title="The Perfect Groups for Every Route in Fire Emblem: Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Nagapedia's captioned guide divides every unit recruitable in Part 1 across the four paths, which is the planning problem the route tables above describe.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Stated priority.</span> The creator's first rule is that no unit is left behind before the story leaves Part 1, and the whole division is optimised for that.</li>
+              <li><span className="font-semibold text-zinc-200">Format.</span> It is built as a tier list template rather than a story video, so it can be read beside the route counts on this page.</li>
+              <li><span className="font-semibold text-zinc-200">Why it is needed.</span> He notes that each path carries different requirements per unit, the same reason this page keeps the route column separate from the roster list.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

@@ -247,6 +247,33 @@ export default function RecruitmentPlannerPage() {
             than filled with a plausible guess.
           </p>
         </section>
+        {/* Video intel: sz4I_j3cKP0 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">The gift first recruitment loop</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">LinkKing7</span> &middot;{" "}
+              <span className="font-mono">sz4I_j3cKP0</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="sz4I_j3cKP0" title="The FASTEST Way to Recruit Units in Fire Emblem: Fortune's Weave! (Spoiler Free)" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">LinkKing7's captioned method attacks the recruitment gate directly, and it runs in the order this planner lists requirements: bond, gift, then the weekly window.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Bonds are universal.</span> Any two units can build a bond, not only pairs with support conversations, and it is the bond level that recruitment checks.</li>
+              <li><span className="font-semibold text-zinc-200">Gift first.</span> Bond levelling only starts once the unit has received a gift, so he buys one cheap sweet in bulk in the south and gives a single one to each unit to keep good gifts in the bag.</li>
+              <li><span className="font-semibold text-zinc-200">Weekly window.</span> Activities reset every Sunday and the arena and theatre shut between midnight and 6am, so he starts at 6am to fit the most activities into one window.</li>
+              <li><span className="font-semibold text-zinc-200">Unrecruited units.</span> Only the theatre, shared meals and direct gifting reach units you have not recruited yet, so those three are the ones to spend on recruitment targets.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

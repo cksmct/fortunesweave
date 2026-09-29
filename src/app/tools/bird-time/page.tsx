@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import activitiesData from "@/data/activities.json";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 
 const prompts = activitiesData.prompts;
 const characters = Array.from(new Set(prompts.map((row) => row.character))).sort((x, y) =>
@@ -148,6 +149,33 @@ export default function BirdTimeLookupPage() {
             filled with a guess, which keeps every entry here traceable to the guide it came from.
           </p>
         </section>
+        {/* Video intel: yfNwi8r8EdY */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Reading the prompt, not the character</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">The Game Looters</span> &middot;{" "}
+              <span className="font-mono">yfNwi8r8EdY</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="yfNwi8r8EdY" title="Fire Emblem: Fortune's Weave - NEVER Fail Perfect Bird Time Again!" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">The Game Looters treat Bird Time as the game's oddest weekly mechanic and work through it in the captions, which is the framing this lookup uses too.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">One per week.</span> There is a single Bird Time interaction each week, so a bad round costs a week of support rather than a retry.</li>
+              <li><span className="font-semibold text-zinc-200">Three prompts.</span> After you pick the character and the item to offer, the raven gives three prompts, and the correct reaction follows the wording of each prompt.</li>
+              <li><span className="font-semibold text-zinc-200">Worked example.</span> In the creator's Cai run the unwind prompt is answered by singing, the fishing invitation by spreading your wings, and the birdsong prompt by singing again.</li>
+              <li><span className="font-semibold text-zinc-200">Personality fallback.</span> Where a prompt is ambiguous he falls back on the unit's motivation, reading Cai as a hero complex protagonist who looks up to his father and wants the invitation accepted.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

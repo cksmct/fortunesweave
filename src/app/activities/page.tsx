@@ -306,6 +306,33 @@ export default function ActivitiesPage() {
 Fire Emblem: Fortune&apos;s Weave Bird Time runs once per game week and refreshes on Sundays, so a missed week is gone rather than delayed. A Fire Emblem: Fortune&apos;s Weave perfect bird time is simply all three prompts answered correctly, which is what the prompt tables above are for.
           </p>
         </section>
+        {/* Video intel: KtqlIxZ1yHs */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Where Renown actually comes from</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">KtqlIxZ1yHs</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="KtqlIxZ1yHs" title="How to MAX RENOWN FAST in Fire Emblem: Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Jay Dunna's captioned guide builds Renown out of the weekly cycle rather than out of battles, which is the same loop the weekly events video above describes.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Temple prompt.</span> A temple row lit yellow on the map means it wants to talk, and the creator treats that as a do it now prompt rather than something to bank for later.</li>
+              <li><span className="font-semibold text-zinc-200">Two receptions.</span> The weekly temple reception pays blessings and the audience reception pays Renown, so both belong in the same pass as the arena and the inn.</li>
+              <li><span className="font-semibold text-zinc-200">Calendar.</span> Pressing the right bumper over the map menu opens the calendar, which lists which paralogues are open and which carry deadlines, and he plans the month from it.</li>
+              <li><span className="font-semibold text-zinc-200">Repeatable.</span> Restarting a chapter keeps the support gained inside it, which is what makes a month's turn budget reusable when it ends short of the target.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

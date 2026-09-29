@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import materialsData from "@/data/materials.json";
 import recipesData from "@/data/drink-recipes.json";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 
 const materials = materialsData.materials;
 const recipes = recipesData.recipes;
@@ -236,6 +237,32 @@ Fire Emblem: Fortune&apos;s Weave Wonder Leaves come from a performance quest ch
             page keeps them as named rows rather than pretending they are understood.
           </p>
         </section>
+        {/* Video intel: W87RipJTy34 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Pepper Leaves, on two recorded routes</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Bologna</span> &middot;{" "}
+              <span className="font-mono">W87RipJTy34</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="W87RipJTy34" title="Spice Up Your Adventure: The Ultimate Pepper Leaf Guide in Fire Emblem Fortune’s Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">This captioned guide covers the leaf the table above files under Captains Drink Recipes, and it lands on two search points that match the record here.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Corroborated point.</span> The Great Tree of Miugria sits in the south of the map and is reached by travelling to the southern post house and heading south, which matches the Miugria fallback in the table.</li>
+              <li><span className="font-semibold text-zinc-200">Corroborated point.</span> Traveler's Garden is reached by carriage and then east past the Port of Pandora, with a northbound road from the falls leading in, which matches the recorded Castalia route.</li>
+              <li><span className="font-semibold text-zinc-200">Difficulty.</span> The creator rates Pepper Leaves as easier to find than Wonder Leaves but still not a passive pickup, which is why this page keeps one best point and several fallbacks.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

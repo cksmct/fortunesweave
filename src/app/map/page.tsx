@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import locationsData from "@/data/locations.json";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 
 const STORAGE_KEY = "fw:map-cleared:v1";
 const dungeons = locationsData.dungeons;
@@ -74,7 +75,7 @@ export default function MapPage() {
             What this map is, and what it is not
           </h2>
           <p>
-            {"This is a schematic index rather than a drawn replica of the Dagdan Empire. Regions are placed in a reading order grid and dungeons sit inside their region box, because no officially licensed map art is reproduced here and a hand-traced copy of one would be both inaccurate and unnecessary. What the layout does give you is the grouping that matters in play: which dungeon belongs to which region, and what each one asks of you before it opens."}
+            {"This Fortune\u0027s Weave map is a schematic index rather than a drawn replica of the Dagdan Empire. Regions are placed in a reading order grid and dungeons sit inside their region box, because no officially licensed map art is reproduced here and a hand-traced copy of one would be both inaccurate and unnecessary. What the layout does give you is the grouping that matters in play: which dungeon belongs to which region, and what each one asks of you before it opens."}
           </p>
           <p>
             {"Every pin carries the dungeon name and its Renown gate, and clicking a pin ticks it as cleared. Progress is stored in your browser under a single local storage key, so nothing is uploaded and no account is needed. " +
@@ -221,6 +222,32 @@ export default function MapPage() {
 This Fire Emblem: Fortune&apos;s Weave world map is schematic rather than drawn to scale: regions sit in reading order and every dungeon is pinned inside the region it belongs to, with its Renown gate and enemy level attached.
           </p>
         </section>
+        {/* Video intel: dL8zgj_M85k */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Unlocking the carriage line</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Gamers Heroes</span> &middot;{" "}
+              <span className="font-mono">dL8zgj_M85k</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="dL8zgj_M85k" title="How To Unlock Posthouse Carriage Fast Travel For Cai In Fire Emblem Fortunes Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Gamers Heroes walks the unlock itself in the captions: the carriage travel that opens Cai's posthouse routes is a Chapter 7 quest rather than a shop purchase.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Where it starts.</span> Reach Part I Chapter 7 and then look in the main city for an old man sitting beside a cart; his marker appears on the map like any other subquest.</li>
+              <li><span className="font-semibold text-zinc-200">What it costs.</span> He sends you for one specific axle, and the shop charges five hundred gold for it, so the creator's advice is to carry cash or goods to sell before setting off.</li>
+              <li><span className="font-semibold text-zinc-200">The route.</span> The creator tries the God Gate in the main city first and then heads south west; walking the long way round is the fallback if that route is not open for you yet.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

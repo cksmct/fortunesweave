@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import PageHeader from "@/components/PageHeader";
 import supportsData from "@/data/supports.json";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 
 const STORAGE_KEY = "fw:support-matrix:v1";
 const supports = supportsData.supports;
@@ -195,6 +196,32 @@ export default function SupportMatrixPage() {
             here checkable against the source it came from.
           </p>
         </section>
+        {/* Video intel: pu_41dLLhso */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Turning orange dots green</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Joe Hammer Gaming</span> &middot;{" "}
+              <span className="font-mono">pu_41dLLhso</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="pu_41dLLhso" title="How To Farm Support FOR FREE - Fire Emblem Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Joe Hammer Gaming's captioned method farms bond levels without spending gifts, and its first step is a map chore rather than a battle.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Step one.</span> Walk the map and talk to every orange dot until it turns green; each conversation adds that unit to the character list and makes them a teleport target.</li>
+              <li><span className="font-semibold text-zinc-200">Step two.</span> With the list populated he farms bonds on the units he actually wants, instead of spreading gifts across the whole roster.</li>
+              <li><span className="font-semibold text-zinc-200">Honest limit.</span> He states that this does not bypass the Renown level or the recruitment negotiations, so it cheapens the gate rather than removing it.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

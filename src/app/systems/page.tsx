@@ -262,6 +262,33 @@ export default function SystemsPage() {
             which characters and where each one comes from.
           </p>
         </section>
+        {/* Video intel: UquUQo_Gzn0 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">The mechanics the tutorials skip</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">IGN</span> &middot;{" "}
+              <span className="font-mono">UquUQo_Gzn0</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="UquUQo_Gzn0" title="Fire Emblem: Fortune's Weave - 18 Things It Doesn't Tell You" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">IGN's captioned list covers the systems the opening hours do not explain, including one route decision the game never advertises.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Time is measured.</span> A day is made of turns shown as hourglasses, and each turn is six in game hours, which is the unit every weekly window and deadline on this site is counted in.</li>
+              <li><span className="font-semibold text-zinc-200">The fifth door.</span> At the end of the prologue the four Flame Lords are offered, but walking to the door of the Obelisk Chamber lets you proceed in the present day with no recruits from the past.</li>
+              <li><span className="font-semibold text-zinc-200">The cost.</span> That route skips all of Part I and Part II and drops you straight into Part III, opening on a hard fight and heavy story spoilers.</li>
+              <li><span className="font-semibold text-zinc-200">The safety net.</span> If you die in that opening fight Fortuna teleports you back to the chamber, so the shortcut is recoverable rather than a dead end.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

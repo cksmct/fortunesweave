@@ -335,6 +335,32 @@ export default function SupportsPage() {
 Fire Emblem: Fortune&apos;s Weave supports run on two different gates rather than one rating, and that is also where Fire Emblem: Fortune&apos;s Weave romance lives: the bond itself grows during the run, but a paired ending is only decided at the epilogue.
           </p>
         </section>
+        {/* Video intel: bWvDDtAiuEs */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">What the epilogue payoff looks like</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Faz Faz</span> &middot;{" "}
+              <span className="font-mono">bWvDDtAiuEs</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="bWvDDtAiuEs" title="ALL S Rank Endings - Fire Emblem Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Faz Faz's captioned compilation plays the epilogue scenes in sequence, which is the payoff behind the A rank column in the table above. It is late story material.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">The mechanic.</span> The epilogue is framed as a choice: the goddess asks you to picture the person you most want to return to, and that character's scene then plays out.</li>
+              <li><span className="font-semibold text-zinc-200">Naming.</span> The creator labels these S rank endings, while this site reserves the S row for Eshmel's rating 5 scene and files the same epilogue scenes as Paired Endings, the distinction the rank ladder above draws.</li>
+              <li><span className="font-semibold text-zinc-200">Spoiler load.</span> Every scene names late game events, so it is worth watching after finishing a route rather than before.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

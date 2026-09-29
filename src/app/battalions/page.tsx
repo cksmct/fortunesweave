@@ -288,6 +288,33 @@ export default function BattalionsPage() {
             the systems page, which covers what the other paths get instead.
           </p>
         </section>
+        {/* Video intel: MhZwvHSo1WE */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Cai's mounted line through Act 1</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">MhZwvHSo1WE</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="MhZwvHSo1WE" title="BEST CAI TEAM Build Guide (Act 1) in Fire Emblem: Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Jay Dunna's captioned build covers Cai's team end to end through Act 1, including the class progression and the two advanced options he rates highest.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Stable buff.</span> Cai buffs the whole team as members use the stable, which is why the creator builds the party mounted and treats mounted units as the safe pick.</li>
+              <li><span className="font-semibold text-zinc-200">Charioteer.</span> He rates the Charioteer highly because it hits several enemies at once and its growths keep scaling with level, so it does not have to be abandoned later.</li>
+              <li><span className="font-semibold text-zinc-200">The line.</span> His progression runs Ornius Rider first, for the speed that buys follow up attacks, then Light Cavalry, whose mastery ability adds health and avoidance against effective weapons.</li>
+              <li><span className="font-semibold text-zinc-200">The finish.</span> He ends on the Dragoon for the hit bonus it grants on favourable terrain, or the other advanced lance option he personally prefers; both are listed in the class tables.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

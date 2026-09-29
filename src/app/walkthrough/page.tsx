@@ -22,6 +22,11 @@ const FAQS = [
       "There are sixty-two numbered chapters: a two-chapter prologue, twelve chapters for each of the four Part I paths, six in Part II and six in Part III. Nine further paralogues sit outside that numbering.",
   },
   {
+    question: "Is there a Fortune\u0027s Weave Part 2?",
+    answer:
+      "There is, and Fire Emblem: Fortune\u0027s Weave Part 2 is the chapter the game titles Part II: War rather than a second game or a downloadable extra. It runs six chapters, it gathers the four Part I armies under the Strife Obelisk banner instead of following one Flame Lord, and every path enters it, which is what makes it the middle act rather than an optional branch. Your roster, supports and Renown carry straight in, and Part III: Salvation then closes the story with six more chapters.",
+  },
+  {
     question: "Which path should you play first?",
     answer:
       "The prologue is shared, then Part I splits four ways. Cai, Dietrich, Theodora and Leda each lead an Obelisk army - Fox, Lion, Wolf and Eagle respectively - and those armies meet again in Part II and Part III, so none of the four paths is a side story.",
@@ -253,6 +258,32 @@ export default function WalkthroughPage() {
 The Fire Emblem: Fortune&apos;s Weave chapters run to sixty-two numbered entries plus nine paralogues, and keeping them in this order matters because several windows close before the next part begins.
           </p>
         </section>
+        {/* Video intel: -vLKx1J1nek */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">The chapter entry routine</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Faerghast</span> &middot;{" "}
+              <span className="font-mono">-vLKx1J1nek</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="-vLKx1J1nek" title="I Played Fortune's Weave for 100 HOURS. Here is Some Advice. (Gameplay Guide, No Story Spoilers)" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Faerghast's captioned advice is built on eighty hours of play and organises the game around one habit: a fixed loop for the weekly resets.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Treat Dagda like weeklies.</span> His core suggestion is to run the city the way a gacha player runs dailies, with one short routine each time a chapter begins, covering the handful of tasks that reset weekly.</li>
+              <li><span className="font-semibold text-zinc-200">Three concerns.</span> He narrows the video to unit progression, recruitment and combat, in that order, because those are the questions he is asked most often.</li>
+              <li><span className="font-semibold text-zinc-200">Why it works.</span> The routine exists so that the weekly reset is never the thing you forgot, which is the same reasoning behind the missable events video on this page.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

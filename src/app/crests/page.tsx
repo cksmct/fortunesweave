@@ -3,6 +3,7 @@ import PageHeader from "@/components/PageHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import crestsData from "@/data/crests.json";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 
 const crests = crestsData.crests;
 const mechanics = crestsData._mechanics as Record<string, string>;
@@ -202,6 +203,33 @@ export default function CrestsPage() {
             are recorded on the weapons page.
           </p>
         </section>
+        {/* Video intel: A47qU4jrjuE */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Two personal abilities per unit</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">BenFM</span> &middot;{" "}
+              <span className="font-mono">A47qU4jrjuE</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="A47qU4jrjuE" title="Personal Skill and Crest/Bloodmark Guide (No Spoilers) - Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">BenFM runs the whole roster's personal abilities alongside the crest and Bloodmark layer in one captioned video, which is the context the crest table above sits in.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">The pattern.</span> Every unit starts with one personal ability and gains a second later in the run, and for most of the roster that second ability arrives at level 20.</li>
+              <li><span className="font-semibold text-zinc-200">The upgrade.</span> Most personal abilities are then replaced by a stronger version at level 35, so the unit at 20 and the unit at 35 are not the same build.</li>
+              <li><span className="font-semibold text-zinc-200">The lords differ.</span> The four Flame Lords gain their second personal ability earlier, and it never upgrades, which is why the creator keeps their kits separate from the rest of the roster.</li>
+              <li><span className="font-semibold text-zinc-200">Blaze Art synergy.</span> He reads Cai's second ability as leaving him and his allies unharmed by the underworld flames his Blaze Arts create and halving damage taken inside them, which turns a hazard into a defensive tile.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

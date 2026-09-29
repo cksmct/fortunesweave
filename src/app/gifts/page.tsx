@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import groupsData from "@/data/gift-groups.json";
 import preferencesData from "@/data/gift-preferences.json";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 
 const groups = groupsData.groups;
 const preferences = preferencesData.preferences;
@@ -185,6 +186,32 @@ export default function GiftsPage() {
 The Fire Emblem: Fortune&apos;s Weave gifts on this page are grouped by how you obtain them, which is the fastest way into a Fire Emblem: Fortune&apos;s Weave gift guide: find the source you already have access to, then read across to who likes it.
           </p>
         </section>
+        {/* Video intel: SmTTAJ1nqp4 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Stop hunting green dots</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Gamers Heroes</span> &middot;{" "}
+              <span className="font-mono">SmTTAJ1nqp4</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="SmTTAJ1nqp4" title="How To Find Any Characters In Fire Emblem Fortunes Weave (For Gifts &amp; Convos)" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">A two minute captioned tip that changes the gifting loop rather than the gift list: the map is also a character finder.</p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li><span className="font-semibold text-zinc-200">Weekly reset.</span> Gift targets reset every week, so from Chapter 1 onwards the same characters have to be found again on a cycle instead of once.</li>
+              <li><span className="font-semibold text-zinc-200">The shortcut.</span> Open the map, switch tabs with left and right to the People list, choose the character and teleport straight to them instead of walking between green dots.</li>
+              <li><span className="font-semibold text-zinc-200">Why it matters.</span> The creator spent fifteen to twenty hours walking to dots before finding the tab, which is the cost the weekly circuit on this page is built to avoid.</li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

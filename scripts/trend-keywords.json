@@ -1,223 +1,254 @@
 {
-  "version": "2026-09-28",
-  "_comment": "Generated from the two Google Trends exports in update-inbox. Enforced entries are natural brand-plus-topic phrases that must appear in the target page body (43 enforced); pendingKeywords records the remaining demanded terms with the reason they are not enforced, so intent coverage stays visible without keyword stuffing.",
+  "version": "2026-09-29",
+  "_comment": "Generated from the two Google Trends exports in update-inbox (week 2026-09-22 to 2026-09-29). keywords are brand-plus-topic phrases that must appear in the target page body; pendingKeywords records demanded terms already published but not forced as phrases; rejectedKeywords records queries outside this site entity; decisionLog records the weekly tier call.",
   "keywords": [
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+glirmosa(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "Breakout"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+paralogue(?:es|s)?/i",
-      "target": "src/app/paralogues/page.tsx",
-      "min": 1,
-      "interest": 3,
-      "growth": "1"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+paralogues(?:es|s)?/i",
-      "target": "src/app/paralogues/page.tsx",
-      "min": 1,
-      "interest": 3,
-      "growth": "1"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+paralogue(?:es|s)?/i",
-      "target": "src/app/paralogues/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "1"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+paralogues(?:es|s)?/i",
-      "target": "src/app/paralogues/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "1"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+wonder\\s+leaves(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "1"
-    },
     {
       "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave(?:es|s)?/i",
       "target": "src/app/page.tsx",
       "min": 1,
-      "interest": 0,
-      "growth": "1"
+      "interest": 93,
+      "growth": "-30%",
+      "asOf": "2026-09-29"
     },
     {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+wonder\\s+leaves(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "950%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+giant\\s+meat(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "850%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+sandworm\\s+meat(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "850%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+perfect\\s+bird\\s+time(?:es|s)?/i",
-      "target": "src/app/activities/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "850%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+paradise\\s+fish(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "750%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+sandworm\\s+meat(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "750%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+paradise\\s+fish(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "650%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+missing\\s+master(?:es|s)?/i",
-      "target": "src/app/sidequests/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "650%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+bitter\\s+leaves(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "500%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+best\\s+class(?:es|s)?/i",
-      "target": "src/app/classes/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "500%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+dates(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "450%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+pepper\\s+leaves(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "450%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+cullet(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "400%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+cullet(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "400%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+pure\\s+water(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 0,
-      "growth": "400%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+pepper\\s+leaves(?:es|s)?/i",
-      "target": "src/app/materials/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "300%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+best\\s+classes(?:es|s)?/i",
-      "target": "src/app/classes/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "250%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+character\\s+tier\\s+list(?:es|s)?/i",
+      "query": "/fortune.{0,7}s\\s+weave\\s+characters(?:es|s)?/i",
       "target": "src/app/characters/page.tsx",
       "min": 1,
-      "interest": 0,
-      "growth": "200%"
+      "interest": 6,
+      "growth": "-9%",
+      "asOf": "2026-09-29"
     },
     {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+bird\\s+time(?:es|s)?/i",
-      "target": "src/app/activities/page.tsx",
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+characters(?:es|s)?/i",
+      "target": "src/app/characters/page.tsx",
       "min": 1,
-      "interest": 1,
-      "growth": "200%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+world\\s+map(?:es|s)?/i",
-      "target": "src/app/map/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "180%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+gifts(?:es|s)?/i",
-      "target": "src/app/gifts/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "170%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+world\\s+map(?:es|s)?/i",
-      "target": "src/app/map/page.tsx",
-      "min": 1,
-      "interest": 1,
-      "growth": "170%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+gifts(?:es|s)?/i",
-      "target": "src/app/gifts/page.tsx",
-      "min": 1,
-      "interest": 3,
-      "growth": "160%"
+      "interest": 5,
+      "growth": "-10%",
+      "asOf": "2026-09-29"
     },
     {
       "query": "/fortune.{0,7}s\\s+weave\\s+classes(?:es|s)?/i",
       "target": "src/app/classes/page.tsx",
       "min": 1,
       "interest": 4,
-      "growth": "140%"
+      "growth": "120%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+paralogue(?:es|s)?/i",
+      "target": "src/app/paralogues/page.tsx",
+      "min": 1,
+      "interest": 3,
+      "growth": "950%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+paralogues(?:es|s)?/i",
+      "target": "src/app/paralogues/page.tsx",
+      "min": 1,
+      "interest": 3,
+      "growth": "850%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+map/i",
+      "target": "src/app/map/page.tsx",
+      "min": 1,
+      "interest": 3,
+      "growth": "180%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+gifts(?:es|s)?/i",
+      "target": "src/app/gifts/page.tsx",
+      "min": 1,
+      "interest": 3,
+      "growth": "120%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+classes(?:es|s)?/i",
+      "target": "src/app/classes/page.tsx",
+      "min": 1,
+      "interest": 3,
+      "growth": "100%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+paralogue(?:es|s)?/i",
+      "target": "src/app/paralogues/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "850%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+part\\s+(?:2|ii)/i",
+      "target": "src/app/walkthrough/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "750%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+best\\s+class(?:es|s)?/i",
+      "target": "src/app/classes/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "500%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+dates(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "400%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+gifts(?:es|s)?/i",
+      "target": "src/app/gifts/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "130%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+gift(?:es|s)?/i",
+      "target": "src/app/gifts/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "130%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+recruitment(?:es|s)?/i",
+      "target": "src/app/characters/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "100%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+chapters(?:es|s)?/i",
+      "target": "src/app/walkthrough/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "80%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+support(?:es|s)?/i",
+      "target": "src/app/supports/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "40%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+wonder\\s+leaves(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "900%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+paralogues(?:es|s)?/i",
+      "target": "src/app/paralogues/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "850%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+wonder\\s+leaves(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "650%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+sandworm\\s+meat(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "650%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+paradise\\s+fish(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "650%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+sandworm\\s+meat(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "600%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+paradise\\s+fish(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "600%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+part\\s+(?:2|ii)/i",
+      "target": "src/app/walkthrough/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "550%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+pepper\\s+leaves(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "300%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+best\\s+classes(?:es|s)?/i",
+      "target": "src/app/classes/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "250%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+bird\\s+time(?:es|s)?/i",
+      "target": "src/app/activities/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "180%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+world\\s+map(?:es|s)?/i",
+      "target": "src/app/map/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "150%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+world\\s+map(?:es|s)?/i",
+      "target": "src/app/map/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "150%",
+      "asOf": "2026-09-29"
     },
     {
       "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+gift\\s+guide(?:es|s)?/i",
@@ -231,70 +262,24 @@
       "target": "src/app/gifts/page.tsx",
       "min": 1,
       "interest": 1,
-      "growth": "130%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+gift(?:es|s)?/i",
-      "target": "src/app/gifts/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "120%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+classes(?:es|s)?/i",
-      "target": "src/app/classes/page.tsx",
-      "min": 1,
-      "interest": 3,
-      "growth": "120%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+characters(?:es|s)?/i",
-      "target": "src/app/characters/page.tsx",
-      "min": 1,
-      "interest": 7,
-      "growth": "-2%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+characters(?:es|s)?/i",
-      "target": "src/app/characters/page.tsx",
-      "min": 1,
-      "interest": 5,
-      "growth": "-1%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+recruitment(?:es|s)?/i",
-      "target": "src/app/characters/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "110%"
-    },
-    {
-      "query": "/fortune.{0,7}s\\s+weave\\s+chapters(?:es|s)?/i",
-      "target": "src/app/walkthrough/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "90%"
-    },
-    {
-      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+support(?:es|s)?/i",
-      "target": "src/app/supports/page.tsx",
-      "min": 1,
-      "interest": 2,
-      "growth": "50%"
+      "growth": "110%",
+      "asOf": "2026-09-29"
     },
     {
       "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+recruitment(?:es|s)?/i",
       "target": "src/app/characters/page.tsx",
       "min": 1,
       "interest": 1,
-      "growth": "80%"
+      "growth": "70%",
+      "asOf": "2026-09-29"
     },
     {
       "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+romance(?:es|s)?/i",
       "target": "src/app/supports/page.tsx",
       "min": 1,
       "interest": 1,
-      "growth": "-70%"
+      "growth": "-70%",
+      "asOf": "2026-09-29"
     },
     {
       "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+chapters(?:es|s)?/i",
@@ -302,140 +287,249 @@
       "min": 1,
       "interest": 1,
       "growth": "60%"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+supports?/i",
+      "target": "src/app/supports/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "20%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+giant\\s+meat(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "2,000%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+glirmosa(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "1,200%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+perfect\\s+bird\\s+time(?:es|s)?/i",
+      "target": "src/app/activities/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "850%"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+missing\\s+master(?:es|s)?/i",
+      "target": "src/app/sidequests/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "850%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+bitter\\s+leaves(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "600%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+cullet(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "400%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+cullet(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "400%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+pepper\\s+leaves(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "300%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+pure\\s+water(?:es|s)?/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "250%",
+      "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+character\\s+tier\\s+list(?:es|s)?/i",
+      "target": "src/app/characters/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "130%",
+      "asOf": "2026-09-29"
     }
   ],
   "pendingKeywords": [
     {
       "query": "paralogues fortune's weave",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
-    },
-    {
-      "query": "fire emblem fortune's weave secret alter",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
+      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 3,
+      "growth": "850%"
     },
     {
       "query": "wonder leaves fortune's weave",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
-    },
-    {
-      "query": "fortune's weave part 2",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "paradise fish fortune's weave",
-      "reason": "No source is fetched for this material yet, so no row exists and the term is not forced onto a page."
-    },
-    {
-      "query": "fire emblem fortune's weave part 2",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
+      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 1,
+      "growth": "850%"
     },
     {
       "query": "bitter leaves fortune's weave",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
+      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 1,
+      "growth": "600%"
     },
     {
-      "query": "fire emblem fortune's weave wandering wood",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem fortune's weave ninae",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem fortune's weave melara",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fortune's weave map",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
+      "query": "paradise fish fortune's weave",
+      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 1,
+      "growth": "550%"
     },
     {
       "query": "cai fortune's weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem fortune's weave map",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "cai fire emblem fortune's weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem fortune's weave dietrich",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
+      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 5,
+      "growth": "170%"
     },
     {
       "query": "dietrich fire emblem",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
-    },
-    {
-      "query": "fire fortune's weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
-    },
-    {
-      "query": "fire emblem fortune's weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fortunes weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fe fortune's weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem fortunes weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "leda fortune's weave",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem fortune's weave guide",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
-    },
-    {
-      "query": "switch 2",
-      "reason": "Platform terms belong in the about and FAQ block planned for the next update pass."
-    },
-    {
-      "query": "leda fire emblem",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
-    },
-    {
-      "query": "fire emblem fortune's weave leda",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
-    },
-    {
-      "query": "fire emblem fortune's weave theodora",
-      "reason": "A brand-only variant, covered by the brand phrase enforced on the home page rather than by a separate body phrase."
+      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 2,
+      "growth": "120%"
     },
     {
       "query": "theodora fire emblem",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
+      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 2,
+      "growth": "110%"
     },
     {
-      "query": "fire emblem fortune's weave reddit",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
+      "query": "leda fortune's weave",
+      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 3,
+      "growth": "100%"
     },
     {
-      "query": "fire emblem three houses",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
+      "query": "fire fortune's weave",
+      "reason": "Brand-only variant: the enforced home-page brand phrase already covers it, so no separate body phrase is added.",
+      "interest": 100,
+      "growth": "-20%"
     },
     {
-      "query": "fire emblem fortune's weave review",
-      "reason": "Covered by the page topic and its metadata rather than forced into body copy, which would mean mechanical word order."
+      "query": "fire emblem",
+      "reason": "Franchise term rather than a game-specific query; the enforced home-page brand phrase already names the franchise together with the game, so no separate body phrase is added.",
+      "interest": 94,
+      "growth": "-20%"
+    },
+    {
+      "query": "fortunes weave",
+      "reason": "Brand-only variant: the enforced home-page brand phrase already covers it, so no separate body phrase is added.",
+      "interest": 11,
+      "growth": "30%"
+    },
+    {
+      "query": "fe fortune's weave",
+      "reason": "Brand-only variant: the enforced home-page brand phrase already covers it, so no separate body phrase is added.",
+      "interest": 6,
+      "growth": "60%"
+    },
+    {
+      "query": "switch 2",
+      "reason": "Platform term: already stated on the about page and in the home FAQ, so it is not enforced as a body phrase.",
+      "interest": 2,
+      "growth": "-60%"
+    },
+    {
+      "query": "leda fire emblem",
+      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "interest": 2,
+      "growth": "100%"
     },
     {
       "query": "nintendo",
-      "reason": "Platform terms belong in the about and FAQ block planned for the next update pass."
+      "reason": "Platform term: already stated on the about page and in the home FAQ, so it is not enforced as a body phrase.",
+      "interest": 1,
+      "growth": "-70%"
     }
-  ]
+  ],
+  "rejectedKeywords": [
+    {
+      "query": "fire emblem three houses",
+      "reason": "Different game entity: Fire Emblem: Three Houses is a separate game rather than Fortune's Weave, so it sits outside the scope of this site.",
+      "interest": 1,
+      "growth": "-40%"
+    }
+  ],
+  "decisionLog": {
+    "week": "2026-09-22 to 2026-09-29",
+    "sources": [
+      "searched_with_rising-searches_queries_US_20260922-1006_20260929-1006.csv",
+      "searched_with_top-searches_queries_US_20260922-1006_20260929-1006.csv"
+    ],
+    "rowsParsed": 100,
+    "uniqueQueries": 73,
+    "tierCounts": {
+      "A": 9,
+      "absorb": 63,
+      "rejected": 1
+    },
+    "entityPrecheck": "Every row is a Fire Emblem: Fortune's Weave query except fire emblem three houses, which names a different game and is recorded under rejectedKeywords.",
+    "newPages": 0,
+    "whyNoNewPages": "No row needed a new page: every query with interest >= 5 already resolves to a published route (home, characters, classes, talents, walkthrough, materials, gifts, supports, map), and the 26 high-growth rows under interest 5 all have a live target page, so they were absorbed into those pages instead.",
+    "absorbedThisWeek": [
+      {
+        "query": "fortune's weave part 2",
+        "interest": 2,
+        "growth": "750%",
+        "target": "src/app/walkthrough/page.tsx",
+        "action": "Added a Part II FAQ row that answers the query by name, plus the fire emblem fortune's weave part 2 variant inside the same answer."
+      },
+      {
+        "query": "fire emblem fortune's weave part 2",
+        "interest": 1,
+        "growth": "550%",
+        "target": "src/app/walkthrough/page.tsx",
+        "action": "Same FAQ row; enforced separately so the phrase cannot be dropped later."
+      },
+      {
+        "query": "fortune's weave map",
+        "interest": 3,
+        "growth": "180%",
+        "target": "src/app/map/page.tsx",
+        "action": "The introductory sentence now names the page as the Fortune's Weave map instead of an unnamed schematic index."
+      },
+      {
+        "query": "fortune's weave supports",
+        "interest": 1,
+        "growth": "20%",
+        "target": "src/app/supports/page.tsx",
+        "action": "Phrase was already published in the Quick answers block; now enforced so it stays."
+      }
+    ],
+    "rejected": [
+      {
+        "query": "fire emblem three houses",
+        "interest": 1,
+        "growth": "-40%",
+        "reason": "Different game entity."
+      }
+    ],
+    "unverifiedNotes": "Growth percentages come from the weekly Google Trends export and are not game facts; they only rank intent."
+  }
 }
