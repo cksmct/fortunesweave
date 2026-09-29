@@ -10,6 +10,7 @@ import {
   getAllNavLinks,
   type NavGroup,
 } from '@/lib/nav';
+import SearchModal from '@/components/SearchModal';
 
 /**
  * Header —— 导航单一事实源驱动。
@@ -26,10 +27,12 @@ const topLinks = getHeaderTopLinks();
 const groups = getHeaderGroups();
 const allLinks = getAllNavLinks();
 const discordUrl = config.socials?.discord?.trim();
+const officialUrl = config.game?.officialUrl || config.socials?.official;
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
+  const [searchOpen, setSearchOpen] = useState(false);
   const pathname = usePathname();
   const navRef = useRef<HTMLElement>(null);
 
@@ -55,6 +58,10 @@ export default function Header() {
     }
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === 'Escape') setOpenGroup(null);
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+        event.preventDefault();
+        setSearchOpen((prev) => !prev);
+      }
     }
     document.addEventListener('mousedown', onPointerDown);
     document.addEventListener('keydown', onKeyDown);
@@ -202,18 +209,83 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA + mobile toggle */}
+          {/* CTA, Search + mobile toggle */}
           <div className="flex shrink-0 items-center gap-2 whitespace-nowrap">
+            {/* Desktop Search Trigger */}
+            <button
+              type="button"
+              onClick={() => setSearchOpen(true)}
+              className="hidden items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs text-[#bbc1cf] transition-all hover:border-[#d3b475]/40 hover:bg-white/[0.08] hover:text-[#f5f1eb] lg:flex"
+              aria-label="Search the wiki (⌘K)"
+              title="Search the wiki (⌘K)"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="text-[#d3b475]"
+                aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <span>Search the wiki</span>
+              <kbd className="rounded bg-white/10 px-1.5 py-0.5 text-[10px] font-mono text-[#bbc1cf]">⌘K</kbd>
+            </button>
+
+            {/* Desktop Play on Nintendo CTA */}
+            {officialUrl && (
+              <a
+                href={officialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden items-center gap-1 rounded-full bg-[#d3b475] px-3.5 py-1.5 text-xs font-black text-zinc-950 shadow-sm transition-all hover:bg-[#e2c78f] hover:shadow-[#d3b475]/20 lg:inline-flex"
+              >
+                <span>Play on Nintendo</span>
+                <span className="text-[10px]" aria-hidden="true">↗</span>
+              </a>
+            )}
+
             {discordUrl && (
               <a
                 href={discordUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden items-center gap-1.5 rounded-full bg-[#d3b475] px-4 py-2 text-xs font-black text-zinc-950 transition-colors hover:bg-[#e2c78f] sm:inline-flex"
+                className="hidden items-center gap-1.5 rounded-full border border-white/15 bg-white/[0.05] px-3 py-1.5 text-xs font-semibold text-[#bbc1cf] transition-colors hover:bg-white/10 hover:text-white xl:inline-flex"
               >
                 Discord
               </a>
             )}
+
+            {/* Mobile Search Button */}
+            <button
+              type="button"
+              onClick={() => setSearchOpen(true)}
+              className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-white/10 bg-white/[0.05] text-[#f5f1eb] transition-colors hover:bg-white/[0.1] lg:hidden"
+              aria-label="Search the wiki"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </button>
+
+            {/* Mobile Drawer Toggle */}
             <button
               type="button"
               onClick={() => setMobileOpen((v) => !v)}
@@ -269,6 +341,25 @@ export default function Header() {
               </span>
             </div>
 
+            {/* 移动端内置全局搜索触发栏 */}
+            <button
+              type="button"
+              onClick={() => {
+                setMobileOpen(false);
+                setSearchOpen(true);
+              }}
+              className="mb-4 flex w-full items-center justify-between rounded-xl border border-white/10 bg-white/[0.04] p-3 text-left text-xs text-[#bbc1cf] transition-colors hover:border-[#d3b475]/40 hover:text-white"
+            >
+              <div className="flex items-center gap-2.5">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-[#d3b475]">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <span>Search guides, heroes, classes...</span>
+              </div>
+              <kbd className="rounded bg-white/10 px-1.5 py-0.5 text-[10px] font-mono text-[#bbc1cf]">⌘K</kbd>
+            </button>
+
             {/* 黄金置顶直达胶囊（3 列，完整继承 topLinks，0 核心入口蒸发） */}
             <div className="mb-5">
               <div className="mb-2 text-xs font-black uppercase tracking-wider text-[#bbc1cf]">
@@ -296,7 +387,7 @@ export default function Header() {
                 href={discordUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mb-5 flex min-h-[44px] items-center justify-center rounded-xl bg-[#d3b475] px-4 py-2.5 text-center text-xs font-black text-zinc-950 hover:bg-[#e2c78f] transition-colors"
+                className="mb-5 flex min-h-[44px] items-center justify-center rounded-xl bg-white/[0.05] border border-white/10 px-4 py-2.5 text-center text-xs font-semibold text-[#f5f1eb] hover:bg-white/10 transition-colors"
               >
                 Join Community Discord
               </a>
@@ -329,9 +420,27 @@ export default function Header() {
                 </div>
               ))}
             </div>
+
+            {/* Mobile Drawer Bottom Play on Nintendo CTA */}
+            {officialUrl && (
+              <div className="mt-8 pt-4 border-t border-white/10">
+                <a
+                  href={officialUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex min-h-[46px] w-full items-center justify-center gap-1.5 rounded-xl bg-[#d3b475] px-4 py-2.5 text-center text-xs font-black text-zinc-950 shadow-lg hover:bg-[#e2c78f] transition-all"
+                >
+                  <span>Play on Nintendo</span>
+                  <span className="text-[11px]" aria-hidden="true">↗</span>
+                </a>
+              </div>
+            )}
           </div>
         </div>
       )}
+
+      {/* Global Command Palette Modal */}
+      <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
     </>
   );
 }
