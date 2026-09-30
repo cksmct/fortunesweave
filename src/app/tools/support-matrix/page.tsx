@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import supportsData from "@/data/supports.json";
 import YouTubeEmbed from "@/components/YouTubeEmbed";
 
@@ -95,6 +96,9 @@ export default function SupportMatrixPage() {
               aRank + ". Carrying an unlock condition: " + locked + "."}
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         <section className="space-y-3">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">

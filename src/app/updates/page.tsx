@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
 import { getGameConfig } from "@/lib/data";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
@@ -68,6 +69,9 @@ export default function UpdatesPage() {
             row was re-verified after the patch and the page around it did not need to move.
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         <section className="space-y-6">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Patch timeline</h2>

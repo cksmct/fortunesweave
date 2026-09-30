@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import YouTubeEmbed from "@/components/YouTubeEmbed";
 import recruitmentData from "@/data/recruitment.json";
 import charactersData from "@/data/characters.json";
@@ -91,6 +92,9 @@ export default function RecruitmentPlannerPage() {
             {hardest > 0 ? hardest + " of them end in a Hard negotiation." : ""}
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         {/* Tactical Video Guide & Field Breakdown */}
         <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">

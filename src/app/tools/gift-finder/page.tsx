@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import groupsData from "@/data/gift-groups.json";
 import preferencesData from "@/data/gift-preferences.json";
 
@@ -74,6 +75,9 @@ export default function GiftFinderPage() {
             {preferences.length} characters match.
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Matching categories</h2>

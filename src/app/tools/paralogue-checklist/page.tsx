@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import paraloguesData from "@/data/paralogues.json";
 import windowsData from "@/data/paralogue-windows.json";
 
@@ -76,6 +77,9 @@ export default function ParalogueChecklistPage() {
             Showing {visible.length} of {paralogues.length} paralogues. {ticked} ticked in this view.
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         <section className="space-y-3">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Checklist</h2>

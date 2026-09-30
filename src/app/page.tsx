@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import HeroMediaFacade from "@/components/HeroMediaFacade";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
 import { getGameConfig } from "@/lib/data";
 import {
@@ -324,6 +325,9 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         {/* Section 2: Command Databases (9 Items, 3x3 Bento Grid) */}
         <section id="databases" className="space-y-6">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getGameConfig } from '@/lib/data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import AdWrapper from '@/components/AdWrapper';
 import './globals.css';
 
 /**
@@ -58,7 +59,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="dark scroll-smooth" suppressHydrationWarning>
       <body className="min-h-screen bg-black font-sans text-[#f5f1eb] antialiased">
         <Header />
-        <main className="min-h-[calc(100vh-180px)]">{children}</main>
+        <main className="min-h-[calc(100vh-180px)]">
+          <AdWrapper>{children}</AdWrapper>
+        </main>
         <Footer />
         {/* GA4 接入：遵循 PageSpeed & Core Web Vitals 0-TBT 交互优先延迟加载法则，
             首屏交互（scroll/click/touchstart）或 20s 超时后挂载，杜绝移动端主线程阻塞与性能扣分 */}

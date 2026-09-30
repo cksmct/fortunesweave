@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import YouTubeEmbed from "@/components/YouTubeEmbed";
 import tiersData from "@/data/class-tiers.json";
 import classesData from "@/data/classes.json";
@@ -74,6 +75,9 @@ export default function ClassPlannerPage() {
             ticked as mastered.
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Exam gates</h2>

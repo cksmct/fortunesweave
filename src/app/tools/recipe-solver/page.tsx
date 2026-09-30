@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import materialsData from "@/data/materials.json";
 import recipesData from "@/data/drink-recipes.json";
 
@@ -71,6 +72,9 @@ export default function RecipeSolverPage() {
             {gathered} of {materials.length} leaves ticked as gathered.
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         <section className="grid gap-6 lg:grid-cols-2">
           <div className="space-y-3 rounded-lg border border-gray-200 p-5 dark:border-gray-800">

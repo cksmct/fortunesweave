@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
+import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import charactersData from "@/data/characters.json";
@@ -84,6 +85,9 @@ export default function FactionsPage() {
             {"Underneath that sit the unaffiliated clans who compete in the Heroic Games regardless of your route. That independence is practical rather than cosmetic: a clan unit can be recruited on any path, which makes them the reliable way to patch a roster hole created by your choice of Flame Lord."}
           </p>
         </section>
+
+        {/* 黄金次屏 Adsterra 原生信息流广告位 */}
+        <NativeBannerAd />
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
