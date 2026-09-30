@@ -179,4 +179,52 @@ code {
   @apply px-1 py-0.5 rounded bg-zinc-900 border border-white/10 text-xs font-mono text-[#d3b475];
 }
 
+/* === ADSTERRA SKYSCRAPER STYLES START - DO NOT MIX WITH CORE LAYOUT === */
+.skyscraper-sidebar {
+  position: fixed;
+  top: 5.75rem; /* 约 92px，稳稳避开顶部固定 Header (64px)，绝不钻入 Header 背后被截断遮挡 */
+  z-index: 40;
+  display: none;
+  width: 160px;
+  pointer-events: auto;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1360px) {
+  .skyscraper-sidebar {
+    display: flex;
+  }
+}
+/* 视口高度充足 (>= 860px) 时优雅垂直居中；视口高度较矮时锁定在 Header 下方，头部圆角与广告完整展现 */
+@media (min-width: 1360px) and (min-height: 860px) {
+  .skyscraper-sidebar {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 1360px) and (max-height: 859px) {
+  .skyscraper-sidebar {
+    top: 5.75rem;
+    transform: none;
+  }
+}
+.skyscraper-left {
+  left: 0.25rem;
+  right: auto;
+}
+@media (min-width: 1440px) {
+  .skyscraper-left {
+    left: 0.75rem;
+  }
+}
+.skyscraper-right {
+  right: 0.25rem;
+  left: auto;
+}
+@media (min-width: 1440px) {
+  .skyscraper-right {
+    right: 0.75rem;
+  }
+}
+/* === ADSTERRA SKYSCRAPER STYLES END === */
 

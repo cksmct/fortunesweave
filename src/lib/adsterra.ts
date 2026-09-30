@@ -23,6 +23,11 @@ export const MOBILE_BANNER_SRC = `https://www.highrevenueformat.com/${MOBILE_BAN
 export const MOBILE_BANNER_WIDTH = 300;
 export const MOBILE_BANNER_HEIGHT = 250;
 
+// 桌面端双侧 160x600 摩天大楼 (Skyscraper)
+export const SKYSCRAPER_KEY = '42051cfdb5921b62601ff4b0733d4633';
+export const SKYSCRAPER_SRC = `https://www.highrevenueformat.com/${SKYSCRAPER_KEY}/invoke.js`;
+export const SKYSCRAPER_WIDTH = 160;
+export const SKYSCRAPER_HEIGHT = 600;
 
 // 文中黄金位置 Native Banner (原生信息流卡片)
 export const NATIVE_BANNER_KEY = '3e83c9fd7e6aaa8d0dc9a95949603ca2';
