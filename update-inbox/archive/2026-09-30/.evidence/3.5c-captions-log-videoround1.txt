@@ -1,0 +1,29 @@
+PHASE 3.5c CAPTION AND TRANSCRIPT LOG - Fire Emblem: Fortune's Weave - 2026-09-30
+enabled=true  onlyWithCaptions=true
+Recipe used: python -m yt_dlp --cookies yt-cookies.txt --js-runtimes node --remote-components ejs:npm --ignore-no-formats-error --skip-download --write-auto-subs --write-subs --sub-langs "en.*" --sub-format vtt -o scripts/tmp_yt/%(id)s.%(ext)s <url>
+Detection method: directory snapshot diff before and after the batch (never existsSync on a single file), as required.
+
+CHANNEL HEALTH SELF-CHECK (mandatory before any verdict): RUN WITH A KNOWN-CAPTIONED VIDEO = FAILED.
+  Video used: -vLKx1J1nek (already transcribed from its captions on 2026-09-29).
+  Result: "Sign in to confirm you're not a bot" plus "No video formats found" plus "There are no subtitles for the requested languages", and the output directory stayed empty.
+  Retry: one backoff retry after 45 seconds, same result. No further retries were attempted, per the rule of at most one.
+  Conclusion: the YouTube session in yt-cookies.txt has expired or is being rejected. Because the channel is not healthy, this round does NOT record any video as having no English captions. That verdict would be a false negative.
+  Consequence: no new transcripts were produced this round, and no unverified "no captions" claim was written down.
+
+BATCH PROBE THIS ROUND (10 candidates, all UNKNOWN rather than false):
+  cnYUzMclrjA | Legacy Of A Legendary Sculptor | hasEnCaption=unknown (channel blocked) | embedded without transcript
+  IOlzIenQe5o | Lost Goddesses Found: Sculptor Quest | hasEnCaption=unknown | not embedded (3 views, candidate for a later round)
+  vzpSxkfWL_Y | Where To Find Giant's Meat To Recruit Goliath | hasEnCaption=unknown | embedded without transcript
+  _FypuWmkSac | How to Recruit Ninae (Paradise Fish Locations) | hasEnCaption=unknown | embedded without transcript
+  9W0Hb75BKUA | Mounts Make SUPER SOLDIERS | hasEnCaption=unknown | embedded without transcript
+  w474XVj7-vg | BEST CHARACTERS TIER LIST | hasEnCaption=unknown this round, captions already on disk from an earlier round | not embedded again (already live on /tools/recruitment-planner/)
+  dHwnoUmXZ6Q | BEST CLASS Tier List | hasEnCaption=unknown | embedded without transcript
+  llhH-IBpenM | How to FARM WEAPON & MAGIC XP | hasEnCaption=unknown | not embedded
+  W54tJcJm6PE | How to Get Paradise Fish & Recruit Ninae | hasEnCaption=unknown | not embedded (duplicate topic of _FypuWmkSac)
+  LJAojJN2rgU | BEST Characters TIER-LIST & Recruitment Guide | hasEnCaption=unknown, captions already on disk from an earlier round | not embedded
+
+TRANSCRIPTS ALREADY ON DISK (captured in earlier rounds, reused rather than re-fetched): 31 video IDs under scripts/tmp_yt. Those with captions that mention this round's topics: w474XVj7-vg and LJAojJN2rgU (tier list, giant, magic), 8PwLFaicAkY (ninae, goliath; already embedded on /factions/), q9xlI364_Og and KtqlIxZ1yHs (renown, weekly events; already on /activities/). No new transcript text was written into any page this round, because every transcript-derived claim needs to be traced to the video it came from and none of this round's five new embeds has a transcript.
+
+WHISPER: not used. No audio transcription was attempted, and no transcript text was invented.
+
+ACTION NEEDED FROM THE USER: a fresh YouTube Netscape cookie export for the youtube-transcribe flow. With a working session this round's five embeds could be upgraded to full transcript blocks, and the 10 candidates above could be resolved to a real caption verdict.

@@ -22,6 +22,28 @@ const NAV_FILE = path.join(ROOT, 'src', 'data', 'nav.config.json');
 const errors = [];
 const notices = [];
 
+// 动态路由注册表：src/app/**/[param]/page.tsx 是模板，具体 URL 由
+// src/data/game.config.json#routes 逐个登记。导航 href 命中动态模板时，
+// 必须同时在注册表里才能算存在，否则「/sidequests/typo/」会被误判为合法。
+let registryRoutes = null;
+let registryReadFailed = false;
+function loadRegistryRoutes() {
+  if (registryRoutes !== null || registryReadFailed) return registryRoutes;
+  registryRoutes = new Set();
+  try {
+    const raw = fs.readFileSync(path.join(ROOT, 'src', 'data', 'game.config.json'), 'utf8');
+    for (const entry of JSON.parse(raw).routes || []) {
+      const r = String(entry.path || '/').trim();
+      registryRoutes.add(r === '/' ? '/' : '/' + r.replace(/^\/+/, '').replace(/\/+$/, '') + '/');
+    }
+  } catch (error) {
+    registryReadFailed = true;
+    notices.push('audit-nav: game.config.json#routes 读取失败，动态路由将按目录存在性判断: ' + error.message);
+    return null;
+  }
+  return registryRoutes;
+}
+
 if (!fs.existsSync(APP_DIR)) {
   console.error('❌ audit-nav: 未找到 src/app，请在本项目根目录运行。');
   process.exit(1);
@@ -35,11 +57,35 @@ function routeExists(href) {
   const clean = href.split('?')[0].split('#')[0];
   if (clean === '/' || clean === '') return fs.existsSync(path.join(APP_DIR, 'page.tsx'));
   const dir = path.join(APP_DIR, clean.replace(/^\/|\/$/g, ''));
-  return (
+  if (
     fs.existsSync(path.join(dir, 'page.tsx')) ||
     fs.existsSync(path.join(dir, 'route.ts')) ||
     fs.existsSync(path.join(dir, 'route.tsx'))
-  );
+  ) {
+    return true;
+  }
+  // 动态路由目录（例如 src/app/sidequests/[slug]/page.tsx）与具体 href 不同名：
+  // 逐层把路径段替换成 [param] / [...param] 目录名后再探测，命中即视为该 href 可渲染。
+  const segments = clean.replace(/^\/|\/$/g, '').split('/').filter(Boolean);
+  for (let i = 0; i < segments.length; i += 1) {
+    const parent = path.join(APP_DIR, ...segments.slice(0, i));
+    if (!fs.existsSync(parent)) continue;
+    for (const entry of fs.readdirSync(parent, { withFileTypes: true })) {
+      if (!entry.isDirectory() || entry.name.indexOf('[') < 0) continue;
+      const dynamicDir = path.join(parent, entry.name, ...segments.slice(i + 1));
+      if (
+        fs.existsSync(path.join(dynamicDir, 'page.tsx')) ||
+        fs.existsSync(path.join(dynamicDir, 'route.ts'))
+      ) {
+        // 文件系统只知道模板存在，不知道具体 slug 是否已登记：
+        // 必须由 game.config.json#routes 背书，否则 todo 式 typo 会被放行。
+        const registry = loadRegistryRoutes();
+        if (!registry) return true;
+        return registry.has('/' + segments.join('/') + '/');
+      }
+    }
+  }
+  return false;
 }
 
 function checkLink(link, where) {
@@ -203,6 +249,8 @@ if (!fs.existsSync(NAV_FILE)) {
     if (!fs.existsSync(dir)) return;
     for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
       if (e.isDirectory()) {
+        // 动态模式目录（如 [slug]）是模板而不是可导航路由，跳过以免误报孤岛。
+        if (e.name.indexOf('[') >= 0) continue;
         findAppRoutes(path.join(dir, e.name), prefix ? `${prefix}/${e.name}` : e.name);
       } else if (e.name === 'page.tsx' || e.name === 'page.jsx') {
         const route = prefix || '';

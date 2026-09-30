@@ -301,6 +301,52 @@ export default function CharactersPage() {
           </ul>
         </section>
 
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Giants' Meat and the Goliath recruitment
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">TrophyLink</span> &middot;{" "}
+              <span className="font-mono">vzpSxkfWL_Y</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="vzpSxkfWL_Y" title="Fire Emblem Fortune's Weave / Where To Find Giant's Meat To Recruit Goliath / Guide" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Where the giants' meat comes from and how three pieces turn into the Goliath recruitment, which is the route the materials page files under that item.
+          </p>
+        </section>
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; recruitment breakdown
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Renown gates, read off a community sheet
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Matt & Yunie</span> &middot;{" "}
+              <span className="font-mono">LJAojJN2rgU</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="LJAojJN2rgU" title="Fire Emblem Fortune's Weave BEST Characters TIER-LIST & Recruitment Guide" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {"A recruitment and ranking walkthrough whose English captions were transcribed on 2026-09-30. The useful part is the gate rather than the ranking: the creator shows that recruits open at set Renown levels, that he was seeing names unlock from the low single digits upward and several more by Renown seven, and that support can be farmed to level three quickly instead of chapter by chapter. He is reading a community spreadsheet on screen rather than an in-game screen, so those figures are quoted rather than measured, which is why the table on this page stays the record."}
+          </p>
+        </section>
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Frequently asked questions
@@ -317,7 +363,7 @@ export default function CharactersPage() {
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Quick answers</h2>
           <p>
-The Fire Emblem: Fortune&apos;s Weave characters on this page are grouped by the army they join, and Fire Emblem: Fortune&apos;s Weave recruitment is keyed by the Flame Lord you are playing rather than by one universal price. Looking for a Fire Emblem: Fortune&apos;s Weave character tier list? That is a judgement call rather than a fact, so this page records roles and requirements instead of ranking them.
+The Fire Emblem: Fortune&apos;s Weave characters on this page are grouped by the army they join, and Fire Emblem: Fortune&apos;s Weave recruitment is keyed by the Flame Lord you are playing rather than by one universal price. Looking for a Fortune&apos;s Weave tier list or a Fire Emblem: Fortune&apos;s Weave character tier list? That is a judgement call rather than a fact, so this page records roles and requirements instead of ranking them.
           </p>
         </section>
       </main>

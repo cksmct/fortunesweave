@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
@@ -199,6 +200,52 @@ export default function MaterialsPage() {
           </p>
         </section>
 
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Paradise Fish and the Ninae recruitment
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">MrEOD - Nintendo Games</span> &middot;{" "}
+              <span className="font-mono">_FypuWmkSac</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="_FypuWmkSac" title="How to Recruit Ninae in Fire Emblem Fortune's Weave (Paradise Fish Locations)" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {"Its English captions were transcribed on 2026-09-30. What it adds beyond the table is the shape of the trip: the lake is reached by caravan and then an underpass, and the last stretch can be guarded by level 25 enemies, so a lower level party should come back later. The catch is rare, so budget around twenty turns, and when a search comes up empty move a square away and search again rather than standing still. It also names the recruit as wanting one Paradise Fish and nothing else."}
+          </p>
+        </section>
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; second route
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                The same catch, from the southern road
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">The Game Looters</span> &middot;{" "}
+              <span className="font-mono">W54tJcJm6PE</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="W54tJcJm6PE" title="Fire Emblem: Fortune's Weave - How to Get Paradise Fish & Recruit Ninae!" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {"A second creator route to the same lake, transcribed on 2026-09-30, and the one that records the recruitment requirements in full: support level three, a Renown gate on his route and one Paradise Fish. It reaches the lake from the mine road if the area is unexplored, or from the southern posthouse if the carriage route is already open, and it repeats the move a square and search again trick when the node dries up."}
+          </p>
+        </section>
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Frequently asked questions
@@ -230,15 +277,25 @@ Fire Emblem: Fortune&apos;s Weave Wonder Leaves come from a performance quest ch
             alike. Fire Emblem: Fortune&apos;s Weave Cullet is the only one of the four with a recorded use:
             the sources describe it as a hard crystal shard found across the region&apos;s caves and used in
             forging to sharpen blades, and the Chapter 10 subquest One Last Challenge pays it out as well.
-            Fire Emblem: Fortune&apos;s Weave Paradise Fish and Fire Emblem: Fortune&apos;s Weave Glirmosa are
-            both listed as items, and no source checked says what either one does, which is why they are
-            carried here with their existence recorded and their effects left blank instead of described.
+            Fire Emblem: Fortune&apos;s Weave Paradise Fish now has a recorded use: it is the item the Ninae
+            recruitment asks for, and the search points around Lake Brontes in the far south are where a
+            second source records it coming out of the water, so a player who wants Ninae should search
+            those points repeatedly rather than once. Fire Emblem: Fortune&apos;s Weave Glirmosa is still
+            only listed as an item with no source checked saying what it does, which is why it is carried
+            here with its existence recorded and its effect left blank instead of described.
           </p>
           <p>
             Fortune&apos;s Weave Dates sits in between. Dates are not a foraging find but a quest payout: the
             Chapter 8 subquest Huge, Hairy Beast hands them over alongside Cadam, so a player scanning the
             map for them will never turn them up. Until a source describes what these three are for, this
             page keeps them as named rows rather than pretending they are understood.
+          </p>
+          <p>
+            {"The southern search point that produces Paradise Fish is the same one that holds the last statue in the "}
+            <Link className="font-medium text-[#8a6d2f] underline decoration-dotted dark:text-[#d3b475]" href="/sidequests/legacy-of-a-legendary-sculptor/">
+              Legacy of a Legendary Sculptor
+            </Link>
+            {" subquest, so the fish and the statue are one trip. Giants&apos; Meat runs the same way in reverse: three pieces are what the Goliath recruitment asks for, and the characters page records the support level and Renown that recruitment needs before the meat matters."}
           </p>
         </section>
         {/* Video intel: W87RipJTy34 */}

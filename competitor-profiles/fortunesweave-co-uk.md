@@ -1,6 +1,10 @@
 # Fortune's Weave Guide (fortunesweave.co.uk) — Competitor Profile
 
 **Generated**: 2026-09-28
+**verified**: validated
+**validatedAt**: 2026-09-30
+**evidence**: manual review on 2026-09-30. fortunesweave.co.uk/wiki is a dedicated Fortune's Weave wiki with per-topic slugs (crop-farming, gambits-and-battalions, hero-talents, notable-deeds, boons, crests) and is the first-layer source this site has cited since 2026-09-28. node fetch times out on the domain while curl.exe returns HTML, which is why the automated audit reports no-gd-static.
+
 **Depth**: quick scan (6 competitors profiled in one pass)
 **Method**: built-in web_search + web_fetch only; no DataForSEO or Firecrawl MCP available in this environment.
 

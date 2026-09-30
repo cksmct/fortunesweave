@@ -4,6 +4,7 @@ import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
 import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
+import Link from "next/link";
 import weaponsData from "@/data/weapons.json";
 
 const weapons = weaponsData.weapons;
@@ -15,6 +16,9 @@ const types = Array.from(new Set(weapons.map((entry) => entry.weaponType))).filt
 const unclassified = weapons.filter((entry) => entry.weaponType === "" || entry.weaponType === "?");
 const withEffects = weapons.filter((entry) => entry.effects !== "");
 const label = (type: string) => (type === "" || type === "?" ? "Not recorded" : type);
+const spells = weapons.filter((entry) => entry.weaponType.toLowerCase().indexOf("magic") >= 0);
+const spellSchools = Array.from(new Set(spells.map((entry) => entry.weaponType)));
+const spellsOf = (school: string) => spells.filter((entry) => entry.weaponType === school);
 
 const FAQS = [
   {
@@ -163,6 +167,34 @@ export default function WeaponsPage() {
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            The spell list, school by school
+          </h2>
+          <p>
+            {"The Fire Emblem: Fortune's Weave spell list is " + spells.length + " entries, and every one of them sits in the table above with its school attached rather than being buried inside a class page. Black magic is the largest school, white magic follows it, and dark magic is the smallest of the three by a wide margin."}
+          </p>
+          <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+            {spellSchools.map((school) => (
+              <li key={school}>
+                <span className="font-semibold text-gray-900 dark:text-gray-100">{school + ": "}</span>
+                {spellsOf(school).map((entry) => entry.name).join(", ")}
+                <span className="text-gray-500 dark:text-gray-400">{" (" + spellsOf(school).length + " recorded)"}</span>
+              </li>
+            ))}
+          </ul>
+          <p>
+            {"Casting does not work like a sword swing. A spell carries a use count instead of a durability bar, nearly every entry reaches further than melee at a range of one to two tiles, and that extra tile is the reason a mage can stand behind a front line. Where the source leaves a might or a hit value blank for a spell, this page leaves it blank too rather than filling in a plausible number."}
+          </p>
+          <p>
+            {"Which class gets to cast them is a separate question. The "}
+            <Link className="font-medium text-[#8a6d2f] underline decoration-dotted dark:text-[#d3b475]" href="/classes/">
+              classes page
+            </Link>
+            {" lists the magical certifications and the mastery abilities that add Magic, and the cursed objects on the equipment page are what push a caster past its printed numbers."}
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             How to read a row quickly
           </h2>
           <p>
@@ -182,6 +214,29 @@ export default function WeaponsPage() {
           </p>
         </section>
 
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; how the spells arrive
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Farming weapon and magic experience on purpose
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">llhH-IBpenM</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="llhH-IBpenM" title="How to FARM WEAPON & MAGIC XP in Fire Emblem: Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {"Its English captions were transcribed on 2026-09-30, and it answers the question the spell list raises: a spell is reached through the weapon experience of the class that casts it. The method is a clash fight, the weakest weapon in the inventory, a single landed attack, then Retreat back to the map, repeated; a recovery link on the same trip trains white magic, and the extra weapon experience is what brings spells such as Physic forward. It is a grind, and the creator says so, but it beats waiting for chapters to hand out the experience."}
+          </p>
+        </section>
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             What sits next to this table

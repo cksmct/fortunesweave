@@ -1,0 +1,62 @@
+{
+  "runId": "2026-09-30-fortunesweave",
+  "inboxBatch": [
+    "searched_with_rising-searches_queries_US_20260923-1106_20260930-1106.csv",
+    "searched_with_top-searches_queries_US_20260923-1106_20260930-1106.csv"
+  ],
+  "inboxHash": "100 rows parsed across the two 2026-09-23 to 2026-09-30 exports",
+  "startedAt": "2026-09-30T09:00:00Z",
+  "finishedAt": "2026-09-30T12:00:00Z",
+  "forceRerun": false,
+  "skipTrends": false,
+  "trendsSource": "user-supplied CSVs already in update-inbox (fetch script was NOT run this round)",
+  "gamePlatform": "console",
+  "statsRefresh": "none",
+  "phases": {
+    "0": {
+      "status": "done",
+      "note": "config completed: events.autoDetect=false, competitorAudit.keywords, videoIntel.probeCap; 20 audits reconciled against scripts/"
+    },
+    "1": {
+      "status": "done",
+      "note": "9 new enforced trend keywords, 27 pending, 4 rejected, 1 new page"
+    },
+    "2": {
+      "status": "done",
+      "note": "console branch: patch history reviewed (still 1.0.1), materials row re-verified and updated"
+    },
+    "3": {
+      "status": "done",
+      "note": "2 new competitor profiles, KB summary round 2, site changes landed"
+    },
+    "4": {
+      "status": "done",
+      "note": "build.cmd exit 0 with all postbuild audits green"
+    },
+    "5": {
+      "status": "done",
+      "commitHash": "d12641865d89f2f18a69d71919f5081722c3e953",
+      "note": "gitCommit=false, gitPush=false, IndexNow ran and returned 200 on all three endpoints"
+    },
+    "6": {
+      "status": "done",
+      "note": "skill issues collected, no skill files modified outside this repo"
+    },
+    "7": {
+      "status": "done",
+      "note": "archive + report + final verification"
+    },
+    "0x": {
+      "status": "done",
+      "note": "audit-nav + audit-header-footer green at start"
+    },
+    "1.5": {
+      "status": "skipped",
+      "note": "console platform: no virtual events API, events.autoDetect=false on purpose"
+    },
+    "3.5": {
+      "status": "done",
+      "note": "3.5a green; 3.5b discovery ran; 3.5c caption channel blocked so no new transcripts"
+    }
+  }
+}

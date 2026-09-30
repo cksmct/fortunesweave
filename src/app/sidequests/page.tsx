@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
@@ -40,6 +41,11 @@ const FAQS = [
     question: "Where is the Missing Master?",
     answer:
       "Recorded as a route-specific priority subquest at Dagsion in Chapter 9, with a 15/10 deadline and a 4000 gold and 130 Renown reward. The source records the location but not the NPC, which is why players search for this one by name.",
+  },
+  {
+    question: "Where are the four statues of Legacy of a Legendary Sculptor?",
+    answer:
+      "Kalla is at Utuna Pass in the north, Jurah at Gaura Grassland west of the capital, Fortuna at Solel's Temple and Yu Pha at the southern Lake Brontes. The temple node is drawn as a supply satchel rather than a temple, which is why it is the one players usually miss.",
   },
 ];
 
@@ -160,6 +166,20 @@ export default function SidequestsPage() {
         </section>
 
           <p>
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            The subquest that earned its own page
+          </h2>
+          <p>
+            {"One entry on this list is long enough to need its own walkthrough. Legacy of a Legendary Sculptor sends the army after four statues of the Dagdan goddesses, and the two walkthroughs checked for this list agree on where all four sit: Kalla at Utuna Pass, Jurah at Gaura Grassland, Fortuna at Solel's Temple and Yu Pha at Lake Brontes. The clues name a temple, a pass, a grassland and a lake, and one of those four search points is drawn with an icon that does not match its name."}
+          </p>
+          <p>
+            <Link className="font-medium text-[#8a6d2f] underline decoration-dotted dark:text-[#d3b475]" href="/sidequests/legacy-of-a-legendary-sculptor/">
+              Legacy of a Legendary Sculptor: the four statue locations, routes and the reward split
+            </Link>
+          </p>
+        </section>
+
             Fire Emblem: Fortune&apos;s Weave Missing Master is the entry searched for most often, and the record explains
             why: it is a route-specific priority subquest at Dagsion in Chapter 9 with a 15/10 deadline, a
             4000 gold and 130 Renown payout, and no NPC name attached, so the quest name is the only thing

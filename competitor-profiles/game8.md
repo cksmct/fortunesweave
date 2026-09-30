@@ -1,6 +1,10 @@
 # Game8 — Competitor Profile
 
 **Generated**: 2026-09-28
+**verified**: validated
+**validatedAt**: 2026-09-30
+**evidence**: manual review on 2026-09-30. Automated fetch is impossible (Cloudflare returns a challenge page), so the verdict rests on the hub URL being game-specific (game8.co/games/Fire-Emblem-Fortunes-Weave) and on the per-item and per-quest URLs this site already cites from it, including archives/624738 for Giants' Meat and archives/624414 for the sculptor quest.
+
 **Depth**: quick scan (6 competitors profiled in one pass)
 **Method**: built-in web_search + web_fetch only; no DataForSEO or Firecrawl MCP available in this environment.
 

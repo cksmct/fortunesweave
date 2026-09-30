@@ -20,7 +20,7 @@ const FAQS = [
   {
     question: "Who can catch animal mounts in Fortune\u0027s Weave?",
     answer:
-      "The mechanic belongs to Cai. It opens on his Part I route at Chapter 5, and the animals you lure in are kept in the stable in Lowtown, Dagsion.",
+      "The mechanic belongs to Cai. It opens on his Part I route at Chapter 5, and the animals you lure in are kept in the stable in Lowtown, Dagsion. Fire Emblem: Fortune's Weave mounts therefore sit inside one lord's route rather than being a party-wide system, and the spawn table below is recorded for that route.",
   },
   {
     question: "What do mounts actually give you?",
@@ -339,6 +339,29 @@ export default function MountsPage() {
           </ul>
         </section>
 
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Why mounts are worth the map time
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">choops</span> &middot;{" "}
+              <span className="font-mono">9W0Hb75BKUA</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="9W0Hb75BKUA" title="Mounts Make SUPER SOLDIERS in Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {"Its English captions were transcribed on 2026-09-30. The chain it lays out is the one the tables above describe, with the steps filled in: leave the right bait and wait five turns, then return and try the catch, with one and two star materials raising the odds on the nodes marked by a question mark. Bonding is per animal rather than per unit, the animal's extra skill is rolled when it is tamed so an unwanted one is a reason to catch another, and the stable in lower Dagsion feeds the animals once a day, which is how the creator reached Bond 5 in nine in-game days. Two details are worth repeating because they are easy to lose: the fixed stat points stop applying while the rider is dismounted even though the growth rate keeps working, and the Charioteer class doubles the growth a mount hands out. Those last two are the creator's reading rather than the tables above."}
+          </p>
+        </section>
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Frequently asked questions

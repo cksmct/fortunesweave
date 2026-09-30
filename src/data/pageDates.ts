@@ -31,6 +31,7 @@ export const PAGE_DATES: Record<string, string> = {
   '/postgame': '2026-09-30',
   '/privacy': '2026-09-28',
   '/sidequests': '2026-09-30',
+  '/sidequests/[slug]': '2026-09-30',
   '/supports': '2026-09-30',
   '/systems': '2026-09-30',
   '/talents': '2026-09-30',

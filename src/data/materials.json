@@ -825,19 +825,39 @@
       "slug": "paradise-fish",
       "name": "Paradise Fish",
       "category": "Not recorded",
-      "usedInQuests": [],
-      "locations": [],
-      "effects": [],
+      "usedInQuests": [
+        "Ninae recruitment (search until it drops)"
+      ],
+      "locations": [
+        {
+          "area": "Saramis",
+          "spot": "Search points around Lake Brontes, near Megaira, in the far south",
+          "method": "Search"
+        }
+      ],
+      "effects": {
+        "other": "Recorded as the item the Ninae recruitment asks for, which is why the lake is searched repeatedly rather than once."
+      },
       "sources": [
+        {
+          "label": "Polygon - Legacy of a Legendary Sculptor walkthrough",
+          "url": "https://www.polygon.com/fire-emblem-fortunes-weave-legacy-legendary-sculptor-walkthrough-statue-locations/",
+          "date": "2026-09-30"
+        },
         {
           "label": "fortunesweave.co.uk - Materials",
           "url": "https://fortunesweave.co.uk/items/materials",
           "date": "2026-09-28"
+        },
+        {
+          "label": "YouTube - MrEOD, How to Recruit Ninae (Paradise Fish Locations), captions transcribed 2026-09-30",
+          "url": "https://www.youtube.com/watch?v=_FypuWmkSac",
+          "date": "2026-09-30"
         }
       ],
-      "grade": "community-reported",
-      "asOf": "2026-09-28",
-      "note": "Listed as an item and searched for by name, but no source checked describes its category, where it is found or what it does."
+      "grade": "source-reported",
+      "asOf": "2026-09-30",
+      "note": "The first source records where it comes from and what it is for, the second only records that it exists. The two together do not yet make the row cross-checked, because only one source describes the location and the recruitment request. Two creator videos transcribed on 2026-09-30 add that the lake can be guarded by level 25 enemies, that the catch is rare enough to budget about twenty turns, and that moving a square away and searching again refreshes the node."
     },
     {
       "id": "glirmosa",

@@ -49,6 +49,21 @@ const validRoutes = new Set(
   }).filter((r) => !r.startsWith("/_") && !r.startsWith("/404/"))
 );
 
+// 1b. 动态路由目录（src/app/**/[param]/page.tsx）无法从文件系统推出具体 URL：
+// 它们的具体页面逐个登记在 src/data/game.config.json#routes，故按注册表补入 validRoutes，
+// 否则导航指向一个合法动态页会被误判为死链。
+const REGISTRY_PATH = join(SRC_DIR, "data", "game.config.json");
+try {
+  const registry = JSON.parse(readFileSync(REGISTRY_PATH, "utf8"));
+  for (const entry of registry.routes || []) {
+    const r = String(entry.path || "/").trim();
+    const normalized = r === "/" ? "/" : "/" + r.replace(/^\/+/, "").replace(/\/+$/, "") + "/";
+    validRoutes.add(normalized);
+  }
+} catch (error) {
+  console.warn("audit-header-footer: game.config.json#routes 读取失败，动态路由将按字面量判断: " + error.message);
+}
+
 const headerContent = readFileSync(HEADER_PATH, "utf8");
 const footerContent = readFileSync(FOOTER_PATH, "utf8");
 

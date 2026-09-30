@@ -241,6 +241,29 @@ export default function ClassesPage() {
           </p>
         </section>
 
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                A creator ranking of the classes
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">dHwnoUmXZ6Q</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="dHwnoUmXZ6Q" title="BEST CLASS Tier List in Fire Emblem: Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            {"Its English captions were transcribed on 2026-09-30. It ranks seventeen advanced classes from best to worst across parts one and two of hard mode, and the reasoning is more useful than the order: the sword class lands in the upper band on speed and critical damage with the caveat that a plan which depends on a critical is a plan that fails quietly, and the mounted support class sits at the top for what it does to a unit's growth rather than to its combat numbers. One tip is mechanical and worth having regardless of the ranking: the class screen prints its growth rates while the left trigger is held, which is how the creator reads every class in the video."}
+          </p>
+        </section>
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Frequently asked questions

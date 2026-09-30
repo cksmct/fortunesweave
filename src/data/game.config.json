@@ -282,6 +282,12 @@
       "changeFrequency": "weekly"
     },
     {
+      "path": "/sidequests/legacy-of-a-legendary-sculptor",
+      "title": "Legacy of a Legendary Sculptor Quest",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
       "path": "/deities",
       "title": "Deities of Dagda",
       "priority": "0.7",

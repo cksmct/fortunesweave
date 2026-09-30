@@ -1,0 +1,61 @@
+PHASE 3.5b VIDEO DISCOVERY - Fire Emblem: Fortune's Weave - 2026-09-30
+enabled=true  autoDeriveTerms=true  maxPerTerm=6  onlyWithCaptions=true
+searchTerms source: derived this round (videoIntel.searchTerms was empty). Basis: entity words (Fortunes Weave + Fire Emblem) combined with this week's trend words from the two Google Trends exports (legendary sculptor / statue locations / giants meat / paradise fish / spell list / mounts / tier list / secret altar).
+command: python -m yt_dlp --cookies yt-cookies.txt --js-runtimes node --remote-components ejs:npm --flat-playlist -J "ytsearch6:<term>"
+
+TERM 1 "Fortunes Weave legendary sculptor" -> 6 candidates, 1 entity match
+  cnYUzMclrjA | 1087 views | 71s | Joe Hammer Gaming | Legacy Of A Legendary Sculptor - Fire Emblem Fortunes Weave
+  (non-entity: Kinkymation artist impressions, Faerghast Three Houses relics, Satachi FEH, JJWF Granblue, ZeldaRocks piano)
+
+TERM 2 "Fortunes Weave statue locations quest" -> 6 candidates, 3 entity matches
+  ak7OLvWO568 | 1920 | 14995s | KitaNashStreams | Teaming up w/ that kid I punched (Part 2 - Theodora)
+  GJGfUb5UwyQ | 174 | 10176s | AzizaTGN Gaming | Cai's Hand Burns! Let's Play With Writer Commentary
+  IOlzIenQe5o | 3 | 240s | Lucca | Lost Goddesses Found: Fortune's Weave Sculptor Quest
+
+TERM 3 "Fortunes Weave giants meat Goliath" -> 6 candidates, 6 entity matches
+  vzpSxkfWL_Y | 117 | 89s | TrophyLink | Where To Find Giant's Meat To Recruit Goliath
+  ZZgTFsS3G_U | 1091 | 20s | Loli Ho | Giants' Meat Location for Goliath Recruitment
+  _2aEuVhvNKE | 199173 | 570s | IGN | How to Recruit the Best Characters (already embedded on /characters/)
+  uTDqiRYgDQE | 52443 | 118s | Jay Dunna | How to CARRY OVER PROGRESS (not this topic)
+  A4emEgEG6c8 | 172 | 1284s | Loli Ho | How to Recruit Goliath as Leda
+  iUqSVSWB-7Y | 103 | 24215s | Pirili Holnecro | Goliath and his giant meat (long stream, not a guide)
+
+TERM 4 "Fortunes Weave paradise fish Ninae" -> 6 candidates, 5 entity matches
+  _FypuWmkSac | 1839 | 156s | MrEOD - Nintendo Games | How to Recruit Ninae in Fire Emblem Fortune's Weave (Paradise Fish Locations)
+  W54tJcJm6PE | 2129 | 141s | The Game Looters | How to Get Paradise Fish & Recruit Ninae!
+  wGbUVlk7oJs | 113 | 26s | Loli Ho | Paradise Fish Location for Ninae Recruitment
+  WrupS2DQH-U | 78267 | 868s | PhillyBeatzU | 31+ EARLY Game Tips (already embedded on /systems/)
+
+TERM 5 "Fortunes Weave spells magic list" -> 6 candidates, 6 entity matches (none is a spell list video)
+  llhH-IBpenM | 18640 | 101s | Jay Dunna | How to FARM WEAPON & MAGIC XP
+  b_i00R0hHG4 | 169092 | 574s | Jay Dunna | 10 Things I Wish I Knew SOONER (already embedded on /walkthrough/)
+  Mql_v-thCvY | 57134 | 383s | Varsona | Unlock These Skills ASAP (already embedded on /talents/)
+  dhw8BfVO_EY | 189556 | 773s | GameSpot | 13 Tips We Wish We Knew Before Playing
+  (no captioned video answers "spell list" directly, so no embed was forced onto /weapons/)
+
+TERM 6 "Fortunes Weave mounts capture" -> 6 candidates, 6 entity matches
+  9W0Hb75BKUA | 52235 | 492s | choops | Mounts Make SUPER SOLDIERS in Fortune's Weave
+  gTVnq4iqeGs | 17729 | 236s | Varsona | Fortune's Weave Gave Mounted Units a Game-Changing Upgrade (already embedded on /mounts/)
+
+TERM 7 "Fortunes Weave tier list best characters" -> 6 candidates, 6 entity matches
+  w474XVj7-vg | 72614 | 4279s | Jay Dunna | BEST CHARACTERS TIER LIST (already embedded on /tools/recruitment-planner/)
+  dHwnoUmXZ6Q | 52773 | 2283s | Jay Dunna | BEST CLASS Tier List in Fortune's Weave
+  LJAojJN2rgU | 22465 | 806s | Matt & Yunie | BEST Characters TIER-LIST & Recruitment Guide
+  2XhLx-n0gpI | 16900 | 1235s | Matt & Yunie | TOP 10 BEST Characters In ACT 1
+
+TERM 8 "Fortunes Weave secret altar subquest" -> 3 candidates, 3 entity matches (all already embedded elsewhere)
+  q9xlI364_Og | 32324 | 354s | Jay Dunna | EVERY WEEKLY MISSABLE Event (embedded on /activities/)
+  UquUQo_Gzn0 | 199896 | 735s | Jay Dunna | 18 Things It Doesn't Tell You (embedded on /systems/)
+  KtqlIxZ1yHs | 24277 | 211s | Jay Dunna | How to MAX RENOWN FAST (embedded on /activities/)
+
+ENTITY RED LINE: 43 raw candidates, 34 matched the entity test (title or channel contains Fortune's Weave / Fire Emblem), 9 dropped as other games or unrelated (Granblue, Three Houses, FEH, Dragon Age, manhwa recap, piano cover).
+oEmbed GATE (https://www.youtube.com/oembed): 6 finalists checked, 6 returned HTTP 200 with the expected author and title. No candidate failed the gate, so nothing was discarded for being dead.
+
+EMBEDDED THIS ROUND (5, oEmbed title used verbatim as the declared title):
+  cnYUzMclrjA -> src/app/sidequests/[slug]/page.tsx  (new quest guide page)
+  _FypuWmkSac -> src/app/materials/page.tsx
+  vzpSxkfWL_Y -> src/app/characters/page.tsx
+  9W0Hb75BKUA -> src/app/mounts/page.tsx
+  dHwnoUmXZ6Q -> src/app/classes/page.tsx
+Skipped to avoid cross-page duplicates: w474XVj7-vg (already on /tools/recruitment-planner/), _2aEuVhvNKE (already on /characters/), gTVnq4iqeGs (already on /mounts/), WrupS2DQH-U (already on /systems/).
+Site total before this round: 32 embedded instances. After: 37.

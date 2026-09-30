@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-29",
-  "_comment": "Generated from the two Google Trends exports in update-inbox (week 2026-09-22 to 2026-09-29). keywords are brand-plus-topic phrases that must appear in the target page body; pendingKeywords records demanded terms already published but not forced as phrases; rejectedKeywords records queries outside this site entity; decisionLog records the weekly tier call.",
+  "version": "2026-09-30",
+  "_comment": "Generated from the two Google Trends exports in update-inbox (week 2026-09-23 to 2026-09-30). keywords are brand-plus-topic phrases that must appear in the target page body; pendingKeywords records demanded terms already published but not forced as phrases; rejectedKeywords records queries outside this site entity; decisionLog records the weekly tier call.",
   "keywords": [
     {
       "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave(?:es|s)?/i",
@@ -374,98 +374,242 @@
       "interest": 0,
       "growth": "130%",
       "asOf": "2026-09-29"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+spell\\s+list/i",
+      "target": "src/app/weapons/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "450%",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+spell\\s+list/i",
+      "target": "src/app/weapons/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "450%",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+tier\\s+list/i",
+      "target": "src/app/characters/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "150%",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/legendary\\s+sculptor/i",
+      "target": "src/app/sidequests/[slug]/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "Breakout",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/statue\\s+locations?/i",
+      "target": "src/app/sidequests/[slug]/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "Breakout",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+mounts?/i",
+      "target": "src/app/mounts/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "450%",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+mounts?/i",
+      "target": "src/app/mounts/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "450%",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/giants.{0,8}meat/i",
+      "target": "src/app/materials/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "450%",
+      "asOf": "2026-09-30"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+missing\\s+master/i",
+      "target": "src/app/sidequests/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "450%",
+      "asOf": "2026-09-30"
     }
   ],
   "pendingKeywords": [
     {
-      "query": "paralogues fortune's weave",
-      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "query": "fortune's weave characters",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 6,
+      "growth": "-3%"
+    },
+    {
+      "query": "fortune's weave classes",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 4,
+      "growth": "90%"
+    },
+    {
+      "query": "fortune's weave paralogues",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
       "interest": 3,
-      "growth": "850%"
+      "growth": "400%"
     },
     {
-      "query": "wonder leaves fortune's weave",
-      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "query": "fortune's weave gifts",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 3,
+      "growth": "100%"
+    },
+    {
+      "query": "fortune's weave dates",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 2,
+      "growth": "250%"
+    },
+    {
+      "query": "fortune's weave recruitment",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 2,
+      "growth": "70%"
+    },
+    {
+      "query": "fortune's weave chapters",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 2,
+      "growth": "50%"
+    },
+    {
+      "query": "fortune's weave wonder leaves",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
       "interest": 1,
-      "growth": "850%"
+      "growth": "500%"
     },
     {
-      "query": "bitter leaves fortune's weave",
-      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "query": "fortune's weave sandworm meat",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
       "interest": 1,
-      "growth": "600%"
+      "growth": "400%"
     },
     {
-      "query": "paradise fish fortune's weave",
-      "reason": "Topic already published on an existing page; the phrase is not enforced separately because that would mean mechanical word order.",
+      "query": "fortune's weave paradise fish",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
       "interest": 1,
-      "growth": "550%"
+      "growth": "350%"
     },
     {
-      "query": "cai fortune's weave",
-      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
-      "interest": 5,
+      "query": "fortune's weave pepper leaves",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 1,
+      "growth": "200%"
+    },
+    {
+      "query": "fortune's weave world map",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 1,
+      "growth": "130%"
+    },
+    {
+      "query": "fortune's weave gift guide",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 1,
+      "growth": "80%"
+    },
+    {
+      "query": "fortune's weave cullet",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "250%"
+    },
+    {
+      "query": "fire emblem fortune's weave mu",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 1,
+      "growth": "140%"
+    },
+    {
+      "query": "fire emblem fortune's weave melara",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "250%"
+    },
+    {
+      "query": "fire emblem fortune's weave alexandra",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "180%"
+    },
+    {
+      "query": "fire emblem fortune's weave majide",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
       "growth": "170%"
     },
     {
-      "query": "dietrich fire emblem",
-      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
-      "interest": 2,
-      "growth": "120%"
+      "query": "fire emblem fortune's weave lind",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "170%"
     },
     {
-      "query": "theodora fire emblem",
-      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
-      "interest": 2,
-      "growth": "110%"
+      "query": "fire emblem fortune's weave bertrand",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "170%"
     },
     {
-      "query": "leda fortune's weave",
-      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
-      "interest": 3,
-      "growth": "100%"
-    },
-    {
-      "query": "fire fortune's weave",
-      "reason": "Brand-only variant: the enforced home-page brand phrase already covers it, so no separate body phrase is added.",
-      "interest": 100,
-      "growth": "-20%"
-    },
-    {
-      "query": "fire emblem",
-      "reason": "Franchise term rather than a game-specific query; the enforced home-page brand phrase already names the franchise together with the game, so no separate body phrase is added.",
-      "interest": 94,
-      "growth": "-20%"
-    },
-    {
-      "query": "fortunes weave",
-      "reason": "Brand-only variant: the enforced home-page brand phrase already covers it, so no separate body phrase is added.",
-      "interest": 11,
-      "growth": "30%"
-    },
-    {
-      "query": "fe fortune's weave",
-      "reason": "Brand-only variant: the enforced home-page brand phrase already covers it, so no separate body phrase is added.",
-      "interest": 6,
-      "growth": "60%"
-    },
-    {
-      "query": "switch 2",
-      "reason": "Platform term: already stated on the about page and in the home FAQ, so it is not enforced as a body phrase.",
-      "interest": 2,
-      "growth": "-60%"
-    },
-    {
-      "query": "leda fire emblem",
-      "reason": "Topic already published on the talents page; the phrase is not enforced separately because that would mean mechanical word order.",
-      "interest": 2,
-      "growth": "100%"
-    },
-    {
-      "query": "nintendo",
-      "reason": "Platform term: already stated on the about page and in the home FAQ, so it is not enforced as a body phrase.",
+      "query": "fire emblem fortune's weave ninae",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
       "interest": 1,
-      "growth": "-70%"
+      "growth": "160%"
+    },
+    {
+      "query": "fire emblem fortune's weave talimun",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "130%"
+    },
+    {
+      "query": "fire emblem fortune's weave wandering wood",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "130%"
+    },
+    {
+      "query": "giants meat",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "450%"
+    },
+    {
+      "query": "fire emblem fortune's weave secret altar",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "300%"
+    },
+    {
+      "query": "fire emblem fortune's weave lure",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 1,
+      "growth": "200%"
+    },
+    {
+      "query": "fire emblem fortune's weave best class for each character",
+      "reason": "Topic already carries a sourced row on an existing page; the phrase is not enforced separately because forcing it would mean writing word order rather than content.",
+      "interest": 0,
+      "growth": "250%"
     }
   ],
   "rejectedKeywords": [
@@ -474,52 +618,107 @@
       "reason": "Different game entity: Fire Emblem: Three Houses is a separate game rather than Fortune's Weave, so it sits outside the scope of this site.",
       "interest": 1,
       "growth": "-40%"
+    },
+    {
+      "query": "fire emblem",
+      "interest": 94,
+      "growth": "-10%",
+      "reason": "Series-level query rather than this game: it is answered by the franchise, not by a Fortune's Weave page, so it is out of scope for the site."
+    },
+    {
+      "query": "switch 2",
+      "interest": 2,
+      "growth": "-60%",
+      "reason": "Hardware query: the platform is where the game runs, not what this site covers."
+    },
+    {
+      "query": "nintendo",
+      "interest": 1,
+      "growth": "-70%",
+      "reason": "Publisher query: out of scope for a single-game guide site."
     }
   ],
   "decisionLog": {
-    "week": "2026-09-22 to 2026-09-29",
+    "week": "2026-09-23 to 2026-09-30",
     "sources": [
-      "searched_with_rising-searches_queries_US_20260922-1006_20260929-1006.csv",
-      "searched_with_top-searches_queries_US_20260922-1006_20260929-1006.csv"
+      "searched_with_rising-searches_queries_US_20260923-1106_20260930-1106.csv",
+      "searched_with_top-searches_queries_US_20260923-1106_20260930-1106.csv"
     ],
     "rowsParsed": 100,
-    "uniqueQueries": 73,
+    "uniqueQueries": 84,
     "tierCounts": {
-      "A": 9,
-      "absorb": 63,
-      "rejected": 1
+      "newPage": 1,
+      "enforced": 9,
+      "absorb": 71,
+      "rejected": 4
     },
-    "entityPrecheck": "Every row is a Fire Emblem: Fortune's Weave query except fire emblem three houses, which names a different game and is recorded under rejectedKeywords.",
-    "newPages": 0,
-    "whyNoNewPages": "No row needed a new page: every query with interest >= 5 already resolves to a published route (home, characters, classes, talents, walkthrough, materials, gifts, supports, map), and the 26 high-growth rows under interest 5 all have a live target page, so they were absorbed into those pages instead.",
+    "entityPrecheck": "Every row names this game except fire emblem three houses, fire emblem, switch 2 and nintendo, which are recorded under rejectedKeywords because they are a different game, a series, a platform or a publisher.",
+    "newPages": 1,
+    "newPagesThisWeek": [
+      {
+        "path": "/sidequests/legacy-of-a-legendary-sculptor/",
+        "query": "fire emblem fortune's weave legacy of a legendary sculptor",
+        "interest": 0,
+        "growth": "Breakout",
+        "why": "The only row this week that is both new and answerable with two independent sources: Polygon and Raider King agree on all four statue locations, on the riddle structure and on the quest being route-specific. Competitors answer this query with a dedicated page each, and the site held only a single deadline-list row, so a page was the smallest honest response that matches the search intent."
+      }
+    ],
     "absorbedThisWeek": [
       {
-        "query": "fortune's weave part 2",
-        "interest": 2,
-        "growth": "750%",
-        "target": "src/app/walkthrough/page.tsx",
-        "action": "Added a Part II FAQ row that answers the query by name, plus the fire emblem fortune's weave part 2 variant inside the same answer."
+        "query": "fortune's weave spell list",
+        "interest": 0,
+        "growth": "450%",
+        "target": "src/app/weapons/page.tsx",
+        "action": "Added a spell list section that groups the fourteen recorded spells by school and states the range and use-count rules; both the Fortune's Weave and the Fire Emblem: Fortune's Weave variants are enforced."
       },
       {
-        "query": "fire emblem fortune's weave part 2",
+        "query": "fortune's weave tier list",
         "interest": 1,
-        "growth": "550%",
-        "target": "src/app/walkthrough/page.tsx",
-        "action": "Same FAQ row; enforced separately so the phrase cannot be dropped later."
+        "growth": "150%",
+        "target": "src/app/characters/page.tsx",
+        "action": "The quick-answer paragraph now names the Fortune's Weave tier list phrasing next to the existing character tier list phrasing, and says why the page records roles instead of ranks."
       },
       {
-        "query": "fortune's weave map",
-        "interest": 3,
-        "growth": "180%",
-        "target": "src/app/map/page.tsx",
-        "action": "The introductory sentence now names the page as the Fortune's Weave map instead of an unnamed schematic index."
-      },
-      {
-        "query": "fortune's weave supports",
+        "query": "fire emblem fortune's weave mounts",
         "interest": 1,
-        "growth": "20%",
-        "target": "src/app/supports/page.tsx",
-        "action": "Phrase was already published in the Quick answers block; now enforced so it stays."
+        "growth": "450%",
+        "target": "src/app/mounts/page.tsx",
+        "action": "The capture FAQ now states that mounts sit inside one lord's route rather than being party-wide, which is the question the mounts query actually asks."
+      },
+      {
+        "query": "fire emblem fortune's weave giants meat",
+        "interest": 0,
+        "growth": "450%",
+        "target": "src/app/materials/page.tsx",
+        "action": "Giants' Meat already had a row; the enforced phrase now tolerates the apostrophe form the query drops."
+      },
+      {
+        "query": "fortune's weave paradise fish",
+        "interest": 1,
+        "growth": "350%",
+        "target": "src/app/materials/page.tsx",
+        "action": "Paradise Fish moved from having no recorded use to having two recorded ones: the Ninae recruitment request and the Lake Brontes search points, with a link to the new quest guide."
+      },
+      {
+        "query": "fortune's weave missing master",
+        "interest": 0,
+        "growth": "450%",
+        "target": "src/app/sidequests/page.tsx",
+        "action": "Added the Fortune's Weave Missing Master phrasing variant of an entry that was already enforced under the Fire Emblem prefix."
+      },
+      {
+        "query": "fortune's weave secret altar",
+        "interest": 0,
+        "growth": "300%",
+        "target": "src/app/sidequests/page.tsx",
+        "action": "Recorded as published: the Secret Altar is already named in the subquest prose, so no new wording was forced."
+      },
+      {
+        "query": "fire emblem fortune's weave mu",
+        "interest": 1,
+        "growth": "140%",
+        "target": "src/app/characters/page.tsx",
+        "action": "Recorded as published: Mu holds a character row and two recruitment rows (support 3 with Renown 8 as Cai), so the query resolves to an existing page."
       }
     ],
     "rejected": [
@@ -528,8 +727,26 @@
         "interest": 1,
         "growth": "-40%",
         "reason": "Different game entity."
+      },
+      {
+        "query": "fire emblem",
+        "interest": 94,
+        "growth": "-10%",
+        "reason": "Series-level query, not this game."
+      },
+      {
+        "query": "switch 2",
+        "interest": 2,
+        "growth": "-60%",
+        "reason": "Hardware query."
+      },
+      {
+        "query": "nintendo",
+        "interest": 1,
+        "growth": "-70%",
+        "reason": "Publisher query."
       }
     ],
-    "unverifiedNotes": "Growth percentages come from the weekly Google Trends export and are not game facts; they only rank intent."
+    "unverifiedNotes": "Growth percentages come from the weekly Google Trends export and are not game facts; they only rank intent. Previous pending entries that were not searched for this week were dropped from the pending list rather than carried forward silently."
   }
 }

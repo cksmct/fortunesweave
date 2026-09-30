@@ -675,6 +675,30 @@
       ],
       "grade": "source-reported",
       "asOf": "2026-09-28"
+    },
+    {
+      "id": "ninae-as-cai",
+      "slug": "ninae-as-cai",
+      "character": "Ninae",
+      "playingAs": "Cai",
+      "supportLevelRequired": 3,
+      "renownLevelRequired": 6,
+      "negotiation": "Not recorded",
+      "requiredItem": "One Paradise Fish, caught at Lake Brontes",
+      "sources": [
+        {
+          "label": "YouTube - The Game Looters, How to Get Paradise Fish and Recruit Ninae (captions transcribed 2026-09-30)",
+          "url": "https://www.youtube.com/watch?v=W54tJcJm6PE",
+          "date": "2026-09-30"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-09-30",
+      "note": "Added from a creator walkthrough whose English captions were transcribed on 2026-09-30, which is the only source checked so far that records a condition set for this recruit. The creator says the same requirements apply on the other routes with slightly different support and Renown values, and he does not name the Renown figure for those. His route name is heard as Kaze in the automatic captions, which is the automatic transcription of Cai."
     }
+  ],
+  "_openGaps": [
+    "The Ninae row is the first entry here that does not come from the IGN recruitment page: that page lists 37 recruits and does not name her, so her row is a creator report rather than a table entry, and the Renown figure it gives is lower than the figures the same page gives for other recruits.",
+    "Item requirements are only recorded for Ninae so far. Other recruits that ask for an item stay on the source page rather than being guessed at."
   ]
 }

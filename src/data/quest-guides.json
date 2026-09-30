@@ -1,0 +1,143 @@
+{
+  "_comment": "Full walkthroughs for the subquests that get searched for by name rather than by chapter. A subquest only earns a guide here when two independent sources describe the same steps; anything with a single source stays on the deadline list so that the list keeps its value.",
+  "_mechanics": {
+    "searchPoints": "A statue is collected with the Search action on a world map node, not in a battle. Hover the node first: while a node is selected the subquest description sits in the top right corner of the screen, so the clue can be read against the name of the place instead of guessed from the icon.",
+    "timing": "Both sources describe this subquest as long rather than hard, which is a different problem. It belongs in a chapter with a wide open exploration window, and the posthouses along the way are what turn four cross-map trips into a short afternoon.",
+    "icons": "At least one of the four search points uses an icon that has nothing to do with its name: the temple node is drawn as a supply satchel. That single detail is the reason a player can walk past a statue while actively hunting for it."
+  },
+  "_openGaps": [
+    "The quest giver is named by one source only, the subordinate of General Senghor by the temple in Dagsion Hightown; the other source describes the acceptance point without naming the NPC.",
+    "The three sources checked disagree on the reward: two record gold, Renown and manuals and one records three experience manuals, so both variants are kept rather than one being quietly chosen.",
+    "Neither source records a deadline for this subquest, so this guide cannot promise that it survives a chapter change. The deadline list treats it as having none.",
+    "The fourth statue is written as Yu Pha in one place and Yu Phas in another inside the same source. The guide uses the shorter spelling and notes the variant."
+  ],
+  "guides": [
+    {
+      "id": "legacy-of-a-legendary-sculptor",
+      "slug": "legacy-of-a-legendary-sculptor",
+      "name": "Legacy of a Legendary Sculptor",
+      "order": 66,
+      "kind": "Route-specific subquest",
+      "chapter": "Chapter 7",
+      "questGiver": "The subordinate of General Senghor, by the temple in Dagsion Hightown",
+      "acceptAt": "Dagsion Hightown, at the temple",
+      "deadline": "No deadline recorded by either source",
+      "rewardSummary": "Renown, plus either three movement manuals with gold or three experience manuals depending on the source",
+      "clue": "The riddle names the resting places of four statues of the Dagdan goddesses: a temple in the east, a pass in the north, a grassland in the west and a lake in the south.",
+      "whyItMatters": "Three of the rewards feed the systems that decide how a unit is built rather than how much gold the army has, which is why the subquest is worth a route across the map even when the run is short of time.",
+      "statues": [
+        {
+          "order": 1,
+          "clue": "A temple in the east",
+          "place": "Solel's Temple",
+          "statue": "Fortuna",
+          "where": "Recorded as roughly south-east of Dagsion, on the coast near Callianeira Port",
+          "route": "The short way is East Amalthea through to the Ferronia posthouse, if that posthouse is already unlocked",
+          "extra": "The node is drawn as a supply satchel rather than a temple, which is the single reason players miss it. A little gold can drop from the surrounding search points."
+        },
+        {
+          "order": 2,
+          "clue": "A pass in the north",
+          "place": "Utuna Pass",
+          "statue": "Kalla",
+          "where": "In the northern hills, recorded as west of the Eochaid posthouse and as lying near Fina in the other source",
+          "route": "Take the northern posthouse road rather than cutting across the hills on foot",
+          "extra": "Vegetables can come out of the search points here, so the trip pays for itself. Both sources note that a statue of Kalla standing on Fortuna's ground is strange, which is the sculptor's eccentricity rather than a mistake on the map."
+        },
+        {
+          "order": 3,
+          "clue": "A grassland in the west",
+          "place": "Gaura Grassland",
+          "statue": "Jurah",
+          "where": "West of Dagsion, a few squares past the West Amalthea posthouse; the only node west of the capital labelled as grassland",
+          "route": "Short enough to walk, which makes it the cheapest of the four",
+          "extra": "Only one of the two sources names the statue here. The other confirms the place and leaves the goddess blank, so the statue is recorded as Jurah with that caveat attached."
+        },
+        {
+          "order": 4,
+          "clue": "A lake in the south",
+          "place": "Lake Brontes",
+          "statue": "Yu Pha",
+          "where": "The far south, in Saramis near Megaira",
+          "route": "The quick road runs through the Salacia posthouse and the Valhalla Mine dungeon, which is recorded as a level 25 dungeon; the slower southern road goes through Faun Forest",
+          "extra": "This is the search point that also produces Paradise Fish, the item the Ninae recruitment asks for, so the last statue and a recruit are the same trip."
+        }
+      ],
+      "steps": [
+        "Talk to the general's subordinate at the temple in Dagsion Hightown and take the riddle, which names a temple, a pass, a grassland and a lake.",
+        "Open the world map and hover nodes until the names match the clues rather than the icons. Read the subquest line in the top right while a node is selected.",
+        "Search Utuna Pass in the north for the statue of Kalla, then Gaura Grassland west of the capital for the statue of Jurah.",
+        "Cross to Solel's Temple for the statue of Fortuna, remembering that the node is drawn as a satchel.",
+        "Finish at Lake Brontes in the far south for the statue of Yu Pha, and search the same points for Paradise Fish while you are there.",
+        "Return to the capital and report back to the same NPC to close the subquest."
+      ],
+      "tips": [
+        "Unlock the posthouses before starting. The subquest is a travel bill, and three of the four legs are cut in half by fast travel.",
+        "Bring a party that can handle the Valhalla Mine route if the southern lake is last, or accept the Faun Forest road instead.",
+        "Do not treat the compass words as addresses. One clue points east at a place that sits south-east, and the lake is the southern edge of the map rather than the east.",
+        "If the subquest is taken late in a chapter with a fixed turn count, the grassland statue is the one to grab first because it costs the least time."
+      ],
+      "faqs": [
+        {
+          "question": "Where are the four statues in Legacy of a Legendary Sculptor?",
+          "answer": "Utuna Pass in the north holds Kalla, Gaura Grassland west of the capital holds Jurah, Solel's Temple holds Fortuna, and Lake Brontes in the far south holds Yu Pha. Those four places match in both sources checked on 2026-09-30."
+        },
+        {
+          "question": "Why can I not find the temple statue?",
+          "answer": "Because the node is not drawn as a temple. Solel's Temple appears on the map with a supply satchel icon, so it is found by hovering nodes in the eastern half of the map and reading the names rather than scanning for a building."
+        },
+        {
+          "question": "What does Legacy of a Legendary Sculptor reward?",
+          "answer": "Both sources record Renown and three manuals, but they disagree on which manuals. One records a heavy-armor, a riding and a flying manual alongside five thousand gold and a hundred Renown, while the other records three different experience manuals. The two figures are reported side by side rather than one being presented as settled."
+        },
+        {
+          "question": "Does the sculptor subquest expire?",
+          "answer": "No source checked records a deadline for it, so it is listed as a priority subquest without an expiry date. That means it is recorded as untested rather than safe, and it should still be finished in a chapter with a long exploration window."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Polygon - Legacy of a Legendary Sculptor walkthrough",
+          "url": "https://www.polygon.com/fire-emblem-fortunes-weave-legacy-legendary-sculptor-walkthrough-statue-locations/",
+          "date": "2026-09-28"
+        },
+        {
+          "label": "Raider King - Legacy of the Legendary Sculptor quest walkthrough",
+          "url": "https://raiderking.com/fire-emblem-fortunes-weave-legacy-of-the-legendary-sculptor-quest-walkthrough/",
+          "date": "2026-09-23"
+        },
+        {
+          "label": "YouTube - Joe Hammer Gaming, Legacy Of A Legendary Sculptor (captions transcribed 2026-09-30)",
+          "url": "https://www.youtube.com/watch?v=cnYUzMclrjA",
+          "date": "2026-09-30"
+        },
+        {
+          "label": "YouTube - Lucca, Lost Goddesses Found: Sculptor Quest (captions transcribed 2026-09-30)",
+          "url": "https://www.youtube.com/watch?v=IOlzIenQe5o",
+          "date": "2026-09-30"
+        }
+      ],
+      "grade": "cross-checked",
+      "asOf": "2026-09-30",
+      "creatorNotes": {
+        "intro": "Two creator walkthroughs were transcribed on 2026-09-30 next to the two written sources. They name the same four places and, more usefully, they say out loud which posthouse each leg starts from, which is the part the written sources leave to the map.",
+        "routeAnchors": [
+          "Grassland first, and it is the cheapest leg: the node sits beside Dagsion, so search the grass west of the capital and the statue of Jurah is handed over almost immediately.",
+          "North to Utuna Pass for Kalla: from the northern fast travel point the pass is visible on the map, and the first video adds that a player who has not opened that road yet has to go up through Hugo's Fortress instead.",
+          "East to Solel's Temple for Fortuna: both videos reach it through Eastern Amalthea from the posthouse on that side, and the second one repeats that the node is drawn as a backpack rather than a temple.",
+          "South to Lake Brontes for Yu Pha: from the southern posthouse the route goes around the lake, and the second video notes the statue sits there because that region is where the goddess is mainly worshipped."
+        ],
+        "corroborated": [
+          "A third source now records the reward as five thousand gold, a hundred Renown and manuals that open new skill options, which lines up with the gold-and-manuals variant of the two written sources rather than the experience-manual variant.",
+          "The satchel or backpack icon at the temple node is now confirmed by three independent sources, which is why the guide treats it as the reason players miss that statue rather than as a quirk of one screenshot.",
+          "The quest being travel-heavy rather than difficult is repeated by every source checked, including both videos."
+        ],
+        "stillOpen": [
+          "Posthouse names are written differently by each source (Ferronia and Forneus for the eastern one, Eochaid and Akea for the northern one), so the guide names the direction and the region instead of trusting a single spelling.",
+          "Neither video shows a deadline or an expiry warning, which keeps that question open rather than answered.",
+          "The videos show the route but not the statue pickup order the riddle implies, so the guide keeps the riddle order for the table and gives travel order separately."
+        ]
+      }
+    }
+  ]
+}

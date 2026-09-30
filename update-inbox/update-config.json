@@ -1,0 +1,57 @@
+{
+  "inbox": "update-inbox",
+  "siteDomain": "fortunesweave.online",
+  "trendsUrl": "https://trends.google.com/explore?date=now%207-d&geo=US&q=Fortune%27s%2520Weave%2CGPTs",
+  "gamePlatform": "auto",
+  "skills": {
+    "trends": "google-trends-to-pages",
+    "data": "roblox-game-data-scraper",
+    "dataSteam": "steam-game-seo-data-sync",
+    "competitor": "competitor-profiling"
+  },
+  "build": "npm run build",
+  "audits": {
+    "trend": "node scripts/audit-trend-coverage.mjs",
+    "data": "node scripts/audit-data.mjs",
+    "media": "node scripts/audit-media-integrity.mjs",
+    "events": "node scripts/audit-events.mjs",
+    "hero": "node scripts/audit-hero.mjs",
+    "updates": "node scripts/audit-updates.mjs",
+    "nav": "node scripts/audit-orphans.mjs",
+    "author": "node scripts/audit-author-eeat.mjs",
+    "lang": "node scripts/audit-language.mjs",
+    "trustCopy": "node scripts/audit-trust-copy.mjs"
+  },
+  "competitorKbPath": "competitor-profiles",
+  "gameName": "",
+  "platform": "Roblox",
+  "siteLanguage": "en",
+  "cjkAllowQuoted": true,
+  "cjkAllowList": [],
+  "statsTarget": "src/data/gameStats.ts",
+  "statsRefresh": "local",
+  "competitorAudit": {
+    "keywords": [
+    ]
+  },
+  "events": {
+    "autoDetect": true,
+    "autoPromote": true,
+    "autoArchive": true,
+    "autoCreatePages": false
+  },
+  "robloxGameUrl": "",
+  "videoIntel": {
+    "enabled": false,
+    "searchTerms": [],
+    "maxPerTerm": 6,
+    "onlyWithCaptions": true,
+    "autoDeriveTerms": true
+  },
+  "indexnow": false,
+  "excludeRunState": true,
+  "gitCommit": false,
+  "gitPush": false,
+  "forceRerun": false,
+  "buildNote": "Phase 4 must export CODEBUDDY_SAFE_DELETE_ENABLED=0 before running in CodeBuddy; this repo has no project-level build script."
+}

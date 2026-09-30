@@ -1,8 +1,7 @@
 {
-  "_comment": "下游契约单一事实源。siteLanguage=站点内容语言（英文站=en），reportLang=给你看的报告语言。占位值必须替换。",
+  "_comment": "Downstream single source of truth. siteLanguage is the language of the site content (this site is English only). reportLang is the language of the run report. Placeholder values must be replaced.",
   "siteDomain": "fortunesweave.online",
   "statsTarget": "",
-  "_statsTargetNote": "主机独占（console）平台无实时数值数据源，故留空；严禁为了走通 Phase 2 而给 Nintendo 游戏硬套 Roblox/Steam 抓取脚本。",
   "trendsUrl": "https://trends.google.com/explore?date=now%207-d&geo=US&q=fire%20emblem%20fortune%27s%20weave",
   "gamePlatform": "console",
   "statsRefresh": "none",
@@ -41,6 +40,7 @@
     "enabled": true,
     "searchTerms": [],
     "maxPerTerm": 6,
+    "probeCap": 16,
     "onlyWithCaptions": true,
     "autoDeriveTerms": true
   },
@@ -48,5 +48,18 @@
   "gitCommit": false,
   "gitPush": false,
   "forceRerun": false,
-  "excludeRunState": true
+  "excludeRunState": true,
+  "events": {
+    "autoDetect": false,
+    "autoCreatePages": false,
+    "note": "Console game: no virtual events API exists, so event scaffolding is disabled on purpose."
+  },
+  "competitorAudit": {
+    "keywords": [
+      "fortune's weave",
+      "fire emblem fortune",
+      "fortunesweave"
+    ]
+  },
+  "statsTargetNote": "Console platform has no live stats endpoint, so statsTarget stays empty on purpose; never attach a Roblox or Steam scraper to a Nintendo game."
 }

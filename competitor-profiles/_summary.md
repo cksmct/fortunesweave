@@ -42,3 +42,19 @@ rpgsite.net (walkthrough), polygon.com, thegamer.com, keengamer.com, siliconera.
 ## Raw data
 
 Fetch digests are stored under competitor-profiles/raw/<slug>/2026-09-28/scrapes/ with the fetch date on each file.
+
+---
+
+## Round 2 update - 2026-09-30
+
+**KB size**: 6 active profiles to 8. Added raiderking.md and polygon.md; nothing was archived; the two needs-review entries (Game8, fortunesweave.co.uk) were resolved by manual review rather than archiving, because both demonstrably cover this game.
+
+**Discovery scan this round**: the target words re-checked were the quest and item names that moved in the weekly trends file - "legacy of a legendary sculptor" (Breakout), "giants meat", "paradise fish", "spell list", "tier list", "mounts". New pages seen ranking on those terms: raiderking.com, polygon.com, 2kintel.com, theclick.gg, videogameschronicle.com and nightlygamingbinge.com. The first two were profiled; the rest are single-article sites whose coverage is one news-shaped post per query, so they are recorded here rather than given a profile.
+
+**New observations**:
+
+1. Quest-name queries are now served by dedicated pages on at least four sites (Game8, Raider King, Polygon, fortunesweave.co.uk). A deadline-list row is no longer a competitive answer for a quest that trends, which is why this round built one quest page instead of another table column.
+2. Raider King publishes one page per recruitable character and is publishing daily. This site holds 37 recruitment rows and no per-character page, so the long tail of "<character> recruit" queries currently resolves to a table rather than a page.
+3. No competitor found in this round publishes a reward conflict. Both Polygon and Raider King state the sculptor reward as a single figure, and they disagree with each other, so the sourced side-by-side is a differentiator rather than a nicety.
+
+**Gap list carried forward** (competitor-covered, still unanswered here): per-character recruitment pages; quest guides for Gisco's Treasure, Lost Temple Cat and Missing Master; Key of the Diadem locations (this site holds 22 crests, competitors index the keys as their own topic).

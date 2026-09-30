@@ -327,6 +327,9 @@ if (fs.existsSync(sitemapPath)) {
   for (const route of pageRoutes) {
     // Exclude redirects or robots
     if (route === '/' || route === '/beginner-guide/') continue;
+    // 动态模式路由（如 /sidequests/[slug]/）是模板而非 URL：它们的实体页
+    // 逐个登记在 game.config.json#routes，故这里跳过，避免把模板当成缺登记页面。
+    if (route.indexOf('[') >= 0) continue;
     const slug = route.replace(/^\//, '').replace(/\/$/, '').split('/').pop();
     const isPresent = registryRoutes.has(route) || sitemapContent.includes(route) || (slug && sitemapContent.includes(`'${slug}'`)) || (slug && sitemapContent.includes(`"${slug}"`));
     if (!isPresent) {
