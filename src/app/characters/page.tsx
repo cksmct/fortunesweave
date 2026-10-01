@@ -366,6 +366,64 @@ export default function CharactersPage() {
 The Fire Emblem: Fortune&apos;s Weave characters on this page are grouped by the army they join, and Fire Emblem: Fortune&apos;s Weave recruitment is keyed by the Flame Lord you are playing rather than by one universal price. Looking for a Fortune&apos;s Weave tier list or a Fire Emblem: Fortune&apos;s Weave character tier list? That is a judgement call rather than a fact, so this page records roles and requirements instead of ranking them.
           </p>
         </section>
+      
+        {/* Video intel - Lucky Crit - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                All Fortune's Weave Playable Characters (So Far)
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Lucky Crit</span> &middot;{" "}
+              <span className="font-mono">nGaZZ4QxxkU</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="nGaZZ4QxxkU"
+              title="All Fortune's Weave Playable Characters (So Far)"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            The video walks through every playable character available so far in Fortune's Weave, framing the four main factions (Reberra Winds, Dim Lamin, Magara's Beacon and Rose Tempest) as the lens for deciding who to recruit.
+          </p>
+        </section>
+
+
+        {/* Video intel - Faz Faz - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                ALL Timeskip character designs - Fire Emblem Fortune's Weave
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Faz Faz</span> &middot;{" "}
+              <span className="font-mono">tV3-dkUfjlU</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="tV3-dkUfjlU"
+              title="ALL Timeskip character designs - Fire Emblem Fortune's Weave"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            A showcase of the timeskip character designs, presenting the redesigned look each unit takes after the time jump in Fortune's Weave.
+          </p>
+        </section>
+
       </main>
     </>
   );

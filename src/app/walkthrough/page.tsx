@@ -288,6 +288,35 @@ The Fire Emblem: Fortune&apos;s Weave chapters run to sixty-two numbered entries
           </ul>
         </section>
 
+      
+        {/* Video intel - Sirloin - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Fire Emblem Fortune's Weave - Full Game Walkthrough (100%)
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Sirloin</span> &middot;{" "}
+              <span className="font-mono">d4h4uasJrfU</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="d4h4uasJrfU"
+              title="Fire Emblem Fortune's Weave - Full Game Walkthrough (100%)"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            A complete 100% playthrough of Fortune's Weave from the prologue and Descent through every chapter, useful as a chapter-by-chapter reference for missable content.
+          </p>
+        </section>
+
       </main>
     </>
   );

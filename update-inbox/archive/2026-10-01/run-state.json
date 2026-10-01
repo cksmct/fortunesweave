@@ -1,0 +1,48 @@
+{
+  "runId": "fortunesweave-2026-10-01",
+  "inboxBatch": [
+    "searched_with_rising-searches_queries_US_20260924-1000_20261001-1000.csv",
+    "searched_with_top-searches_queries_US_20260924-1000_20261001-1000.csv"
+  ],
+  "startedAt": "2026-10-01T00:00:00Z",
+  "forceRerun": false,
+  "skipTrends": false,
+  "gamePlatform": "console",
+  "phases": {
+    "0": {
+      "status": "done"
+    },
+    "1": {
+      "status": "done"
+    },
+    "2": {
+      "status": "done",
+      "note": "console: no live stats; breakout entities covered by existing data files"
+    },
+    "3": {
+      "status": "partial",
+      "note": "competitor KB retained (9 profiles); full web scan deferred this round"
+    },
+    "4": {
+      "status": "done"
+    },
+    "5": {
+      "status": "skipped",
+      "note": "gitCommit=false & gitPush=false per update-config.json"
+    },
+    "6": {
+      "status": "done"
+    },
+    "7": {
+      "status": "done"
+    },
+    "1.5": {
+      "status": "skipped",
+      "note": "console game; events.autoDetect=false"
+    },
+    "3.5": {
+      "status": "skipped",
+      "note": "no YouTube session cookie; per skill hard rule 3.5b/3.5c cannot proceed; 32 existing media instances verified green"
+    }
+  }
+}

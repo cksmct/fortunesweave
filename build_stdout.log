@@ -1,0 +1,332 @@
+
+> fortunesweave-online@0.1.0 prebuild
+> node scripts/gen-search-index.mjs && node scripts/optimize-media.mjs && node scripts/gen-content-dates.mjs && node scripts/audit-trust-copy.mjs && node scripts/audit-sources.mjs
+
+[gen-search-index] Generating search index...
+[gen-search-index] Successfully indexed 369 items to D:\Source\Try\fortunesweave\public\search-index.json
+[optimize-media] Discovered 42 video IDs in src/
+[gen-dates] 已写入 src\data\pageDates.ts：39 个路由；4 个无历史日期 → 回退站点基线
+
+================ READER TRUST COPY AUDIT ================
+Root: D:\Source\Try\fortunesweave
+Scanned: 96 source files
+PASS: no reader-trust copy risks found.
+
+Summary: 0 error(s), 0 warning(s).
+Principle: evidence first, uncertainty second, next action last.
+=========================================================
+
+audit-sources: 扫描数据文件 29 个 / 数据行 1526 条
+OK 所有数据行均带 来源 / 分级 / 核对日期
+
+> fortunesweave-online@0.1.0 build
+> next build && node scripts/clean-legacy-nomodule.mjs
+
+▲ Next.js 16.3.6 (Turbopack)
+✓ Running next.config.ts took 134ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 8.5s
+  Running TypeScript ...
+  Finished TypeScript in 10.7s ...
+  Collecting page data using 23 workers ...
+  Generating static pages using 23 workers (0/46) ...
+  Generating static pages using 23 workers (11/46) 
+  Generating static pages using 23 workers (22/46) 
+  Generating static pages using 23 workers (34/46) 
+✓ Generating static pages using 23 workers (46/46) in 2.5s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /activities
+├ ○ /apple-icon.png
+├ ○ /battalions
+├ ○ /boons
+├ ○ /characters
+├ ○ /classes
+├ ○ /contact
+├ ○ /crests
+├ ○ /deeds
+├ ○ /deities
+├ ○ /equipment
+├ ○ /factions
+├ ○ /farming
+├ ○ /gifts
+├ ○ /icon.png
+├ ○ /locations
+├ ○ /map
+├ ○ /materials
+├ ○ /meals
+├ ○ /mounts
+├ ○ /paralogues
+├ ○ /postgame
+├ ○ /privacy
+├ ○ /robots.txt
+├ ○ /sidequests
+├   /sidequests/[slug]
+│ └ ● /sidequests/legacy-of-a-legendary-sculptor
+├ ○ /sitemap.xml
+├ ○ /supports
+├ ○ /systems
+├ ○ /talents
+├ ○ /terms
+├ ○ /tools/bird-time
+├ ○ /tools/class-planner
+├ ○ /tools/gift-finder
+├ ○ /tools/paralogue-checklist
+├ ○ /tools/recipe-solver
+├ ○ /tools/recruitment-planner
+├ ○ /tools/support-matrix
+├ ○ /updates
+├ ○ /walkthrough
+└ ○ /weapons
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+✅ [PageSpeed Optimization] Purged 1 legacy noModule polyfill script(s) across 42 HTML pages.
+
+> fortunesweave-online@0.1.0 postbuild
+> node scripts/audit-site.mjs && node scripts/audit-hero.mjs && node scripts/audit-orphans.mjs && node scripts/audit-seo-meta.mjs && node scripts/audit-nav.mjs && node scripts/audit-header-footer.mjs && node scripts/audit-links.mjs && node scripts/audit-thin-content.mjs && node scripts/audit-language.mjs && node scripts/audit-trust-copy.mjs && node scripts/audit-ui-integrity.mjs && node scripts/audit-author-eeat.mjs && node scripts/audit-updates.mjs && node scripts/audit-sources.mjs && node scripts/audit-data-drift.mjs && node scripts/audit-media-integrity.mjs && node scripts/audit-trend-coverage.mjs && node scripts/audit-browserslist-polyfills.mjs
+
+audit-site: 页面 39 个 / canonical 39 条 / 站内链接 1794 条 / 跳过框架产物 35 个
+OK sitemap 与 canonical 逐字一致，无断链，robots 合规
+✅ audit-hero: all heroes are single-sourced (PageHeader + derived date + bound metrics)
+audit-orphans: 已从 nav.config.json 计入 76 条全站级导航入链
+
+================== 🩺 ZERO-ORPHAN LINK ARCHITECTURE AUDIT ==================
+Total Physical Routes Audited : 39
+Hard Issues Found            : 0
+Depth / Soft Warnings         : 0
+=============================================================================
+
+✅ ALL ZERO-ORPHAN CHECKS PASSED:
+ - 0 Absolute Orphan Pages
+ - 0 Island Pages (all content routes have >= 2 inlinks)
+ - 100% Routes reachable from Homepage (Max BFS Depth <= 2)
+ - 100% Central Guides Index coverage
+ - 0 Broken internal links
+
+audit-seo-meta: 校验页面 39 个 / 唯一 title 39 条
+  ! /boons/: title 接近上限（63）
+  ! /classes/: title 接近上限（62）
+  ! /crests/: title 接近上限（61）
+  ! /deeds/: title 接近上限（61）
+  ! /sidequests/legacy-of-a-legendary-sculptor/: title 接近上限（61）
+  ! /talents/: title 接近上限（63）
+OK title / description / og:url / og:image / twitter:card 全部达标
+✅ audit-nav: 导航单一事实源检查通过（无坏链、无重复、无硬编码导航数组）
+
+================ 🏛️  HEADER & FOOTER ARCHITECTURE GATE ================
+Audited Routes        : 40
+Header Nav Links      : 38
+Footer Matrix Links   : 39
+✅ All Header & Footer architecture, atomic labels, and links passed cleanly!
+=========================================================================
+
+
+🔍 Audit internal links & sitemap...
+
+📋 sitemap 登记: 39 个页面
+🧭 首页可达（BFS）: 39 个页面
+✅ 审计通过：无死链、无孤儿页面、无多余页面，sitemap 与可达页面完全一致。
+
+================ 📏 THIN CONTENT GATE ================
+登记路由: 39   已审计: 39   阈值: <main> 正文 ≥ 500 词   模式: 强门禁
+正文统计: 最低 551 词 · 中位 1411 词
+功能性豁免: 1 个 (/contact/=493)
+整改基线存量: 0 个（不阻塞）   基线外违规: 0 个（阻塞）
+
+✅ 0 issue — 所有非豁免页面正文均达标，且整改基线已清空。
+
+
+================ 🌐 LANGUAGE GATE ================
+站点内容语言 = 'en'   数据字段扫描 + 产物 HTML 扫描（42 页）
+✅ 0 issue — 全站渲染文本语言一致，无越界字符。
+==================================================
+
+
+================ READER TRUST COPY AUDIT ================
+Root: D:\Source\Try\fortunesweave
+Scanned: 96 source files
+PASS: no reader-trust copy risks found.
+
+Summary: 0 error(s), 0 warning(s).
+Principle: evidence first, uncertainty second, next action last.
+=========================================================
+
+
+==================== 🛡️  UI & LAYOUT INTEGRITY AUDIT ====================
+✅ [CSS Integrity] Checked: src\app\globals.css
+✅ [Container Defense] Core container "container-site" verified intact.
+✅ [Viewport Guard] "overflow-x: clip" verified intact.
+✅ [E-E-A-T Ad Defense] Hero exclusion and Content-First ad placement verified safe.
+✅ [LCP Preload Guard] Header/Footer brand logo priority and preload immunity verified.
+✅ 0 layout & ad safety defects — Site integrity 100% passed.
+=============================================================================
+
+
+==================== 🖋️  AUTHOR / E-E-A-T INTEGRITY AUDIT ====================
+Project: D:\Source\Try\fortunesweave
+Detected author: "fortunesweave.online" | org: "fortunesweave.online"
+-----------------------------------------------------------------------------
+✅ 0 issue — 署名身份与 E-E-A-T 结构全部通过。
+-----------------------------------------------------------------------------
+❌ Errors: 0 | ⚠️  Warnings: 0
+=============================================================================
+
+AUDIT UPDATES OK: 1 update(s), 0 warning(s)
+audit-sources: 扫描数据文件 29 个 / 数据行 1526 条
+OK 所有数据行均带 来源 / 分级 / 核对日期
+
+--- 🔍 Data Drift Audit ---
+数据文件: 31 个，被追踪数值: 8 个
+✅ 未发现数据漂移：页面文案未硬编码任何自动生成的数据值。
+🔍 Starting Media & Video Semantic Integrity Audit...
+
+📊 Found 41 embedded video instances across 102 files.
+
+✅ [src/app/activities/page.tsx] id=q9xlI364_Og
+      declared: EVERY WEEKLY MISSABLE Event in Fire Emblem: Fortune's Weave
+      real:     "EVERY WEEKLY MISSABLE Event in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/activities/page.tsx] id=KtqlIxZ1yHs
+      declared: How to MAX RENOWN FAST in Fire Emblem: Fortune's Weave
+      real:     "How to MAX RENOWN FAST in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/battalions/page.tsx] id=w9SoSWIcysg
+      declared: BEST THEODORA Team Build in Fire Emblem: Fortune's Weave
+      real:     "BEST THEODORA Team Build in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/battalions/page.tsx] id=MhZwvHSo1WE
+      declared: BEST CAI TEAM Build Guide (Act 1) in Fire Emblem: Fortune's Weave
+      real:     "BEST CAI TEAM Build Guide (Act 1) in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/boons/page.tsx] id=ZBVPkKVdFFY
+      declared: Which Blessing First - Fire Emblem Fortunes Weave Tips And Tricks
+      real:     "Which Blessing First - Fire Emblem Fortunes Weave Tips And Tricks" by Joe Hammer Gaming
+✅ [src/app/characters/page.tsx] id=_2aEuVhvNKE
+      declared: Fire Emblem: Fortune's Weave - How to Recruit the Best Characters
+      real:     "Fire Emblem: Fortune's Weave - How to Recruit the Best Characters" by IGN
+✅ [src/app/characters/page.tsx] id=vzpSxkfWL_Y
+      declared: Fire Emblem Fortune's Weave / Where To Find Giant's Meat To Recruit Goliath / Guide
+      real:     "Fire Emblem Fortune's Weave / Where To Find Giant's Meat To Recruit Goliath / Guide" by TrophyLink
+✅ [src/app/characters/page.tsx] id=LJAojJN2rgU
+      declared: Fire Emblem Fortune's Weave BEST Characters TIER-LIST & Recruitment Guide
+      real:     "Fire Emblem Fortune's Weave BEST Characters TIER-LIST & Recruitment Guide" by Matt & Yunie
+✅ [src/app/classes/page.tsx] id=4eAmLCXvqRQ
+      declared: Fire Emblem: Fortune's Weave CLASS GUIDE
+      real:     "Fire Emblem: Fortune's Weave CLASS GUIDE" by Jay Dunna 
+✅ [src/app/classes/page.tsx] id=dHwnoUmXZ6Q
+      declared: BEST CLASS Tier List in Fire Emblem: Fortune's Weave
+      real:     "BEST CLASS Tier List in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/crests/page.tsx] id=A47qU4jrjuE
+      declared: Personal Skill and Crest/Bloodmark Guide (No Spoilers) - Fortune's Weave
+      real:     "Personal Skill and Crest/Bloodmark Guide (No Spoilers) - Fortune's Weave" by BenFM
+✅ [src/app/deities/page.tsx] id=CLWyypxDWZo
+      declared: Blessings Guide & The Gods of Dagda EXPLAINED
+      real:     "Blessings Guide & The Gods of Dagda EXPLAINED" by Lucky Crit
+✅ [src/app/equipment/page.tsx] id=H56RfLy8iDA
+      declared: How to Get CURSED BOW in Fire Emblem: Fortune's Weave
+      real:     "How to Get CURSED BOW in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/factions/page.tsx] id=8PwLFaicAkY
+      declared: The Perfect Groups for Every Route in Fire Emblem: Fortune's Weave
+      real:     "The Perfect Groups for Every Route in Fire Emblem: Fortune's Weave" by Nagapedia
+✅ [src/app/gifts/page.tsx] id=SmTTAJ1nqp4
+      declared: How To Find Any Characters In Fire Emblem Fortunes Weave (For Gifts &amp; Convos)
+      real:     "How To Find Any Characters In Fire Emblem Fortunes Weave (For Gifts & Convos)" by Gamers Heroes
+✅ [src/app/locations/page.tsx] id=4wcckgCcdJA
+      declared: How To Get Through The Wandering Woods (Cai) In Fire Emblem Fortunes Weave
+      real:     "How To Get Through The Wandering Woods (Cai) In Fire Emblem Fortunes Weave" by Gamers Heroes
+✅ [src/app/map/page.tsx] id=dL8zgj_M85k
+      declared: How To Unlock Posthouse Carriage Fast Travel For Cai In Fire Emblem Fortunes Weave
+      real:     "How To Unlock Posthouse Carriage Fast Travel For Cai In Fire Emblem Fortunes Weave" by Gamers Heroes
+✅ [src/app/materials/page.tsx] id=_FypuWmkSac
+      declared: How to Recruit Ninae in Fire Emblem Fortune's Weave (Paradise Fish Locations)
+      real:     "How to Recruit Ninae in Fire Emblem Fortune's Weave (Paradise Fish Locations)" by MrEOD - Nintendo Games
+✅ [src/app/materials/page.tsx] id=W54tJcJm6PE
+      declared: Fire Emblem: Fortune's Weave - How to Get Paradise Fish & Recruit Ninae!
+      real:     "Fire Emblem: Fortune's Weave - How to Get Paradise Fish & Recruit Ninae!" by The Game Looters
+✅ [src/app/materials/page.tsx] id=W87RipJTy34
+      declared: Spice Up Your Adventure: The Ultimate Pepper Leaf Guide in Fire Emblem Fortune’s Weave
+      real:     "Spice Up Your Adventure: The Ultimate Pepper Leaf Guide in Fire Emblem Fortune’s Weave" by Bologna
+✅ [src/app/mounts/page.tsx] id=gTVnq4iqeGs
+      declared: Fortune's Weave Gave Mounted Units a Game-Changing Upgrade
+      real:     "Fortune's Weave Gave Mounted Units a Game-Changing Upgrade" by Varsona
+✅ [src/app/mounts/page.tsx] id=9W0Hb75BKUA
+      declared: Mounts Make SUPER SOLDIERS in Fortune's Weave
+      real:     "Mounts Make SUPER SOLDIERS in Fortune's Weave" by choops
+✅ [src/app/paralogues/page.tsx] id=nSH0bNJ1KU8
+      declared: Don’t Miss Every Important Paralogue! (Spoiler Free Fortune's Weave Guide)
+      real:     "Don’t Miss Every Important Paralogue! (Spoiler Free Fortune's Weave Guide)" by Lucky Crit
+✅ [src/app/postgame/page.tsx] id=L1HNmEiQ_A4
+      declared: EVERYTHING That Carries Over in Fire Emblem: Fortune's Weave
+      real:     "EVERYTHING That Carries Over in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/sidequests/page.tsx] id=kVyB4HlKpa8
+      declared: EVERYTHING You NEED to Do Before Finishing Act 1 – Fire Emblem: Fortune's Weave
+      real:     "EVERYTHING You NEED to Do Before Finishing Act 1 – Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/sidequests/[slug]/page.tsx] id=cnYUzMclrjA
+      declared: Legacy Of A Legendary Sculptor - Fire Emblem Fortunes Weave
+      real:     "Legacy Of A Legendary Sculptor - Fire Emblem Fortunes Weave" by Joe Hammer Gaming
+✅ [src/app/sidequests/[slug]/page.tsx] id=IOlzIenQe5o
+      declared: Lost Goddesses Found: Fortune’s Weave Sculptor Quest
+      real:     "Lost Goddesses Found: Fortune’s Weave Sculptor Quest" by Lucca
+✅ [src/app/supports/page.tsx] id=vd4NqKk9VGI
+      declared: How to MAX SUPPORTS FAST in Fire Emblem: Fortune's Weave
+      real:     "How to MAX SUPPORTS FAST in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/supports/page.tsx] id=bWvDDtAiuEs
+      declared: ALL S Rank Endings - Fire Emblem Fortune's Weave
+      real:     "ALL S Rank Endings - Fire Emblem Fortune's Weave" by Faz Faz
+✅ [src/app/systems/page.tsx] id=WrupS2DQH-U
+      declared: 31+ EARLY Game Tips You Must Know (Fire Emblem Fortune's Weave)
+      real:     "31+ EARLY Game Tips You Must Know (Fire Emblem Fortune's Weave)" by PhillyBeatzU
+✅ [src/app/systems/page.tsx] id=UquUQo_Gzn0
+      declared: Fire Emblem: Fortune's Weave - 18 Things It Doesn't Tell You
+      real:     "Fire Emblem: Fortune's Weave - 18 Things It Doesn't Tell You" by IGN
+✅ [src/app/talents/page.tsx] id=Mql_v-thCvY
+      declared: Unlock These Skills ASAP! Fire Emblem Fortune's Weave (Early Game Tips)
+      real:     "Unlock These Skills ASAP! Fire Emblem Fortune's Weave (Early Game Tips)" by Varsona
+✅ [src/app/tools/bird-time/page.tsx] id=yfNwi8r8EdY
+      declared: Fire Emblem: Fortune's Weave - NEVER Fail Perfect Bird Time Again!
+      real:     "Fire Emblem: Fortune's Weave - NEVER Fail Perfect Bird Time Again!" by The Game Looters
+✅ [src/app/tools/class-planner/page.tsx] id=0u1jKIJspeI
+      declared: ALL PLAYABLE CLASSES in Fire Emblem Fortune's Weave - The ULTIMATE Class Guide
+      real:     "ALL PLAYABLE CLASSES in Fire Emblem Fortune's Weave - The ULTIMATE Class Guide" by LinkKing7
+✅ [src/app/tools/recruitment-planner/page.tsx] id=w474XVj7-vg
+      declared: BEST CHARACTERS in Fire Emblem: Fortune's Weave TIER LIST
+      real:     "BEST CHARACTERS in Fire Emblem: Fortune's Weave TIER LIST" by Jay Dunna 
+✅ [src/app/tools/recruitment-planner/page.tsx] id=sz4I_j3cKP0
+      declared: The FASTEST Way to Recruit Units in Fire Emblem: Fortune's Weave! (Spoiler Free)
+      real:     "The FASTEST Way to Recruit Units in Fire Emblem: Fortune's Weave! (Spoiler Free)" by LinkKing7
+✅ [src/app/tools/support-matrix/page.tsx] id=pu_41dLLhso
+      declared: How To Farm Support FOR FREE - Fire Emblem Fortune's Weave
+      real:     "How To Farm Support FOR FREE - Fire Emblem Fortune's Weave" by Joe Hammer Gaming
+✅ [src/app/walkthrough/page.tsx] id=b_i00R0hHG4
+      declared: 10 Things I Wish I Knew SOONER in Fire Emblem: Fortune's Weave
+      real:     "10 Things I Wish I Knew SOONER in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/walkthrough/page.tsx] id=-vLKx1J1nek
+      declared: I Played Fortune's Weave for 100 HOURS. Here is Some Advice. (Gameplay Guide, No Story Spoilers)
+      real:     "I Played Fortune's Weave for 100 HOURS. Here is Some Advice. (Gameplay Guide, No Story Spoilers)" by Faerghast
+✅ [src/app/weapons/page.tsx] id=llhH-IBpenM
+      declared: How to FARM WEAPON & MAGIC XP in Fire Emblem: Fortune's Weave
+      real:     "How to FARM WEAPON & MAGIC XP in Fire Emblem: Fortune's Weave" by Jay Dunna 
+✅ [src/app/weapons/page.tsx] id=b4puAn2x5m0
+      declared: Fire Emblem: Fortune's Weave - STOP Repairing Your Weapons! Do THIS Instead
+      real:     "Fire Emblem: Fortune's Weave - STOP Repairing Your Weapons! Do THIS Instead" by The Game Looters
+
+🧩 Cross-page duplicate check:
+
+🎉 All media instances passed semantic & real existence verification!
+
+--- 🔍 Trend Coverage Audit ---
+趋势词清单版本: 2026-10-01，共 80 个词
+✅ TREND COVERAGE OK: all trend keywords present in target pages.
+
+==================== 🛡️  BROWSERSLIST & POLYFILL AUDIT ====================
+✅ [Single Source] package.json is 100% clean of redundant browserslist.
+✅ [Target Purity] .browserslistrc targets modern baseline (0 "not dead").
+✅ [CLI Validation] "npx browserslist" passed with 0 errors.
+✅ [Bundle Cleanliness] All client chunks are 100% free of legacy polyfills.
+✅ 0 polyfill leakage defects — JavaScript baseline 100% passed.
+=============================================================================
+

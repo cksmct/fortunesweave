@@ -249,6 +249,64 @@ export default function ParaloguesPage() {
 The Fortune&apos;s Weave paralogues carry no chapter number at all, which is why the closing window matters more than the order they appear in. The Fire Emblem: Fortune&apos;s Weave paralogues listed above are each checked against that date, so the table doubles as a deadline sheet.
           </p>
         </section>
+      
+        {/* Video intel - Joe Hammer Gaming - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                ALL Paralogue Dates - Fire Emblem Fortunes Weave Paralogue List
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Joe Hammer Gaming</span> &middot;{" "}
+              <span className="font-mono">um5EdqhbRuk</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="um5EdqhbRuk"
+              title="ALL Paralogue Dates - Fire Emblem Fortunes Weave Paralogue List"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            A list of every paralogue date in Fortune's Weave, intended to help plan which side stories to trigger and when.
+          </p>
+        </section>
+
+
+        {/* Video intel - BenFM - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                A Guide To Every Paralogue in Fortune's Weave (No Spoilers)
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">BenFM</span> &middot;{" "}
+              <span className="font-mono">Zzzl742ZKk4</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="Zzzl742ZKk4"
+              title="A Guide To Every Paralogue in Fortune's Weave (No Spoilers)"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            A no-spoilers guide to every paralogue in Fortune's Weave, walking through how to find and clear each side story.
+          </p>
+        </section>
+
       </main>
     </>
   );

@@ -213,6 +213,18 @@ for (const [k, v] of Object.entries(history)) {
 }
 result['/'] = result['/'] || sitePublished;
 
+// Homepage freshness semantics: the date published for "/" is the latest REAL content
+// update across the whole site (max of all non-evergreen route dates), not the git/mtime
+// date of the homepage file itself. The homepage is the site index page, so its badge,
+// JSON-LD dateModified and sitemap lastmod all express when site content last changed.
+// Still derived purely from real content changes (git log / dirty-file mtime) - never new Date().
+let siteLatest = result["/"] || sitePublished;
+for (const k of Object.keys(result)) {
+  if (k === "/" || evergreenRoutes.has(k)) continue;
+  siteLatest = laterOf(siteLatest, result[k]);
+}
+result["/"] = siteLatest;
+
 const sortedKeys = Object.keys(result).sort((a, b) => (a === '/' ? -1 : a.localeCompare(b)));
 const entries = sortedKeys.map((k) => `  '${k}': '${result[k]}',`).join('\n');
 

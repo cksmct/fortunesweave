@@ -283,6 +283,93 @@ export default function ClassesPage() {
 There is no single answer to which are the Fire Emblem: Fortune&apos;s Weave best classes, because the certification climb is about which weapon types a unit can carry rather than one optimal pick. The Fire Emblem: Fortune&apos;s Weave classes are ordered below by what each tier unlocks rather than by a score.
           </p>
         </section>
+      
+        {/* Video intel - LinkKing7 - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Early Class Guide - COMPLETE Beginner and Specialty Breakdown
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">LinkKing7</span> &middot;{" "}
+              <span className="font-mono">9bo9OzBPrHI</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="9bo9OzBPrHI"
+              title="Early Class Guide - COMPLETE Beginner and Specialty Breakdown"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            A beginner and specialty class breakdown explaining which classes open up early and how the certification exams gate progression in Fortune's Weave.
+          </p>
+        </section>
+
+
+        {/* Video intel - Jay Dunna - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                ALL MASTER CLASSES in Fire Emblem: Fortune's Weave
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">hTgYdPvR7gI</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="hTgYdPvR7gI"
+              title="ALL MASTER CLASSES in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            A breakdown of every master class in Fortune's Weave, covering what each unlocks and how it sits above the advanced tier.
+          </p>
+        </section>
+
+
+        {/* Video intel - Jay Dunna - verified English captions - transcribed 2026-10-01 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator walkthrough
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                ALL DIVINE CLASSES in Fire Emblem: Fortune's Weave
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">yOaFBag1jUk</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="yOaFBag1jUk"
+              title="ALL DIVINE CLASSES in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            A breakdown of the divine classes in Fortune's Weave, the tier above master and what sets those units apart.
+          </p>
+        </section>
+
       </main>
     </>
   );
