@@ -337,6 +337,59 @@ Fire Emblem: Fortune&apos;s Weave Bird Time runs once per game week and refreshe
           </ul>
         </section>
 
+        {/* Video intel: SISYRETbRDw */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Four ways to grow a unit outside battle
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">IGN</span> &middot;{" "}
+              <span className="font-mono">SISYRETbRDw</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="SISYRETbRDw"
+              title="Fire Emblem: Fortune's Weave - 4 Ways to Grow Outside of Battle"
+            />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            IGN&apos;s captioned overview covers the four growth methods that run alongside the weekly
+            battle loop, transcribed from its English subtitles.
+          </p>
+          <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+            <li>
+              <span className="font-semibold text-zinc-200">Support.</span> Gifts once a week in the
+              city, feasts on the world map that lift the whole party, and training or temple service
+              together all raise support, which unlocks scenes and grants passive attack and dodge
+              bonuses to adjacent allies.
+            </li>
+            <li>
+              <span className="font-semibold text-zinc-200">Renown.</span> Each protagonist&apos;s
+              renown rises from temple visits, world-map defeats and the map&apos;s quest pins; higher
+              renown opens advanced class options, a larger inn menu and mentorship lessons, and lets
+              you pass locked world-map checkpoints.
+            </li>
+            <li>
+              <span className="font-semibold text-zinc-200">Weapons.</span> Dungeon boxes, barrels and
+              crystal deposits drop smithing materials; from chapter 6 the blacksmith can repair or
+              refine, and refining both restores durability and improves power.
+            </li>
+            <li>
+              <span className="font-semibold text-zinc-200">Recruits.</span> Recruitable units show as
+              orange dots that turn green after you speak to them, and joining needs enough support or
+              renown; you can gift and invite them to inn meals before they sign on.
+            </li>
+          </ul>
+        </section>
+
       </main>
     </>
   );

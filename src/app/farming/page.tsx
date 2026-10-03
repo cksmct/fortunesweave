@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
+import YouTubeEmbed from "@/components/YouTubeEmbed";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import farmingData from "@/data/farming.json";
 
@@ -167,6 +168,31 @@ export default function FarmingPage() {
             harvest. Nobody has published how much it raises them by, so the honest advice is simply to
             use it rather than to hoard it.
           </p>
+        </section>
+
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Watch a farming walkthrough
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned, no-spoilers walkthrough of the Flame Lord&apos;s harvesting mechanic, transcribed
+            from its English subtitles.
+          </p>
+          <div className="mx-auto max-w-3xl space-y-2 overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="2byl5NWP2xQ"
+              title="Watch This Before You Start Farming in Fire Emblem: Fortune's Weave (No Spoilers, Gameplay Guide)"
+            />
+            <div className="text-xs text-gray-600 dark:text-gray-400">
+              Coverage by <span className="font-medium text-gray-800 dark:text-gray-200">Faerghast</span> &middot; Verified English Captions
+            </div>
+          </div>
+          <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700 dark:text-gray-300">
+            <li>Plant any vegetable on a pentagon-marked plot; after a few map moves the crop is ready and is auto-harvested as you pass through the tile.</li>
+            <li>Each harvest yields a stack of the planted crop, or occasionally a rare local variety, and a plot wears out after several harvests.</li>
+            <li>Fertiliser (from the stable or a failed animal capture) raises the odds of a rare crop, but it replaces the planted crop with that rare variant rather than adding to it.</li>
+            <li>The harvest is meant for barter with the Vandal Trading Company merchants spread across the map.</li>
+          </ul>
         </section>
 
         <section className="space-y-4">

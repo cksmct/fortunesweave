@@ -210,6 +210,12 @@
       "changeFrequency": "weekly"
     },
     {
+      "path": "/gameplay",
+      "title": "Fortune's Weave Gameplay & Combat",
+      "priority": "0.7",
+      "changeFrequency": "weekly"
+    },
+    {
       "path": "/weapons",
       "title": "Weapons and Spells List",
       "priority": "0.9",

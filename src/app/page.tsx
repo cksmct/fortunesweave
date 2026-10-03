@@ -289,6 +289,13 @@ export default function HomePage() {
               more conditional than in most entries in the series: units join on route-specific
               combinations of support level, renown rank and negotiation steps.
             </p>
+            <p>
+              New to the game? Start with our{" "}
+              <Link href="/gameplay/" className="font-medium text-[#8a6d2f] underline decoration-dotted dark:text-[#d3b475]">
+                gameplay and combat overview
+              </Link>{" "}
+              before diving into the system pages.
+            </p>
           </div>
 
           {/* 4 Flame Lords Cards */}

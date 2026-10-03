@@ -1,0 +1,61 @@
+{
+  "runId": "fortunesweave-2026-10-03",
+  "inboxBatch": [
+    "searched_with_rising-searches_queries_US_20261002-0810_20261003-0810.csv",
+    "searched_with_top-searches_queries_US_20261002-0810_20261003-0810.csv"
+  ],
+  "inboxHash": "100 rows parsed across the two 2026-10-02 to 2026-10-03 exports (near-duplicate of prior week's export)",
+  "startedAt": "2026-10-03T00:00:00Z",
+  "forceRerun": false,
+  "skipTrends": false,
+  "trendsSource": "user-supplied CSVs already present in update-inbox (fetch script NOT run this round, manual contract)",
+  "gamePlatform": "console",
+  "statsRefresh": "none",
+  "phases": {
+    "0": {
+      "status": "done",
+      "note": "config reconciled: events.autoDetect=false, videoIntel.enabled=true, gitCommit/gitPush/indexnow all false; 20 audits present in scripts/"
+    },
+    "0x": {
+      "status": "done",
+      "note": "audit-nav + audit-header-footer green at start; no template drift flagged"
+    },
+    "1": {
+      "status": "done",
+      "note": "Breakout items re-evaluated; 1 new page built (/gameplay/); trend-keywords.json bumped to 2026-10-03 with gameplay coverage + rejected/pending decisions"
+    },
+    "1.5": {
+      "status": "skipped",
+      "note": "console platform: no virtual events API, events.autoDetect=false on purpose"
+    },
+    "2": {
+      "status": "done",
+      "note": "console branch: no live stats endpoint; no data refresh required"
+    },
+    "3": {
+      "status": "done",
+      "note": "light: this week's export is a near-duplicate of 2026-09-30; net-new actionable item is the gameplay breakout page. Gap items (collector's edition, voice actors, yuna mei) logged to trend-keywords pendingKeywords; no competitor web scan required this round"
+    },
+    "3.5": {
+      "status": "partial",
+      "note": "3.5a media-integrity gate passed via build (all 50 instances green); 3.5b/c discovery not executed this round (focus on breakout page; no new captioned video embedded)"
+    },
+    "4": {
+      "status": "done",
+      "note": "npm run build exit 0; all postbuild audits green (seo-meta, orphans, trend-coverage, media-integrity, browserslist, author-eeat, etc.)"
+    },
+    "5": {
+      "status": "skipped",
+      "note": "gitCommit=false & gitPush=false & indexnow=false per update-config.json; commitHash recorded = current HEAD",
+      "commitHash": "9a516d668a0567b96cf028d5864c7d5fe2818f04"
+    },
+    "6": {
+      "status": "done",
+      "note": "skill issues collected; no skill files modified outside this repo"
+    },
+    "7": {
+      "status": "done",
+      "note": "inbox CSVs archived; run-report.md written; final verification green"
+    }
+  }
+}

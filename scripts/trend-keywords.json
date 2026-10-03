@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-01",
+  "version": "2026-10-03",
   "_comment": "Generated from the two Google Trends exports in update-inbox (week 2026-09-23 to 2026-09-30). keywords are brand-plus-topic phrases that must appear in the target page body; pendingKeywords records demanded terms already published but not forced as phrases; rejectedKeywords records queries outside this site entity; decisionLog records the weekly tier call.",
   "keywords": [
     {
@@ -638,6 +638,22 @@
       "interest": 1,
       "growth": "70%",
       "asOf": "2026-10-01"
+    },
+    {
+      "query": "/fortune.{0,7}s\\s+weave\\s+gameplay/i",
+      "target": "src/app/gameplay/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "Breakout",
+      "asOf": "2026-10-03"
+    },
+    {
+      "query": "/fire\\s+emblem:?\\s+fortune.{0,7}s\\s+weave\\s+gameplay/i",
+      "target": "src/app/gameplay/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "Breakout",
+      "asOf": "2026-10-03"
     }
   ],
   "pendingKeywords": [
@@ -837,6 +853,41 @@
       "action": "GAP (170%) per-character recommendation; serve via /tools/class-planner + /classes. No new page.",
       "interest": 0,
       "growth": "170%"
+    },
+    {
+      "query": "fire emblem fortune's weave collector's edition",
+      "target": "GAP",
+      "action": "GENUINE GAP (160% breakout). No verified box contents/price in source-checked data; building a page without that would be a disclaimer page. Pending source verification; no page this round.",
+      "interest": 0,
+      "growth": "160%"
+    },
+    {
+      "query": "fire emblem fortune's weave voice actors",
+      "target": "src/data/characters.json",
+      "action": "C-tier absorb (interest 0, +20%). characters.json has no voice-actor field; needs sourced data. No standalone page; fold into characters later if VA data is sourced.",
+      "interest": 0,
+      "growth": "20%"
+    },
+    {
+      "query": "fire emblem fortune's weave review",
+      "target": "src/app/page.tsx",
+      "action": "C-tier absorb (interest 1, -3%). Lower-value commercial intent; home/about already state the game's nature. No new page.",
+      "interest": 1,
+      "growth": "-3%"
+    },
+    {
+      "query": "fire emblem fortune's weave release date",
+      "target": "src/app/about/page.tsx",
+      "action": "C-tier absorb (interest 1, +7%). Release date (2026-09-17) already in game.config + home/about. No new page.",
+      "interest": 1,
+      "growth": "7%"
+    },
+    {
+      "query": "fire emblem fortune's weave new game plus",
+      "target": "src/app/postgame/page.tsx",
+      "action": "Covered (Breakout). Post-game page already documents Descend Again / New Game Plus. No new page; phrasing confirmed present.",
+      "interest": 0,
+      "growth": "Breakout"
     }
   ],
   "rejectedKeywords": [
@@ -863,7 +914,25 @@
       "interest": 1,
       "growth": "-70%",
       "reason": "Publisher query: out of scope for a single-game guide site."
+    },
+    {
+      "query": "switch 2 emulator",
+      "interest": 0,
+      "growth": "Breakout",
+      "reason": "Off-entity: the query is about emulating the Switch 2, not about Fortune's Weave. The site does not cover emulation or piracy, so it is out of scope."
+    },
+    {
+      "query": "fire emblem fortune's weave pc",
+      "interest": 0,
+      "growth": "50%",
+      "reason": "Speculative and intent-mismatched: the game is a Nintendo Switch 2 console exclusive with no PC version. A standalone 'PC' page would be a negative/disclaimer page, which the skill forbids; folded out rather than built."
+    },
+    {
+      "query": "fire emblem awakening",
+      "interest": 0,
+      "growth": "20%",
+      "reason": "Different game entity: Fire Emblem Awakening is a separate title, not Fortune's Weave."
     }
   ],
-  "decisionLog": "{\"week\":\"2026-09-23 to 2026-09-30\",\"sources\":[\"searched_with_rising-searches_queries_US_20260923-1106_20260930-1106.csv\",\"searched_with_top-searches_queries_US_20260923-1106_20260930-1106.csv\"],\"rowsParsed\":100,\"uniqueQueries\":84,\"tierCounts\":{\"newPage\":1,\"enforced\":9,\"absorb\":71,\"rejected\":4},\"entityPrecheck\":\"Every row names this game except fire emblem three houses, fire emblem, switch 2 and nintendo, which are recorded under rejectedKeywords because they are a different game, a series, a platform or a publisher.\",\"newPages\":1,\"newPagesThisWeek\":[{\"path\":\"/sidequests/legacy-of-a-legendary-sculptor/\",\"query\":\"fire emblem fortune's weave legacy of a legendary sculptor\",\"interest\":0,\"growth\":\"Breakout\",\"why\":\"The only row this week that is both new and answerable with two independent sources: Polygon and Raider King agree on all four statue locations, on the riddle structure and on the quest being route-specific. Competitors answer this query with a dedicated page each, and the site held only a single deadline-list row, so a page was the smallest honest response that matches the search intent.\"}],\"absorbedThisWeek\":[{\"query\":\"fortune's weave spell list\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/weapons/page.tsx\",\"action\":\"Added a spell list section that groups the fourteen recorded spells by school and states the range and use-count rules; both the Fortune's Weave and the Fire Emblem: Fortune's Weave variants are enforced.\"},{\"query\":\"fortune's weave tier list\",\"interest\":1,\"growth\":\"150%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"The quick-answer paragraph now names the Fortune's Weave tier list phrasing next to the existing character tier list phrasing, and says why the page records roles instead of ranks.\"},{\"query\":\"fire emblem fortune's weave mounts\",\"interest\":1,\"growth\":\"450%\",\"target\":\"src/app/mounts/page.tsx\",\"action\":\"The capture FAQ now states that mounts sit inside one lord's route rather than being party-wide, which is the question the mounts query actually asks.\"},{\"query\":\"fire emblem fortune's weave giants meat\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Giants' Meat already had a row; the enforced phrase now tolerates the apostrophe form the query drops.\"},{\"query\":\"fortune's weave paradise fish\",\"interest\":1,\"growth\":\"350%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Paradise Fish moved from having no recorded use to having two recorded ones: the Ninae recruitment request and the Lake Brontes search points, with a link to the new quest guide.\"},{\"query\":\"fortune's weave missing master\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Added the Fortune's Weave Missing Master phrasing variant of an entry that was already enforced under the Fire Emblem prefix.\"},{\"query\":\"fortune's weave secret altar\",\"interest\":0,\"growth\":\"300%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Recorded as published: the Secret Altar is already named in the subquest prose, so no new wording was forced.\"},{\"query\":\"fire emblem fortune's weave mu\",\"interest\":1,\"growth\":\"140%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"Recorded as published: Mu holds a character row and two recruitment rows (support 3 with Renown 8 as Cai), so the query resolves to an existing page.\"}],\"rejected\":[{\"query\":\"fire emblem three houses\",\"interest\":1,\"growth\":\"-40%\",\"reason\":\"Different game entity.\"},{\"query\":\"fire emblem\",\"interest\":94,\"growth\":\"-10%\",\"reason\":\"Series-level query, not this game.\"},{\"query\":\"switch 2\",\"interest\":2,\"growth\":\"-60%\",\"reason\":\"Hardware query.\"},{\"query\":\"nintendo\",\"interest\":1,\"growth\":\"-70%\",\"reason\":\"Publisher query.\"}],\"unverifiedNotes\":\"Growth percentages come from the weekly Google Trends export and are not game facts; they only rank intent. Previous pending entries that were not searched for this week were dropped from the pending list rather than carried forward silently.\"}\n\n[2026-10-01] Breakout review: 50 rising queries mapped to existing hubs (characters/materials/weapons/paralogues/classes/mounts/map/sidequests/systems). No new standalone pages created - all fold to avoid thin/duplicate content. Genuine gaps (yuna mei, spell list, tier list, perfect bird time, best class for each character) recorded in pendingKeywords; yuna mei (600%) flagged for source verification before any content addition."
+  "decisionLog": "{\"week\":\"2026-09-23 to 2026-09-30\",\"sources\":[\"searched_with_rising-searches_queries_US_20260923-1106_20260930-1106.csv\",\"searched_with_top-searches_queries_US_20260923-1106_20260930-1106.csv\"],\"rowsParsed\":100,\"uniqueQueries\":84,\"tierCounts\":{\"newPage\":1,\"enforced\":9,\"absorb\":71,\"rejected\":4},\"entityPrecheck\":\"Every row names this game except fire emblem three houses, fire emblem, switch 2 and nintendo, which are recorded under rejectedKeywords because they are a different game, a series, a platform or a publisher.\",\"newPages\":1,\"newPagesThisWeek\":[{\"path\":\"/sidequests/legacy-of-a-legendary-sculptor/\",\"query\":\"fire emblem fortune's weave legacy of a legendary sculptor\",\"interest\":0,\"growth\":\"Breakout\",\"why\":\"The only row this week that is both new and answerable with two independent sources: Polygon and Raider King agree on all four statue locations, on the riddle structure and on the quest being route-specific. Competitors answer this query with a dedicated page each, and the site held only a single deadline-list row, so a page was the smallest honest response that matches the search intent.\"}],\"absorbedThisWeek\":[{\"query\":\"fortune's weave spell list\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/weapons/page.tsx\",\"action\":\"Added a spell list section that groups the fourteen recorded spells by school and states the range and use-count rules; both the Fortune's Weave and the Fire Emblem: Fortune's Weave variants are enforced.\"},{\"query\":\"fortune's weave tier list\",\"interest\":1,\"growth\":\"150%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"The quick-answer paragraph now names the Fortune's Weave tier list phrasing next to the existing character tier list phrasing, and says why the page records roles instead of ranks.\"},{\"query\":\"fire emblem fortune's weave mounts\",\"interest\":1,\"growth\":\"450%\",\"target\":\"src/app/mounts/page.tsx\",\"action\":\"The capture FAQ now states that mounts sit inside one lord's route rather than being party-wide, which is the question the mounts query actually asks.\"},{\"query\":\"fire emblem fortune's weave giants meat\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Giants' Meat already had a row; the enforced phrase now tolerates the apostrophe form the query drops.\"},{\"query\":\"fortune's weave paradise fish\",\"interest\":1,\"growth\":\"350%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Paradise Fish moved from having no recorded use to having two recorded ones: the Ninae recruitment request and the Lake Brontes search points, with a link to the new quest guide.\"},{\"query\":\"fortune's weave missing master\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Added the Fortune's Weave Missing Master phrasing variant of an entry that was already enforced under the Fire Emblem prefix.\"},{\"query\":\"fortune's weave secret altar\",\"interest\":0,\"growth\":\"300%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Recorded as published: the Secret Altar is already named in the subquest prose, so no new wording was forced.\"},{\"query\":\"fire emblem fortune's weave mu\",\"interest\":1,\"growth\":\"140%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"Recorded as published: Mu holds a character row and two recruitment rows (support 3 with Renown 8 as Cai), so the query resolves to an existing page.\"}],\"rejected\":[{\"query\":\"fire emblem three houses\",\"interest\":1,\"growth\":\"-40%\",\"reason\":\"Different game entity.\"},{\"query\":\"fire emblem\",\"interest\":94,\"growth\":\"-10%\",\"reason\":\"Series-level query, not this game.\"},{\"query\":\"switch 2\",\"interest\":2,\"growth\":\"-60%\",\"reason\":\"Hardware query.\"},{\"query\":\"nintendo\",\"interest\":1,\"growth\":\"-70%\",\"reason\":\"Publisher query.\"}],\"unverifiedNotes\":\"Growth percentages come from the weekly Google Trends export and are not game facts; they only rank intent. Previous pending entries that were not searched for this week were dropped from the pending list rather than carried forward silently.\"}\n\n[2026-10-01] Breakout review: 50 rising queries mapped to existing hubs (characters/materials/weapons/paralogues/classes/mounts/map/sidequests/systems). No new standalone pages created - all fold to avoid thin/duplicate content. Genuine gaps (yuna mei, spell list, tier list, perfect bird time, best class for each character) recorded in pendingKeywords; yuna mei (600%) flagged for source verification before any content addition. [2026-10-03] Breakout re-review (window 2026-10-02 to 2026-10-03, largely overlapping the prior week's export): breakout items re-evaluated. 'fire emblem fortune's weave gameplay' (Breakout, entity-matched, no holistic page existed) -> NEW PAGE /gameplay/ built, covering Free Time + Main Battle + Clash + Blaze Arts + certification + beginner tips, all sourced from existing verified site data. 'switch 2 emulator' (Breakout) -> REJECTED as off-entity emulation/piracy. 'fire emblem fortune's weave pc' (50%) -> REJECTED as speculative (Switch 2 exclusive, no PC version; a standalone page would be a disclaimer page, which the skill forbids). 'best classes for each character' (Breakout) -> kept pending, served by /tools/class-planner + /classes. 'new game plus' (Breakout) -> covered on /postgame/. Other new-ish items: collector's edition (160%) = GENUINE GAP pending source; voice actors (20%) = C-tier absorb (no VA data in characters.json); review (-3%) = C-tier absorb; release date (7%) = C-tier absorb; yuna mei (150%) still GENUINE GAP pending source verification. Net new standalone page this run: 1 (/gameplay/)."
 }

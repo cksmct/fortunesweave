@@ -3,6 +3,7 @@ import PageHeader from "@/components/PageHeader";
 import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
 import YouTubeEmbed from "@/components/YouTubeEmbed";
+import Link from "next/link";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 import systemsData from "@/data/systems.json";
 
@@ -291,6 +292,19 @@ export default function SystemsPage() {
               <li><span className="font-semibold text-zinc-200">The cost.</span> That route skips all of Part I and Part II and drops you straight into Part III, opening on a hard fight and heavy story spoilers.</li>
               <li><span className="font-semibold text-zinc-200">The safety net.</span> If you die in that opening fight Fortuna teleports you back to the chamber, so the shortcut is recoverable rather than a dead end.</li>
           </ul>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Where to start
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            If you want the plain-English tour of how a week plays before the system tables, the{" "}
+            <Link className="font-medium text-[#8a6d2f] underline decoration-dotted dark:text-[#d3b475]" href="/gameplay/">
+              Gameplay &amp; Combat overview
+            </Link>{" "}
+            walks the Free Time, Main Battle and Clash loop end to end.
+          </p>
         </section>
 
       </main>

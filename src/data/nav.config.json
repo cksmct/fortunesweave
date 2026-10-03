@@ -80,6 +80,10 @@
                 "href": "/systems/"
               },
               {
+                "label": "Gameplay & Combat",
+                "href": "/gameplay/"
+              },
+              {
                 "label": "Crop Farming",
                 "href": "/farming/"
               },
@@ -236,6 +240,10 @@
           {
             "label": "Core Systems & Blaze Arts",
             "href": "/systems/"
+          },
+          {
+            "label": "Gameplay & Combat",
+            "href": "/gameplay/"
           },
           {
             "label": "Weapons & Spells List",
