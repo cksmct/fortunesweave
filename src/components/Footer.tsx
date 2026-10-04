@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getGameConfig } from '@/lib/data';
 import { getFooterGroups, getLegalLinks } from '@/lib/nav';
+import PartnersPanel from './PartnersPanel';
 
 /**
  * Footer —— 与 Header 共用 `src/data/nav.config.json` 单一事实源。
@@ -87,6 +88,10 @@ export default function Footer() {
             </div>
           ))}
         </div>
+
+        {/* PARTNERS PANEL: 仅限首页呈现，无条件包含在原始 HTML 中供爬虫索引。
+            与 Tier 2 导航矩阵同属“目录与去向”语义组；法务与版权行在下方保持成组 */}
+        <PartnersPanel />
 
         {/* Tier 3: 法务说明与免责声明（项目身份隔离：严格对齐 Nintendo / Intelligent Systems） */}
         <div className="flex flex-col items-center justify-between gap-4 pt-8 text-center text-xs text-[#bbc1cf] md:flex-row md:text-left">
