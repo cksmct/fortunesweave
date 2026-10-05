@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getGameConfig } from '@/lib/data';
 import { getFooterGroups, getLegalLinks } from '@/lib/nav';
 import PartnersPanel from './PartnersPanel';
+import CookieSettingsButton from './CookieSettingsButton';
 
 /**
  * Footer —— 与 Header 共用 `src/data/nav.config.json` 单一事实源。
@@ -116,6 +117,8 @@ export default function Footer() {
               {link.label}
             </Link>
           ))}
+          {/* 同意撤回入口：常开（撤回权只需入口常在，不必人人被弹窗拦住） */}
+          <CookieSettingsButton />
         </div>
       </div>
     </footer>

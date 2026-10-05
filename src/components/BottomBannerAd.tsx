@@ -13,6 +13,7 @@ import {
   MOBILE_BANNER_HEIGHT,
   isLongContentPage,
 } from '@/lib/adsterra';
+import { useConsentGranted } from '@/lib/useConsent';
 
 /**
  * Adsterra BottomBannerAd — 长页文尾响应式横幅组件 (2026 生产级标准)
@@ -32,6 +33,8 @@ export default function BottomBannerAd({ className = '' }: { className?: string 
   const [shouldLoad, setShouldLoad] = useState(false);
   const [isDesktop, setIsDesktop] = useState(false);
   const hasInjectedRef = useRef(false);
+  // 同意门控（null = 尚未挂载，此时保留静态骨架以维持零 CLS）
+  const adsAllowed = useConsentGranted();
 
   const isEligible = isLongContentPage(pathname);
 
@@ -101,6 +104,7 @@ export default function BottomBannerAd({ className = '' }: { className?: string 
   // 4. 强隔离单发注入（杜绝隐藏 iframe 作弊）
   useEffect(() => {
     if (!isEligible || !shouldLoad || hasInjectedRef.current) return;
+    if (adsAllowed !== true) return; // 同意门禁：未获同意不注入第三方广告脚本
     const container = containerRef.current;
     if (!container) return;
     hasInjectedRef.current = true;
@@ -124,9 +128,9 @@ export default function BottomBannerAd({ className = '' }: { className?: string 
 
     container.appendChild(conf);
     container.appendChild(invoke);
-  }, [isEligible, shouldLoad, isDesktop]);
+  }, [isEligible, shouldLoad, isDesktop, adsAllowed]);
 
-  if (!isEligible) return null;
+  if (!isEligible || adsAllowed === false) return null;
 
   return (
     <div

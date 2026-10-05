@@ -10,7 +10,7 @@ const config = getGameConfig();
 export const metadata: Metadata = generateSEOMetadata({
   title: "Privacy Policy",
   description:
-    "What this Fire Emblem: Fortune\u0027s Weave reference stores, what runs in your browser, and how tool progress kept in local storage can be cleared.",
+    "What this reference stores, which analytics and advertising cookies run in your browser, and how to withdraw consent or clear local storage.",
   path: "/privacy/",
 });
 
@@ -47,18 +47,111 @@ export default function PrivacyPage() {
 
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-            Cookies and analytics
+            Cookies, analytics and advertising
           </h2>
           <p>
-            No cookies are set by this site. No analytics, advertising or third-party measurement
-            scripts are loaded at present, so there is nothing to consent to and nothing to decline.
+            Two third-party services run in your browser on this site. Both are described below in
+            full, and both are subject to your choice wherever the law requires one.
+          </p>
+
+          <h3 className="pt-2 text-lg font-bold text-gray-900 dark:text-gray-100">
+            Google Analytics 4 (measurement)
+          </h3>
+          <p>
+            This site uses Google Analytics 4, measurement ID G-5B4JGFSND2, to count visits and to see
+            which pages are actually useful. The tag is deliberately slow to start: it is loaded only
+            after your first interaction (scroll, click, key press or touch) or after 20 seconds,
+            whichever comes first, so it never competes with the page you asked for. Google Analytics
+            sets first-party cookies such as <code>_ga</code> and <code>_ga_5B4JGFSND2</code> that
+            distinguish one browser from another, and it processes the IP address and user agent that
+            any web request carries. That processing happens under Google&apos;s own terms; this site
+            cannot read those cookies and does not combine them with anything else.
+          </p>
+
+          <h3 className="pt-2 text-lg font-bold text-gray-900 dark:text-gray-100">
+            Advertising (third-party ad partners)
+          </h3>
+          <p>
+            This site is free to read because it carries advertising supplied by third-party ad
+            networks, currently Adsterra, and the domain is additionally declared to Google AdSense in
+            our <code>ads.txt</code> file. Those partners may set or read cookies, web beacons and
+            device identifiers — including IP address and user agent — and may use them to select,
+            frequency-cap and measure advertising. Ad units on this site are labelled as advertising
+            and their space is reserved in advance, so content does not jump when they load.
           </p>
           <p>
-            If advertising or measurement is added in the future, this policy will be updated before any
-            such script loads, and consent handling will follow the rules that apply in the visitor&apos;s
-            region: an explicit choice first where local law requires it, and no interruption where it
-            does not. Any consent panel will offer a permanent withdrawal route from the footer rather
-            than a one-time prompt.
+            Nothing you type is passed to an advertiser. Correction emails and contact messages go only
+            to the address below, and checklist or planner state stays in your own browser&apos;s local
+            storage.
+          </p>
+
+          <h3 className="pt-2 text-lg font-bold text-gray-900 dark:text-gray-100">
+            Your choice, before anything is set
+          </h3>
+          <p>
+            Google Consent Mode v2 defaults are set before any analytics or advertising tag can run.
+            Where prior consent is required — the European Economic Area, the United Kingdom and
+            Switzerland, detected from your time zone — analytics and advertising storage start{' '}
+            <em>denied</em>, and a panel asks you to accept or reject before either service is allowed
+            to store anything. Elsewhere storage starts granted and no panel is shown, because those
+            regions do not require a prompt for this kind of processing.
+          </p>
+          <p>
+            Rejecting keeps analytics and advertising cookies switched off and also deletes any that
+            were already written on this domain.
+          </p>
+
+          <h3 className="pt-2 text-lg font-bold text-gray-900 dark:text-gray-100">
+            Changing your mind, and opting out
+          </h3>
+          <ul className="list-disc space-y-1.5 pl-5">
+            <li>
+              <strong>Cookie Settings</strong> in the footer reopens your choice at any time, in every
+              region, without reloading the page.
+            </li>
+            <li>
+              <a
+                href="https://adssettings.google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                Google Ads Settings
+              </a>{' '}
+              controls personalised advertising across Google services.
+            </li>
+            <li>
+              <a
+                href="https://www.aboutads.info/choices/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                aboutads.info
+              </a>{' '}
+              and{' '}
+              <a
+                href="https://www.youronlinechoices.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                youronlinechoices.com
+              </a>{' '}
+              list industry-wide opt-outs for participating advertisers.
+            </li>
+            <li>
+              Your browser settings can block or delete cookies for this domain; the reference still
+              works with them blocked.
+            </li>
+          </ul>
+          <p>
+            The site is run by an independent publisher reachable at{' '}
+            <a href={'mailto:' + config.seo.email} className="underline">
+              {config.seo.email}
+            </a>
+            , which is also where requests about this policy — including access to, or deletion of,
+            the correspondence described below — should be sent.
           </p>
         </section>
 
@@ -97,9 +190,15 @@ export default function PrivacyPage() {
           <p>
             Pages link out to sources such as the publisher&apos;s product page and reference wikis.
             Following an outbound link takes you to a site with its own privacy practices, which apply
-            from the moment you arrive. If video is embedded here in future, it will be served through
-            the platform&apos;s own embed mechanism, and that platform&apos;s policy and cookie
-            behaviour will be noted on the page that carries it.
+            from the moment you arrive.
+          </p>
+          <p>
+            Many pages carry YouTube embeds — the trailer on the homepage and the press videos on the
+            review page among them. They are click-to-load: nothing is requested from YouTube until
+            you press play, and the player itself is served from YouTube&apos;s no-cookie domain. When
+            you do press play, YouTube serves the video under its own policy and may set its own
+            cookies. If you would rather not be connected to YouTube at all, simply do not press play;
+            the surrounding text on those pages stands on its own.
           </p>
         </section>
 

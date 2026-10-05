@@ -116,7 +116,7 @@ const SCAN_DIRS = ['src/app', 'src/components', 'src/lib'].map((d) => path.join(
 // 广告 / UI 配置组件：其内部常量（zone ID、兜底毫秒数、广告尺寸等）本就不是游戏数据，
 // 不参与漂移检查。新增广告组件时，若文件名不含下列关键词，务必把文件名追加进本正则，
 // 否则构建期会被误报为漂移并 exit 1（详见 SKILL.md「非内容代码的豁免」）。
-const EXCLUDE_SCAN_FILE = /(AdBanner|BottomBannerAd|adsterra|AdWrapper|SideAdSlots|NativeBannerAd|Monetag|Vignette|InPagePush|Popunder|Skyscraper|Propeller|Galaksion|AdSense|HeroMediaFacade|Header|Footer)/i;
+const EXCLUDE_SCAN_FILE = /(AdBanner|BottomBannerAd|adsterra|AdWrapper|SideAdSlots|NativeBannerAd|Monetag|Vignette|InPagePush|Popunder|Skyscraper|Propeller|Galaksion|AdSense|HeroMediaFacade|Header|Footer|consent)/i;
 const hits = [];
 
 function esc(s) {

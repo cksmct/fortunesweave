@@ -30,7 +30,7 @@ export const PAGE_DATES: Record<string, string> = {
   '/mounts': '2026-10-05',
   '/paralogues': '2026-10-01',
   '/postgame': '2026-10-05',
-  '/privacy': '2026-09-28',
+  '/privacy': '2026-10-05',
   '/review': '2026-10-05',
   '/sidequests': '2026-09-30',
   '/sidequests/[slug]': '2026-09-30',

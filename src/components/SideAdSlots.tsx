@@ -9,6 +9,7 @@ import {
   SKYSCRAPER_HEIGHT,
   isComplianceExcludedPath,
 } from '@/lib/adsterra';
+import { useConsentGranted } from '@/lib/useConsent';
 
 /**
  * Adsterra SideAdSlots — 桌面宽屏双侧摩天大楼组件 (2026 串行链式生产级标准)
@@ -39,6 +40,8 @@ export function SideAdSlots() {
   const rightInjectedRef = useRef(false);
 
   const isExcluded = isComplianceExcludedPath(pathname);
+  // 同意门控（null = 尚未挂载）
+  const adsAllowed = useConsentGranted();
 
   // 1. 视口宽度监听 (1360px 硬件门禁)
   useEffect(() => {
@@ -77,6 +80,7 @@ export function SideAdSlots() {
   // 3. 第一阶段：左侧摩天大楼优先注入 (500ms)
   useEffect(() => {
     if (isExcluded || !isWideScreen || leftInjectedRef.current) return;
+    if (adsAllowed !== true) return; // 同意门禁：未获同意不注入第三方广告脚本
 
     let fallbackTimer: NodeJS.Timeout | null = null;
 
@@ -123,11 +127,12 @@ export function SideAdSlots() {
       clearTimeout(initialTimer);
       if (fallbackTimer) clearTimeout(fallbackTimer);
     };
-  }, [isExcluded, isWideScreen, pathname]);
+  }, [isExcluded, isWideScreen, pathname, adsAllowed]);
 
   // 4. 第二阶段：左侧就绪后微延迟 300ms 链式触发右侧注入 (零竞态冲突)
   useEffect(() => {
     if (isExcluded || !isWideScreen || !leftDone || rightInjectedRef.current) return;
+    if (adsAllowed !== true) return; // 同意门禁：未获同意不注入第三方广告脚本
 
     const rightTimer = setTimeout(() => {
       if (rightInjectedRef.current || !rightContainerRef.current) return;
@@ -157,10 +162,11 @@ export function SideAdSlots() {
     return () => {
       clearTimeout(rightTimer);
     };
-  }, [isExcluded, isWideScreen, leftDone, pathname]);
+  }, [isExcluded, isWideScreen, leftDone, pathname, adsAllowed]);
 
   // 纯宽屏硬件门禁：视口 < 1360px 时直接返回 null，0 挂载、0 定时器、0 外部请求
-  if (isExcluded || !isWideScreen) {
+  // 同意被拒时同样返回 null：不留空广告位，也不向第三方发起请求
+  if (isExcluded || !isWideScreen || adsAllowed === false) {
     return null;
   }
 

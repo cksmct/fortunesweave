@@ -3,6 +3,9 @@ import { getGameConfig } from '@/lib/data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AdWrapper from '@/components/AdWrapper';
+import Analytics from '@/components/Analytics';
+import ConsentBanner from '@/components/ConsentBanner';
+import { buildConsentDefaultScript } from '@/lib/consent';
 import './globals.css';
 
 /**
@@ -61,45 +64,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="dark scroll-smooth" suppressHydrationWarning>
       <body className="min-h-screen bg-black font-sans text-[#f5f1eb] antialiased">
+        {/*
+          Consent Mode v2 默认值 —— 必须是 body 的第一个节点：
+          它在任何 Google 标签 / 广告脚本之前同步执行，保证默认同意状态先于数据收集生效。
+          区域分级：全球 granted，仅 EEA/UK/CH（按 IANA 时区判定）在未选择时覆盖为 denied。
+          ⚠️ 机器判据：脚本内保留 CONSENT_TZ / requiresConsent 字面量，勿改名。
+        */}
+        <script
+          id="consent-default"
+          dangerouslySetInnerHTML={{ __html: buildConsentDefaultScript() }}
+        />
         <Header />
         <main className="min-h-[calc(100vh-180px)]">
           <AdWrapper>{children}</AdWrapper>
         </main>
         <Footer />
-        {/* GA4 接入：遵循 PageSpeed & Core Web Vitals 0-TBT 交互优先延迟加载法则，
-            首屏交互（scroll/click/touchstart）或 20s 超时后挂载，杜绝移动端主线程阻塞与性能扣分 */}
-        {config.seo.googleAnalyticsId && (
-          <script
-            id="google-analytics"
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${config.seo.googleAnalyticsId}');
-
-                (function() {
-                  var loaded = false;
-                  function loadGtag() {
-                    if (loaded) return;
-                    loaded = true;
-                    var s = document.createElement('script');
-                    s.async = true;
-                    s.src = 'https://www.googletagmanager.com/gtag/js?id=${config.seo.googleAnalyticsId}';
-                    document.head.appendChild(s);
-                    ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(e) {
-                      window.removeEventListener(e, loadGtag, { passive: true });
-                    });
-                  }
-                  ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(e) {
-                    window.addEventListener(e, loadGtag, { once: true, passive: true });
-                  });
-                  setTimeout(loadGtag, 20000);
-                })();
-              `,
-            }}
-          />
-        )}
+        {/* GA4：同意门控 + 交互优先/20s 兜底延迟加载（见 components/Analytics.tsx 的性能与合规说明） */}
+        <Analytics gaId={config.seo.googleAnalyticsId} />
+        {/* 同意面板：仅 EEA/UK/CH 且未选择时自动出现；其他地区静默授予、零遮挡 */}
+        <ConsentBanner />
       </body>
     </html>
   );

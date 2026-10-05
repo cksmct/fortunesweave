@@ -1,0 +1,7 @@
+# Cloudflare Pages 原生重定向配置（构建时自动复制到 out/ 根目录）。
+# ⚠️ 静态导出下 next.config 的 async redirects() 是空操作，必须用本文件。
+#
+# /privacy-policy/ 是行业与审核工具常用的隐私政策猜测路径（AdSense 审计脚本即请求该路径）。
+# 本站真实路径为 /privacy/，这里做永久别名，避免 404 与「隐私政策缺失」的误判。
+/privacy-policy/  /privacy/  301
+/privacy-policy   /privacy/  301

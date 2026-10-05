@@ -7,6 +7,7 @@ import {
   NATIVE_CONTAINER_ID,
   isComplianceExcludedPath,
 } from '@/lib/adsterra';
+import { useConsentGranted } from '@/lib/useConsent';
 
 /**
  * Adsterra Native Banner — 100% 遵循官方规范的原生信息流广告组件 (2026 最新标准)
@@ -24,12 +25,15 @@ export default function NativeBannerAd({ className = '' }: { className?: string 
   const containerRef = useRef<HTMLDivElement>(null);
   const scriptRef = useRef<HTMLScriptElement | null>(null);
   const hasInjectedPathRef = useRef<string | null>(null);
+  // 同意门控：EEA/UK/CH 未选择或已拒绝时不得注入第三方广告脚本（null = 尚未挂载）
+  const adsAllowed = useConsentGranted();
 
   const isExcluded = isComplianceExcludedPath(pathname);
   const isHomePage = pathname === '/' || pathname === '';
 
   useEffect(() => {
     if (isExcluded) return;
+    if (adsAllowed !== true) return;
 
     // 清理旧路由的广告脚本与 DOM，保障 SPA 切页后新页面正常出画
     if (scriptRef.current) {
@@ -109,9 +113,9 @@ export default function NativeBannerAd({ className = '' }: { className?: string 
         }
       };
     }
-  }, [pathname, isExcluded, isHomePage]);
+  }, [pathname, isExcluded, isHomePage, adsAllowed]);
 
-  if (isExcluded) return null;
+  if (isExcluded || adsAllowed === false) return null;
 
   return (
     <div
