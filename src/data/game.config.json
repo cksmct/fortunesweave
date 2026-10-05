@@ -298,6 +298,12 @@
       "title": "Deities of Dagda",
       "priority": "0.7",
       "changeFrequency": "monthly"
+    },
+    {
+      "path": "/review",
+      "title": "Reviews and Critic Impressions",
+      "priority": "0.6",
+      "changeFrequency": "monthly"
     }
   ]
 }

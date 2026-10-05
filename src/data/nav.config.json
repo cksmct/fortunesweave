@@ -116,6 +116,10 @@
                 "href": "/postgame/"
               },
               {
+                "label": "Reviews & Impressions",
+                "href": "/review/"
+              },
+              {
                 "label": "Subquests",
                 "href": "/sidequests/"
               },
@@ -289,6 +293,10 @@
           {
             "label": "Bird Time Lookup",
             "href": "/tools/bird-time/"
+          },
+          {
+            "label": "Reviews & Impressions",
+            "href": "/review/"
           }
         ]
       },

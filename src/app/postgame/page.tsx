@@ -127,6 +127,36 @@ export default function PostgamePage() {
           </div>
         </section>
 
+        {/* Video intel: uTDqiRYgDQE */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Walking the carryover step by step
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">uTDqiRYgDQE</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="uTDqiRYgDQE"
+              title="How to CARRY OVER PROGRESS in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Jay Dunna walks the New Game Plus carryover flow from the in-game Obelisk: starting a replay routes you back to Chapter 1, and the quests you already cleared auto-complete to hand back Renown and blessing progress. It is a practical companion to the carryover table above. (Note: the auto-captions mislabel the game as &quot;Fates Weave&quot; in places; the correct title is Fortune&apos;s Weave.)
+          </p>
+        </section>
+
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Merge Causality, the real endgame system

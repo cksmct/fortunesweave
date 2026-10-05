@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   },
   verification: {
     yandex: config.seo.yandexVerification || 'ecb353ffcdbc64e0',
+    other: {
+      'google-adsense-account': 'ca-pub-5616611657030412',
+    },
   },
   openGraph: {
     title: config.seo.siteTitle,

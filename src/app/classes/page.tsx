@@ -280,7 +280,7 @@ export default function ClassesPage() {
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Quick answers</h2>
           <p>
-There is no single answer to which are the Fire Emblem: Fortune&apos;s Weave best classes, because the certification climb is about which weapon types a unit can carry rather than one optimal pick. The Fire Emblem: Fortune&apos;s Weave classes are ordered below by what each tier unlocks rather than by a score.
+There is no single answer to which are the Fire Emblem: Fortune&apos;s Weave best classes, because the certification climb is about which weapon types a unit can carry rather than one optimal pick. The Fire Emblem: Fortune&apos;s Weave classes are ordered below by what each tier unlocks rather than by a score. Each certification a unit passes grants the matching Advanced License, which is the credential that lets the unit actually deploy in that class during a battle &mdash; beginner licenses open at Renown 4 and Advanced Licenses at Renown 8. For a per-character recommendation instead of a class-wide one, the Class Certification Planner works through which Advanced License each recruited unit should chase.
           </p>
         </section>
       

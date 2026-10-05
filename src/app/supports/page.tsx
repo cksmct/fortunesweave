@@ -365,6 +365,31 @@ Fire Emblem: Fortune&apos;s Weave supports run on two different gates rather tha
           </ul>
         </section>
 
+        {/* Video intel: qkWKqZqMbw0 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">The female romance and S-support routes</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">MELOO</span> &middot;{" "}
+              <span className="font-mono">qkWKqZqMbw0</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="qkWKqZqMbw0" title="Fire Emblem Fortune's Weave - All Female Romance & S Supports" />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            MELOO&apos;s compilation gathers the female romance and S-support routes available in Fortune&apos;s Weave, playing the confession and paired-ending scenes in one place. It is late-story material, so it is best watched after a route is finished rather than before.
+          </p>
+        </section>
+
       </main>
     </>
   );

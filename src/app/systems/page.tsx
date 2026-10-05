@@ -294,6 +294,31 @@ export default function SystemsPage() {
           </ul>
         </section>
 
+        {/* Video intel: OfntTuDg46Y */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Five mechanics the tutorials never show</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">OfntTuDg46Y</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="OfntTuDg46Y" title="5 HIDDEN Features in Fire Emblem: Fortune's Weave" />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Jay Dunna lists five mechanics the opening hours do not explain. The one the transcript verifies directly is an in-combat tactical camera: hold up on the right control stick to pull in for a closer view of the battlefield. The remaining four are demonstrated in the video rather than spelled out here, since the auto-captions are not reliable enough to quote.
+          </p>
+        </section>
+
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Where to start

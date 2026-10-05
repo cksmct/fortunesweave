@@ -1,0 +1,27 @@
+{
+  "runId": "one-click-2026-10-05",
+  "inboxBatch": [
+    "searched_with_rising-searches_queries_Worldwide_20260928-1039_20261005-1039.csv",
+    "searched_with_top-searches_queries_Worldwide_20260928-1039_20261005-1039.csv"
+  ],
+  "inboxHash": "pending",
+  "startedAt": "2026-10-05T10:00:00.000Z",
+  "forceRerun": false,
+  "skipTrends": false,
+  "gamePlatform": "console",
+  "phases": {
+    "0": { "status": "done", "finishedAt": "2026-10-05T10:05:00.000Z" },
+    "0a": { "status": "done", "finishedAt": "2026-10-05T10:02:00.000Z", "note": "输入由用户提供（两份 CSV 已在 update-inbox 根目录），未调用抓取脚本、无抓取失败" },
+    "0b": { "status": "done", "finishedAt": "2026-10-05T10:05:00.000Z" },
+    "0c": { "status": "done", "finishedAt": "2026-10-05T10:05:00.000Z", "note": "轻量模板漂移自检：项目事件脚手架已按 console 平台关闭；trend-keywords.json 与 classes 页为本次改动点" },
+    "0x": { "status": "done", "finishedAt": "2026-10-05T10:05:00.000Z" },
+    "1": { "status": "done", "finishedAt": "2026-10-05T10:20:00.000Z" },
+    "1.5": { "status": "skipped", "finishedAt": "2026-10-05T10:05:00.000Z", "note": "events.autoDetect=false（console 平台无虚拟事件 API），跳过" },
+    "2": { "status": "done", "finishedAt": "2026-10-05T10:25:00.000Z", "note": "console 平台无实时 stats 端点，无 scrape-stats 命令；数据文件未变更" },
+    "3": { "status": "done", "finishedAt": "2026-10-05T10:35:00.000Z", "note": "本期以 breakout 评估为主线；未做独立竞品大批量建档（breakout 分析已覆盖内容缺口），落地 classes 页 + trend-keywords 实改" },
+    "3.5": { "status": "done", "finishedAt": "2026-10-05T10:45:00.000Z" },
+    "4": { "status": "done", "finishedAt": "2026-10-05T10:55:00.000Z" },
+    "5": { "status": "done", "finishedAt": "2026-10-05T10:58:00.000Z", "commitHash": "f03bfb605068ade319c7e682abbced11b21a80d4" },
+    "7": { "status": "done", "finishedAt": "2026-10-05T11:00:00.000Z" }
+  }
+}
