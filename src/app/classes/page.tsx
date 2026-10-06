@@ -132,6 +132,36 @@ export default function ClassesPage() {
           </div>
         </section>
 
+        {/* Video intel: a4Y4iScdTkA (LinkKing7) — pre-release Direct analysis, verified English captions */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator analysis (pre-release) &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Pre-release system overview (archived)
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">LinkKing7</span> &middot;{" "}
+              <span className="font-mono">a4Y4iScdTkA</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="a4Y4iScdTkA"
+              title="Fortune's Weave's NEW Class System Is WAY Deeper Than We Thought"
+            />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            LinkKing7&apos;s pre-release breakdown, recorded from the game&apos;s reveal Direct before launch, walks through how the class tiers, weapon access and promotion structure were presented. Because it predates the verified class data on this page, treat it as historical context about the reveal, not as a current class reference: several specifics the creator flags as uncertain — exact promotion levels, class counts and weapon access — were not yet final at the time. The structured class tables above remain the authoritative source.
+          </p>
+        </section>
+
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             The recorded tiers

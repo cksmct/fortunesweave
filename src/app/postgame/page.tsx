@@ -157,6 +157,96 @@ export default function PostgamePage() {
           </p>
         </section>
 
+        {/* Video intel: -bdrp_FOEzs (Rednu) — post-release Part 2 prep guide, verified English captions */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Preparing for Part 2
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Rednu</span> &middot;{" "}
+              <span className="font-mono">-bdrp_FOEzs</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="-bdrp_FOEzs"
+              title="Everything You NEED To Know Before Part 2 in Fortune's Weave"
+            />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Rednu walks through what changes once you leave Part 1 for Part 2. The auto-captions are the creator&apos;s guide; specific level and currency figures it quotes are the creator&apos;s numbers and are not restated here as fact — only the structural flow is summarized. Part 2 drops the free-time, shop and subquest loop of Part 1: each chapter opens with a preparation beat and then a battle, with no turns or deadlines in between. The dispatch officer before each fight offers a few options, and one of them brings underleveled units up to a baseline so you can field a broad roster without grinding them through Part 1. Weapons are repaired at the start of every chapter, so ability usage is not constrained by durability going in.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Part 2 structure
+              </span>
+              <h3 className="text-sm font-semibold text-white">No free time, shops or subquests</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Every chapter is a preparation beat followed by a battle. There is no Inn free-time loop, so any shopping is done during Part 1 before the route splits.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Dispatch officer
+              </span>
+              <h3 className="text-sm font-semibold text-white">Catch-up training option</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Before each battle the dispatch officer offers choices; one of them brings underleveled units up to a baseline each chapter, so recruiting broadly in Part 1 pays off without grinding.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Roster roles
+              </span>
+              <h3 className="text-sm font-semibold text-white">Tanks, ranged, flyers, archers</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                The large, walled maps reward a spread of roles: front-line physical tanks, long-range attackers for shielded enemies, flyers to cross impassable terrain, and archers for enemy flyers.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Video intel: l4B8LE2jE_U (Nagapedia) — pre-release DLC analysis, verified English captions */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; creator analysis (pre-release) &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                Will Fortune&apos;s Weave get DLC?
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Nagapedia</span> &middot;{" "}
+              <span className="font-mono">l4B8LE2jE_U</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="l4B8LE2jE_U"
+              title="Fire Emblem: Fortune's Weave and the DLC Problem"
+            />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Nagapedia&apos;s pre-release analysis asks whether and how Fortune&apos;s Weave might receive post-launch downloadable content. The creator points to the ESRB rating and eShop listing, which reference in-game purchases, as the only signal that add-on content could exist. As of this site&apos;s last source check, no DLC or Expansion Pass has been announced, and this video is the creator&apos;s pre-release speculation, not official information. It is included so readers can see the community discussion, not as confirmation that paid content is coming.
+          </p>
+        </section>
+
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Merge Causality, the real endgame system

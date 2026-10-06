@@ -12,6 +12,16 @@ const config = getGameConfig();
 const paralogues = paraloguesData.paralogues;
 const windows = windowsData.windows;
 
+// Per-paralogue creator walkthroughs (verified English captions, transcribed).
+// Keyed by paralogue id so each video sits next to its own entry, not piled at the hub bottom.
+// NOTE: keys use `videoId:` (not `id:`) so optimize-media + the media-integrity guard discover them.
+const PARALOGUE_WALKTHROUGHS: Record<string, { videoId: string; title: string }> = {
+  "great-escape": { videoId: "gyJPFeHiVlw", title: "Cai Paralogue - Fire Emblem Fortune's Weave" },
+  "friendly-match-with-brigids-king": { videoId: "-6-QMsrFYag", title: "Bertrand Paralogue - Fire Emblem Fortune's Weave" },
+  "secret-of-the-vanished-carriage": { videoId: "pEpHmRliEnc", title: "Talimun Paralogue - Fire Emblem Fortune's Weave" },
+  "diversionary-tactics": { videoId: "XnIk4JXFs7Y", title: "Leda Paralogue - Fire Emblem Fortune's Weave" },
+};
+
 const FAQS = [
   {
     question: "How many paralogues are in Fire Emblem: Fortune\u0027s Weave?",
@@ -204,7 +214,9 @@ export default function ParaloguesPage() {
             tier.
           </p>
           <ul className="space-y-3">
-            {paralogues.map((paralogue) => (
+            {paralogues.map((paralogue) => {
+              const pv = PARALOGUE_WALKTHROUGHS[paralogue.id];
+              return (
               <li
                 key={paralogue.id}
                 className="rounded-lg border border-gray-200 p-4 dark:border-gray-800"
@@ -221,8 +233,14 @@ export default function ParaloguesPage() {
                   Available on: {paralogue.routeLocks.join(", ")} ({paralogue.routeLocks.length} of 4
                   routes)
                 </p>
+                {pv && (
+                  <div className="mt-3 overflow-hidden rounded-lg border border-gray-200 dark:border-gray-800">
+                    <YouTubeEmbed videoId={pv.videoId} title={pv.title} />
+                  </div>
+                )}
               </li>
-            ))}
+              );
+            })}
           </ul>
         </section>
 

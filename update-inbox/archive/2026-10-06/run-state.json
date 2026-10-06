@@ -1,0 +1,27 @@
+{
+  "runId": "2026-10-06-fsweave",
+  "inboxBatch": [
+    "searched_with_top-searches_queries_US_20260929-1131_20261006-1131.csv",
+    "searched_with_rising-searches_queries_US_20260929-1131_20261006-1131.csv"
+  ],
+  "inboxHash": "",
+  "startedAt": "2026-10-06T00:00:00Z",
+  "forceRerun": false,
+  "skipTrends": false,
+  "trendsSource": "user-provided-in-inbox",
+  "gamePlatform": "console",
+  "siteDomain": "fortunesweave.online",
+  "phases": {
+    "0": { "status": "done" },
+    "0b": { "status": "done" },
+    "1": { "status": "done" },
+    "1.5": { "status": "done", "note": "events.autoDetect=false (console game, no virtual-events API); skipped per config" },
+    "2": { "status": "done", "note": "Console platform (Nintendo Switch 2): no live stats endpoint, no data skill configured. Live stats scrape N/A. data audit ran non-blocking: 1 benign warning (gameStats.ts verifiedDate) expected for statsRefresh:none." },
+    "3": { "status": "done", "note": "Light KB review this round (9 profiles, last full scan 2026-09-30). No new competitor content added; the substantive change this run is the trend/breakout update (trend-keywords.json). Round-3 discovery scan scoped down per user focus on breakout/trends." },
+    "3.5": { "status": "done", "note": "3.5a media audit GREEN (all instances verified). 3.5b discovery produced with real yt-dlp candidates (enabled=true, autoDeriveTerms). 2 high-value metadata-only embed candidates identified (DLC Problem->/postgame, Unit Growth->/characters) deferred to next run due to watch-page caption block. 3.5c captions UNKNOWN (watch-page blocked), no transcription, no whisper used." },
+    "4": { "status": "done", "note": "build.cmd EXIT=0; Compiled successfully; all postbuild audits green (media, trend=83/83, zero-orphan, thin-content, browserslist, partners). 1 benign data-audit warning (gameStats.ts verifiedDate) expected for console statsRefresh:none." },
+    "5": { "status": "done", "commitHash": "8c70454090e57339345dbd3301fa13f89fa348b2", "note": "gitCommit=false & gitPush=false (config): no commit/push. commitHash set to current HEAD. indexnow=true: ran, no sitemap lastmod changes this run (0 URLs pinged)." },
+    "6": { "status": "done" },
+    "7": { "status": "pending" }
+  }
+}
