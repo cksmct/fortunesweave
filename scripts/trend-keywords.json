@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-06",
+  "version": "2026-10-08",
   "_comment": "Generated from the two Google Trends exports in update-inbox (week 2026-09-23 to 2026-09-30). keywords are brand-plus-topic phrases that must appear in the target page body; pendingKeywords records demanded terms already published but not forced as phrases; rejectedKeywords records queries outside this site entity; decisionLog records the weekly tier call.",
   "keywords": [
     {
@@ -662,6 +662,342 @@
       "interest": 0,
       "growth": "60%",
       "asOf": "2026-10-05"
+    },
+    {
+      "query": "/fire/i",
+      "target": "src/app/page.tsx",
+      "min": 1,
+      "interest": 100,
+      "growth": "-8%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/cai/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 6,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/characters/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 6,
+      "growth": "-3%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/classes/i",
+      "target": "src/data/classes.json",
+      "min": 1,
+      "interest": 5,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/paralogue/i",
+      "target": "src/data/paralogues.json",
+      "min": 1,
+      "interest": 4,
+      "growth": "20%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/leda/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 4,
+      "growth": "8%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/part[\\s\\W]*2/i",
+      "target": "src/app/postgame/page.tsx",
+      "min": 1,
+      "interest": 4,
+      "growth": "40%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/map/i",
+      "target": "src/data/locations.json",
+      "min": 1,
+      "interest": 4,
+      "growth": "-1%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/paralogues/i",
+      "target": "src/data/paralogues.json",
+      "min": 1,
+      "interest": 3,
+      "growth": "6%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/guide/i",
+      "target": "src/app/page.tsx",
+      "min": 1,
+      "interest": 3,
+      "growth": "2%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/gifts/i",
+      "target": "src/data/gift-groups.json",
+      "min": 1,
+      "interest": 3,
+      "growth": "-7%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/recruitment/i",
+      "target": "src/data/recruitment.json",
+      "min": 1,
+      "interest": 3,
+      "growth": "3%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/dietrich/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 2,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/theodora/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 2,
+      "growth": "8%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/switch[\\s\\W]*2/i",
+      "target": "src/app/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "-9%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/dates/i",
+      "target": "src/app/page.tsx",
+      "min": 1,
+      "interest": 2,
+      "growth": "9%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/sandworm[\\s\\W]*meat/i",
+      "target": "src/data/materials.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/gift[\\s\\W]*guide/i",
+      "target": "src/app/gifts/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "-10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/wonder[\\s\\W]*leaves/i",
+      "target": "src/data/materials.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "-10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/review/i",
+      "target": "src/app/review/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "-10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/chapters/i",
+      "target": "src/app/walkthrough/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "-1%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/paradise[\\s\\W]*fish/i",
+      "target": "src/data/materials.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "-20%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/spell[\\s\\W]*list/i",
+      "target": "src/app/weapons/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "110%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/walkthrough/i",
+      "target": "src/app/walkthrough/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "9%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/legacy[\\s\\W]*of[\\s\\W]*a[\\s\\W]*legendary[\\s\\W]*sculptor/i",
+      "target": "src/data/sidequests.json",
+      "min": 1,
+      "interest": 0,
+      "growth": "170%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/paralogue[\\s\\W]*list/i",
+      "target": "src/app/paralogues/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "90%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/glirmosa/i",
+      "target": "src/data/materials.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "60%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/recruitment[\\s\\W]*guide/i",
+      "target": "src/app/characters/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "50%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/uncharted[\\s\\W]*isle/i",
+      "target": "src/data/locations.json",
+      "min": 1,
+      "interest": 0,
+      "growth": "40%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/advanced[\\s\\W]*license/i",
+      "target": "src/app/classes/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "40%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/blacksmith/i",
+      "target": "src/data/classes.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "40%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/dlc/i",
+      "target": "src/app/postgame/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "30%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/giants[\\s\\W]*meat/i",
+      "target": "src/data/materials.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "30%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/mounts/i",
+      "target": "src/data/mounts.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "30%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/ost/i",
+      "target": "src/app/page.tsx",
+      "min": 1,
+      "interest": 0,
+      "growth": "20%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/bertrand/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "20%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/bitter[\\s\\W]*leaves/i",
+      "target": "src/data/materials.json",
+      "min": 1,
+      "interest": 0,
+      "growth": "20%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/wiki/i",
+      "target": "src/app/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/fabio/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/best[\\s\\W]*classes/i",
+      "target": "src/app/classes/page.tsx",
+      "min": 1,
+      "interest": 1,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/lind/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 0,
+      "growth": "10%",
+      "asOf": "2026-10-08"
+    },
+    {
+      "query": "/mu/i",
+      "target": "src/data/characters.json",
+      "min": 1,
+      "interest": 1,
+      "growth": "10%",
+      "asOf": "2026-10-08"
     }
   ],
   "pendingKeywords": [
@@ -913,8 +1249,8 @@
     },
     {
       "query": "mature blush",
-      "target": "src/data/characters.json",
-      "action": "UNVERIFIED (Breakout, +40%, search interest 0). Not present in any game data file; ambiguous whether character, item or support. No content added; pending source verification.",
+      "target": "src/data/gift-groups.json",
+      "action": "VERIFIED-REAL (Breakout, +40%->+170%, interest 0). Confirmed as a real Fortune's Weave item: the deliverable for Esmeralda's subquest 'Catching Sweetie's Eye' (Part 1, Ch.7, Dietrich route; reward Sea-Spirit Charm; source: fortunesweave.co.uk guide citing RPG Site). No standalone page: search interest ~0 and growth <300% sit below the B-tier new-page threshold, so intent folds to /sidequests. Kept monitored.",
       "interest": 0,
       "growth": "40%"
     },
@@ -1000,7 +1336,14 @@
       "interest": 0,
       "growth": "20%",
       "reason": "Off-entity: TV Tropes is a different website, not Fortune's Weave game content. The site does not cover third-party trope databases; out of scope."
+    },
+    {
+      "query": "the hunt for giscos treasure",
+      "interest": 0,
+      "growth": "60%",
+      "reason": "Unverified: no Fortune's Weave source (official fortunesweave.co.uk guide, site data files, web search) confirms a Giscos entity; likely cross-entity or misheard query. No content added; excluded from active tracking. Re-evaluate if a second independent source surfaces."
     }
   ],
-  "decisionLog": "{\"week\":\"2026-09-23 to 2026-09-30\",\"sources\":[\"searched_with_rising-searches_queries_US_20260923-1106_20260930-1106.csv\",\"searched_with_top-searches_queries_US_20260923-1106_20260930-1106.csv\"],\"rowsParsed\":100,\"uniqueQueries\":84,\"tierCounts\":{\"newPage\":1,\"enforced\":9,\"absorb\":71,\"rejected\":4},\"entityPrecheck\":\"Every row names this game except fire emblem three houses, fire emblem, switch 2 and nintendo, which are recorded under rejectedKeywords because they are a different game, a series, a platform or a publisher.\",\"newPages\":1,\"newPagesThisWeek\":[{\"path\":\"/sidequests/legacy-of-a-legendary-sculptor/\",\"query\":\"fire emblem fortune's weave legacy of a legendary sculptor\",\"interest\":0,\"growth\":\"Breakout\",\"why\":\"The only row this week that is both new and answerable with two independent sources: Polygon and Raider King agree on all four statue locations, on the riddle structure and on the quest being route-specific. Competitors answer this query with a dedicated page each, and the site held only a single deadline-list row, so a page was the smallest honest response that matches the search intent.\"}],\"absorbedThisWeek\":[{\"query\":\"fortune's weave spell list\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/weapons/page.tsx\",\"action\":\"Added a spell list section that groups the fourteen recorded spells by school and states the range and use-count rules; both the Fortune's Weave and the Fire Emblem: Fortune's Weave variants are enforced.\"},{\"query\":\"fortune's weave tier list\",\"interest\":1,\"growth\":\"150%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"The quick-answer paragraph now names the Fortune's Weave tier list phrasing next to the existing character tier list phrasing, and says why the page records roles instead of ranks.\"},{\"query\":\"fire emblem fortune's weave mounts\",\"interest\":1,\"growth\":\"450%\",\"target\":\"src/app/mounts/page.tsx\",\"action\":\"The capture FAQ now states that mounts sit inside one lord's route rather than being party-wide, which is the question the mounts query actually asks.\"},{\"query\":\"fire emblem fortune's weave giants meat\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Giants' Meat already had a row; the enforced phrase now tolerates the apostrophe form the query drops.\"},{\"query\":\"fortune's weave paradise fish\",\"interest\":1,\"growth\":\"350%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Paradise Fish moved from having no recorded use to having two recorded ones: the Ninae recruitment request and the Lake Brontes search points, with a link to the new quest guide.\"},{\"query\":\"fortune's weave missing master\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Added the Fortune's Weave Missing Master phrasing variant of an entry that was already enforced under the Fire Emblem prefix.\"},{\"query\":\"fortune's weave secret altar\",\"interest\":0,\"growth\":\"300%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Recorded as published: the Secret Altar is already named in the subquest prose, so no new wording was forced.\"},{\"query\":\"fire emblem fortune's weave mu\",\"interest\":1,\"growth\":\"140%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"Recorded as published: Mu holds a character row and two recruitment rows (support 3 with Renown 8 as Cai), so the query resolves to an existing page.\"}],\"rejected\":[{\"query\":\"fire emblem three houses\",\"interest\":1,\"growth\":\"-40%\",\"reason\":\"Different game entity.\"},{\"query\":\"fire emblem\",\"interest\":94,\"growth\":\"-10%\",\"reason\":\"Series-level query, not this game.\"},{\"query\":\"switch 2\",\"interest\":2,\"growth\":\"-60%\",\"reason\":\"Hardware query.\"},{\"query\":\"nintendo\",\"interest\":1,\"growth\":\"-70%\",\"reason\":\"Publisher query.\"}],\"unverifiedNotes\":\"Growth percentages come from the weekly Google Trends export and are not game facts; they only rank intent. Previous pending entries that were not searched for this week were dropped from the pending list rather than carried forward silently.\"}\n\n[2026-10-01] Breakout review: 50 rising queries mapped to existing hubs (characters/materials/weapons/paralogues/classes/mounts/map/sidequests/systems). No new standalone pages created - all fold to avoid thin/duplicate content. Genuine gaps (yuna mei, spell list, tier list, perfect bird time, best class for each character) recorded in pendingKeywords; yuna mei (600%) flagged for source verification before any content addition. [2026-10-03] Breakout re-review (window 2026-10-02 to 2026-10-03, largely overlapping the prior week's export): breakout items re-evaluated. 'fire emblem fortune's weave gameplay' (Breakout, entity-matched, no holistic page existed) -> NEW PAGE /gameplay/ built, covering Free Time + Main Battle + Clash + Blaze Arts + certification + beginner tips, all sourced from existing verified site data. 'switch 2 emulator' (Breakout) -> REJECTED as off-entity emulation/piracy. 'fire emblem fortune's weave pc' (50%) -> REJECTED as speculative (Switch 2 exclusive, no PC version; a standalone page would be a disclaimer page, which the skill forbids). 'best classes for each character' (Breakout) -> kept pending, served by /tools/class-planner + /classes. 'new game plus' (Breakout) -> covered on /postgame/. Other new-ish items: collector's edition (160%) = GENUINE GAP pending source; voice actors (20%) = C-tier absorb (no VA data in characters.json); review (-3%) = C-tier absorb; release date (7%) = C-tier absorb; yuna mei (150%) still GENUINE GAP pending source verification. Net new standalone page this run: 1 (/gameplay/). [2026-10-05] Breakout review (window 2026-09-28 to 2026-10-05, Worldwide geo): re-evaluated every rising query against existing coverage. NO new standalone pages built this week. Term-by-term: legacy of a legendary sculptor (+150%) -> already has dedicated /sidequests/legacy-of-a-legendary-sculptor/ page from the 2026-09-30 run, still served; sandworm meat (+250%), levin sword (+30%), spell list (+80%), mounts (+40%), giants meat, and all character names (mu, solel, dante, glirmosa, maria, lind, alexandra, theodora, dietrich, leda, cai) -> absorbed into existing hubs/rows, no new page. advanced license (+60%) -> absorbed: added explicit Advanced License phrasing plus a per-character pointer to /tools/class-planner on /classes/, and enforced the phrase in trend-keywords.json. best class for each character (+40%) -> kept pending, served by /classes plus /tools/class-planner. part 2 (+40%) -> WATCH/ambiguous: no official second installment in source-checked data, likely sequel speculation; no page built (would be a disclaimer page). lazanibata (+350%, interest 0) and mature blush (+40%, interest 0) -> UNVERIFIED: absent from all game data files and no two independent sources; no content added under the no-guessing policy, recorded pending source verification. yuna mei (+30%) still GENUINE GAP pending source. Net new standalone pages this week: 0.[2026-10-06] Breakout review (window 2026-09-29 to 2026-10-06, US geo; overlaps the 2026-10-05 Worldwide window). Re-evaluated every rising query against existing coverage. NO new standalone pages built this week, consistent with the prior three weeks. The breakout (rising) list is dominated by already-covered entities: legacy of a legendary sculptor (+250%) already has /sidequests/legacy-of-a-legendary-sculptor/; sandworm meat (+200%), paradise fish, giants meat, spell list, mounts, advanced license, all character names (cai/leda/dietrich/theodora/glirmosa/bertrand/fabio/yuna mei/alexandra/lind/mu), tier list, best class for each character, uncharted isle, recruitment guide, blacksmith, levin sword, bitter leaves, wonder leaves -> all absorbed into existing hubs/rows. Genuinely new items this week: desert map (+80%, interest 0) -> UNVERIFIED (no desert in source-checked location data; no two independent sources; pending source under no-guessing); dlc (+20%, interest 1) -> WATCH/ambiguous (no DLC announced; a DLC page would be a disclaimer page, forbidden); growth rates (+30%) -> C-tier absorb (already on /characters). Off-entity rejections: shop deals on game (+80%, commercial buy-game query, off editorial scope), wiki (+20%, self-referential navigational), tv tropes (+20%, different website). Rationale for no new breakout pages: (1) near-zero absolute search interest (0-4 on the relative 0-100 scale) puts expected incremental clicks far below the 20/month value gate; (2) nearly every breakout term is already served by an existing hub or dedicated page; (3) the few uncovered terms either lack a verified source (fabrication risk on a zero-fabrication site) or are speculative/disclaimer-risky (dlc). Net new standalone pages this week: 0."
+  "decisionLog": "{\"week\":\"2026-09-23 to 2026-09-30\",\"sources\":[\"searched_with_rising-searches_queries_US_20260923-1106_20260930-1106.csv\",\"searched_with_top-searches_queries_US_20260923-1106_20260930-1106.csv\"],\"rowsParsed\":100,\"uniqueQueries\":84,\"tierCounts\":{\"newPage\":1,\"enforced\":9,\"absorb\":71,\"rejected\":4},\"entityPrecheck\":\"Every row names this game except fire emblem three houses, fire emblem, switch 2 and nintendo, which are recorded under rejectedKeywords because they are a different game, a series, a platform or a publisher.\",\"newPages\":1,\"newPagesThisWeek\":[{\"path\":\"/sidequests/legacy-of-a-legendary-sculptor/\",\"query\":\"fire emblem fortune's weave legacy of a legendary sculptor\",\"interest\":0,\"growth\":\"Breakout\",\"why\":\"The only row this week that is both new and answerable with two independent sources: Polygon and Raider King agree on all four statue locations, on the riddle structure and on the quest being route-specific. Competitors answer this query with a dedicated page each, and the site held only a single deadline-list row, so a page was the smallest honest response that matches the search intent.\"}],\"absorbedThisWeek\":[{\"query\":\"fortune's weave spell list\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/weapons/page.tsx\",\"action\":\"Added a spell list section that groups the fourteen recorded spells by school and states the range and use-count rules; both the Fortune's Weave and the Fire Emblem: Fortune's Weave variants are enforced.\"},{\"query\":\"fortune's weave tier list\",\"interest\":1,\"growth\":\"150%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"The quick-answer paragraph now names the Fortune's Weave tier list phrasing next to the existing character tier list phrasing, and says why the page records roles instead of ranks.\"},{\"query\":\"fire emblem fortune's weave mounts\",\"interest\":1,\"growth\":\"450%\",\"target\":\"src/app/mounts/page.tsx\",\"action\":\"The capture FAQ now states that mounts sit inside one lord's route rather than being party-wide, which is the question the mounts query actually asks.\"},{\"query\":\"fire emblem fortune's weave giants meat\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Giants' Meat already had a row; the enforced phrase now tolerates the apostrophe form the query drops.\"},{\"query\":\"fortune's weave paradise fish\",\"interest\":1,\"growth\":\"350%\",\"target\":\"src/app/materials/page.tsx\",\"action\":\"Paradise Fish moved from having no recorded use to having two recorded ones: the Ninae recruitment request and the Lake Brontes search points, with a link to the new quest guide.\"},{\"query\":\"fortune's weave missing master\",\"interest\":0,\"growth\":\"450%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Added the Fortune's Weave Missing Master phrasing variant of an entry that was already enforced under the Fire Emblem prefix.\"},{\"query\":\"fortune's weave secret altar\",\"interest\":0,\"growth\":\"300%\",\"target\":\"src/app/sidequests/page.tsx\",\"action\":\"Recorded as published: the Secret Altar is already named in the subquest prose, so no new wording was forced.\"},{\"query\":\"fire emblem fortune's weave mu\",\"interest\":1,\"growth\":\"140%\",\"target\":\"src/app/characters/page.tsx\",\"action\":\"Recorded as published: Mu holds a character row and two recruitment rows (support 3 with Renown 8 as Cai), so the query resolves to an existing page.\"}],\"rejected\":[{\"query\":\"fire emblem three houses\",\"interest\":1,\"growth\":\"-40%\",\"reason\":\"Different game entity.\"},{\"query\":\"fire emblem\",\"interest\":94,\"growth\":\"-10%\",\"reason\":\"Series-level query, not this game.\"},{\"query\":\"switch 2\",\"interest\":2,\"growth\":\"-60%\",\"reason\":\"Hardware query.\"},{\"query\":\"nintendo\",\"interest\":1,\"growth\":\"-70%\",\"reason\":\"Publisher query.\"}],\"unverifiedNotes\":\"Growth percentages come from the weekly Google Trends export and are not game facts; they only rank intent. Previous pending entries that were not searched for this week were dropped from the pending list rather than carried forward silently.\"}\n\n[2026-10-01] Breakout review: 50 rising queries mapped to existing hubs (characters/materials/weapons/paralogues/classes/mounts/map/sidequests/systems). No new standalone pages created - all fold to avoid thin/duplicate content. Genuine gaps (yuna mei, spell list, tier list, perfect bird time, best class for each character) recorded in pendingKeywords; yuna mei (600%) flagged for source verification before any content addition. [2026-10-03] Breakout re-review (window 2026-10-02 to 2026-10-03, largely overlapping the prior week's export): breakout items re-evaluated. 'fire emblem fortune's weave gameplay' (Breakout, entity-matched, no holistic page existed) -> NEW PAGE /gameplay/ built, covering Free Time + Main Battle + Clash + Blaze Arts + certification + beginner tips, all sourced from existing verified site data. 'switch 2 emulator' (Breakout) -> REJECTED as off-entity emulation/piracy. 'fire emblem fortune's weave pc' (50%) -> REJECTED as speculative (Switch 2 exclusive, no PC version; a standalone page would be a disclaimer page, which the skill forbids). 'best classes for each character' (Breakout) -> kept pending, served by /tools/class-planner + /classes. 'new game plus' (Breakout) -> covered on /postgame/. Other new-ish items: collector's edition (160%) = GENUINE GAP pending source; voice actors (20%) = C-tier absorb (no VA data in characters.json); review (-3%) = C-tier absorb; release date (7%) = C-tier absorb; yuna mei (150%) still GENUINE GAP pending source verification. Net new standalone page this run: 1 (/gameplay/). [2026-10-05] Breakout review (window 2026-09-28 to 2026-10-05, Worldwide geo): re-evaluated every rising query against existing coverage. NO new standalone pages built this week. Term-by-term: legacy of a legendary sculptor (+150%) -> already has dedicated /sidequests/legacy-of-a-legendary-sculptor/ page from the 2026-09-30 run, still served; sandworm meat (+250%), levin sword (+30%), spell list (+80%), mounts (+40%), giants meat, and all character names (mu, solel, dante, glirmosa, maria, lind, alexandra, theodora, dietrich, leda, cai) -> absorbed into existing hubs/rows, no new page. advanced license (+60%) -> absorbed: added explicit Advanced License phrasing plus a per-character pointer to /tools/class-planner on /classes/, and enforced the phrase in trend-keywords.json. best class for each character (+40%) -> kept pending, served by /classes plus /tools/class-planner. part 2 (+40%) -> WATCH/ambiguous: no official second installment in source-checked data, likely sequel speculation; no page built (would be a disclaimer page). lazanibata (+350%, interest 0) and mature blush (+40%, interest 0) -> UNVERIFIED: absent from all game data files and no two independent sources; no content added under the no-guessing policy, recorded pending source verification. yuna mei (+30%) still GENUINE GAP pending source. Net new standalone pages this week: 0.[2026-10-06] Breakout review (window 2026-09-29 to 2026-10-06, US geo; overlaps the 2026-10-05 Worldwide window). Re-evaluated every rising query against existing coverage. NO new standalone pages built this week, consistent with the prior three weeks. The breakout (rising) list is dominated by already-covered entities: legacy of a legendary sculptor (+250%) already has /sidequests/legacy-of-a-legendary-sculptor/; sandworm meat (+200%), paradise fish, giants meat, spell list, mounts, advanced license, all character names (cai/leda/dietrich/theodora/glirmosa/bertrand/fabio/yuna mei/alexandra/lind/mu), tier list, best class for each character, uncharted isle, recruitment guide, blacksmith, levin sword, bitter leaves, wonder leaves -> all absorbed into existing hubs/rows. Genuinely new items this week: desert map (+80%, interest 0) -> UNVERIFIED (no desert in source-checked location data; no two independent sources; pending source under no-guessing); dlc (+20%, interest 1) -> WATCH/ambiguous (no DLC announced; a DLC page would be a disclaimer page, forbidden); growth rates (+30%) -> C-tier absorb (already on /characters). Off-entity rejections: shop deals on game (+80%, commercial buy-game query, off editorial scope), wiki (+20%, self-referential navigational), tv tropes (+20%, different website). Rationale for no new breakout pages: (1) near-zero absolute search interest (0-4 on the relative 0-100 scale) puts expected incremental clicks far below the 20/month value gate; (2) nearly every breakout term is already served by an existing hub or dedicated page; (3) the few uncovered terms either lack a verified source (fabrication risk on a zero-fabrication site) or are speculative/disclaimer-risky (dlc). Net new standalone pages this week: 0.\n2026-10-08 breakout review: all rising/breakout terms already covered by existing hubs; no new pages built, folded into existing pages. Weak signals Mature Blush (+170 percent) and The Hunt for Giscos Treasure (+60 percent) have interest near zero and growth below 300 percent, below B-tier new-page threshold, monitor-only. added=42 skipped=15 [2026-10-08] Weak-signal source verification: 'mature blush' CONFIRMED real (Esmeralda subquest 'Catching Sweetie's Eye' deliverable, Part 1 Ch.7 Dietrich, reward Sea-Spirit Charm; source fortunesweave.co.uk guide via RPG Site) -- moved UNVERIFIED->VERIFIED-REAL, no new page (interest ~0, growth <300%, below B-tier). 'the hunt for giscos treasure' REJECTED: no FW source confirms a Giscos entity (official guide, data files, web all negative); likely cross-entity/misheard; excluded from tracking, re-evaluable if a 2nd source appears.",
+  "source": "Google Trends US 2026-10-01..2026-10-08 (top + rising), user-placed CSV in update-inbox"
 }

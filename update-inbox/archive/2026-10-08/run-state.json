@@ -1,0 +1,48 @@
+{
+  "startedAt": "2026-10-08",
+  "trendsUrl": "https://trends.google.com/explore?date=now%207-d&geo=US&q=fire%20emblem%20fortune%27s%20weave",
+  "adoptedInPlaceCsv": true,
+  "fetchScriptSkipped": "user placed 2 CSVs in update-inbox; third-state rule adopts in-place CSVs",
+  "inboxBatch": [
+    "searched_with_top-searches_queries_US_20261001-0835_20261008-0835 (1).csv",
+    "searched_with_rising-searches_queries_US_20261001-0835_20261008-0835 (1).csv"
+  ],
+  "phases": {
+    "0": {
+      "status": "done",
+      "note": "config read; platform=console; in-place CSVs adopted"
+    },
+    "1": {
+      "status": "done",
+      "note": "42 new trend keywords added; breakout all covered by existing hubs; no new pages"
+    },
+    "2": {
+      "status": "done",
+      "note": "console statsRefresh=none; data files verified via audit-sources + build; no live scrape"
+    },
+    "3": {
+      "status": "done",
+      "note": "competitor quick-scan; no new high-value pages from trends"
+    },
+    "4": {
+      "status": "done",
+      "note": "build.cmd green; 41 routes; all postbuild audits passed; 0 errors"
+    },
+    "5": {
+      "status": "skipped",
+      "note": "update-config gitCommit=false; changes remain uncommitted per config"
+    },
+    "7": {
+      "status": "done",
+      "note": "CSVs archived; run-report.md written; verify-run will confirm"
+    },
+    "1.5": {
+      "status": "done",
+      "note": "console platform, no events infrastructure; N/A"
+    },
+    "3.5": {
+      "status": "done",
+      "note": "discovery + caption probe done; 6 new candidates; embedding deferred to video round"
+    }
+  }
+}

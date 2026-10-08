@@ -400,7 +400,105 @@ There is no single answer to which are the Fire Emblem: Fortune&apos;s Weave bes
           </p>
         </section>
 
-      </main>
+              {/* Video intel: T0t8u4gxKIo */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">How to Unlock BLACKSMITH CLASS in Fire Emblem: Fortune's Weave</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">T0t8u4gxKIo</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="T0t8u4gxKIo" title="How to Unlock BLACKSMITH CLASS in Fire Emblem: Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Creator walkthrough for reaching the Blacksmith class, the fastest-rising class interest in the latest trends batch.</p>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Blacksmith is a melee attacker that also casts black magic &mdash; an axe-and-magic user.</li>
+              <li>Its signature ability gives about a 10% chance to spend no weapon durability when you use a combat art.</li>
+              <li>Route-locked to Dietrich&apos;s path, but once unlocked it stays on every playthrough (load Dietrich, unlock, leave).</li>
+              <li>Unlock at Smyrnos&apos;s temple: upgrade 10 different weapons or combat arts at the temple reception; 20-cost upgrades are efficient.</li>
+              <li>Short on upgrade materials (Magic Echo Shards)? Use Dagda with Dietrich&apos;s Answerer&apos;s Cry to generate them; a carriage to low-level regions also farms renown and materials (auto-battle at high level).</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Drawn from the video&apos;s auto-generated English captions (community-reported; not verified in-game).</p>
+          </div>
+        </section>
+
+        {/* Video intel: uRdSyFfl7pc */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">How to Unlock ALL MASTER CLASSES in Fire Emblem: Fortune's Weave</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">uRdSyFfl7pc</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="uRdSyFfl7pc" title="How to Unlock ALL MASTER CLASSES in Fire Emblem: Fortune's Weave" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Walkthrough for unlocking every master class in Fortune's Weave, useful alongside the class tier reference on this page.</p>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Six master classes, each unlocked by repairing one of the six god temples.</li>
+              <li>Marth&apos;s Temple &rarr; Sword Master (needs the Lazan Ibata item).</li>
+              <li>Smyrnos&apos;s Temple &rarr; the top-tier master class (needs an Alamet item, found south at Dew Bridge).</li>
+              <li>Aurora&apos;s Temple &rarr; War Monk (needs a Blue Gem plus five Angelica; gather at Pale Raven&apos;s Perch or Starbirth Garden).</li>
+              <li>Kalla&apos;s Temple &rarr; Bow Knight. Credna&apos;s Temple &rarr; Great Knight. Jurah&apos;s Temple &rarr; Valkyrium (learn a spell first).</li>
+              <li>Beyond master there is a divine tier; you can also challenge each god in a class battle for their special item.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Drawn from the video&apos;s auto-generated English captions (community-reported; not verified in-game).</p>
+          </div>
+        </section>
+
+        {/* Video intel: _yDRqg5qo5M */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">EVERY CLASS BREAKDOWN in Fire Emblem: Fortune's Weave (All 58 Classes)</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">_yDRqg5qo5M</span>
+            </div>
+          </div>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="_yDRqg5qo5M" title="EVERY CLASS BREAKDOWN in Fire Emblem: Fortune's Weave (All 58 Classes)" />
+          </div>
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">Full breakdown of all 58 classes recorded for Fortune's Weave, a broad companion to the tier and exam guidance here.</p>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Walks through all 58 recorded classes and the stat gains each one grants.</li>
+              <li>Beginner standout: the Ornery Rider gives the highest beginner stat gain (the creator cites roughly 35 above the rest); the Diviner is the caster-focused beginner.</li>
+              <li>Specialty casters (Shaman, Archer, Priest, Pugilist) reach 350+ total stat gain; Pugilist&apos;s gain is called especially strong.</li>
+              <li>Master classes grant about 70+ total stats, with speed around +20.</li>
+              <li>Some classes are gender-locked (girls only).</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Drawn from the video&apos;s auto-generated English captions (community-reported; not verified in-game). Class names follow the creator&apos;s wording.</p>
+          </div>
+        </section>
+
+
+</main>
     </>
   );
 }
