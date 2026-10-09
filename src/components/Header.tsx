@@ -4,13 +4,15 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { getGameConfig } from '@/lib/data';
+import dynamic from 'next/dynamic';
 import {
   getHeaderGroups,
   getHeaderTopLinks,
   getAllNavLinks,
   type NavGroup,
 } from '@/lib/nav';
-import SearchModal from '@/components/SearchModal';
+
+const SearchModal = dynamic(() => import('@/components/SearchModal'), { ssr: false });
 
 /**
  * Header —— 导航单一事实源驱动。
@@ -440,7 +442,7 @@ export default function Header() {
       )}
 
       {/* Global Command Palette Modal */}
-      <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      {searchOpen && <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />}
     </>
   );
 }

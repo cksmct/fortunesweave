@@ -52,8 +52,8 @@ export default function HeroMediaFacade({
           <div className="relative h-full w-full">
             {/* LCP Responsive WebP Image (Bans picture tag per og-hero-image-audit) */}
             <img
-              srcSet="/images/trailer-final-sm.webp 384w, /images/trailer-final-mobile.webp 480w, /images/trailer-final-md.webp 720w, /images/trailer-final.webp 1080w"
-              sizes="(max-width: 480px) 384px, (max-width: 640px) 480px, (max-width: 1024px) 50vw, 560px"
+              srcSet="/images/trailer-final-mobile.webp 480w, /images/trailer-final-sm.webp 580w, /images/trailer-final-md.webp 720w, /images/trailer-final.webp 1080w"
+              sizes="(max-width: 640px) 360px, (max-width: 1024px) 50vw, 560px"
               src="/images/trailer-final-sm.webp"
               alt="Fire Emblem: Fortune's Weave Official Reveal Key Artwork"
               width={1080}
