@@ -3,6 +3,7 @@ import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import HeroMediaFacade from "@/components/HeroMediaFacade";
 import NativeBannerAd from "@/components/NativeBannerAd";
+import OfficialTrailerGallery from "@/components/OfficialTrailerGallery";
 import { JsonLd } from "@/components/JsonLd";
 import { getGameConfig } from "@/lib/data";
 import {
@@ -58,6 +59,8 @@ const FLAME_LORDS = [
     chapters: "12 Chapters + Shared War Act",
     focus: "Offensive Melee & Blaze Scaling",
     badge: "Aggressive",
+    image: "/images/characters/cai-art.webp",
+    imageSm: "/images/characters/cai-art-sm.webp",
   },
   {
     name: "Dietrich",
@@ -66,6 +69,8 @@ const FLAME_LORDS = [
     chapters: "12 Chapters + Shared War Act",
     focus: "Defense Formations & Shield Ranks",
     badge: "Defensive",
+    image: "/images/characters/dietrich-art.webp",
+    imageSm: "/images/characters/dietrich-art-sm.webp",
   },
   {
     name: "Theodora",
@@ -74,6 +79,8 @@ const FLAME_LORDS = [
     chapters: "12 Chapters + Shared War Act",
     focus: "Negotiations & Renown Ranks",
     badge: "Tactical",
+    image: "/images/characters/theodora-art.webp",
+    imageSm: "/images/characters/theodora-art-sm.webp",
   },
   {
     name: "Leda",
@@ -82,6 +89,8 @@ const FLAME_LORDS = [
     chapters: "12 Chapters + Shared War Act",
     focus: "Occult Spells & Paralogue Keys",
     badge: "Arcane",
+    image: "/images/characters/leda-art.webp",
+    imageSm: "/images/characters/leda-art-sm.webp",
   },
 ];
 
@@ -303,7 +312,7 @@ export default function HomePage() {
             {FLAME_LORDS.map((lord) => (
               <div
                 key={lord.name}
-                className="tactical-card p-5 flex flex-col justify-between group hover:border-[#d3b475]/60"
+                className="tactical-card p-4 sm:p-5 flex flex-col justify-between group hover:border-[#d3b475]/60 transition-all duration-300"
               >
                 <div>
                   <div className="flex items-center justify-between mb-3">
@@ -312,6 +321,24 @@ export default function HomePage() {
                     </span>
                     <span className="text-xs font-semibold text-[#bbc1cf] font-mono">Flame Lord</span>
                   </div>
+
+                  {/* Official Character Artwork Showcase */}
+                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-lg mb-3.5 bg-[#0f1420] border border-white/10 group-hover:border-[#d3b475]/40 transition-colors">
+                    <picture>
+                      <source media="(max-width: 640px)" srcSet={lord.imageSm} type="image/webp" />
+                      <img
+                        src={lord.image}
+                        alt={`Official artwork of ${lord.name}, ${lord.title}`}
+                        width={640}
+                        height={400}
+                        loading="lazy"
+                        decoding="async"
+                        className="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-105"
+                      />
+                    </picture>
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#1b2130] via-black/10 to-transparent" />
+                  </div>
+
                   <h3 className="text-xl font-bold text-[#f5f1eb] group-hover:text-[#d3b475] transition-colors">
                     {lord.name}
                   </h3>
@@ -482,22 +509,52 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Section: Official Broadcasts & Nintendo Switch 2 Trailers */}
+        <section className="space-y-6">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 border-b border-white/[0.08] pb-4">
+            <div>
+              <span className="tag-brass mb-2">Official Archives</span>
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#f5f1eb] tracking-tight">
+                Official Broadcasts &amp; Nintendo Switch 2 Trailers
+              </h2>
+            </div>
+            <p className="text-xs text-[#bbc1cf] max-w-md">
+              Six official trailers and television spots released by Nintendo for the Heroic Games in Dagsion.
+            </p>
+          </div>
+
+          <OfficialTrailerGallery />
+        </section>
+
         {/* Section 5: Current Version Banner */}
         <section className="tactical-card p-6 border-l-4 border-l-[#d3b475] bg-gradient-to-r from-[#1b2130] to-[#121824] flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div className="space-y-1.5">
-            <div className="flex items-center gap-2">
-              <span className="glow-dot-gold" />
-              <span className="text-xs font-bold uppercase tracking-wider text-[#d3b475]">
-                Version Invariant
-              </span>
+          <div className="flex items-center gap-5">
+            <div className="hidden sm:block shrink-0 w-16 h-24 relative rounded overflow-hidden border border-white/20 shadow-md bg-black/40">
+              <img
+                src="/images/official/switch2-package-sm.webp"
+                alt="Nintendo Switch 2 Physical Game Package"
+                width={120}
+                height={180}
+                loading="lazy"
+                decoding="async"
+                className="h-full w-full object-contain"
+              />
             </div>
-            <h3 className="text-lg font-bold text-[#f5f1eb]">
-              Written against Version {config.game.currentVersion}
-            </h3>
-            <p className="text-xs text-[#bbc1cf] max-w-xl">
-              Latest tracked update: <strong className="text-[#f5f1eb]">{latest.title}</strong> (
-              {latest.date}) — {latest.headline}. Full patch chronology is maintained on the timeline.
-            </p>
+            <div className="space-y-1.5">
+              <div className="flex items-center gap-2">
+                <span className="glow-dot-gold" />
+                <span className="text-xs font-bold uppercase tracking-wider text-[#d3b475]">
+                  Nintendo Switch 2 Exclusive · Version Invariant
+                </span>
+              </div>
+              <h3 className="text-lg font-bold text-[#f5f1eb]">
+                Written against Version {config.game.currentVersion}
+              </h3>
+              <p className="text-xs text-[#bbc1cf] max-w-xl">
+                Latest tracked update: <strong className="text-[#f5f1eb]">{latest.title}</strong> (
+                {latest.date}) — {latest.headline}. Full patch chronology is maintained on the timeline.
+              </p>
+            </div>
           </div>
           <Link href="/updates/" className="btn-brass whitespace-nowrap shrink-0">
             View Patch Timeline

@@ -3,6 +3,7 @@ import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import NativeBannerAd from "@/components/NativeBannerAd";
 import YouTubeEmbed from "@/components/YouTubeEmbed";
+import TacticalFigure from "@/components/TacticalFigure";
 import { JsonLd } from "@/components/JsonLd";
 import { buildBreadcrumbSchema, generateFAQSchema, generateSEOMetadata } from "@/lib/seo";
 
@@ -112,6 +113,25 @@ export default function GameplayPage() {
             Points. Both systems draw on the same stats and class kit, so a unit strong in one tends to
             pull its weight in the other.
           </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+            <TacticalFigure
+              src="/images/gameplay/tactical-grid-battle.webp"
+              srcSm="/images/gameplay/tactical-grid-battle-sm.webp"
+              alt="Fire Emblem Fortune's Weave tactical grid combat and battle field deployment"
+              badge="TACTICAL GRID"
+              title="Main Tactical Grid Deployment"
+              caption="Positioning units across elevation and cover tiles in Dagsion's arena maps to trigger weapon advantage bonuses."
+            />
+            <TacticalFigure
+              src="/images/gameplay/tactical-positioning-clash.webp"
+              srcSm="/images/gameplay/tactical-positioning-clash-sm.webp"
+              alt="Fire Emblem Fortune's Weave party-based Clash dungeon combat mode"
+              badge="CLASH SYSTEM"
+              title="Shared-HP Clash Encounters"
+              caption="Dungeon skirmishes where all deployed allies share a unified health reserve, emphasizing Link Point coordination."
+            />
+          </div>
         </section>
 
         <section className="space-y-4">
@@ -125,6 +145,15 @@ export default function GameplayPage() {
             maximum HP in half for the rest of the battle. The trade is deliberate, which is why they
             are best saved for turns where the burst in damage is worth the survivability cost.
           </p>
+
+          <TacticalFigure
+            src="/images/gameplay/tactical-blaze-meter.webp"
+            srcSm="/images/gameplay/tactical-blaze-meter-sm.webp"
+            alt="Fire Emblem Fortune's Weave Blaze Arts gauge and Overblaze offensive bursts"
+            badge="BLAZE ARTS"
+            title="Blaze Meter & Overblaze Thresholds"
+            caption="Sacrificing vital unit HP to fuel lethal combat arts. Achieving 50% meter activates Overblaze state for immediate burst damage."
+          />
         </section>
 
         <section className="space-y-4">
