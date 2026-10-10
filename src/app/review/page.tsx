@@ -279,6 +279,42 @@ export default function ReviewPage() {
           </p>
         </section>
 
+        {/* Video intel: GATHznD5yYo — Arlo — verified English captions — transcribed 2026-10-10 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Early impressions from a Three Houses fan</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Arlo</span> &middot;{" "}
+              <span className="font-mono">GATHznD5yYo</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="GATHznD5yYo" title="Fire Emblem: Fortune's Weave Is TOO MUCH" />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Arlo (review copy from Nintendo) shares hands-on early thoughts rather than a full review. He argues the four story paths that converge into one file are a big step up from Three Houses&apos; single locked house, and that the avatar is no longer the lone protagonist — each of the four leads gets their own focus. He likes the more open, free-flowing hub with limited &quot;turns&quot; between story battles and the separate world-map mode, but finds the real-time dungeons and clash battles lightweight (auto-battle clears them). The tone is &quot;too much game&quot; in a positive sense.
+          </p>
+
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Four separate story paths that all converge, versus Three Houses&apos; one locked house.</li>
+              <li>The avatar is not the sole main character; each of the four leads drives their own arc.</li>
+              <li>A more open hub with a limited number of &quot;turns&quot; spent between story battles, plus a distinct world-map exploration mode.</li>
+              <li>Real-time dungeons and clash battles are deliberately simple supplements to the tactical combat, not a replacement.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Drawn from the video&apos;s auto-generated English captions (community-reported; not verified in-game).</p>
+          </div>
+        </section>
+
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Frequently asked questions

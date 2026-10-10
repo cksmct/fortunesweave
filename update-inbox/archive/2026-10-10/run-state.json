@@ -1,0 +1,25 @@
+{
+  "runId": "2026-10-10-fortunesweave",
+  "inboxBatch": [
+    "searched_with_top-searches_queries_US_20261003-0825_20261010-0825.csv",
+    "searched_with_rising-searches_queries_US_20261003-0825_20261010-0825.csv"
+  ],
+  "inboxHash": "manual-user-placed-2026-10-10",
+  "startedAt": "2026-10-10",
+  "forceRerun": false,
+  "skipTrends": false,
+  "gamePlatform": "console",
+  "siteDomain": "fortunesweave.online",
+  "phases": {
+    "0": { "status": "done" },
+    "1": { "status": "done" },
+    "1.5": { "status": "skipped", "note": "console game (Nintendo Switch 2): events.autoDetect=false; no virtual-events API exists for this title, so event scaffolding is disabled on purpose." },
+    "2": { "status": "skipped", "note": "console platform has no live stats endpoint; statsRefresh=none and statsTarget is empty by design. Nothing to scrape; data-drift audit ran inside the build (postbuild) and passed." },
+    "3": { "status": "skipped", "note": "web_search tool is unavailable in this agent environment, so live competitor discovery could not run this round. Existing 13 competitor profiles in competitor-profiles/ remain the baseline; no new competitor-driven pages built (consistent with the value gate)." },
+    "3.5": { "status": "partial", "note": "3.5a media-integrity audit ran and PASSED inside the build (all YouTube embeds on /weapons and OfficialTrailerGallery verified real via oEmbed, 0 dead/forged/mismatched). 3.5b discovery + 3.5c transcription were NOT executed this round: scope was focused on the Trends/breakout evaluation the user explicitly requested, and gitCommit=false means no commit would land. Can be triggered as a dedicated video-enrichment run." },
+    "4": { "status": "done" },
+    "5": { "status": "skipped", "note": "gitCommit=false and gitPush=false per update-config.json; no commit/push/IndexNow this round. .run-state.json is excluded from commit regardless." },
+    "6": { "status": "done" },
+    "7": { "status": "done" }
+  }
+}

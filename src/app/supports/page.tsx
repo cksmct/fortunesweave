@@ -390,6 +390,42 @@ Fire Emblem: Fortune&apos;s Weave supports run on two different gates rather tha
           </p>
         </section>
 
+        {/* Video intel: CC2D3SqYEg4 — Faerghast — verified English captions — transcribed 2026-10-10 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">The support bonuses the game never points out</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Faerghast</span> &middot;{" "}
+              <span className="font-mono">CC2D3SqYEg4</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="CC2D3SqYEg4" title="The HIDDEN Stat Bonuses That Fortune's Weave Does Not Talk About AT ALL.(No Story Spoilers Guide)" />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Faerghast walks through the passive &quot;communication&quot; bonuses (the game&apos;s term for support bonuses) that the combat forecast interface tends to hide. Nearby allied units receive passive hit and dodge reinforcements from support, earned by eating together, watching performances, and fighting; the connection level caps at five and rises through those shared activities, and paired units that share support dialogue unlock chain bonuses. The creator illustrates the mechanic with comparisons to earlier series entries, so treat the Fortune&apos;s Weave specifics as his reading.
+          </p>
+
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Support (called &quot;communication&quot; bonuses in-game) grant passive hit and dodge boosts to nearby allies.</li>
+              <li>They rise by eating together, watching plays, and fighting; the connection level caps at five.</li>
+              <li>Paired units that share support dialogue unlock chain bonuses — mutually exclusive buffs shared between the pair.</li>
+              <li>The combat forecast interface hides these, so players from other Fire Emblem titles often miss them.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Drawn from the video&apos;s auto-generated English captions (community-reported; not verified in-game).</p>
+          </div>
+        </section>
+
       </main>
     </>
   );

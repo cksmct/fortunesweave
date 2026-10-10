@@ -332,6 +332,42 @@ export default function SystemsPage() {
           </p>
         </section>
 
+        {/* Video intel: RuYjd_IshFU — Jay Dunna — verified English captions — transcribed 2026-10-10 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">Stack unit stats across routes for free</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">RuYjd_IshFU</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="RuYjd_IshFU" title="MERGE STATS FOR FREE in Fire Emblem: Fortune's Weave" />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Jay Dunna shows a route-merge trick that adds roughly 20 to 30 stats to a unit without spending karmic shards. Clear part one for the units you want to merge, reach the part-two obelisk and finish it with one character (he suggests Theodora, who stays relevant), let the others auto-level, push into part three, then replay part two on a second character so the skipped save state layers the extra stats on top. It never overwrites a stat that was already higher on a prior route, and the karmic-shard shop is left for items.
+          </p>
+
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Finish part one for each unit you want to merge; you do not need to clear every route.</li>
+              <li>Reach the part-two obelisk, finish it once (Theodora recommended), and let the other lords auto-level.</li>
+              <li>Enter part three, then replay part two on a second character so the skipped save adds the extra stats.</li>
+              <li>The boost layers on top of existing stats and never reduces a stat that was already higher; karmic shards are saved for the item shop.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Drawn from the video&apos;s auto-generated English captions (community-reported; not verified in-game).</p>
+          </div>
+        </section>
+
       </main>
     </>
   );

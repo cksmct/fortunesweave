@@ -7,12 +7,12 @@
  */
 
 export const PAGE_DATES: Record<string, string> = {
-  '/': '2026-10-09',
+  '/': '2026-10-10',
   '/about': '2026-09-28',
-  '/activities': '2026-10-03',
+  '/activities': '2026-10-10',
   '/battalions': '2026-09-30',
   '/boons': '2026-09-30',
-  '/characters': '2026-10-01',
+  '/characters': '2026-10-10',
   '/classes': '2026-10-08',
   '/contact': '2026-09-28',
   '/crests': '2026-09-30',
@@ -31,12 +31,12 @@ export const PAGE_DATES: Record<string, string> = {
   '/paralogues': '2026-10-06',
   '/postgame': '2026-10-06',
   '/privacy': '2026-10-05',
-  '/review': '2026-10-05',
+  '/review': '2026-10-10',
   '/sidequests': '2026-09-30',
   '/sidequests/[slug]': '2026-09-30',
-  '/supports': '2026-10-05',
-  '/systems': '2026-10-05',
-  '/talents': '2026-09-30',
+  '/supports': '2026-10-10',
+  '/systems': '2026-10-10',
+  '/talents': '2026-10-10',
   '/terms': '2026-09-28',
   '/tools/bird-time': '2026-09-30',
   '/tools/class-planner': '2026-09-30',
@@ -47,7 +47,7 @@ export const PAGE_DATES: Record<string, string> = {
   '/tools/support-matrix': '2026-09-30',
   '/updates': '2026-09-30',
   '/walkthrough': '2026-10-01',
-  '/weapons': '2026-10-01',
+  '/weapons': '2026-10-10',
 };
 
 /** 返回 ISO 日期（YYYY-MM-DD）；未知路由回退到站点基线日期，绝不回退到“今天”。 */

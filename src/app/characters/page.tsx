@@ -424,6 +424,42 @@ The Fire Emblem: Fortune&apos;s Weave characters on this page are grouped by the
           </p>
         </section>
 
+        {/* Video intel: tZuC4wKF9qg — Jay Dunna — verified English captions — transcribed 2026-10-10 */}
+        <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">A spoiler-free tier list of every character</h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">tZuC4wKF9qg</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed videoId="tZuC4wKF9qg" title="EVERY CHARACTER RANKED in Fire Emblem: Fortune's Weave (Tier List)" />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Jay Dunna ranks all recorded characters from best to worst using their part-one appearances, after a hard-mode clear with no spoilers. The ranking leans on base stat totals and per-character abilities more than the raw totals alone — he notes some units with very high totals underperform, and that RNG can skew individual level-ups. The useful takeaway is which lords have extreme stat outliers and how affinity and route choice reshape a unit.
+          </p>
+
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>The list is built on part-one stats and a hard-mode playthrough, not endgame spoilers.</li>
+              <li>Base stat total is not destiny: a few units with the highest totals underperform, and RNG can swing individual level-ups.</li>
+              <li>The four lords are compared on where their stats cluster (one balanced, one speed-focused, one magic-leaning, and so on).</li>
+              <li>Route choice and class change matter more than the headline tier for most recruits.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Drawn from the video&apos;s auto-generated English captions (community-reported; not verified in-game).</p>
+          </div>
+        </section>
+
       </main>
     </>
   );
