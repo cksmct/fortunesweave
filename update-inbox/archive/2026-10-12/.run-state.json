@@ -1,0 +1,23 @@
+{
+  "version": "2026-10-12",
+  "phases": {
+    "0": "done",
+    "1": "done",
+    "2": "no-op-console",
+    "3": "light",
+    "3.5": "light",
+    "4": "done",
+    "5": "skipped-config-false",
+    "6": "done",
+    "7": "done"
+  },
+  "inboxBatch": [
+    "searched_with_top-searches_queries_US_20261005-1340_20261012-1340.csv",
+    "searched_with_rising-searches_queries_US_20261005-1340_20261012-1340.csv"
+  ],
+  "trendVersion": "2026-10-12",
+  "newPages": 0,
+  "materialRowsAdded": 1,
+  "gitHead": "131a62166972d68bddb083f461375d128a754012",
+  "note": "verify-run.mjs 缺失，改为手动等价校验；CSV 为用户手动放入，未调用 fetch-trends"
+}

@@ -1,5 +1,5 @@
 {
-  "_comment": "Materials and ingredients: 23 rows across 5 categories ({\"Leaf\":4,\"Ingredient\":14,\"Meat\":2,\"Crate\":2,\"Item\":1}). Ingredient rows come from the Fextralife ingredient table; the meat rows are cross-checked against two independent guides; Pure Water is cross-checked between the dungeon chest table and the series item page.",
+  "_comment": "Materials and ingredients: 24 rows across 6 categories ({\"Leaf\":4,\"Ingredient\":14,\"Meat\":2,\"Crate\":2,\"Item\":1,\"Fish\":1}). Ingredient rows come from the Fextralife ingredient table; the meat rows are cross-checked against two independent guides; Pure Water is cross-checked between the dungeon chest table and the series item page. Kothar Gar added 2026-10-12 (source-verified material previously missing from the data).",
   "materials": [
     {
       "id": "sweet-leaves",
@@ -877,6 +877,38 @@
       "grade": "community-reported",
       "asOf": "2026-09-28",
       "note": "Listed as an item and searched for by name, but no source checked describes it at all beyond its existence."
+    },
+    {
+      "id": "kothar-gar",
+      "slug": "kothar-gar",
+      "name": "Kothar Gar",
+      "category": "Fish",
+      "usedInQuests": [],
+      "locations": [
+        {
+          "area": "Alcineus Span",
+          "spot": "Immediately to the left of Dagsion on the World Map, in Amalthea",
+          "method": "Search"
+        }
+      ],
+      "effects": {
+        "other": "Recorded as a fish/item; exact stats and effects not yet transcribed from source."
+      },
+      "sources": [
+        {
+          "label": "Game8 - How to Get Kothar Gar and Uses",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624842",
+          "date": "2026-10-12"
+        },
+        {
+          "label": "Fextralife - Kothar Gar",
+          "url": "https://fortunesweave.wiki.fextralife.com/Kothar_Gar",
+          "date": "2026-10-12"
+        }
+      ],
+      "grade": "source-reported",
+      "asOf": "2026-10-12",
+      "note": "Two sources place it in Alcineus Span, Amalthea, left of Dagsion. Listed as a fish/item; full stats/effects pending transcription. Added 2026-10-12 from the weekly breakout review (rising +100%)."
     }
   ]
 }
