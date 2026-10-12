@@ -7,7 +7,7 @@
  */
 
 export const PAGE_DATES: Record<string, string> = {
-  '/': '2026-10-10',
+  '/': '2026-10-12',
   '/about': '2026-09-28',
   '/activities': '2026-10-10',
   '/battalions': '2026-09-30',
@@ -25,11 +25,11 @@ export const PAGE_DATES: Record<string, string> = {
   '/gifts': '2026-09-30',
   '/locations': '2026-09-30',
   '/map': '2026-09-30',
-  '/materials': '2026-10-08',
+  '/materials': '2026-10-12',
   '/meals': '2026-09-30',
   '/mounts': '2026-10-05',
   '/paralogues': '2026-10-06',
-  '/postgame': '2026-10-06',
+  '/postgame': '2026-10-12',
   '/privacy': '2026-10-05',
   '/review': '2026-10-10',
   '/sidequests': '2026-09-30',

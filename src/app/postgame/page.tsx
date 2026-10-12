@@ -217,6 +217,66 @@ export default function PostgamePage() {
           </div>
         </section>
 
+        {/* Video intel: YHLzcpkkV5c (Jay Dunna) — post-completion replay benefits, verified English captions 2026-10-12 */}
+        <section className="space-y-6 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+            <div>
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider text-[#d3b475] uppercase">
+                <span className="h-2 w-2 rounded-full bg-[#d3b475] animate-pulse" />
+                Video intel &middot; verified English captions
+              </span>
+              <h2 className="mt-1 text-xl font-bold text-white sm:text-2xl">
+                What finishing the game actually changes
+              </h2>
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-zinc-400">
+              Coverage by <span className="font-medium text-zinc-200">Jay Dunna</span> &middot;{" "}
+              <span className="font-mono">YHLzcpkkV5c</span>
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="YHLzcpkkV5c"
+              title="What You Get for COMPLETING Fire Emblem: Fortune's Weave"
+            />
+          </div>
+
+          <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Summarized from the video&apos;s verified English captions; only structural points are restated, and the creator&apos;s own percentages and playtime figures are not repeated here as data. Consistent with the New Game Plus answer above, there is no separate NG+ mode — instead every chapter across the parts stays replayable through chapter select, and changes roll forward into your current file. That makes replays the intended answer for recruits locked behind single-day deadlines, such as a prologue quest that closes before the next in-game day. Completion also leaves visible markers: a glowing bird emblem appears on the save file, and a character&apos;s save sparkles once their Part 2 route is finished. On replays, high Eshmel support levels earned through Perfect Bird Time let allies cover each other far more often than on a fresh file — the creator calls this the biggest practical difference when revisiting earlier chapters, though their per-level protection estimate is an unverified interpretation, not a datamined figure. Unlocked classes persist across replays, but the items tied to the highest class tier must be re-earned even though master classes stay available. The creator also reads the save-file marker as a hint at future DLC characters — that is speculation, not announced content.
+          </p>
+
+          <div className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3">
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                01 &middot; Chapter select
+              </span>
+              <h3 className="text-sm font-semibold text-white">Replay any chapter, changes roll up</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Parts 1&ndash;3 chapters stay replayable after the credits, so missable recruits behind one-day deadlines can still be picked up later, with progress rolling into the current save.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                02 &middot; Eshmel support on replay
+              </span>
+              <h3 className="text-sm font-semibold text-white">Protective saves without the Bird Time grind</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Maxed Eshmel support from Perfect Bird Time carries into replays, where allies cover each other far more often — the creator&apos;s strongest reported benefit of finishing the game first.
+              </p>
+            </div>
+            <div className="rounded-xl border border-white/5 bg-black/40 p-4 space-y-2">
+              <span className="text-xs font-mono font-bold text-[#d3b475] uppercase tracking-wider">
+                03 &middot; Completion markers
+              </span>
+              <h3 className="text-sm font-semibold text-white">Save-file bird emblem &amp; sparkling saves</h3>
+              <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                A finished file shows a glowing bird emblem, and each character&apos;s save sparkles once their Part 2 is complete. Classes stay unlocked on replay; highest-tier class items must be re-earned.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Video intel: l4B8LE2jE_U (Nagapedia) — pre-release DLC analysis, verified English captions */}
         <section className="space-y-5 rounded-2xl border border-white/10 bg-[#1b2130]/70 p-6 shadow-xl backdrop-blur-sm sm:p-8">
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">

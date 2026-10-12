@@ -4,6 +4,29 @@
   "evergreenRoutes": [],
   "routeDependencies": {
     "/": ["src/data/updates.json"],
-    "/updates": ["src/data/updates.json"]
+    "/updates": ["src/data/updates.json"],
+    "/characters": ["src/data/characters.json", "src/data/recruitment.json"],
+    "/classes": ["src/data/classes.json", "src/data/class-tiers.json"],
+    "/paralogues": ["src/data/paralogues.json", "src/data/paralogue-windows.json"],
+    "/locations": ["src/data/locations.json"],
+    "/materials": ["src/data/materials.json"],
+    "/gifts": ["src/data/gift-groups.json", "src/data/gift-preferences.json"],
+    "/weapons": ["src/data/weapons.json"],
+    "/mounts": ["src/data/mounts.json"],
+    "/deities": ["src/data/deities.json"],
+    "/crests": ["src/data/crests.json"],
+    "/talents": ["src/data/talents.json"],
+    "/boons": ["src/data/boons.json"],
+    "/deeds": ["src/data/deeds.json"],
+    "/battalions": ["src/data/battalions.json"],
+    "/equipment": ["src/data/equipment.json"],
+    "/activities": ["src/data/activities.json"],
+    "/sidequests": ["src/data/sidequests.json", "src/data/quest-guides.json"],
+    "/supports": ["src/data/supports.json"],
+    "/systems": ["src/data/systems.json"],
+    "/farming": ["src/data/farming.json"],
+    "/meals": ["src/data/meals.json", "src/data/drink-recipes.json"],
+    "/postgame": ["src/data/postgame.json"],
+    "/walkthrough": ["src/data/chapters.json"]
   }
 }
