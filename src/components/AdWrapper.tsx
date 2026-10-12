@@ -2,8 +2,6 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
-import BottomBannerAd from './BottomBannerAd';
-import SideAdSlots from './SideAdSlots';
 import { isComplianceExcludedPath } from '@/lib/adsterra';
 
 interface AdWrapperProps {
@@ -23,14 +21,13 @@ export const HERO_EXCLUSION_SELECTORS = [
 ];
 
 /**
- * AdWrapper — 全局广告总外壳 (2026 生产级精简架构)
+ * AdWrapper — 全局正文内容调度外壳 (2026 生产级纯净架构)
  *
  * 架构职责：
- * 1. 宽屏双侧摩天大楼 (160×600)：全站浮动调度，纯硬件视口拦截 (>=1360px)
- * 2. 静态硬预留优先：各页面在正文第 1 模块后显式挂载 <NativeBannerAd />，
+ * 1. 静态硬预留优先：各页面在正文第 1 模块后显式挂载 <NativeBannerAd />，
  *    SSR 首屏直出 290px 实体卡片骨架，彻底消除客户端动态 Portal 漂移与 CLS 顿挫
- * 3. 长页文尾横幅 (BottomBannerAd)：在非合规长页文末自适应直出
- * 4. 法律合规绝对免除：/privacy, /terms 等合规页面严格 0 广告
+ * 2. 纯净内容流：全部 Banner 横幅已彻底下线，全屏零摩天大楼压迫与文尾横幅
+ * 3. 法律合规绝对免除：/privacy, /terms 等合规页面严格零广告侵扰
  */
 export default function AdWrapper({ children, className = '' }: AdWrapperProps) {
   const pathname = usePathname();
@@ -40,18 +37,8 @@ export default function AdWrapper({ children, className = '' }: AdWrapperProps) 
     return <>{children}</>;
   }
 
-  return (
-    <>
-      {/* 桌面宽屏双侧摩天大楼 (160×600) */}
-      <SideAdSlots />
-
-      {/* 正文主体内容 */}
-      <div className={className}>{children}</div>
-
-      {/* 长页面文末响应式横幅 (桌面 728×90 / 移动 300×250，BottomBannerAd 内部自适应长页判定) */}
-      <BottomBannerAd />
-    </>
-  );
+  return <div className={className}>{children}</div>;
 }
 
 export { AdWrapper };
+

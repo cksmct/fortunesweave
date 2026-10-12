@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import AdWrapper from '@/components/AdWrapper';
 import Analytics from '@/components/Analytics';
 import ConsentBanner from '@/components/ConsentBanner';
+import SocialBarAd from '@/components/SocialBarAd';
 import { buildConsentDefaultScript } from '@/lib/consent';
 import './globals.css';
 
@@ -83,6 +84,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Analytics gaId={config.seo.googleAnalyticsId} />
         {/* 同意面板：仅 EEA/UK/CH 且未选择时自动出现；其他地区静默授予、零遮挡 */}
         <ConsentBanner />
+        {/* Adsterra Social Bar 浮动通知广告 (官方 </body> 闭合标签前标准挂载) */}
+        <SocialBarAd />
       </body>
     </html>
   );
