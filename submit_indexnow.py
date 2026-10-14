@@ -2,6 +2,7 @@
 """IndexNow / Bing URL submission — DIFF MODE.
 Hardened with timeout defense, resilient XML parsing, chunking, and conditional baseline saving.
 """
+import concurrent.futures
 import json
 import os
 import re
@@ -19,7 +20,7 @@ if sys.platform == "win32":
 SITE_URL = os.environ.get("SITE_URL", "https://fortunesweave.online")
 INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "aefdd03c9b771f9ca41d73038ed331aa")
 BING_API_KEY = os.environ.get("BING_API_KEY", "")
-HOST = urlparse(SITE_URL).hostname or "fortunesweave.online"
+HOST = urlparse(SITE_URL).hostname or "your-domain.com"
 
 STATE_FILE = os.path.join(os.getcwd(), ".indexnow-state.json")
 LEGACY_CACHE_FILE = os.path.join(os.getcwd(), ".codebuddy", "indexnow", "last-sitemap.xml")
@@ -83,6 +84,70 @@ def chunk_list(lst, size=500):
     return [lst[i:i + size] for i in range(0, len(lst), size)]
 
 
+def ensure_key_file():
+    """Key File Auto-Integrity: ensures public/{KEY}.txt and out/{KEY}.txt exist and
+    match INDEXNOW_KEY, preventing Bing 403 UserForbiddedToAccessSite rejections."""
+    if not INDEXNOW_KEY or INDEXNOW_KEY == "YOUR_INDEXNOW_KEY":
+        return
+    key_filename = f"{INDEXNOW_KEY}.txt"
+    targets = [
+        os.path.join(os.getcwd(), "public", key_filename),
+        os.path.join(os.getcwd(), "out", key_filename),
+    ]
+    for target in targets:
+        pdir = os.path.dirname(target)
+        if os.path.exists(pdir):
+            if not os.path.exists(target) or open(target, "r", encoding="utf-8").read().strip() != INDEXNOW_KEY:
+                with open(target, "w", encoding="utf-8") as f:
+                    f.write(INDEXNOW_KEY)
+                print(f"🔑 Verified / auto-synced IndexNow key file: {os.path.relpath(target, os.getcwd())}")
+
+
+LIVE_CHECK_CONCURRENCY = 8
+
+
+def check_url_live(url, timeout=8):
+    """Return (is_live, status). Only a production URL already serving 200 is safe to
+    submit; submitting undeployed URLs makes Bing crawl 404s and crawl-throttles the
+    whole site. HEAD first, fall back to GET when the host rejects HEAD."""
+    ua = "Mozilla/5.0 (compatible; IndexNow-AutoSubmitter/1.0; +https://www.indexnow.org)"
+
+    def probe(method):
+        req = urllib.request.Request(url, method=method, headers={"User-Agent": ua})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.getcode()
+        except urllib.error.HTTPError as e:
+            return e.code
+        except Exception:
+            return 0
+
+    status = probe("HEAD")
+    if status in (403, 405, 501):
+        status = probe("GET")
+    return status == 200, status
+
+
+def preflight_filter(urls):
+    """Bounded-concurrency live-reachability preflight. Returns (live, dead)."""
+    live, dead = [], []
+    if not urls:
+        return live, dead
+    with concurrent.futures.ThreadPoolExecutor(max_workers=LIVE_CHECK_CONCURRENCY) as executor:
+        futures = {executor.submit(check_url_live, u): u for u in urls}
+        for future in concurrent.futures.as_completed(futures):
+            u = futures[future]
+            try:
+                ok, status = future.result()
+            except Exception:
+                ok, status = False, 0
+            if ok:
+                live.append(u)
+            else:
+                dead.append((u, status))
+    return live, dead
+
+
 def get_changed_urls(current):
     prev = load_baseline()
     if prev is None:
@@ -123,6 +188,8 @@ def submit_indexnow(urls):
         print("ℹ️ INDEXNOW_KEY is not set. Skipping IndexNow submission.")
         return False
 
+    ensure_key_file()
+
     endpoints = [
         ("IndexNow Global (api.indexnow.org)", "https://api.indexnow.org/indexnow"),
         ("Bing IndexNow (www.bing.com)", "https://www.bing.com/indexnow"),
@@ -158,8 +225,8 @@ def submit_bing_api(urls):
     if not BING_API_KEY or BING_API_KEY == "YOUR_BING_WEBMASTER_API_KEY":
         print("ℹ️ BING_API_KEY is not set. Skipping Bing Direct Webmaster API submission.")
         return False
-
     endpoint = f"https://www.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey={BING_API_KEY}"
+
     batches = chunk_list(urls, 500) if urls else []
     all_ok = True
 
@@ -172,21 +239,22 @@ def submit_bing_api(urls):
             if code == 200:
                 print(f"📡 {prefix}Bing Webmaster API: Submitting {len(target_urls)} URLs... ✅ SUCCESS (200 OK)")
                 return True, 0
-            match = re.search(r"Quota remaining for today:\s*(\d+)", resp, re.I)
-            if match:
-                return False, int(match.group(1))
-            print(f"📡 {prefix}Bing Webmaster API HTTP Error {code}: {resp}")
+            m = re.search(r"Quota remaining for today:\s*(\d+)", resp, re.I)
+            if m:
+                return False, int(m.group(1))
+            print(f"📡 {prefix}Bing Webmaster API HTTP Error {code}: {resp[:200]}")
             return False, 0
 
         ok, rem = try_submit(batch)
-        if not ok:
-            if rem > 0:
-                print(f"⚠️ {prefix}Daily quota reached. Auto-retrying with max available {rem} URLs...")
-                retry_ok, _ = try_submit(batch[:rem])
-                if not retry_ok:
-                    all_ok = False
-            else:
+        if ok:
+            continue
+        if rem > 0:
+            print(f"⚠️ {prefix}Daily quota reached. Auto-retrying with max available {rem} URLs...")
+            retry_ok, _ = try_submit(batch[:rem])
+            if not retry_ok:
                 all_ok = False
+        else:
+            all_ok = False
 
     return all_ok
 
@@ -194,56 +262,75 @@ def submit_bing_api(urls):
 def main():
     load_env()
     print(f"🚀 Initializing IndexNow & Bing Auto-Submitter (diff mode) for {SITE_URL}...")
-    current_map = get_sitemap_map()
-    if not current_map:
+    current = get_sitemap_map()
+    if current is None:
+        print("⚠️ No sitemap found.")
         return
-
-    urls = list(current_map.keys())
+    urls = list(current.keys())
     if not urls:
-        print("⚠️ No URLs found to submit. Run `npm run build` first to export sitemap.")
+        print("⚠️ No URLs found in out/sitemap.xml.")
         return
 
-    force_all = "--all" in sys.argv[1:]
-    changed_urls, deleted_urls, first_run = get_changed_urls(current_map)
+    force_all = "--all" in sys.argv
+    changed, deleted, first_run = get_changed_urls(current)
 
     if force_all:
         print(f"⚠️ --all flag detected: Forcing full submission of all {len(urls)} URLs.")
+        print("   🛑 Use --all ONLY for first-time onboarding or a verified recovery re-sync.")
+        print("   🛑 Repeatedly submitting unchanged URLs is treated as IndexNow abuse and can get your site crawl-throttled.")
         target_urls = urls
     elif first_run:
         print(f"🌱 First run — no baseline yet. Submitting all {len(urls)} URLs once to bootstrap.")
         target_urls = urls
-    elif not changed_urls and not deleted_urls:
+    elif not changed and not deleted:
         print(f"⏭️  No content changes since last submission ({len(urls)} URLs all unchanged lastmod).")
         print("    Skipping IndexNow/Bing ping to avoid submitting unchanged URLs.")
-        print("    (Only real content updates — codes/units/guides — bump lastmod.)")
         if not os.path.exists(STATE_FILE):
-            save_baseline(current_map)
+            save_baseline(current)
         return
     else:
-        target_urls = list(dict.fromkeys(changed_urls + deleted_urls))
-        if changed_urls:
-            print(f"🔎 {len(changed_urls)} URL(s) updated/added since last submission:")
-            for u in changed_urls[:10]:
+        target_urls = list(dict.fromkeys(changed + deleted))
+        if changed:
+            print(f"🔎 {len(changed)} URL(s) updated/added since last submission:")
+            for u in changed[:10]:
                 print(f"   - [ADD/MOD] {u}")
-            if len(changed_urls) > 10:
-                print(f"   ... and {len(changed_urls) - 10} more")
-        if deleted_urls:
-            print(f"🗑️  {len(deleted_urls)} URL(s) removed since last submission (notifying search engines to purge):")
-            for u in deleted_urls[:10]:
+            if len(changed) > 10:
+                print(f"   ... and {len(changed) - 10} more")
+        if deleted:
+            print(f"🗑️  {len(deleted)} URL(s) removed since last submission (notifying search engines to purge):")
+            for u in deleted[:10]:
                 print(f"   - [DELETE] {u}")
-            if len(deleted_urls) > 10:
-                print(f"   ... and {len(deleted_urls) - 10} more")
-        print("")
+            if len(deleted) > 10:
+                print(f"   ... and {len(deleted) - 10} more")
+        print()
+
+    # 🛡️ Live-reachability preflight: never submit URLs that are not yet serving 200
+    # on production. Deleted URLs are intentionally gone and are still announced for purge.
+    deleted_set = set(deleted)
+    verify_urls = [u for u in target_urls if u not in deleted_set]
+    print(f"🔍 Preflight: verifying {len(verify_urls)} URL(s) are live before submitting (purge-only: {len(target_urls) - len(verify_urls)})...")
+    live_urls, dead_urls = preflight_filter(verify_urls)
+    if dead_urls:
+        print(f"⚠️ {len(dead_urls)} URL(s) not live (HTTP != 200) — skipping to avoid 404 crawl-throttling:")
+        for u, status in dead_urls[:10]:
+            print(f"   - [DEAD {status or 'ERR'}] {u}")
+        if len(dead_urls) > 10:
+            print(f"   ... and {len(dead_urls) - 10} more")
+    target_urls = list(dict.fromkeys(live_urls + deleted))
+    if not target_urls:
+        print("❌ Preflight aborted: none of the target URLs are live (site not deployed yet?).", file=sys.stderr)
+        print("   Baseline NOT updated — deploy first, then re-run.\n", file=sys.stderr)
+        sys.exit(1)
+    print(f"✅ Preflight passed: {len(live_urls)} live URL(s) will be submitted.\n")
 
     bing_ok = submit_bing_api(target_urls)
     indexnow_ok = submit_indexnow(target_urls)
 
-    # 🛡️ CRITICAL DEFENSE: Only update persistent baseline if at least one submission endpoint succeeded!
     if bing_ok or indexnow_ok:
-        save_baseline(current_map)
-        print("✅ Auto-submission process completed (baseline updated in .indexnow-state.json).\n")
+        save_baseline(current)
+        print("✅ IndexNow submission finished (baseline updated in .indexnow-state.json).\n")
     else:
-        print("❌ CRITICAL: All submission endpoints failed. Baseline NOT updated to guarantee retry on next run.\n", file=sys.stderr)
+        print("❌ CRITICAL: All submission endpoints failed. Baseline NOT updated to guarantee retry.\n", file=sys.stderr)
         sys.exit(1)
 
 

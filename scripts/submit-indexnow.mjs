@@ -94,6 +94,67 @@ function saveBaseline(currentMap) {
   fs.writeFileSync(STATE_FILE, JSON.stringify(currentMap, null, 2), "utf8");
 }
 
+function ensureKeyFile() {
+  if (!INDEXNOW_KEY || INDEXNOW_KEY === "YOUR_INDEXNOW_KEY") return;
+  const keyFileName = `${INDEXNOW_KEY}.txt`;
+  const targets = [
+    path.join(process.cwd(), "public", keyFileName),
+    path.join(process.cwd(), "out", keyFileName),
+  ];
+  for (const target of targets) {
+    const dir = path.dirname(target);
+    if (fs.existsSync(dir)) {
+      if (!fs.existsSync(target) || fs.readFileSync(target, "utf8").trim() !== INDEXNOW_KEY) {
+        fs.writeFileSync(target, INDEXNOW_KEY, "utf8");
+        console.log(`🔑 Verified / auto-synced IndexNow key file: ${path.relative(process.cwd(), target)}`);
+      }
+    }
+  }
+}
+
+const LIVE_CHECK_CONCURRENCY = 8;
+
+async function checkUrlLive(url) {
+  const ua = "Mozilla/5.0 (compatible; IndexNow-AutoSubmitter/1.0; +https://www.indexnow.org)";
+  async function probe(method) {
+    const res = await fetch(url, {
+      method,
+      redirect: "follow",
+      headers: { "User-Agent": ua },
+      signal: AbortSignal.timeout(8000),
+    });
+    return res.status;
+  }
+  try {
+    let status = await probe("HEAD");
+    if (status === 405 || status === 501 || status === 403) {
+      try {
+        status = await probe("GET");
+      } catch {}
+    }
+    return { url, live: status === 200, status };
+  } catch (err) {
+    return { url, live: false, status: 0, error: err.message };
+  }
+}
+
+async function preflightFilter(urls) {
+  const live = [];
+  const dead = [];
+  let cursor = 0;
+  async function worker() {
+    while (cursor < urls.length) {
+      const current = urls[cursor++];
+      const result = await checkUrlLive(current);
+      if (result.live) live.push(current);
+      else dead.push(result);
+    }
+  }
+  const runners = Array.from({ length: Math.min(LIVE_CHECK_CONCURRENCY, urls.length) }, worker);
+  await Promise.all(runners);
+  return { live, dead };
+}
+
 function postJson(urlStr, data, timeoutMs = 10000) {
   return new Promise((resolve) => {
     const parsed = new URL(urlStr);
@@ -182,6 +243,8 @@ async function submitIndexNowEndpoints(urls) {
     return false;
   }
 
+  ensureKeyFile();
+
   const endpoints = [
     { name: "IndexNow Global (api.indexnow.org)", url: "https://api.indexnow.org/indexnow" },
     { name: "Bing IndexNow (www.bing.com)", url: "https://www.bing.com/indexnow" },
@@ -228,7 +291,7 @@ async function main() {
   const currentMap = parseSitemap(xml);
   const urls = Object.keys(currentMap);
   if (urls.length === 0) {
-    console.log("⚠️ No URLs found to submit. Run `npm run build` first to export sitemap.");
+    console.log("⚠️ No URLs found to submit. Run \`npm run build\` first to export sitemap.");
     return;
   }
 
@@ -240,6 +303,8 @@ async function main() {
 
   if (forceAll) {
     console.log(`⚠️ --all flag detected: Forcing full submission of all ${urls.length} URLs.`);
+    console.log("   🛑 Use --all ONLY for first-time onboarding or a verified recovery re-sync.");
+    console.log("   🛑 Repeatedly submitting unchanged URLs is treated as IndexNow abuse and can get your site crawl-throttled.");
     targetUrls = urls;
   } else if (firstRun) {
     console.log(`🌱 First run — no baseline yet. Submitting all ${urls.length} URLs once to bootstrap.`);
@@ -265,10 +330,29 @@ async function main() {
     console.log("");
   }
 
+  // 🛡️ Live-reachability preflight: never submit URLs that are not yet serving 200
+  // on production. Deleted URLs are intentionally gone and are still announced for purge.
+  const deletedSet = new Set(deletedUrls);
+  const verifyUrls = targetUrls.filter((u) => !deletedSet.has(u));
+  console.log(`🔍 Preflight: verifying ${verifyUrls.length} URL(s) are live before submitting (purge-only: ${targetUrls.length - verifyUrls.length})...`);
+  const { live, dead } = await preflightFilter(verifyUrls);
+  if (dead.length > 0) {
+    console.log(`⚠️ ${dead.length} URL(s) not live (HTTP != 200) — skipping to avoid 404 crawl-throttling:`);
+    dead.slice(0, 10).forEach((d) => console.log(`   - [DEAD ${d.status || "ERR"}] ${d.url}${d.error ? " (" + d.error + ")" : ""}`));
+    if (dead.length > 10) console.log(`   ... and ${dead.length - 10} more`);
+  }
+  targetUrls = Array.from(new Set([...live, ...deletedUrls]));
+  if (targetUrls.length === 0) {
+    console.error("❌ Preflight aborted: none of the target URLs are live (site not deployed yet?).");
+    console.error("   Baseline NOT updated — deploy first, then re-run.\n");
+    process.exitCode = 1;
+    return;
+  }
+  console.log(`✅ Preflight passed: ${live.length} live URL(s) will be submitted.\n`);
+
   const bingOk = await submitBingApi(targetUrls);
   const indexNowOk = await submitIndexNowEndpoints(targetUrls);
 
-  // 🛡️ CRITICAL DEFENSE: Only update persistent baseline if at least one submission endpoint succeeded!
   if (bingOk || indexNowOk) {
     saveBaseline(currentMap);
     console.log("✅ Auto-submission process completed (baseline updated in .indexnow-state.json).\n");
