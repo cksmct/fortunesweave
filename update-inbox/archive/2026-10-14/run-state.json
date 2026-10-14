@@ -1,0 +1,28 @@
+{
+  "version": "2026-10-14",
+  "startedAt": "2026-10-14T14:20:00+08:00",
+  "forceRerun": false,
+  "skipTrends": false,
+  "gamePlatform": "console",
+  "siteDomain": "fortunesweave.online",
+  "inboxBatch": [
+    "searched_with_top-searches_queries_US_20261007-1417_20261014-1417.csv",
+    "searched_with_rising-searches_queries_US_20261007-1417_20261014-1417.csv"
+  ],
+  "trendVersion": "2026-10-14",
+  "newPages": 0,
+  "materialRowsAdded": 0,
+  "phases": {
+    "0": "done",
+    "1": "done",
+    "2": "no-op-console",
+    "3": "light",
+    "3.5": "media-audit-only",
+    "4": "done",
+    "5": "skipped-config-false",
+    "6": "done",
+    "7": "done"
+  },
+  "gitHead": "fdff97cec77126d32ac95085b76c3858312dd932",
+  "note": "console 平台（Switch 2 独占）：Phase 2 无 live stats 端点，按铁律跳过抓取；events.autoDetect=false。Phase 1 判定 breakout 全部不建新页（与过去 7 周一致）。Phase 3.5 仅跑媒体审计安全门禁（3.5a，exit 0），3.5b/3.5c 视频发现+转录本轮按范围 defer（站已成熟、用户重点在 breakout），非 fake-done。gitCommit/gitPush=false，按配置跳过提交/推送。CSV 为用户手动放入 inbox 根，未调用 fetch-trends。"
+}

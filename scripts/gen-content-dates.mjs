@@ -35,6 +35,12 @@
  *     "evergreenRoutes": ["/about", "/privacy-policy", "/terms"],
  *     "routeDependencies": { "/codes": ["src/data/codes.json"] }
  *   }
+ *
+ *  ⚠️ 自动推导（关键修复）：除上面显式配置的 routeDependencies 外，脚本会**自动
+ *     扫描每个 page.tsx 的 import**，凡从 `src/data/*.json` 引入的数据文件都自动
+ *     成为该路由的日期依赖。因此**无需在 content-deps.json 手工登记数据文件**——
+ *     漏登记导致的「改了数据、页面/首页 Last updated 不动」这类静默 bug 从设计上
+ *     不再可能发生。静态 routeDependencies 仅作覆盖/遗留兼容。
  */
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -91,6 +97,39 @@ function tryExec(file, args) {
 
 function toPosix(p) {
   return p.split(path.sep).join('/');
+}
+
+// ── 2b. 自动推导数据依赖（从 page.tsx 的 import 解析数据文件）───────────
+// 设计目的：消除「手工维护 routeDependencies 时漏登记数据文件」的静默 bug——
+// 数据驱动页面只要在 page.tsx 里 import 了某个 src/data/*.json，它的最后修改日
+// 就该随该数据文件一起变化，无需架构师/agent 记住去 content-deps.json 登记。
+// 推导结果与 content-deps.json 的静态 routeDependencies 取并集（静态项作覆盖/遗留兼容）。
+function deriveDataDeps(pageFile) {
+  const abs = path.resolve(pageFile);
+  if (!fs.existsSync(abs)) return [];
+  let src;
+  try {
+    src = fs.readFileSync(abs, 'utf8');
+  } catch {
+    return [];
+  }
+  const deps = [];
+  const re = /import\s+(?:[^'"]*?\s+from\s+)?['"]([^'"]+)['"]/g;
+  let m;
+  while ((m = re.exec(src))) {
+    const imp = m[1];
+    if (!imp.endsWith('.json')) continue;
+    let rel;
+    if (imp.startsWith('@/')) rel = 'src/' + imp.slice(2);
+    else if (imp.startsWith('.')) rel = toPosix(path.resolve(path.dirname(pageFile), imp));
+    else continue;
+    const norm = rel.replace(/\\/g, '/');
+    const idx = norm.indexOf('src/data/');
+    if (idx === -1) continue; // 只认 src/data 下的数据 json
+    const final = norm.slice(idx);
+    if (!deps.includes(final)) deps.push(final);
+  }
+  return deps;
 }
 
 // ── 1. 扫描路由（src/app/**/page.tsx） ─────────────────────────────────
@@ -193,8 +232,11 @@ for (const { route, file } of routes) {
   const key = normalizeRoute(route);
   let date = dateForFile(file);
 
-  // 数据依赖：路由绑定的数据文件改动时，路由日期随之更新
-  const deps = routeDependencies[route] ?? routeDependencies[key] ?? [];
+  // 数据依赖：静态 routeDependencies（content-deps.json）与从 page.tsx import
+  // 自动推导的结果取并集。自动推导保证数据驱动页面的依赖不会因「漏登记」而静默失效。
+  const staticDeps = routeDependencies[route] ?? routeDependencies[key] ?? [];
+  const derivedDeps = deriveDataDeps(file);
+  const deps = [...new Set([...staticDeps, ...derivedDeps])];
   for (const dep of deps) {
     date = laterOf(date, dateForFile(toPosix(dep)));
   }
