@@ -22,7 +22,7 @@ function loadEnv() {
 loadEnv();
 
 const SITE_URL = process.env.SITE_URL || "https://fortunesweave.online";
-const INDEXNOW_KEY = process.env.INDEXNOW_KEY || "aefdd03c9b771f9ca41d73038ed331aa";
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY || "7817473e3732e3c236378e2d4c0bcdc4";
 const BING_API_KEY = process.env.BING_API_KEY || "";
 const HOST = new URL(SITE_URL).hostname;
 

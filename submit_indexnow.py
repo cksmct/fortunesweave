@@ -18,7 +18,7 @@ if sys.platform == "win32":
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 SITE_URL = os.environ.get("SITE_URL", "https://fortunesweave.online")
-INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "aefdd03c9b771f9ca41d73038ed331aa")
+INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "7817473e3732e3c236378e2d4c0bcdc4")
 BING_API_KEY = os.environ.get("BING_API_KEY", "")
 HOST = urlparse(SITE_URL).hostname or "your-domain.com"
 
