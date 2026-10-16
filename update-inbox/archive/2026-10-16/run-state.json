@@ -1,0 +1,24 @@
+{
+  "runId": "fw-oneclick-2026-10-16",
+  "inboxBatch": [
+    "searched_with_rising-searches_queries_US_20261009-1026_20261016-1026.csv",
+    "searched_with_top-searches_queries_US_20261009-1026_20261016-1026.csv"
+  ],
+  "inboxHash": "",
+  "startedAt": "2026-10-16T12:00:00.000Z",
+  "forceRerun": false,
+  "skipTrends": false,
+  "gamePlatform": "console",
+  "siteDomain": "fortunesweave.online",
+  "phases": {
+    "0": { "status": "done", "note": "Manual contract: user-provided CSVs in update-inbox root; fetch script NOT invoked. inbox-batch-check exit 0 (single fresh batch, window 2026-10-09→2026-10-16). siteDomain=fortunesweave.online. Platform=console." },
+    "1": { "status": "done", "note": "trend-keywords.json -> v2026-10-16 (134 keywords). Breakout 'expansion pass' verified announced 2026-10-15 via web_search/web_fetch (Nintendo official). Trend audit: 0 errors." },
+    "2": { "status": "done", "note": "console platform: no live stats endpoint, statsRefresh=none. No-op by design." },
+    "3": { "status": "done", "note": "Competitor research via web_search/web_fetch (NOT yt-dlp/curl egress). Verified Expansion Pass announced 2026-10-15; built /expansion-pass/ with verified facts only (zero fabrication); corrected false 'no Expansion Pass announced' statement on /postgame/. Competitor KB _summary.md updated (Round 3). Real site change produced." },
+    "3.5": { "status": "done", "note": "yt-dlp discovery (web_embedded) found official trailer 9tDRjYdGrGs + Nagapedia analysis DFAdYm51dMc; both embedded on /expansion-pass/ with verbatim titles. Evidence: update-inbox/.evidence/3.5b-discovery.txt + 3.5c-captions-log.txt. 3.5a media audit passed in build." },
+    "4": { "status": "done", "note": "build.cmd -> exit 0. Compiled successfully 5.2s; 49 static pages; all postbuild audits green (media, trend, language, thin-content, seo-meta, sitemap, orphan, header/footer, partners, browserslist 0 polyfill). Errors: 0." },
+    "5": { "status": "done", "commitHash": "4a0e08d559c4030272f488df815149b23341fef5", "note": "gitCommit=false, gitPush=false, indexnow=true per update-config. No commit/push (working tree retains prior ad-component changes + this run's page/trend/config edits). IndexNow skipped (no deploy). commitHash recorded as current HEAD." },
+    "6": { "status": "done", "note": "skillIssues collected + SKILL.md fixed (Phase 3 egress guardrail + Phase 3.5 independence note)." },
+    "7": { "status": "done", "note": "CSV archived to update-inbox/archive/2026-10-16/; run-report.md + run-state.json copy written; working .run-state.json reset to {reset:true} after verify-run." }
+  }
+}

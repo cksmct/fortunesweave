@@ -405,6 +405,30 @@ export default function MountsPage() {
             trade-offs.
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Rerolling for the mount you want
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned method for getting the mount passives and colour you want
+            without endless wild captures.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="veQ77iIgg_8"
+              title="GUARANTEE PERFECT MOUNTS in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Hard-save before setting a lure, and match the food to the mount type (plant-eaters versus meat-eaters) to bias the encounter.</li>
+              <li>If the capture comes with an unwanted passive, reload and retry; travelling elsewhere and back can reroll the encounter.</li>
+              <li>The goal is to chase the passives you want (for example extra movement or canto) and drop the bad ones; tend mounts at base to level them.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

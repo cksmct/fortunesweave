@@ -279,6 +279,30 @@ export default function BoonsPage() {
             them once the story ends is on the post-game page.
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Free stat floors from class certifications
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned tip on patching weak stat lines using class certification
+            minimums.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="cCd_-p_gVSY"
+              title="Don't Miss Bonus Stats In Fortune's Weave!"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Certifying into a class applies that class&apos;s minimum stat floors to the unit — even if you never switch into the class.</li>
+              <li>The useful floors sit on low-requirement classes, so a weak speed, strength, defence or resistance stat can be patched.</li>
+              <li>Do it early, before level-ups, so later lucky growths stack on top of the floor instead of being absorbed by it.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

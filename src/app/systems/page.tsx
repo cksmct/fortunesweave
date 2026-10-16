@@ -368,6 +368,30 @@ export default function SystemsPage() {
           </div>
         </section>
 
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Thirteen tips for the campaign
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned beginner-tips round-up from a major outlet, useful as a
+            first-week checklist.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="dhw8BfVO_EY"
+              title="Fire Emblem Fortunes Weave - 13 Tips We Wish We Knew Before Playing"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>There is no classic weapon triangle; instead weapon types carry innate properties, and offensive magic pierces heavy armour.</li>
+              <li>Combat arts are strong attacks that cost weapon durability; at zero durability a weapon keeps working but with reduced power and accuracy, so keep spares and repair.</li>
+              <li>Keep a spread of weapon types and lean on archers and mages against flyers and armour; at battle start the range preview shows enemy threat ranges.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

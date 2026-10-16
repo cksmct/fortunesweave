@@ -212,6 +212,30 @@ export default function FarmingPage() {
             that produces the fertiliser, and the Bird Time page covers what the weekly crop is spent on.
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Reaching max level on the map
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned method for farming experience toward the level cap in the
+            first part.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="yd5Apyv_o0s"
+              title="How to Get to LEVEL 99 in PART 1 of Fire Emblem: Fortune's Weave"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Skirmishes can be stalled to farm experience, because healing is not affected by a unit&apos;s personal level, so healers keep earning.</li>
+              <li>Certain arts immobilise a non-threatening enemy, letting a caster loop one cheap action per turn while healers top them up for their own exp.</li>
+              <li>The creator describes per-character variants of the loop; the method is deliberately grindy and optional.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

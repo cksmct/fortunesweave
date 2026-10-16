@@ -380,6 +380,30 @@ export default function GameplayPage() {
             .
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            A no-obelisk challenge run
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned run that skips the obelisk system entirely — a useful gauge
+            of how much the intended power-ups carry you.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="O4R2rVl3Ubs"
+              title="Beating Fortune's Weave Without Using ANY Obelisks"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>The run refuses the obelisk power-ups and presses into the late act, using terrain such as forest tiles to cut enemy hit rates and farm safely.</li>
+              <li>Early ability unlocks can trivialise whole maps, and the creator banks the prologue to farm experience on heal tiles.</li>
+              <li>It shows what the campaign looks like without the intended upgrades.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

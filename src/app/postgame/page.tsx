@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import NativeBannerAd from "@/components/NativeBannerAd";
 import { JsonLd } from "@/components/JsonLd";
@@ -303,7 +304,11 @@ export default function PostgamePage() {
           </div>
 
           <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-            Nagapedia&apos;s pre-release analysis asks whether and how Fortune&apos;s Weave might receive post-launch downloadable content. The creator points to the ESRB rating and eShop listing, which reference in-game purchases, as the only signal that add-on content could exist. As of this site&apos;s last source check, no DLC or Expansion Pass has been announced, and this video is the creator&apos;s pre-release speculation, not official information. It is included so readers can see the community discussion, not as confirmation that paid content is coming.
+            Nagapedia&apos;s pre-release analysis asks whether and how Fortune&apos;s Weave might receive post-launch downloadable content. The creator points to the ESRB rating and eShop listing, which reference in-game purchases, as the only signal that add-on content could exist. At the time this video was made that was still speculation — but it was answered on October 15, 2026, when Nintendo released the Fire Emblem: Fortune&apos;s Weave Expansion Pass with an announcement trailer. See our{" "}
+            <Link href="/expansion-pass/" className="text-[#d3b475] hover:underline">
+              Expansion Pass page
+            </Link>{" "}
+            for the verified facts and official sources. This video remains valuable as the pre-announcement community discussion of why paid content was expected.
           </p>
         </section>
 

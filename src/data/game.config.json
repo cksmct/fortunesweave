@@ -282,6 +282,12 @@
       "changeFrequency": "monthly"
     },
     {
+      "path": "/expansion-pass",
+      "title": "Fire Emblem: Fortune's Weave — Expansion Pass",
+      "priority": "0.7",
+      "changeFrequency": "monthly"
+    },
+    {
       "path": "/sidequests",
       "title": "Subquests and Deadlines",
       "priority": "0.8",

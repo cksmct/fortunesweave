@@ -308,6 +308,31 @@ export default function EquipmentPage() {
             types a unit can actually carry.
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            What to buy and refine
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned shop guide covering the items worth buying and why weapon
+            upkeep matters.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="vJEzh-6SA7k"
+              title="BEST ITEMS You NEED to BUY in Fire Emblem Fortune's Weave (Shop Guide)"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>There are three shop types: a castle shop that restocks each chapter, shops on the world map, and wandering merchants.</li>
+              <li>Refining a weapon restores its durability to full — worth doing because enemies are balanced around upgraded weapons.</li>
+              <li>On the world map you can preview a merchant&apos;s stock and reveal their locations; some merchants barter items rather than sell for gold.</li>
+              <li>The creator recommends picking up type-effective weapons early (for example beast- and cavalry-effective bows) and keeping them repaired.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

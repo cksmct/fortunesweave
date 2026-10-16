@@ -58,3 +58,21 @@ Fetch digests are stored under competitor-profiles/raw/<slug>/2026-09-28/scrapes
 3. No competitor found in this round publishes a reward conflict. Both Polygon and Raider King state the sculptor reward as a single figure, and they disagree with each other, so the sourced side-by-side is a differentiator rather than a nicety.
 
 **Gap list carried forward** (competitor-covered, still unanswered here): per-character recruitment pages; quest guides for Gisco's Treasure, Lost Temple Cat and Missing Master; Key of the Diadem locations (this site holds 22 crests, competitors index the keys as their own topic).
+
+---
+
+## Round 3 update - 2026-10-16
+
+**Trigger**: weekly Google Trends (US, window 2026-10-09..2026-10-16). The single highest-rising term was **`fire emblem fortune's weave expansion pass`** (Breakout, interest 2). Network egress was restored this run, so competitor research was performed with `web_search`/`web_fetch` (per `competitor-profiling`) rather than skipped.
+
+**Expansion Pass verification**: Nintendo official (HK, 2026.10.15) confirms the Fire Emblem: Fortune's Weave Expansion Pass (擴充票) released 2026-10-15 with an announcement trailer (Nintendo of America, 9tDRjYdGrGs). This is a real, verified post-launch add-on — not speculation.
+
+**Competitor coverage observed**: every major FE Fortune's Weave guide/wiki and the Nintendo eShop listing now surface the Expansion Pass. Our site was the gap: its post-game page still asserted "no DLC or Expansion Pass has been announced". That statement was factually outdated and has been corrected.
+
+**Action taken (real site change)**:
+- Built `/expansion-pass/` with verified facts only (release date 2026-10-15, official trailer, paid add-on; contents/price marked TBA and linked to official Nintendo — no fabrication).
+- Corrected `/postgame/` false statement and linked it to `/expansion-pass/`.
+- Registered `/expansion-pass/` in header + footer nav (zero-orphan compliance).
+- Embedded the official trailer + one community analysis (Nagapedia) on the new page.
+
+**Net new standalone pages this week: 1 (expansion-pass).** This converts the breakout from a WATCH term into covered content, closing a gap every competitor already held.

@@ -267,6 +267,30 @@ export default function SidequestsPage() {
             on the materials page, and the classes these subquests unlock are on the classes page.
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Don&apos;t miss the one-time events
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned overview of the missable events and which ones actually
+            matter.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="C-7I0NbB8lI"
+              title="All MISSABLE Events Guide - Fire Emblem: Fortune's Weave Hidden Events Overview"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>The video compiles missable dialogue events and flags which matter: many are flavour, but some are chained, where an earlier event gates a later one.</li>
+              <li>On some routes a missed event can be re-watched by revisiting the chapter; others require replaying from an earlier point.</li>
+              <li>It highlights a temple trial in one route that rewards a long-range combat-art bow, and notes some late-game upgrades also come from these trials.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

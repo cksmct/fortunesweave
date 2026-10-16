@@ -179,3 +179,47 @@ code {
   @apply px-1 py-0.5 rounded bg-zinc-900 border border-white/10 text-xs font-mono text-[#d3b475];
 }
 
+/* === ADSTERRA SKYSCRAPER STYLES START - ISOLATED FIXED SIDES === */
+.skyscraper-sidebar {
+  position: fixed;
+  top: max(5.75rem, calc(50% - 310px));
+  z-index: 30; /* 明确低于 Header (z-50)，杜绝点击热区冲突与误触 */
+  display: none;
+  width: 160px;
+  max-width: 160px;
+  pointer-events: auto;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  contain: paint layout; /* 隔离子元素任何意外溢出，杜绝 iframe 点击穿透与越界劫持 */
+}
+
+@media (min-width: 1400px) {
+  .skyscraper-sidebar {
+    display: flex;
+  }
+}
+
+.skyscraper-left {
+  left: 0.5rem;
+  right: auto;
+}
+
+@media (min-width: 1536px) {
+  .skyscraper-left {
+    left: 1rem;
+  }
+}
+
+.skyscraper-right {
+  right: 0.5rem;
+  left: auto;
+}
+
+@media (min-width: 1536px) {
+  .skyscraper-right {
+    right: 1rem;
+  }
+}
+/* === ADSTERRA SKYSCRAPER STYLES END === */
+

@@ -226,6 +226,30 @@ export default function SupportMatrixPage() {
           </ul>
         </section>
 
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Maxing supports team-wide
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned method for raising support ranks across the whole roster at
+            once.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="8iqNiN00y-Q"
+              title="FASTEST MAX SUPPORT FARM in Fire Emblem: Fortune's Weave"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Use feasts rather than single meals: a feast can involve the whole team at once, so every pairing gains support progress together.</li>
+              <li>Spending only a limited item keeps the loop repeatable; when turns run out, restarting the chapter refunds what was spent and keeps the ranks gained.</li>
+              <li>Supports persist across playthroughs, so this is a one-off catch-up rather than an ongoing grind.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

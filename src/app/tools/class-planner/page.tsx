@@ -247,6 +247,30 @@ export default function ClassPlannerPage() {
             because on some routes they are the entire top end of the list.
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Which master classes are worth it
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A captioned tier list of every master class, to weigh against the
+            planner above.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="VxGHWp9n9es"
+              title="BEST MASTER CLASS Tier List in Fire Emblem Fortune's Weave"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Ranks the master classes, covering their abilities and stat spreads.</li>
+              <li>Some classes carry a strong combat-art &quot;master ability&quot; whose cost becomes trivial once upgrade materials flow in the later part of the game.</li>
+              <li>The creator flags that the class with the lowest total stat gain also hands out negative modifiers, so it is worth checking before committing.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );

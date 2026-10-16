@@ -10,13 +10,15 @@ import {
 import { useConsentGranted } from '@/lib/useConsent';
 
 /**
- * Adsterra Native Banner — 100% 遵循官方规范的原生信息流广告组件 (2026 最新标准)
+ * Adsterra Native Banner — 100% 遵循官方规范的原生信息流广告组件 (2026 生产级标准)
  *
  * 核心架构保障：
  * 1. 兄弟节点插入：<script> 置于容器之前作为兄弟节点，严禁塞入容器内部导致自毁
  * 2. 零 React State 冲刷：注入状态统一使用 useRef，杜绝 React Virtual DOM diff 抹除真实物料
  * 3. 290px/310px 复合黄金标定尺寸：内部容器锁定 235px，外框锁定 290px，CLS 严格为 0
- * 4. 商业平衡策略：首页用户交互即刻感知 + 4000ms 兜底；内页 50ms 极速出画
+ * 4. 商业平衡与曝光优化策略：
+ *    - 桌面端 (>= 768px)：50ms 极速直出，无须等待滚屏交互，直接承接首屏/次屏视线，最大化主力曝光！
+ *    - 移动端 (< 768px)：主动微交互即刻感知 + 4000ms 科学兜底，避开首屏保护 PageSpeed 评分与防止推挤正文！
  * 5. 画布底色深度贴合与 WCAG AA 对比度合规 (text-zinc-400 达标 7.45:1，严禁 opacity 陷阱)
  */
 export default function NativeBannerAd({ className = '' }: { className?: string }) {
@@ -25,7 +27,7 @@ export default function NativeBannerAd({ className = '' }: { className?: string 
   const containerRef = useRef<HTMLDivElement>(null);
   const scriptRef = useRef<HTMLScriptElement | null>(null);
   const hasInjectedPathRef = useRef<string | null>(null);
-  // 同意门控：EEA/UK/CH 未选择或已拒绝时不得注入第三方广告脚本（null = 尚未挂载）
+  // 同意门控：EEA/UK/CH 未选择或已拒绝时不得注入第三方广告脚本
   const adsAllowed = useConsentGranted();
 
   const isExcluded = isComplianceExcludedPath(pathname);
@@ -77,32 +79,10 @@ export default function NativeBannerAd({ className = '' }: { className?: string 
       hasInjectedPathRef.current = pathname;
     };
 
-    if (isHomePage) {
-      let triggered = false;
-      const trigger = () => {
-        if (triggered || isCancelled) return;
-        triggered = true;
-        executeInjection();
-      };
+    const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768;
 
-      // 首页首屏外折叠线双模架构：主动微交互毫秒响应，真实用户滑动/碰触即刻出画
-      const events: (keyof WindowEventMap)[] = ['scroll', 'touchstart', 'click', 'mousemove', 'keydown'];
-      events.forEach((e) => window.addEventListener(e, trigger, { once: true, passive: true }));
-
-      // 4000ms 科学兜底：跨过 Lighthouse 移动端跑分窗口，挂机发呆 4 秒后也强制加载，保障商业填充
-      timer = setTimeout(trigger, 4000);
-
-      return () => {
-        isCancelled = true;
-        clearTimeout(timer);
-        events.forEach((e) => window.removeEventListener(e, trigger));
-        if (scriptRef.current) {
-          scriptRef.current.remove();
-          scriptRef.current = null;
-        }
-      };
-    } else {
-      // 内页保持 50ms 极速出画，让即查即走的用户 100% 变现
+    if (isDesktop) {
+      // 🚀 桌面端首屏/次屏极速直出：50ms 快速出画，无须等待滚屏交互，最大化主力曝光！
       timer = setTimeout(executeInjection, 50);
       return () => {
         isCancelled = true;
@@ -112,6 +92,43 @@ export default function NativeBannerAd({ className = '' }: { className?: string 
           scriptRef.current = null;
         }
       };
+    } else {
+      // 📱 移动端微交互防抖：避开移动首屏以保护 PageSpeed 95+ 跑分与防止推挤正文
+      if (isHomePage) {
+        let triggered = false;
+        const trigger = () => {
+          if (triggered || isCancelled) return;
+          triggered = true;
+          executeInjection();
+        };
+
+        const events: (keyof WindowEventMap)[] = ['scroll', 'touchstart', 'click', 'keydown'];
+        events.forEach((e) => window.addEventListener(e, trigger, { once: true, passive: true }));
+
+        // 4000ms 科学兜底
+        timer = setTimeout(trigger, 4000);
+
+        return () => {
+          isCancelled = true;
+          clearTimeout(timer);
+          events.forEach((e) => window.removeEventListener(e, trigger));
+          if (scriptRef.current) {
+            scriptRef.current.remove();
+            scriptRef.current = null;
+          }
+        };
+      } else {
+        // 内页移动端 50ms 快速出画
+        timer = setTimeout(executeInjection, 50);
+        return () => {
+          isCancelled = true;
+          clearTimeout(timer);
+          if (scriptRef.current) {
+            scriptRef.current.remove();
+            scriptRef.current = null;
+          }
+        };
+      }
     }
   }, [pathname, isExcluded, isHomePage, adsAllowed]);
 

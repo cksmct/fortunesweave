@@ -290,6 +290,57 @@ export default function DeitiesPage() {
             Smyrnos is on the crests page, and the temple location comes up in the subquest list.
           </p>
         </section>
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Where Dagda&apos;s gods come from
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            The gods who join Fortune&apos;s Weave&apos;s armies are rooted in lore
+            first built up in Three Houses and Three Hopes. This captioned primer
+            gathers that background together.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="DQJrtnDgDSE"
+              title="All The Three Houses Lore You Need For Fortune's Weave!"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Fortune&apos;s Weave shares its world with Three Houses; the nations shown map onto that game&apos;s three powers.</li>
+              <li>The creator skips Three Houses&apos; branching story events and covers only shared lore and worldbuilding, while warning of heavy spoilers for Three Houses and Three Hopes.</li>
+              <li>The Dagda and Brigid material is scattered across those games and is collected here as background for the new title.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
+
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            Who the Dagda are
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">
+            A companion deep-dive on the continent of Dagda and its neighbour
+            Brigid, assembled from the written mentions scattered through Three
+            Houses and Three Hopes.
+          </p>
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <YouTubeEmbed
+              videoId="Lgp2OCh9fM0"
+              title="The Complete History of DAGDA in Fire Emblem: Three Houses"
+            />
+          </div>
+          <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#d3b475]">Caption highlights (creator&apos;s account)</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+              <li>Dagda and Brigid sit beyond Fodlan&apos;s borders; the video gathers their geography, lifestyle and religion in one place.</li>
+              <li>It traces the political and military tensions between the two that shaped the present state of affairs.</li>
+              <li>Dagda is framed as the nation Fodlan fought against — the heritage behind the gods the new game leans on.</li>
+            </ul>
+            <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400">Summarised from the video&apos;s English captions; community-reported, not verified in-game.</p>
+          </div>
+        </section>
       </main>
     </>
   );
